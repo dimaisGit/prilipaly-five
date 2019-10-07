@@ -4,7 +4,7 @@ export default class WelcomeComponent extends React.Component {
     render() {
         return (
             <div className='welcomeWindow'>
-                Its a welcome window Sasha upd
+                Its a welcome window Sasha
             </div>
         )
     }

@@ -19,7 +19,7 @@ class App extends React.Component {
 		const { isStartComponentOpen } = this.state
 
 		return (
-			<div>
+			<div className="root-child">
 				{isStartComponentOpen ?
 					<StartComponent handleCloseWindow={this.handleCloseStartComponent}/>
 					:
