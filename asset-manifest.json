@@ -1,11 +1,13 @@
 {
-  "main.js": "/prilipaly-five/static/js/main.808112a3.chunk.js",
-  "main.js.map": "/prilipaly-five/static/js/main.808112a3.chunk.js.map",
+  "main.css": "/prilipaly-five/static/css/main.0461ed20.chunk.css",
+  "main.js": "/prilipaly-five/static/js/main.34d4e54d.chunk.js",
+  "main.js.map": "/prilipaly-five/static/js/main.34d4e54d.chunk.js.map",
   "runtime~main.js": "/prilipaly-five/static/js/runtime~main.f4b9eeb8.js",
   "runtime~main.js.map": "/prilipaly-five/static/js/runtime~main.f4b9eeb8.js.map",
-  "static/js/2.ffa341f9.chunk.js": "/prilipaly-five/static/js/2.ffa341f9.chunk.js",
-  "static/js/2.ffa341f9.chunk.js.map": "/prilipaly-five/static/js/2.ffa341f9.chunk.js.map",
+  "static/js/2.6f1517b0.chunk.js": "/prilipaly-five/static/js/2.6f1517b0.chunk.js",
+  "static/js/2.6f1517b0.chunk.js.map": "/prilipaly-five/static/js/2.6f1517b0.chunk.js.map",
   "index.html": "/prilipaly-five/index.html",
-  "precache-manifest.6c06c51c3c456d0502cdfc52271c9a4e.js": "/prilipaly-five/precache-manifest.6c06c51c3c456d0502cdfc52271c9a4e.js",
-  "service-worker.js": "/prilipaly-five/service-worker.js"
+  "precache-manifest.cf6b541af27d4587d3b6b9a1f3a07f8d.js": "/prilipaly-five/precache-manifest.cf6b541af27d4587d3b6b9a1f3a07f8d.js",
+  "service-worker.js": "/prilipaly-five/service-worker.js",
+  "static/css/main.0461ed20.chunk.css.map": "/prilipaly-five/static/css/main.0461ed20.chunk.css.map"
 }
