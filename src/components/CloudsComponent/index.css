@@ -5,7 +5,7 @@
 }
 .cloud-1{
     background: url(../../images/clouds-1.png) 0 200px;
-    animation: wind 30s linear infinite;
+    animation: wind 30s alternate-reverse infinite;
     background-size: contain;
     height: 120px;
     width: 100%;
@@ -13,7 +13,7 @@
 }
 .cloud-2{
     background: url(../../images/clouds-2.png) 0 300px;
-    animation: wind 50s linear infinite;
+    animation: wind 50s ease-in-out infinite;
     background-size: contain;
     height: 200px;
     width: 100%;
@@ -24,6 +24,6 @@
         background-position: 0 0px, 0 300px;
     }
     100% {
-        background-position: 1000px 0px, 1200px 300px;
+        background-position: 1160px 0px, 1200px 300px;
     }
 }
