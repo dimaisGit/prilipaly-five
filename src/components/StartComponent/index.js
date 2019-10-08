@@ -1,9 +1,26 @@
 import React from 'react'
 import './index.css'
+import {parallax} from '../scripts/parallax'
 import CloudsComponent from "../CloudsComponent";
 
 export default class StartComponent extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            timerId: 0
+        }
+    }
+    componentDidMount(){
+        // this.setState({
+        //     timerId: setInterval(parallax, 15)
+        // })
+        parallax()
+    }
+    // componentWillUnmount(){
+    //     clearInterval(this.state.timerId);
+    // }
     render() {
+        
         const { handleCloseWindow } = this.props
         return(
             <div
@@ -36,12 +53,13 @@ export default class StartComponent extends React.Component {
                             <div className="grass grass-4"></div>
 
                         </div>
-                        <div className="sand sand-1"></div>
-                        <div className="sand sand-2"></div>
-                        <div className="sand sand-3"></div>
+                        <div className="sand parallax sand-1"  data-speed="20"></div>
+                        <div className="sand parallax sand-2"  data-speed="10"></div>
+                        <div className="sand parallax sand-3"  data-speed="15"></div>
                     </div>
                 </div>
             </div>
         )
     }
+  
 }
