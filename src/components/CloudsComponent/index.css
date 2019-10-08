@@ -9,7 +9,7 @@
     background-size: contain;
     height: 120px;
     width: 100%;
-    /* transition: 1s all */
+    transition: 1s all
 }
 .cloud-2{
     background: url(../../images/clouds-2.png) 0 300px;

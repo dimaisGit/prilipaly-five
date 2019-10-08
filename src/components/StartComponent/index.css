@@ -60,7 +60,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+      background: linear-gradient(182deg, #ffdc71, #fca436);
+      background-size: 200% 200%;
+    
+      animation: gradientAnimated 12s ease infinite;
+  }
+  
+  @keyframes gradientAnimated {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+
 .sandContainer{
     width: 100%;
     bottom: -25px;
@@ -146,7 +157,7 @@
   width: 326px;
   height: 210px;
   position: absolute;
-  bottom: 0;
+  bottom: -30px;
   background-size: contain;
   z-index: 50;
   animation: 10s windy-grass infinite;
@@ -157,7 +168,7 @@
   width: 266px;
   height: 148px;
   position: absolute;
-  bottom: 24px;
+  bottom: 0;
   background-size: contain;
   z-index: 50;
 }
@@ -169,7 +180,7 @@
   bottom: 230px;
 }
 .grass-4{
-    background: url(../../images/grass-1.png) no-repeat;
+    background: url(../../images/grass-1.png) no-repeat bottom;
     width: 480px;
     height: 370px;
     background-size: contain;

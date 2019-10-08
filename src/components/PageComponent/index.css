@@ -3,16 +3,25 @@
     padding:0;
 }
 .root-child{
-    background: linear-gradient(182deg, #ffdc71, #fca436);
     background-size: 200% 200%;
     height: 100vh;
     position: relative;
     overflow: hidden;
-    animation: gradientAnimated 12s ease infinite;
 }
-
-@keyframes gradientAnimated {
-    0%{background-position:51% 0%}
-    50%{background-position:50% 100%}
-    100%{background-position:51% 0%}
+.bg-bot{
+    background: linear-gradient(360deg, #1685C1, #9EC4E5);
+    /* background-size: 200% 200%; */
+    animation: gradientAnimated2 5s ease infinite;
+    min-height: 100vh
+}
+@keyframes gradientAnimated2{
+    0%{
+        filter: hue-rotate(0deg);    
+    }
+    50%{
+        filter: hue-rotate(30deg);
+    }
+    100%{
+        filter: hue-rotate(0deg);    
+    }
 }
