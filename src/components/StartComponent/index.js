@@ -3,6 +3,7 @@ import './index.css'
 import {parallax} from '../../scripts/parallax'
 import CloudsComponent from "../CloudsComponent";
 import SandComponent from "../SandComponent";
+import GrassComponent from '../GrassComponent'
 
 export default class StartComponent extends React.Component {
     componentDidMount(){
@@ -22,21 +23,7 @@ export default class StartComponent extends React.Component {
                 </div>
                 <div className="Background-bot">
                     <CloudsComponent />
-                    <div className="grassContainer">
-                        <div className="grass grass-1">
-                            <div className="grass-1-1"></div>
-                            <div className="grass-1-2"></div>
-                        </div>
-                        <div className="grass grass-2">
-                            <div className="grass-2-1"></div>
-                            <div className="grass-2-2"></div>
-                        </div>
-                        <div className="grass grass-3">
-                            <div className="grass-3-1"></div>
-                            <div className="grass-3-2"></div>
-                        </div>
-                        <div className="grass grass-4"></div>
-                    </div>
+                    <GrassComponent />
                     <SandComponent />
                 </div>
             </div>

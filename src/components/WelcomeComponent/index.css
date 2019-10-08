@@ -4,3 +4,7 @@
     width: 100vw;
     z-index: 0;
 }
+.welcomeContent{
+    position: relative;
+    height: 100%;
+}
