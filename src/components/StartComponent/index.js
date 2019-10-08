@@ -1,11 +1,14 @@
 import React from 'react'
 import './index.css'
+import CloudsComponent from "../CloudsComponent";
 
 export default class StartComponent extends React.Component {
     render() {
         const { handleCloseWindow } = this.props
         return(
-            <div className='startWindow'>
+            <div
+                className='startWindow'
+            >
                 <div className="logoContainer">
                     <div className="logo-d bounceInDown"></div>
                     <div className="logo-p bounceInDown"></div>
@@ -15,10 +18,7 @@ export default class StartComponent extends React.Component {
                    ПОЧУДИМ?
                 </div>
                 <div className="Background-bot">
-                    <div className="cloudsContainer">
-                        <div className="cloud cloud-1"></div>
-                        <div className="cloud cloud-2"></div>
-                    </div>
+                    <CloudsComponent />
                     <div className="sandContainer">
                         <div className="grassContainer">
                             <div className="grass grass-1">
