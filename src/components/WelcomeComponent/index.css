@@ -1,3 +1,6 @@
 .welcomeWindow{
     height: 100vh;
+    position: relative;
+    width: 100vw;
+    z-index: 0;
 }

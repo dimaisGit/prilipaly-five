@@ -6,11 +6,9 @@
     background-size: 200% 200%;
     height: 100vh;
     position: relative;
-    overflow: hidden;
 }
 .bg-bot{
     background: linear-gradient(360deg, #1685C1, #9EC4E5);
-    /* background-size: 200% 200%; */
     animation: gradientAnimated2 5s ease infinite;
     min-height: 100vh
 }

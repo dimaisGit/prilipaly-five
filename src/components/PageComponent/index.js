@@ -11,7 +11,7 @@ import FooterComponent from "../FooterComponent";
 export default class PageComponent extends React.Component {
     render() {
         return (
-            <div className="bg-bot">
+            <div className="main-container">
                 <WelcomeComponent />
                 <SliderComponent />
                 <VideoComponent />
