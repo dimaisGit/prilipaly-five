@@ -20,11 +20,12 @@ class App extends React.Component {
 
 		return (
 			<div className="root-child">
-				{isStartComponentOpen ?
+				{/* {isStartComponentOpen ?
 					<StartComponent handleCloseWindow={this.handleCloseStartComponent}/>
 					:
 					<PageComponent />
-				}
+				} */}
+				<PageComponent />
 			</div>
 		);
 	}
