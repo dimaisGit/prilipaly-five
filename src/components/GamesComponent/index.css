@@ -45,3 +45,36 @@
     font-size: 16px;
     color: white;
 }
+.gameMechanic {
+    background: white;
+    border-radius: 47px;
+    padding: 35px;
+    box-shadow: 10px 10px 0px #A84F9A;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    width: 465px;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gameImg {
+    float: left;
+    margin-left: 25px;
+}
+.gameData {
+    float: left;
+    width: 55%;
+    color: #278DC5;
+    margin-left: 55px;
+}
+.gameName {
+    font-size: 20px;
+}
+.playLink {
+    text-decoration: none;
+    background: #FFDF00;
+    display: block;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+}
