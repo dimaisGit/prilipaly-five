@@ -1,0 +1,80 @@
+.prilipalyContainer{
+    position: absolute;
+    height: 43%;
+    width: 100%;
+    bottom: -30px;
+    z-index: 35;
+    left: 70px;
+}
+.piggy{
+    animation: 7s swell 2s infinite;
+    position: relative;
+}
+.heart-box {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    bottom: 220px;
+    left: -70px;
+  }
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../../images/heart-lil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+  }
+  .animate-topright {
+    /* position: relative; */
+    animation: movetopRight 3.5s 1s infinite;
+  }
+  .animate-topleft {
+    /* position: absolute; */
+    animation: movetopLeft 4.5s 5.4s infinite;
+  }
+  .animate-up {
+    /* position: absolute; */
+    animation: moveup 2.5s 2.2s infinite;
+  }
+  
+@keyframes movetopRight {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 10%;
+      left: 80%;
+      opacity: 0;
+    }
+  }
+  
+@keyframes movetopLeft {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 10%;
+      left: 20%;
+      opacity: 0;
+    }
+  }
+  @keyframes moveup {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 0%;
+      left: 45%;
+      opacity: 0;
+    }
+  }

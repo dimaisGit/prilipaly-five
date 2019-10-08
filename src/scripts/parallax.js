@@ -8,7 +8,6 @@ export function parallax() {
             elem_top = pos.top,
             elem_height = elem.height(),
             y_center;
-        console.log(e.pageY)
         y_center = (elem_height / 2) - (e.pageY - elem_top);
 
         $('.parallax').each(function () {
