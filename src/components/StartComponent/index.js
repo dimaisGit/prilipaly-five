@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import {parallax} from '../scripts/parallax'
+import {parallax} from '../../scripts/parallax'
 import CloudsComponent from "../CloudsComponent";
 
 export default class StartComponent extends React.Component {
