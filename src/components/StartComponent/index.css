@@ -77,7 +77,7 @@
     background-size: contain;
     background-position: 100% bottom;
     height: 370px;
-    /* animation: weave 1.3s infinite linear; */
+    animation: swell 13s infinite linear;
     z-index: 10;
 }
 .sand-2{
@@ -85,7 +85,7 @@
     background-size: contain;
     background-position: 20% bottom;
     height: 195px;
-    /* animation: weave 4s infinite linear; */
+    animation: swell 4s infinite linear;
     z-index: 20;
 }
 .sand-3{
@@ -93,7 +93,7 @@
     background-size: contain;
     background-position: 0 bottom;
     height: 230px;
-    /* animation: weave 1.5s infinite linear; */
+    animation: swell 7s infinite;
     z-index: 30;
 }
  
@@ -254,3 +254,16 @@
     transform: rotate(5deg)
   }
 }
+@keyframes swell {
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, -25px, 0);
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+}
+
+
