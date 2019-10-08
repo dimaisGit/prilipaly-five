@@ -25,6 +25,7 @@
     "gh-pages": "^2.1.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
+    "react-atv-parallax": "^1.0.2",
     "react-dom": "^16.8.3"
   },
   "browserslist": [
