@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import CloudsComponent from "../CloudsComponent";
 
 export default class StartComponent extends React.Component {
     render() {
@@ -17,10 +18,7 @@ export default class StartComponent extends React.Component {
                    ПОЧУДИМ?
                 </div>
                 <div className="Background-bot">
-                    <div className="cloudsContainer">
-                        <div className="cloud cloud-1"></div>
-                        <div className="cloud cloud-2"></div>
-                    </div>
+                    <CloudsComponent />
                     <div className="sandContainer">
                         <div className="grassContainer">
                             <div className="grass grass-1"></div>
