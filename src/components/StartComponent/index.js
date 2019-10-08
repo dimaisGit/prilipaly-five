@@ -1,31 +1,17 @@
 import React from 'react'
 import './index.css'
-import {parallax} from '../scripts/parallax'
+import {parallax} from '../../scripts/parallax'
 import CloudsComponent from "../CloudsComponent";
+import SandComponent from "../SandComponent";
 
 export default class StartComponent extends React.Component {
-    constructor(props){
-        super(props);
-        this.state = {
-            timerId: 0
-        }
-    }
     componentDidMount(){
-        // this.setState({
-        //     timerId: setInterval(parallax, 15)
-        // })
         parallax()
     }
-    // componentWillUnmount(){
-    //     clearInterval(this.state.timerId);
-    // }
     render() {
-        
         const { handleCloseWindow } = this.props
         return(
-            <div
-                className='startWindow'
-            >
+            <div className='startWindow'>
                 <div className="logoContainer">
                     <div className="logo-d bounceInDown"></div>
                     <div className="logo-p bounceInDown"></div>
@@ -36,27 +22,22 @@ export default class StartComponent extends React.Component {
                 </div>
                 <div className="Background-bot">
                     <CloudsComponent />
-                    <div className="sandContainer">
-                        <div className="grassContainer">
-                            <div className="grass grass-1">
-                                <div className="grass-1-1"></div>
-                                <div className="grass-1-2"></div>
-                            </div>
-                            <div className="grass grass-2">
-                            <div className="grass-2-1"></div>
-                                <div className="grass-2-2"></div>
-                            </div>
-                            <div className="grass grass-3">
-                                <div className="grass-3-1"></div>
-                                <div className="grass-3-2"></div>
-                            </div>
-                            <div className="grass grass-4"></div>
-
+                    <div className="grassContainer">
+                        <div className="grass grass-1">
+                            <div className="grass-1-1"></div>
+                            <div className="grass-1-2"></div>
                         </div>
-                        <div className="sand parallax sand-1"  data-speed="20"></div>
-                        <div className="sand parallax sand-2"  data-speed="10"></div>
-                        <div className="sand parallax sand-3"  data-speed="15"></div>
+                        <div className="grass grass-2">
+                            <div className="grass-2-1"></div>
+                            <div className="grass-2-2"></div>
+                        </div>
+                        <div className="grass grass-3">
+                            <div className="grass-3-1"></div>
+                            <div className="grass-3-2"></div>
+                        </div>
+                        <div className="grass grass-4"></div>
                     </div>
+                    <SandComponent />
                 </div>
             </div>
         )
