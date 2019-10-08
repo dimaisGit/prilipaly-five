@@ -1,41 +1,38 @@
 import React from 'react'
 import './index.css'
-import ATVParallax from 'react-atv-parallax'
 
 export default class StartComponent extends React.Component {
     render() {
         const { handleCloseWindow } = this.props
         return(
-            <ATVParallax style={{width: 400, height: 400}}>
-                <div className='startWindow'>
-                    <div className="logoContainer">
-                        <div className="logo-d bounceInDown"></div>
-                        <div className="logo-p bounceInDown"></div>
+            <div className='startWindow'>
+                <div className="logoContainer">
+                    <div className="logo-d bounceInDown"></div>
+                    <div className="logo-p bounceInDown"></div>
+                </div>
+                <h2>C 1 ноября по 15 декабря во всех магазинах Дикси</h2>
+                <div className='startWindowClose' onClick={handleCloseWindow}>
+                   ПОЧУДИМ?
+                </div>
+                <div className="Background-bot">
+                    <div className="cloudsContainer">
+                        <div className="cloud cloud-1"></div>
+                        <div className="cloud cloud-2"></div>
                     </div>
-                    <h2>C 1 ноября по 15 декабря во всех магазинах Дикси</h2>
-                    <div className='startWindowClose' onClick={handleCloseWindow}>
-                       ПОЧУДИМ?
-                    </div>
-                    <div className="Background-bot">
-                        <div className="cloudsContainer">
-                            <div className="cloud cloud-1"></div>
-                            <div className="cloud cloud-2"></div>
-                        </div>
-                        <div className="sandContainer">
-                            <div className="grassContainer">
-                                <div className="grass grass-1"></div>
-                                <div className="grass grass-2"></div>
-                                <div className="grass grass-3"></div>
-                                <div className="grass grass-4"></div>
+                    <div className="sandContainer">
+                        <div className="grassContainer">
+                            <div className="grass grass-1"></div>
+                            <div className="grass grass-2"></div>
+                            <div className="grass grass-3"></div>
+                            <div className="grass grass-4"></div>
 
-                            </div>
-                            <div className="sand sand-1"></div>
-                            <div className="sand sand-2"></div>
-                            <div className="sand sand-3"></div>
                         </div>
+                        <div className="sand sand-1"></div>
+                        <div className="sand sand-2"></div>
+                        <div className="sand sand-3"></div>
                     </div>
                 </div>
-            </ATVParallax>
+            </div>
         )
     }
 }
