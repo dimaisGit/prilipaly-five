@@ -1,11 +1,28 @@
 import React from 'react'
 import './index.css'
+import Parallax from 'parallax-js'
 
 export default class StartComponent extends React.Component {
+    constructor(props) {
+        super(props);
+        this.scene = React.createRef();
+    }
+
+    componentDidMount() {
+        console.log(this.scene);
+        //this.parallax = new Parallax(this.scene);
+    }
+
+    componentWillUnmount() {
+        //this.parallax.disable();
+    }
+
     render() {
         const { handleCloseWindow } = this.props
         return(
-            <div className='startWindow'>
+            <div
+                className='startWindow'
+            >
                 <div className="logoContainer">
                     <div className="logo-d bounceInDown"></div>
                     <div className="logo-p bounceInDown"></div>
