@@ -1,21 +1,47 @@
 .prilipalyContainer{
     position: absolute;
-    height: 43%;
+    height: 370px;
     width: 100%;
-    bottom: -30px;
-    z-index: 35;
-    left: 70px;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: space-between;
 }
 .piggy{
-    animation: 7s swell 2s infinite;
+    animation: 7s swell  infinite;
     position: relative;
+    left: 70px;
+    bottom: -45px;
+    z-index: 40;
+}
+.blue{
+    position: relative;
+    align-self: flex-end;
+    bottom: 15%;
+    animation: 7s swell  infinite;
+    left: 320px;
+    z-index: 35;
+}
+.orange{
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    animation: swell 13s infinite;
+    z-index: 30;
+}
+.green{
+    position: relative;
+    align-self: flex-start;
+    top: -125px;
+    right: 145px;
+    z-index: 45;
 }
 .heart-box {
     position: absolute;
-    width: 300px;
+    width: 240px;
     height: 300px;
-    bottom: 220px;
-    left: -70px;
+    bottom: 250px;
+    left: 35px;
   }
   .heart {
     position: absolute;
@@ -29,18 +55,24 @@
     width: 22px;
   }
   .animate-topright {
-    /* position: relative; */
     animation: movetopRight 3.5s 1s infinite;
   }
   .animate-topleft {
-    /* position: absolute; */
-    animation: movetopLeft 4.5s 5.4s infinite;
+    animation: movetopLeft 4.5s 1s infinite;
   }
   .animate-up {
-    /* position: absolute; */
-    animation: moveup 2.5s 2.2s infinite;
+    animation: moveup 2.5s 1s infinite;
   }
-  
+  .top-2{
+      margin-top: 30px;
+      margin-left: 70px;
+      animation: moveup 2.5s 1.3s infinite;
+  }
+  .top-1{
+      margin-top: 40px;
+      margin-left: -20px;
+      animation: moveup 2.5s 1.5s infinite;
+  }
 @keyframes movetopRight {
     0% {
       top: 50%;
