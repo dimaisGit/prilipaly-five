@@ -2,6 +2,7 @@
     width: 100%;
     top: 90px;
     position: relative;
+    filter: grayscale(1);
 }
 .cloud-1{
     background: url(../../images/clouds-1.png) 0 200px;

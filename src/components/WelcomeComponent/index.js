@@ -17,12 +17,16 @@ export default class WelcomeComponent extends React.Component {
             <div className='welcomeWindow Background-bot'>
                 <div className="bg-bot"></div>
                 <div className="welcomeContent">
-
                     <WelcomeTextData />
                     <CloudsComponent />
                     <GrassComponent />
                     <SandComponent />
                     <Prilipaly />
+                    <div className="planes">
+                        <div className="plane "></div>
+                        <div className="plane plane-2"></div>
+                        <div className="plane plane-3"></div>
+                    </div>
                 </div>
             </div>
         )

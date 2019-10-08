@@ -9,13 +9,12 @@
     position: relative;
 }
 .bg-bot{
-    background: linear-gradient(360deg, #1685C1, #9EC4E5);
+    background: linear-gradient(180deg, #1685C1, #efefef);
     animation: gradientAnimated2 5s ease infinite;
     min-height: 100vh;
     top: 0;
     position: absolute;
     width: 100%;
-    height: 100%;
 }
 @keyframes gradientAnimated2{
     0%{

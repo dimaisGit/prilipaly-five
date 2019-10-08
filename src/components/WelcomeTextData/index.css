@@ -1,21 +1,35 @@
 .main-logo{
     position: absolute;
     text-align: center;
-    right: 450px;
+    right: 29%;
     animation: bounceInDown 1s;
     transition: all .5s;
     top: 150px;
 }
 .logo-d.min{
     background: url(../../images/logo-dixy-min.png) no-repeat;
-    height: 150px;
-    width: 130px;
-    padding-top: 50px;
-    padding-right: 30px;
-    background-position: 30px 50px;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 30px;
+    filter: drop-shadow(2px 4px 6px #fff);
+    position: absolute;
+}
+.logoContainerWelcome p{
+    position: absolute;
+    left: 160px;
+    width: 400px;
+    top: 70px;
+    color: #fff;
+    font-family: Ubuntu;
+    filter: none;
+    font-size: 20px
 }
 .shadowViolet{
     box-shadow: -5px 4px 0 #944287;
+}
+.shadowRed{
+    box-shadow: -5px 4px 0 #D8001E;
 }
 .main-logo::after{
     content: '';
@@ -33,7 +47,7 @@
 .logoContainerWelcome{
     margin: 0 auto;
     width: 100%;
-    height: 300px;
+    height: 100px;
     position: relative;
     top: 0;
     left: 0;
@@ -42,7 +56,7 @@
 .logoContainerWelcome .logo-p{
     margin-bottom: -24px;
     top: 20px;
-    right: 360px;
+    right: 25%;
     position: absolute;
 }
 .girl img{
@@ -50,9 +64,53 @@
     display: block;
     position: relative;
     left: -150px;
-    bottom: -90px;
+    bottom: -320px;
     max-height: 520px;
 }
 .girl{
     animation: 7s swell infinite;
+}
+.yellow{
+    position: absolute;
+    top:200px;
+    left:70px;
+    transform: rotate(-5deg);
+
+}
+.yellow img{
+    max-height: 145px;
+}
+.blueSec{
+    position: absolute;
+    right:150px;
+    top: 100px;
+}
+.infoBlock{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: -10px;
+    font-family: Ubuntu;
+    max-width: 350px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.red{
+    background-color: #E2000F;
+    color: #fff;
+}
+.yellowText{
+    color: yellow
+}
+.leftPos{
+    margin-left: -50px;
+}
+.blueText{
+    color: #3F82A6;
+    display: block;
+}
+.violetText{
+    color:#6A6084;
+    display: block;
 }
