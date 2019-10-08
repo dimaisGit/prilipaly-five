@@ -1,0 +1,32 @@
+.sandContainer{
+    width: 100%;
+    bottom: -25px;
+    position: relative;
+    height: 350px;
+}
+.sand{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.sand-1{
+    background: url(../../images/back-sand.png) no-repeat;
+    background-size: contain;
+    background-position: 100% bottom;
+    height: 370px;
+    z-index: 10;
+}
+.sand-2{
+    background: url(../../images/sec-sand.png) no-repeat;
+    background-size: contain;
+    background-position: 20% bottom;
+    height: 195px;
+    z-index: 20;
+}
+.sand-3{
+    background: url(../../images/fr-sand.png) no-repeat;
+    background-size: contain;
+    background-position: 0 bottom;
+    height: 230px;
+    z-index: 30;
+}
