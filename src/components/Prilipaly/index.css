@@ -10,8 +10,8 @@
 .piggy{
     animation: 7s swell  infinite;
     position: relative;
-    left: 70px;
-    bottom: -45px;
+    left: 110px;
+    bottom: -5px;
     z-index: 40;
 }
 .blue{
@@ -25,9 +25,9 @@
 .orange{
     position: relative;
     left: 50px;
-    bottom: 30px;
+    bottom: 5px;
     animation: swell 13s infinite;
-    z-index: 30;
+    z-index: 15;
 }
 .green{
     position: relative;
@@ -67,11 +67,13 @@
       margin-top: 30px;
       margin-left: 70px;
       animation: moveup 2.5s 1.3s infinite;
+      transform: scale(1.2)
   }
   .top-1{
       margin-top: 40px;
       margin-left: -20px;
       animation: moveup 2.5s 1.5s infinite;
+      transform: scale(.6)
   }
 @keyframes movetopRight {
     0% {
