@@ -13,6 +13,16 @@ import gameLogo6 from '../../images/gameImages/gameLogo6.png'
 
 import greenPlaksa from '../../images/greenPlaksa.png'
 
+import knowItAll from '../../images/knowItAll.png'
+import boyaka from '../../images/boyaka.png'
+import redWithCup from '../../images/redWithCup.png'
+import greenIhtiandr from '../../images/greenIhtiandr.png'
+
+import pinkInsect from '../../images/pinkInsect.png'
+import greenZabiyaka from '../../images/greenZabiyaka.png'
+import pinkObayash from '../../images/pinkObayash.png'
+import violetTriangle from '../../images/violetTriangle.png'
+
 export default class GamesComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -101,6 +111,8 @@ export default class GamesComponent extends React.Component {
                 <div className='gamesWindowText'>
                     <p className='header'>ИГРАЙ С ПРИЛИПАЛАМИ</p>
                     <p className='text-data'>Даже Ворчун не сможет удержаться с такими веселыми играми. Распечатывай, раскрашивай, складывай и играй с друзьями!</p>
+                    <div className='text-1-line-1'></div>
+                    <div className='text-1-line-2'></div>
                 </div>
                 <div className='gameMechanic'>
                     <div className={isNeedAnimate ? "leave" : 'stay'}>
@@ -143,6 +155,52 @@ export default class GamesComponent extends React.Component {
                             alt='plaksa'
                         />
                     </div>
+                    <div className='text-2-line-1'></div>
+                    <div className='text-2-line-2'></div>
+                </div>
+                <div className='gamesPrilipaliLeft'>
+                    <img
+                        src={knowItAll}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={boyaka}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={redWithCup}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={boyaka}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={greenIhtiandr}
+                        alt='prilipala'
+                    />
+                </div>
+                <div className='gamesPrilipaliRight'>
+                    <img
+                        src={pinkInsect}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={greenZabiyaka}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={pinkObayash}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={greenZabiyaka}
+                        alt='prilipala'
+                    />
+                    <img
+                        src={violetTriangle}
+                        alt='prilipala'
+                    />
                 </div>
             </div>
         )

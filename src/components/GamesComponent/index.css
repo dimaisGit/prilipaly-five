@@ -37,6 +37,27 @@
     padding: 37px 34px;
     transform: translateX(-50%);
 }
+.text-1-line-1, .text-1-line-2 {
+    position: absolute;
+    background: url(../../images/curve1.png);
+    width: 50px;
+    height: 11px;
+}
+.text-2-line-1, .text-2-line-2 {
+    position: absolute;
+    background: url(../../images/curve2.png) no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 11px;
+}
+.text-1-line-1, .text-2-line-1 {
+    top: 44px;
+    left: 13px;
+}
+.text-1-line-2, .text-2-line-2 {
+    top: 44px;
+    right: 13px;
+}
 .plaksaImages {
     position: absolute;
     top: -70px;
@@ -170,4 +191,27 @@ a.header:after {
 .stay {
     opacity: 1;
     transition: .3s all;
+}
+.gamesPrilipaliLeft {
+    position: absolute;
+    bottom: 85px;
+    right: calc(50% + 255px);
+    width: calc(50% - 255px);
+    max-width: 422px;
+}
+.gamesPrilipaliLeft img{
+    margin: 0 4%;
+    width: 12%;
+    max-width: 50px;
+}
+.gamesPrilipaliRight {
+    position: absolute;
+    bottom: 85px;
+    left: calc(50% + 255px);
+    width: calc(50% - 255px);
+}
+.gamesPrilipaliRight img {
+    margin: 0 4%;
+    width: 12%;
+    max-width: 50px;
 }
