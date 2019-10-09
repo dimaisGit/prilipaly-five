@@ -264,8 +264,8 @@ export default class SliderRound extends React.Component {
                                     </div>
                                 </div>
                             </div>
-                            <div class="next">Next</div>
-                            <div class="prev">Prev</div>
+                            <div class="next shadowViolet"></div>
+                            <div class="prev shadowViolet"></div>
                         </div>
                     </div>
                 </main>
