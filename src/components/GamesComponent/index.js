@@ -11,6 +11,8 @@ import gameLogo4 from '../../images/gameImages/gameLogo4.png'
 import gameLogo5 from '../../images/gameImages/gameLogo5.png'
 import gameLogo6 from '../../images/gameImages/gameLogo6.png'
 
+import greenPlaksa from '../../images/greenPlaksa.png'
+
 export default class GamesComponent extends React.Component {
     constructor(props) {
         super(props);
@@ -131,6 +133,16 @@ export default class GamesComponent extends React.Component {
                     <p className='header'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</p>
                     <p className='text-data'>Описание группа Вконтакте в которой можно обменяться повторными прилипалами</p>
                     <a className='header' href='#'>VKONTAKTE</a>
+                    <div className='plaksaImages'>
+                        <img
+                            src={greenPlaksa}
+                            alt='plaksa'
+                        />
+                        <img
+                            src={greenPlaksa}
+                            alt='plaksa'
+                        />
+                    </div>
                 </div>
             </div>
         )

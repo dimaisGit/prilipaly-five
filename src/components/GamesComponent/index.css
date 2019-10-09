@@ -29,7 +29,7 @@
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     background: url(../../images/gamesTextBg.png) no-repeat;
-    width: 382px;
+    width: 447px;
     text-align: center;
     background-size: cover;
     left: 50%;
@@ -37,12 +37,20 @@
     padding: 37px 34px;
     transform: translateX(-50%);
 }
+.plaksaImages {
+    position: absolute;
+    top: -70px;
+    right: 50px;
+}
+.plaksaImages img {
+    margin-left: 15px;
+}
 .gamesWindowBottomText {
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     background: url(../../images/gamesBottomTextBg.png) no-repeat;
     background-size: cover;
-    width: 437px;
+    width: 505px;
     text-align: center;
     padding: 37px 34px;
     left: 50%;
@@ -105,14 +113,14 @@ a.header:after {
     box-shadow: 10px 10px 0px #A84F9A;
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
-    width: 465px;
+    width: 522px;
     top: 255px;
     left: 50%;
     transform: translateX(-50%);
 }
 .gameButtons {
     position: absolute;
-    width: 525px;
+    width: 535px;
     top: 525px;
     left: 50%;
     transform: translateX(-50%);
@@ -121,6 +129,13 @@ a.header:after {
     cursor: pointer;
     width: 65px;
     margin-left: 10px;
+    margin-top: 12px;
+    transition: 0.1s all;
+}
+.gameLogo:hover {
+    width: 75px;
+    margin-top: 0px;
+    margin-left: 5px;
 }
 .gameImg {
     float: left;
