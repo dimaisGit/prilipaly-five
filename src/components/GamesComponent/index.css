@@ -120,7 +120,7 @@ a.header:after {
 }
 .gameButtons {
     position: absolute;
-    width: 535px;
+    width: 525px;
     top: 525px;
     left: 50%;
     transform: translateX(-50%);
@@ -128,14 +128,14 @@ a.header:after {
 .gameLogo {
     cursor: pointer;
     width: 65px;
-    margin-left: 10px;
-    margin-top: 12px;
+    margin: 12px 5px;
     transition: 0.1s all;
 }
 .gameLogo:hover {
     width: 75px;
-    margin-top: 0px;
-    margin-left: 5px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
 }
 .gameImg {
     float: left;
