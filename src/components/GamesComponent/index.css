@@ -16,7 +16,7 @@
     top: 0;
     z-index: 0;
     width: 100%;
-    height: 60%;
+    height: 80%;
 }
 .gamesWindowSand {
     width: 100%;
@@ -37,11 +37,64 @@
     padding: 37px 34px;
     transform: translateX(-50%);
 }
-.gamesWindowText .header {
+.gamesWindowBottomText {
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    background: url(../../images/gamesBottomTextBg.png) no-repeat;
+    background-size: cover;
+    width: 437px;
+    text-align: center;
+    padding: 37px 34px;
+    left: 50%;
+    bottom: 60px;
+    transform: translateX(-50%);
+}
+.gamesWindowText .header, .gamesWindowBottomText .header {
     font-size: 25px;
     color: #FEED03;
 }
-.gamesWindowText .text-data {
+a.header {
+    text-decoration: none;
+    margin: 10px auto 0 auto;
+    display: block;
+    width: 143px;
+}
+a.header:hover:after {
+    width: 150px;
+    transform: translateX(-75px);
+}
+a.header:after {
+    display: block;
+    content: ' ';
+    width: 0px;
+    height: 3px;
+    transition: 0.5s all;
+    left: 50%;
+    position: absolute;
+    background: #FEED03;
+}
+.gameGrass {
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+}
+.game-grass-1 {
+    position: absolute;
+    width: 97px;
+    height: 95px;
+    background: url(../../images/grass-3-3.png);
+    animation: 1s windy-grass infinite;
+}
+.game-grass-2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 106px;
+    height: 79px;
+    background: url(../../images/grass-3-4.png);
+    animation: 3s windy-grass infinite;
+}
+.gamesWindowText .text-data, .gamesWindowBottomText .text-data {
     font-size: 16px;
     color: white;
 }
@@ -53,14 +106,14 @@
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     width: 465px;
-    top: 300px;
+    top: 255px;
     left: 50%;
     transform: translateX(-50%);
 }
 .gameButtons {
     position: absolute;
     width: 525px;
-    top: 565px;
+    top: 525px;
     left: 50%;
     transform: translateX(-50%);
 }

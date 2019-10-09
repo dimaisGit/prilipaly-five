@@ -90,6 +90,10 @@ export default class GamesComponent extends React.Component {
                 <div className='gamesWindowBg'>
                     <div className='gamesWindowSand'></div>
                     <div className='gamesWindowSky'></div>
+                    <div className='gameGrass'>
+                        <div className='game-grass-1'></div>
+                        <div className='game-grass-2'></div>
+                    </div>
                     <CloudsComponent />
                 </div>
                 <div className='gamesWindowText'>
@@ -122,6 +126,11 @@ export default class GamesComponent extends React.Component {
                             onClick={(e) => this.handleSetCurrentGame(item.gameNumber)}
                         />
                     ))}
+                </div>
+                <div className='gamesWindowBottomText'>
+                    <p className='header'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</p>
+                    <p className='text-data'>Описание группа Вконтакте в которой можно обменяться повторными прилипалами</p>
+                    <a className='header' href='#'>VKONTAKTE</a>
                 </div>
             </div>
         )
