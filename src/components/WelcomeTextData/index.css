@@ -83,10 +83,14 @@
 .blueSec{
     position: absolute;
     right:150px;
-    top: 100px;
+    top: 70px;
+    transform: rotate(3deg);
+    display: block;
+    width: 230px;
+    z-index: 80;
 }
 .infoBlock{
-    padding: 20px;
+    padding: 10px 15px;
     background-color: #fff;
     border-radius: 7px;
     margin-top: -10px;
@@ -110,7 +114,32 @@
     color: #3F82A6;
     display: block;
 }
+.blueSec img{
+    display: block;
+    margin: auto;
+}
 .violetText{
     color:#6A6084;
     display: block;
+}
+.socialBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* margin-left: -20px; */
+}
+.linkToSocial{
+    margin: 10px 0;
+    display: block;
+    cursor:pointer;
+    filter: none;
+}
+.linkToSocial img{
+    max-width: 95%;
+}
+.linkToSocial:hover{
+    transform: translateY(-2px);
+    transition: all .3s;
+    filter: drop-shadow(2px 4px 6px #fff);
 }
