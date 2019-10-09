@@ -3,19 +3,18 @@
     padding: 35px;
     padding-bottom: 100px;
 }
-.page {
-    /* min-height: 150vh; */
-  }
+
   .container {
     width: 90%;
     height: 740px;
     margin: 0 auto;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   
   .circle-carousel {
     position: relative;
     padding-top: 100%;
+    
   }
   .circle-carousel .slides {
     position: absolute;
@@ -61,8 +60,9 @@
     justify-content: center;
     position: absolute;
     top: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    right: 0;
+    margin: auto;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -70,7 +70,7 @@
     transition: .3s;
   }
   .circle-carousel .pagination .dot:hover {
-    transform: translate(-50%, -50%) scale(1.05);
+    transform: scale(1.05);
     cursor: pointer;
     color: black;
   }
@@ -84,8 +84,12 @@
   }
   .circle-carousel .pagination .item.active .dot {
     color: black;
-    /* transform: scale(1.2); */
+    transform: scale(2);
     border: 1px solid #fff;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: -50px;
   }
   .dot span img{
       max-width: 100px;;
