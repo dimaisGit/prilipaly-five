@@ -21,9 +21,7 @@
     justify-content: space-between;
     padding-top: 70px;
 }
-.sliderWindow{
-    overflow: hidden;
-}
+
 .sliderWindow .infoBlock.shadowViolet{
     background-color: #A84F9A;
     color: #fff;
@@ -36,20 +34,3 @@
     margin-right: 70px;
     transform: rotate(5deg);
 }
-/* .sliderRounded{
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: .6;
-    height: 150vh;
-    width: 150vh;
-    margin: 0 auto;
-    margin-bottom: -75vh;
-    display: flex;
-}
-.dot{
-    width: 20px;
-    height:20px;
-    background-color: black;
-    margin: auto;
-    border-radius: 50%;
-} */

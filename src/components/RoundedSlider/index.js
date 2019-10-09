@@ -2,6 +2,24 @@ import React from 'react'
 import './index.css'
 import { slider } from '../../scripts/slider'
 
+import blue2 from '../../images/blue-2.png'
+import green from '../../images/green.png'
+import blueLil from '../../images/blue-lil.png'
+import greenPlaksa from '../../images/greenPlaksa.png'
+import heartedPig from '../../images/hearted-pig.png'
+import orange from '../../images/orange.png'
+import yellow from '../../images/yellow.png'
+import redFinger from '../../images/красный-перчатка.png'
+import redCap from '../../images/красный-с-чашкой.png'
+import pinky from '../../images/розовое-насекомое.png'
+import pinkyPretty from '../../images/розовый-мякиш.png'
+import fox from '../../images/рыжий-хитрюн.png'
+import blueFlash from '../../images/синий-молния.png'
+import blueFat from '../../images/синий-толстый.png'
+import violet from '../../images/фиолетовый-трекгльник.png'
+
+
+
 export default class SliderRound extends React.Component {
     componentDidMount() {
         slider()
@@ -77,64 +95,173 @@ export default class SliderRound extends React.Component {
                             </div>
                             <div class="pagination">
                                 <div class="item">
-                                    <div class="dot"><span>1</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={blue2}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>2</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={green}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>3</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={blueLil}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>4</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={greenPlaksa}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>5</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={heartedPig}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>6</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={orange}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>7</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={yellow}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>8</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={redFinger}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>9</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={redCap}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>10</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={pinky}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>11</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={pinkyPretty}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>12</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={fox}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>13</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={blueFlash}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>14</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={blueFat}></img>
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="dot">
+                                        <span>
+                                            <img src={violet}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>15</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={blueLil}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>16</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={greenPlaksa}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>17</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={heartedPig}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>18</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={orange}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>19</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={yellow}></img>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="item">
-                                    <div class="dot"><span>20</span></div>
+                                    <div class="dot">
+                                        <span>
+                                            <img src={redFinger}></img>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="dot">
+                                        <span>
+                                            <img src={redCap}></img>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="dot">
+                                        <span>
+                                            <img src={pinky}></img>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="dot">
+                                        <span>
+                                            <img src={pinkyPretty}></img>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
                             <div class="next">Next</div>
@@ -142,7 +269,7 @@ export default class SliderRound extends React.Component {
                         </div>
                     </div>
                 </main>
-            </div>
+            </div >
         )
     }
 }
