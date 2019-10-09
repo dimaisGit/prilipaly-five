@@ -57,6 +57,18 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.gameButtons {
+    position: absolute;
+    width: 525px;
+    top: 565px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.gameLogo {
+    cursor: pointer;
+    width: 65px;
+    margin-left: 10px;
+}
 .gameImg {
     float: left;
     margin-left: 25px;
@@ -69,12 +81,25 @@
 }
 .gameName {
     font-size: 20px;
+    margin-bottom: 10px;
 }
 .playLink {
     text-decoration: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 0px #A84F9A;
     background: #FFDF00;
     display: block;
     width: 120px;
     padding: 10px;
     text-align: center;
+}
+
+.leave {
+    opacity: 0;
+    transition: .3s all;
+}
+.stay {
+    opacity: 1;
+    transition: .3s all;
 }
