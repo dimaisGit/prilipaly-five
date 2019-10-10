@@ -1,5 +1,5 @@
 .videoContainer{
-    min-height: 100vh;
+    min-height: 90vh;
     background: url(../../images/backgroundMSK.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -7,8 +7,12 @@
 .contentBlocks{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 100px;
+}
+.contentBlocks > div{
+    flex: 30%;
+    /* max-width: 50%; */
 }
 .videoPhone{
     display: flex;
@@ -18,6 +22,10 @@
 }
 .phoneContainer{
     position: relative;
+}
+.phoneContainer img{
+    display: block;
+    margin: auto;
 }
 .phoneContainer::before{
     content:'';
@@ -34,6 +42,11 @@
 }
 .shadowYellow{
     filter: drop-shadow(-6px 7px 0px #EFD008);
+}
+.toysAndSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .toysAndSocial .infoBlock{
     background: url(../../images/info-tB.png) no-repeat center;
@@ -65,4 +78,39 @@
 }
 .socialContainerData .socialBlock .linkToSocial {
     margin: 10px;
+}
+.socialContainerData{
+    max-width: 400px;
+}
+.toys-1, .toys-2{
+    display: flex;
+}
+.toys-1-1{
+    position: relative;
+    left: 40px;
+    top: -60px;
+    animation: swell 13s infinite linear
+}
+.toys-1-2{
+    top: -140px;
+    position: relative;
+    z-index: 150;
+    left: 200px;
+}
+.toys-2{
+    justify-self: flex-end;
+
+}
+.toys-2-1{
+    position: relative;
+    z-index: 150;
+    bottom: -130px;
+    left: 30px;
+    /* animation: swell 5s infinite linear */
+}
+.toys-2-2{
+    left: 40px;
+    position: relative;
+    bottom: -100px;
+    animation: swell 1s infinite linear
 }
