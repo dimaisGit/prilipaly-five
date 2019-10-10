@@ -1,10 +1,7 @@
 .sliderContainer{
     background: linear-gradient(180deg, #DCFC00, #FE9103);
     height: 875px;
-    /* position: relative; */
     overflow: hidden;
-    /* animation: gradientAnimated2 5s ease infinite; */
-
 }
 .sliderWindow::after{
     content: '';
@@ -25,6 +22,7 @@
 }
 .sliderWindow{
   position: relative;
+  z-index: 30;
 }
 .sliderWindow .infoBlock.shadowViolet{
     background-color: #A84F9A;

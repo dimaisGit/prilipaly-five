@@ -1,0 +1,12 @@
+.videoContainer{
+    min-height: 100vh;
+    background: url(../../images/backgroundMSK.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contentBlocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+}
