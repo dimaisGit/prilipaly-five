@@ -136,7 +136,7 @@
     filter: none;
 }
 .linkToSocial img{
-    max-width: 95%;
+    max-width: 100%;
 }
 .linkToSocial:hover{
     transform: translateY(-2px);
