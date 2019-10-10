@@ -99,7 +99,7 @@ export default class GamesComponent extends React.Component {
                     <CloudsComponent />
                 </div>
                 <div className='gamesWindowText'>
-                    <p className='header'>ИГРАЙ С ПРИЛИПАЛАМИ</p>
+                    <h4 className='header smaller lined'>ИГРАЙ С ПРИЛИПАЛАМИ</h4>
                     <p className='text-data'>Даже Ворчун не сможет удержаться с такими веселыми играми. Распечатывай, раскрашивай, складывай и играй с друзьями!</p>
                 </div>
                 <div className='gameMechanic'>
@@ -130,7 +130,7 @@ export default class GamesComponent extends React.Component {
                     ))}
                 </div>
                 <div className='gamesWindowBottomText'>
-                    <p className='header'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</p>
+                    <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
                     <p className='text-data'>Описание группа Вконтакте в которой можно обменяться повторными прилипалами</p>
                     <a className='header' href='#'>VKONTAKTE</a>
                     <div className='plaksaImages'>

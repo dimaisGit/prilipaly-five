@@ -1,27 +1,31 @@
 .sliderContainer{
     background: linear-gradient(180deg, #DCFC00, #FE9103);
-    min-height: 80vh;
-    position: relative;
+    height: 875px;
+    /* position: relative; */
+    overflow: hidden;
     /* animation: gradientAnimated2 5s ease infinite; */
 
 }
-.sliderContainer::after{
+.sliderWindow::after{
     content: '';
     position: absolute;
-    height: 70px;
-    bottom: -35px;
+    height: 150px;
+    bottom: -75px;
     left: 0;
     right: 0;
     margin: auto;
     background-color: #FE9103;
-    border-radius: 62%;
+    border-radius: 50%;
+    z-index: -1;
 }
 .infoBlockContainer{
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
 }
-
+.sliderWindow{
+  position: relative;
+}
 .sliderWindow .infoBlock.shadowViolet{
     background-color: #A84F9A;
     color: #fff;
