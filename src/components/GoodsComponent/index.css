@@ -1,11 +1,40 @@
 .goodsContainer{
     min-height: 30vh;
     background: linear-gradient(182deg, #FDB91A, #FF6118);
+    display: flex;
+    justify-content: flex-start;
+}
+.goodsWindow{
     position: relative;
+}
+.goodsWindow::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height:100px;
+    background: url(../../images/grass-3-2.png) no-repeat;
+    background-size: contain;
+    bottom: 0;
+    left: 0;
+}
+.goodsWindow::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height:100px;
+    background: url(../../images/grass-block.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
+    background-size: contain;
+    background-position: left bottom, 50px -1px;
+    bottom: -6px;
+    right: 0;
+}
+.sponsorsDescription{
+    position: relative;
+    z-index: 300;
 }
 .wavingBg{
     animation: ocean 37s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-    opacity: .3;
+    opacity: .1;
     background: url(../../images/wave.svg) repeat-x;
     position: absolute;
     bottom: -40px;
@@ -13,6 +42,7 @@
     height: 150px;
     transform: translate3d(0, 0, 0);
     background-size: contain;
+    z-index: 0;
 }
 @keyframes ocean {
     0% {
@@ -32,4 +62,50 @@
         -webkit-transform: translate3d(0, 5px, 0);
         transform: translate3d(0, 5px, 0);
     }
+}
+form, select, label, option, input {
+    -webkit-appearance: none;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: Ubuntu;
+}
+/* option:not(':selected'){
+    color: black;
+} */
+label.light{
+    color: #fff;
+}
+.sponsorsInfo{
+    background: url(../../images/gamesTextBg.png) no-repeat;
+    width: 553px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 35px 20px;
+    height: 211px;
+    background-size: contain;
+
+}
+.sponsorsInfo h4.header.smaller.lined{
+    font-size: 18px;
+    color: #FEED03;
+}
+.sponsorsInfo .text-data{
+    padding-bottom: 0;
+    font-size: 15px;
+}
+.formSearch{
+    margin-top: 10px;
+}
+.sponsorsClass{
+    position: relative;
+}
+.sponsorsClass::after{
+    position: absolute;
+    content: 'k';
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
 }

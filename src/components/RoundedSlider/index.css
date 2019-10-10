@@ -187,7 +187,7 @@
   .prilipalyInfo::after{
       position: absolute;
       content: '';
-      width: 90%;
+      width: 80%;
       height: 70px;
       background: url(../../images/grass-block.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
       background-size: contain;
