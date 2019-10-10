@@ -31,7 +31,7 @@ export default class VideoComponent extends React.Component {
                                 </div>
                             </div>
                             <div className="socialContainerData">
-                                <div className="infoBlock shadowYellow">
+                                <div className="infoBlock shadowYellow back">
                                     <span class="blueText">ПРИЛИПАЛЫ В ДОПОЛНЕННОЙ РЕАЛЬНОСТИ!</span>
                                 </div>
                                 <div className="socialBlock">
@@ -59,19 +59,19 @@ export default class VideoComponent extends React.Component {
                             </div>
                         </div>
                         <div className="toysAndInfoBlock">
-                            <div  className="toys-3">
+                            <div  className="toys-3-1">
                                 <img src={grAndBl}></img>
                             </div>
-                            <div  className="toys-3">
+                            <div  className="toys-3-2">
                                 <img src={ufoL}></img>
                             </div>
-                            <div  className="infoBlock shadowYellow">
+                            <div  className="infoBlock shadowYellow lastInfoB">
                             <span class="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
                             </div>
-                            <div  className="toys-3">
+                            <div  className="toys-3-3">
                                 <img src={tomato}></img>
                             </div>
-                            <div  className="toys-3">
+                            <div  className="toys-3-4">
                                 <img src={banana}></img>
                             </div>
                         </div>

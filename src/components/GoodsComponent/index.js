@@ -5,7 +5,9 @@ export default class GoodsComponent extends React.Component {
     render() {
         return (
             <div className='goodsWindow'>
-                This is the goods window
+                <div className="goodsContainer">
+                    <div className="wavingBg"></div>
+                </div>
             </div>
         )
     }

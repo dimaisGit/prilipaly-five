@@ -48,24 +48,31 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.toysAndSocial .infoBlock{
-    background: url(../../images/info-tB.png) no-repeat center;
-    background-size: contain;
+.videoWindow .infoBlock {
     margin-left: 20px;
     transform: rotate(-5deg);
     width: 550px;
     height: 100px;
     padding: 0;
-    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: center;
-   
+    padding: 30px;
 }
-.toysAndSocial .infoBlock span{
+.infoBlock.back{
+    background: url(../../images/info-tB.png) no-repeat center;
+    background-size: contain;
+}
+.videoWindow .infoBlock span{
     transform: rotate(-4deg);
     margin-top: 5px;
-    font-size: 18px;
+    font-size: 16px;
+}
+.videoWindow .infoBlock.lastInfoB{
+    transform: rotate(5deg);
+    height: 70px;
+    width: 345px;
+    margin: auto;
 }
 .socialContainerData .socialBlock{
     width: 70%;
@@ -113,4 +120,27 @@
     position: relative;
     bottom: -100px;
     animation: swell 1s infinite linear
+}
+.videoWindow .infoBlock.lastInfoB span{
+    transform: rotate(0);
+    margin-top: 0;
+}
+.toys-3-1{
+    text-align: center;
+}
+.toys-3-2{
+    margin-right: 50px;
+    text-align: right;
+    animation: swell 2.5s infinite linear
+}
+.toys-3-4{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 130;
+    bottom: -50px;
+    right: 40px;
+}
+.toys-3-4 img{
+    display: block;
 }
