@@ -11,6 +11,14 @@ import gameLogo4 from '../../images/gameImages/gameLogo4.png'
 import gameLogo5 from '../../images/gameImages/gameLogo5.png'
 import gameLogo6 from '../../images/gameImages/gameLogo6.png'
 
+import posterImg0 from '../../images/gameImages/posterImg0.png'
+import posterImg1 from '../../images/gameImages/posterImg1.png'
+import posterImg2 from '../../images/gameImages/posterImg2.png'
+import posterImg3 from '../../images/gameImages/posterImg3.png'
+import posterImg4 from '../../images/gameImages/posterImg4.png'
+import posterImg5 from '../../images/gameImages/posterImg5.png'
+import posterImg6 from '../../images/gameImages/posterImg6.png'
+
 import greenPlaksa from '../../images/greenPlaksa.png'
 
 import knowItAll from '../../images/knowItAll.png'
@@ -33,6 +41,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo0,
                     gameNumber: 0,
                     gameImg: gameImg0,
+                    posterImg: posterImg0,
                     gameName: 'Collect puzzle #0',
                     gameDescription: 'Some description #0 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -40,6 +49,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo1,
                     gameNumber: 1,
                     gameImg: gameImg0,
+                    posterImg: posterImg1,
                     gameName: 'Collect puzzle #1',
                     gameDescription: 'Some description #1 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -47,6 +57,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo2,
                     gameNumber: 2,
                     gameImg: gameImg0,
+                    posterImg: posterImg2,
                     gameName: 'Collect puzzle #2',
                     gameDescription: 'Some description #2 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -54,6 +65,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo3,
                     gameNumber: 3,
                     gameImg: gameImg0,
+                    posterImg: posterImg3,
                     gameName: 'Collect puzzle #3',
                     gameDescription: 'Some description #3 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -61,6 +73,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo4,
                     gameNumber: 4,
                     gameImg: gameImg0,
+                    posterImg: posterImg4,
                     gameName: 'Collect puzzle #4',
                     gameDescription: 'Some description #4 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -68,6 +81,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo5,
                     gameNumber: 5,
                     gameImg: gameImg0,
+                    posterImg: posterImg5,
                     gameName: 'Collect puzzle #5',
                     gameDescription: 'Some description #5 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -75,6 +89,7 @@ export default class GamesComponent extends React.Component {
                     gameLogo: gameLogo6,
                     gameNumber: 6,
                     gameImg: gameImg0,
+                    posterImg: posterImg6,
                     gameName: 'Collect puzzle #6',
                     gameDescription: 'Some description #6 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
@@ -116,6 +131,7 @@ export default class GamesComponent extends React.Component {
                 <div className='gameMechanic'>
                     <div className={isNeedAnimate ? "leave" : 'stay'}>
                         <img src={currentGame.gameImg} alt='gameImg' className='gameImg'/>
+                        <img src={currentGame.posterImg} alt='posterImg' className='posterImg' />
                         <div className='gameData'>
                             <p className='gameName'>
                                 {currentGame.gameName}

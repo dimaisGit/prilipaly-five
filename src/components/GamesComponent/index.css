@@ -144,6 +144,13 @@ a.header:after {
     left: 50%;
     transform: translateX(-50%);
 }
+.posterImg {
+    position: absolute;
+    left: 136px;
+    top: 50px;
+    width: 35px;
+    max-height: 40px;
+}
 .gameButtons {
     position: absolute;
     width: 525px;
