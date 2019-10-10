@@ -130,7 +130,7 @@ export function slider() {
                 var carousel = initCarousel({
                     node: plugins.customCarousel[i],
                     speed: plugins.customCarousel[i].getAttribute( 'data-speed' ),
-                    // autoplay: plugins.customCarousel[i].getAttribute( 'data-autoplay' )
+                    autoplay: plugins.customCarousel[i].getAttribute( 'data-autoplay' )
                 });
             }
         }

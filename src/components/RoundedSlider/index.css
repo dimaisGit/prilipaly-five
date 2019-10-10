@@ -48,7 +48,6 @@
     width: 90%;
     height: 90%;
     border-radius: 50%;
-    /* border: 3px solid white; */
     transition-property: transform;
     transition-timing-function: ease-out;
     pointer-events: none;
@@ -85,7 +84,6 @@
   .circle-carousel .pagination .item.active .dot {
     color: black;
     transform: scale(2);
-    border: 1px solid #fff;
     left: 0;
     right: 0;
     margin: auto;

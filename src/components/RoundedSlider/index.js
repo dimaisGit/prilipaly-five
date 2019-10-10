@@ -173,7 +173,7 @@ export default class SliderRound extends React.Component {
 
                 <main className="page">
                     <div className="container">
-                        <div className="circle-carousel" data-speed="2000" data-autoplay="2500">
+                        <div className="circle-carousel" data-speed="1000" data-autoplay="2500">
                             <div className="slides">
                                 <div className="slide">
                                     <h2>Slide 1</h2>

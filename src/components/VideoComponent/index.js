@@ -6,6 +6,11 @@ import googleP from '../../images/google-play.png'
 import rapsberry from '../../images/raspberry1-noacod.png'
 import ufo from '../../images/ufo3_7.png'
 import ufoN from '../../images/ufo3_5.png'
+import ufoL from '../../images/ufo3_3.png'
+import grAndBl from '../../images/blueAndGr.png'
+import banana from '../../images/pigAndBanana.png'
+import tomato from '../../images/tomat1.png'
+
 
 import melon from '../../images/yellowmelon.png'
 
@@ -53,7 +58,23 @@ export default class VideoComponent extends React.Component {
                                 <img src={phone}></img>
                             </div>
                         </div>
-                        <div className="toysAndInfoBlock"></div>
+                        <div className="toysAndInfoBlock">
+                            <div  className="toys-3">
+                                <img src={grAndBl}></img>
+                            </div>
+                            <div  className="toys-3">
+                                <img src={ufoL}></img>
+                            </div>
+                            <div  className="infoBlock shadowYellow">
+                            <span class="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
+                            </div>
+                            <div  className="toys-3">
+                                <img src={tomato}></img>
+                            </div>
+                            <div  className="toys-3">
+                                <img src={banana}></img>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
