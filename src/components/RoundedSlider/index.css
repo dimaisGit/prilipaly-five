@@ -199,7 +199,7 @@
   .prilipalyInfo::after{
       transform: translate(22%, -5px) scale(.7) rotateY(180deg);
   }
-  .prilipalyInfo  p{
+  .prilipalyInfo  p, .text-data{
       font-family: Ubuntu;
       color: #fff;
       padding: 15px;
@@ -210,4 +210,5 @@
   h4.header.smaller{
       font-size: 15px;
       position: relative;
+      transform: rotate(-2deg);
   }

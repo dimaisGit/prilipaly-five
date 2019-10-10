@@ -111,8 +111,7 @@ export default class GamesComponent extends React.Component {
                 <div className='gamesWindowText'>
                     <h4 className='header smaller lined'>ИГРАЙ С ПРИЛИПАЛАМИ</h4>
                     <p className='text-data'>Даже Ворчун не сможет удержаться с такими веселыми играми. Распечатывай, раскрашивай, складывай и играй с друзьями!</p>
-                    <div className='text-1-line-1'></div>
-                    <div className='text-1-line-2'></div>
+                    
                 </div>
                 <div className='gameMechanic'>
                     <div className={isNeedAnimate ? "leave" : 'stay'}>
@@ -155,8 +154,7 @@ export default class GamesComponent extends React.Component {
                             alt='plaksa'
                         />
                     </div>
-                    <div className='text-2-line-1'></div>
-                    <div className='text-2-line-2'></div>
+                    
                 </div>
                 <div className='gamesPrilipaliLeft'>
                     <img

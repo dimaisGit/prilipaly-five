@@ -29,13 +29,15 @@
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
     background: url(../../images/gamesTextBg.png) no-repeat;
-    width: 447px;
+    width: 475px;
     text-align: center;
     background-size: cover;
     left: 50%;
     top: 70px;
     padding: 37px 34px;
     transform: translateX(-50%);
+    height: 170px;
+    background-size: contain;
 }
 .text-1-line-1, .text-1-line-2 {
     position: absolute;
@@ -71,12 +73,15 @@
     position: absolute;
     background: url(../../images/gamesBottomTextBg.png) no-repeat;
     background-size: cover;
-    width: 505px;
+    width: 555px;
     text-align: center;
     padding: 37px 34px;
-    left: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     bottom: 60px;
-    transform: translateX(-50%);
+    height: 200px;
+    background-size: contain;
 }
 .gamesWindowText .header, .gamesWindowBottomText .header {
     font-size: 25px;
@@ -192,23 +197,20 @@ a.header:after {
     opacity: 1;
     transition: .3s all;
 }
-.gamesPrilipaliLeft {
+.gamesPrilipaliLeft, .gamesPrilipaliRight {
     position: absolute;
     bottom: 85px;
-    right: calc(50% + 255px);
+    left: 10%;
     width: calc(50% - 255px);
     max-width: 422px;
 }
 .gamesPrilipaliLeft img{
     margin: 0 4%;
-    width: 12%;
+    width: 15%;
     max-width: 50px;
 }
 .gamesPrilipaliRight {
-    position: absolute;
-    bottom: 85px;
-    left: calc(50% + 255px);
-    width: calc(50% - 255px);
+    left: calc(67%)
 }
 .gamesPrilipaliRight img {
     margin: 0 4%;
