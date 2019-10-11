@@ -15,7 +15,7 @@ export default class ProdCarousel extends React.Component {
             active: true
         }
     }
-    handleClick = () => {
+    handleClick = (props) => {
         this.setState({
             active: !this.state.active
         })
@@ -39,8 +39,8 @@ export default class ProdCarousel extends React.Component {
                         <div className="item-info-icon"  onClick={this.handleClick}>
                             {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
                         </div>
-                        <div className="item-info-data active">
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
+                        <div className="item-info-data "> 
+                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
                         </div>
                     </div>
                     <div className="itemFullName">

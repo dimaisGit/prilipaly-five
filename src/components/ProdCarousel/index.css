@@ -2,7 +2,7 @@
     flex: 60%;
     max-width: 60%;
     margin-left: 60px;
-    padding: 60px 0;
+    /* padding: 60px 0 0; */
 }
 .item, .item-info{
     display: flex;
@@ -19,13 +19,27 @@
 .item-info-data{
     position: absolute;
     background-color: #fff;
-    padding: 10px;
+    padding: 15px;
     border-radius: 5px;
     bottom: 0;
     font-size: 13px;
     font-family: Ubuntu;
     width: 84%;
     display: none;
+}
+.item-info-data::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 92px;
+    height: 92px;
+    /* background-color: gray; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index:100;
+
 }
 .item-info-data.active{
     display: block;
@@ -34,3 +48,18 @@
     position: relative;
     z-index: 10;
 }
+
+.block {
+    background: green;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+   }
+   .block::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20px; bottom: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid green; /* Добавляем треугольник */
+   }
