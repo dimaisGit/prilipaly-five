@@ -26,7 +26,7 @@ export default class ProdCarousel extends React.Component {
         })
     }
     render() {
-        var settings = {
+        let settings = {
             dots: false,
             infinite: true,
             speed: 500,
