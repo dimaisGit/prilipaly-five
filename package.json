@@ -22,12 +22,17 @@
     "babel-eslint": "^9.0.0",
     "core-js": "^2.6.5",
     "deploy": "^1.0.3",
+    "font-awesome": "^4.7.0",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "mdbreact": "^4.21.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
-    "react-transition-group": "^4.3.0"
+    "react-slick": "^0.25.2",
+    "react-transition-group": "^4.3.0",
+    "slick-carousel": "^1.8.1"
   },
   "browserslist": [
     ">0.2%",
