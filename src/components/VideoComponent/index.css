@@ -48,7 +48,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.videoWindow .infoBlock {
+.videoWindow .infoBlock,
+.mapContainer .infoBlock {
     margin-left: 20px;
     transform: rotate(-5deg);
     width: 550px;

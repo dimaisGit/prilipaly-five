@@ -5,6 +5,7 @@ import ProdCarousel from '../ProdCarousel'
 
 
 
+
 export default class GoodsComponent extends React.Component {
     render() {
         return (
@@ -38,6 +39,9 @@ export default class GoodsComponent extends React.Component {
                     </div>
                     <div className="sponsorsCarousel">
                         <ProdCarousel />
+                        <div className="sponsor-iteration">
+
+                          <span>1</span> из <span>35</span></div>
                     </div>
                 </div>
                 <div className="wavingBg">

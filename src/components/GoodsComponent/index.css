@@ -31,8 +31,11 @@
 .sponsorsDescription  {
     position: relative;
     z-index: 300;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .wavingBg{
     animation: ocean 37s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
@@ -73,15 +76,13 @@ form, select, label, option, input {
     outline: none;
     font-family: Ubuntu;
 }
-/* option:not(':selected'){
-    color: black;
-} */
+
 label.light{
     color: #fff;
 }
 .sponsorsInfo{
     background: url(../../images/goodsTextBg.png) no-repeat;
-    width: 553px;
+    width: 500px;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
     padding: 35px 20px;
@@ -110,4 +111,18 @@ label.light{
     width: 10px;
     height: 20px;
     background-color: #fff;
+}
+.sponsor-iteration{
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 20px;
+    position: absolute;
+    left: 11%;
+    display: block;
+    bottom: 80px;
+    width: 10%;
+    text-align: center;
+}
+.slick-initialized .slick-slide > div{
+    display: flex!important;
 }

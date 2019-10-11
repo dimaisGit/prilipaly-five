@@ -8,8 +8,6 @@ import Prod3 from '../../images/prod-3.png'
 import Prod4 from '../../images/prod-4.png'
 import Prod5 from '../../images/prod-p.png'
 
-
-
 import Info from '../../images/info-icon.svg'
 import InfoActive from '../../images/info-icon-active.svg'
 
@@ -29,11 +27,12 @@ export default class ProdCarousel extends React.Component {
     }
     render() {
         var settings = {
-            dots: true,
+            dots: false,
             infinite: true,
             speed: 500,
             slidesToShow: 5,
-            slidesToScroll: 5
+            slidesToScroll: 5,
+            adaptiveHeight: true
         };
         const {active} = this.state
         return (
@@ -138,6 +137,7 @@ export default class ProdCarousel extends React.Component {
                 <div>
                     <h3>5</h3>
                 </div>
+                
             </Slider>
         );
     }
