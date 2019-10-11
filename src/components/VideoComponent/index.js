@@ -10,8 +10,6 @@ import ufoL from '../../images/ufo3_3.png'
 import grAndBl from '../../images/blueAndGr.png'
 import banana from '../../images/pigAndBanana.png'
 import tomato from '../../images/tomat1.png'
-
-
 import melon from '../../images/yellowmelon.png'
 
 
@@ -32,7 +30,7 @@ export default class VideoComponent extends React.Component {
                             </div>
                             <div className="socialContainerData">
                                 <div className="infoBlock shadowYellow back">
-                                    <span class="blueText">ПРИЛИПАЛЫ В ДОПОЛНЕННОЙ РЕАЛЬНОСТИ!</span>
+                                    <span className="blueText">ПРИЛИПАЛЫ В ДОПОЛНЕННОЙ РЕАЛЬНОСТИ!</span>
                                 </div>
                                 <div className="socialBlock">
                                     <a className="linkToSocial">
@@ -66,7 +64,7 @@ export default class VideoComponent extends React.Component {
                                 <img src={ufoL}></img>
                             </div>
                             <div  className="infoBlock shadowYellow lastInfoB">
-                            <span class="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
+                            <span className="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
                             </div>
                             <div  className="toys-3-3">
                                 <img src={tomato}></img>

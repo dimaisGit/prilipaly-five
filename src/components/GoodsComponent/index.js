@@ -1,6 +1,9 @@
 import React from 'react'
 // import SelectPage from '../../scripts/SelectPage'
 import './index.css'
+import ProdCarousel from '../ProdCarousel'
+
+
 
 export default class GoodsComponent extends React.Component {
     render() {
@@ -8,9 +11,9 @@ export default class GoodsComponent extends React.Component {
             <div className='goodsWindow'>
                 <div className="goodsContainer">
                     <div className="sponsorsDescription">
-                        <div class="sponsorsInfo">
-                            <h4 class="header smaller lined">ТОВАРЫ-СПОНСОРЫ</h4>
-                            <p class="text-data">Лакомка никогда не упустит шанс съесть чего-нибудь вкусненького. Особенно, если за это можно получить еще больше Прилипал! </p>
+                        <div className="sponsorsInfo">
+                            <h4 className="header smaller lined">ТОВАРЫ-СПОНСОРЫ</h4>
+                            <p className="text-data">Лакомка никогда не упустит шанс съесть чего-нибудь вкусненького. Особенно, если за это можно получить еще больше Прилипал! </p>
                             <div className="formSearch">
                                 <form>
                                     <p>
@@ -34,7 +37,7 @@ export default class GoodsComponent extends React.Component {
                         </div>
                     </div>
                     <div className="sponsorsCarousel">
-
+                        <ProdCarousel />
                     </div>
                 </div>
                 <div className="wavingBg">
