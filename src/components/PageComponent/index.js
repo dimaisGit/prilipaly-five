@@ -1,5 +1,6 @@
 import React from 'react'
 import './index.css'
+import './mobile.css'
 import WelcomeComponent from "../WelcomeComponent";
 import SliderComponent from "../SliderComponent";
 import VideoComponent from "../VideoComponent";

@@ -1,0 +1,34 @@
+@media(max-width:1801px){
+    .girl img, .main-logo::after{
+        max-height: 450px !important;
+    }
+    .main-logo::after{
+        top: 24px!important;
+    }
+    .logo-p{
+        width: 280px!important;
+        height: 130px!important;
+    }
+    .main-logo{
+        top: 132px!important;
+    }
+}
+@media(max-width:1401px){
+ .orange img{
+     max-width: 100px;
+ }
+ .orange{
+     bottom: -15px!important;
+ }
+}
+@media(max-width: 1300px){
+    .prilipalyContainer{
+        align-items: center;
+    }
+    .orange {
+        bottom: 47px!important;
+    }
+    .blueSec{
+        right: 50px!important;
+    }
+}
