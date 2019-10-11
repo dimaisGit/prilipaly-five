@@ -5,13 +5,30 @@
     /* padding: 60px 0 0; */
 }
 .item, .item-info{
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
+}
+.itemFullName p, .itemPrice p{
+    color:#fff;
+    font-family: Ubuntu;
+    text-align: center;
+    display: block;
+    max-width:80%;
+    font-size: 1em;
+    margin: 10px auto;
+
+}
+.itemPrice p{
+    font-size: .7em;
 }
 .item-img{
     display: flex;
     justify-content: center;
+    max-height: 190px;
+    max-width: 150px;
+    margin: auto;
 }
 .item-info{
     position: relative;
@@ -26,6 +43,7 @@
     font-family: Ubuntu;
     width: 84%;
     display: none;
+
 }
 .item-info-data::after{
     content:'';
@@ -33,7 +51,6 @@
     bottom: 0;
     width: 92px;
     height: 92px;
-    /* background-color: gray; */
     left: 0;
     right: 0;
     margin: auto;
@@ -62,4 +79,23 @@
     left: 20px; bottom: -20px; /* Положение треугольника */
     border: 10px solid transparent; /* Прозрачные границы */
     border-top: 10px solid green; /* Добавляем треугольник */
+   }
+
+   .slick-arrow.slick-prev{
+    position: absolute;
+    left: 5%;
+    bottom: -20px;
+    margin-top: 100px;
+    z-index: 330;
+   }
+   .slick-arrow.slick-next{
+    position: absolute;
+    left: 17%;
+    bottom: -20px;
+    margin-top: 100px;
+    z-index: 330;
+   }
+   .slick-slider{
+       position: static;
+       padding: 20px 0;
    }
