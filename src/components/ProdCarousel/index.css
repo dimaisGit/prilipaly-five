@@ -1,6 +1,36 @@
 .sponsorsCarousel{
-   
-        flex: 60%;
-        max-width: 60%;
-        margin-left: 60px;
+    flex: 60%;
+    max-width: 60%;
+    margin-left: 60px;
+    padding: 60px 0;
+}
+.item, .item-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item-img{
+    display: flex;
+    justify-content: center;
+}
+.item-info{
+    position: relative;
+}
+.item-info-data{
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 0;
+    font-size: 13px;
+    font-family: Ubuntu;
+    width: 84%;
+    display: none;
+}
+.item-info-data.active{
+    display: block;
+}
+.item-info-icon{
+    position: relative;
+    z-index: 10;
 }

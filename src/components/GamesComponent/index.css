@@ -82,6 +82,8 @@
     bottom: 60px;
     height: 200px;
     background-size: contain;
+    position: absolute;
+    z-index: 5;
 }
 .gamesWindowText .header, .gamesWindowBottomText .header {
     font-size: 25px;
@@ -223,4 +225,24 @@ a.header:after {
     margin: 0 4%;
     width: 12%;
     max-width: 50px;
+}
+.pril-bg{
+    width: 4000px;
+    height: 200px;
+    background: url(../../images/prilipaly/pril-bg.png) repeat-x;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    animation: carousel 90s infinite linear;
+    z-index: 1;
+    background-size: 40%;
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,.7));
+}
+@keyframes carousel{
+    from{
+        background-position: -100% 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
 }

@@ -172,50 +172,7 @@ export default class GamesComponent extends React.Component {
                     </div>
                     
                 </div>
-                <div className='gamesPrilipaliLeft'>
-                    <img
-                        src={knowItAll}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={boyaka}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={redWithCup}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={boyaka}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={greenIhtiandr}
-                        alt='prilipala'
-                    />
-                </div>
-                <div className='gamesPrilipaliRight'>
-                    <img
-                        src={pinkInsect}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={greenZabiyaka}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={pinkObayash}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={greenZabiyaka}
-                        alt='prilipala'
-                    />
-                    <img
-                        src={violetTriangle}
-                        alt='prilipala'
-                    />
-                </div>
+                <div className="pril-bg"></div>
             </div>
         )
     }
