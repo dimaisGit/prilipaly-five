@@ -22,7 +22,7 @@ export default class GrassComponent extends React.Component {
                 </div>
                 <div className="yellow">
                     <img src={yellow}></img>
-                    <div className="infoBlock red shadowRed leftPos">СОВЕРШИ ПОКУПКУ <span className="yellowText">ОТ 500 РУБЛЕЙ</span> И ЗАБЕРИ СВОЕГО ПРИЛИПАЛУ НА КАССЕ</div>
+                    <div className="infoBlock red shadowRed leftPos">ПОЛУЧИ ВЕСЕЛОГО ПРИЛИПАЛУ ЗА КАЖДЫЕ <span className="yellowText">500 РУБЛЕЙ</span> В ЧЕКЕ</div>
                 </div>
                 <div className="blueSec">
                     <img src={blueSec}></img>

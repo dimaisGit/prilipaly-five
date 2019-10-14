@@ -26,146 +26,146 @@ import img24 from '../images/prilipaly/24.png'
 export const prilipalyData = [
     {
         numberId: 0,
-        name: 'name0',
-        infoData: 'Some description #0 for some game i don no what can i write here so all gonna well',
+        name: 'Бояка​',
+        infoData: 'Испугался? Это ты наверняка наступил на Бояку. Он очень пугливый чудик. Поэтому всегда прячется в самых незаметных местах: под кроватью, в шкафу и на книжных полках. ',
         img: img1
     },
     {
         numberId: 1,
-        name: 'name1',
-        infoData: 'Some description #1 for some game i don no what can i write here so all gonna well',
+        name: 'Нихочуха​',
+        infoData: '«Сделай уроки! – Не хочу!», «Ешь суп! – ​Не хочууу!» — это Нихочушка залез тебе в ухо и заставляет ​от всего отказываться.​​',
         img: img2
     },
     {
         numberId: 2,
-        name: 'name2',
-        infoData: 'Some description #2 for some game i don no what can i write here so all gonna well',
+        name: 'Лакомка',
+        infoData: 'Ох, ну какое же вкусное было мороженое! И так быстро закончилось! Что за магия? Это магия Лакомки – он просто обожает все вкусненькое. Если он завелся в доме – берегись! Запас конфет скоро кончится.​',
         img: img3
     },
     {
         numberId: 3,
-        name: 'name3',
-        infoData: 'Some description #3 for some game i don no what can i write here so all gonna well',
+        name: 'Грязнулькин​',
+        infoData: 'Не любите купаться? Понимаем: щиплет глаза, пена кусается, а еще вода попадает в нос. Это проделки Грязнулькина. Он вечно из-за чего-то надувается, а потом проказничает. ​',
         img: img4
     },
     {
         numberId: 4,
-        name: 'name4',
-        infoData: 'Some description #4 for some game i don no what can i write here so all gonna well',
+        name: 'Несмеюн​',
+        infoData: 'Тебе совсем не смешно? Даже на маленький прикол нет времени? Это все Несмеюн тебя подговаривает. Он самый серьезный чудик! ​',
         img: img5
     },
     {
         numberId: 5,
-        name: 'name5',
-        infoData: 'Some description #5 for some game i don no what can i write here so all gonna well',
+        name: 'Упсик​',
+        infoData: 'Нахулиганил, а признаваться не хочешь? Зови на помощь Упсика! Он лучше всех умеет выдумывать отговорки, ведь он такой неуклюжий. Совсем не то что ты, правда?​',
         img: img6
     },
     {
         numberId: 6,
-        name: 'name6',
-        infoData: 'Some description #6 for some game i don no what can i write here so all gonna well',
+        name: 'Шок​',
+        infoData: 'Вы видели это? А вот то?! ​А про это слышали?!?! Шок удивляется всему на свете. А как удивишься ты, когда он кааак прыгнет тебе за шиворот!​',
         img: img7
     },
     {
         numberId: 7,
-        name: 'name7',
-        infoData: 'Some description #7 for some game i don no what can i write here so all gonna well',
+        name: 'Приключашка​',
+        infoData: 'Ну что, купаться? А может сыграем во что-нибудь? Поехали на великах? Залезем на дерево? Это Приключашка. Смотри, вот он уже лезет к тебе в карман. Чувствуешь, как захотелось скорее отправиться на поиски сокровищ? ​',
         img: img8
     },
     {
         numberId: 8,
-        name: 'name8',
-        infoData: 'Some description #8 for some game i don no what can i write here so all gonna well',
+        name: 'Обнимаша​',
+        infoData: 'Если кого-то сильно хочется обнять, знай: где-то рядом Обнимаша! Она так любит котят, мягкие игрушки и все пушистенькое, что и тебя заражает! Смотри в оба глаза. Вдруг она хочет заобнимать лягушку? ​',
         img: img9
     },
     {
         numberId: 9,
-        name: 'name9',
-        infoData: 'Some description #9 for some game i don no what can i write here so all gonna well',
+        name: 'Влюбляка​',
+        infoData: 'Ну что, влюбился? Это все Влюбляка виновата. Она – самая любвеобильная чудилка. И больше всего она любит заводить новых друзей. ​',
         img: img10
     },
     {
         numberId: 10,
-        name: 'name10',
-        infoData: 'Some description #10 for some game i don no what can i write here so all gonna well',
+        name: 'Сорванец​',
+        infoData: 'Ты съел все вкусняшки? Опоздал на уроки? Разбросал все в комнате? Дневник потерял?! Объясни маме, что ты тут не при чем – тебя просто Сорванец укусил за пятку. Он так любит проказничать, что иногда совсем теряет голову. ​',
         img: img11
     },
     {
         numberId: 11,
-        name: 'name11',
-        infoData: 'Some description #11 for some game i don no what can i write here so all gonna well',
+        name: 'Злюка​',
+        infoData: 'Хочется топать ногами, махать руками и даже, может быть, попытаться изрыгнуть пламя? Где-то совсем рядом злюка! Ну ничего, покричит немного и успокоится – это хоть и громкий чудик, но отходчивый. ​',
         img: img12
     },
     {
         numberId: 12,
-        name: 'name12',
-        infoData: 'Some description #12 for some game i don no what can i write here so all gonna well',
+        name: 'Шептун​',
+        infoData: 'Что-то ты притих. Даже родители забеспокоились. Скажи им, что просто встретился с Шептуном. Он не любит болтать, зато знает сто тысяч тихих игр. С ним всегда интересно!​',
         img: img13
     },
     {
         numberId: 13,
-        name: 'name13',
-        infoData: 'Some description #13 for some game i don no what can i write here so all gonna well',
+        name: 'Любопыш​',
+        infoData: 'Ох и быстро же ты сегодня сделал домашку! Завтра еще и пятерку на контрольной получишь! Хорошо, все же, что ты подружился с Любопышом. Он так любит учиться, что и тебе самому хочется поскорее схватиться за книжку.​',
         img: img14
     },
     {
         numberId: 14,
-        name: 'name14',
-        infoData: 'Some description #14 for some game i don no what can i write here so all gonna well',
+        name: 'Хитрюн​',
+        infoData: 'Ну очень хочется гулять, а мама не отпускает? Тут тебе поможет Хитрюн – он знает как исхитриться ради чего угодно. Подружись с ним – и вот уже хитрый план готов в твоей голове!​',
         img: img15
     },
     {
         numberId: 15,
-        name: 'name15',
-        infoData: 'Some description #15 for some game i don no what can i write here so all gonna well',
+        name: 'Хохотун​',
+        infoData: 'Когда-нибудь чувствовал, ​что тебя распирает от радости? ​Сейчас буквально лопнешь! Наверняка ты столкнулся с Хохотуном. ',
         img: img16
     },
     {
         numberId: 16,
-        name: 'name16',
-        infoData: 'Some description #16 for some game i don no what can i write here so all gonna well',
+        name: 'Почемучка​',
+        infoData: 'Как работает телевизор? Интересно, а что там внутри часов тикает? А что если привязать к батарейке этот проводок? У тебя в голове сто вопросов? Это Почемучка их выдумывает. Все-то ему надо знать, ведь это самый любопытный чудик! ​',
         img: img17
     },
     {
         numberId: 17,
-        name: 'name17',
-        infoData: 'Some description #17 for some game i don no what can i write here so all gonna well',
+        name: 'Няша',
+        infoData: 'Сегодня все тебе улыбаются, все тебя хвалят и дают что-нибудь вкусненькое? Какой ты обаятельный. Наверное, у тебя завелась Няша-умиляша. Она всегда такая милая, поэтому у нее все получается. А может, это просто везение?​',
         img: img18
     },
     {
         numberId: 18,
-        name: 'name18',
-        infoData: 'Some description #18 for some game i don no what can i write here so all gonna well',
+        name: 'Болтушка​',
+        infoData: 'Опять разболтал кому-то секретик? Сложно удержаться, когда рядом с тобой Болтушка! У нее куча интересных историй, так что держать язык за зубами совсем не получается.​',
         img: img19
     },
     {
         numberId: 19,
-        name: 'name19',
-        infoData: 'Some description #19 for some game i don no what can i write here so all gonna well',
+        name: 'Пачкун​',
+        infoData: 'Так хочется попрыгать по лужам! Или покидаться грязью! А может влезть на забор и перепачкаться краской? Это все Пачкун тебя подговаривает. Он знает, как весело бывает порой как следует перепачкаться!​',
         img: img20
     },
     {
         numberId: 20,
-        name: 'name20',
-        infoData: 'Some description #20 for some game i don no what can i write here so all gonna well',
+        name: 'Понедельник​',
+        infoData: 'Это он не дает тебе поваляться подольше, заставляет есть противную кашу и выгоняет на уроки. Понедельник, прекрати! Ходят легенды, что если с ним подружиться, можно получить отличное настроение на всю неделю. Но вот как? Мы и сами не знаем.​',
         img: img21
     },
     {
         numberId: 21,
-        name: 'name21',
-        infoData: 'Some description #21 for some game i don no what can i write here so all gonna well',
+        name: 'Пискля​',
+        infoData: 'С Писклей точно знакомы все, у кого есть младшие братья или сестры. Это он подговаривает их пищать и жаловаться маме! Но он совсем не плохой, просто самый маленький! Подружись с ним и увидишь, как вам будет весело играть вместе!​',
         img: img22
     },
     {
         numberId: 22,
-        name: 'name22',
-        infoData: 'Some description #22 for some game i don no what can i write here so all gonna well',
+        name: 'Хлюпик​',
+        infoData: 'Ну вооот, погода противная, суп невкусный, домашки много задаааали! Хлюпаешь носом по любому поводу? Наверное в него забрался Хлюпик! Не прогоняй его сразу – иногда можно позволить себе немного похлюпать.​',
         img: img23
     },
     {
         numberId: 23,
-        name: 'name23',
-        infoData: 'Some description #23 for some game i don no what can i write here so all gonna well',
+        name: 'Скромняга​',
+        infoData: 'Стесняешься заговорить с симпатичной одноклассницей? Или растерялся, когда нужно выступать перед классом? Это все ​из-за Скромняги. Очень уж он стеснительный. ​',
         img: img24
     }
 ]

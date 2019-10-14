@@ -158,7 +158,7 @@ export default class GamesComponent extends React.Component {
                 </div>
                 <div className='gamesWindowBottomText'>
                     <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
-                    <p className='text-data'>Описание группа Вконтакте в которой можно обменяться повторными прилипалами</p>
+                    <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
                     <a className='header' href='#'>VKONTAKTE</a>
                     <div className='plaksaImages'>
                         <img

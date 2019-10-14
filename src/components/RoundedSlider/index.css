@@ -90,7 +90,7 @@
     top: -50px;
   }
   .dot span img{
-      max-width: 70px;
+      max-width: 90px;
   }
   .circle-carousel .next,
   .circle-carousel .prev,
@@ -133,8 +133,8 @@
 
   .circle-carousel .next,
   .slick-arrow.slick-next {
-    right: 30%;
-    bottom: 70%;
+    right: 38%;
+    bottom: 61%;
   }
   .circle-carousel .next::before, .slick-arrow.slick-next::before {
     transform: rotateY(180deg);
@@ -145,18 +145,18 @@
     top: 20px;
   }
   .circle-carousel .prev, .slick-arrow.slick-prev {
-    left: 30%;
-    bottom: 70%;
+    left: 38%;
+    bottom: 61%;
     border-radius: 15px 0 0 15px;
   }
   .prilipalyInfo{
-    width: 500px;
-    min-height: 250px;
+    width: 560px;
+    min-height: 200px;
     background: url(../../images/gamesTextBg.png) no-repeat;
     background-size: contain;
     position: absolute;
     padding: 30px;
-    bottom: 62%;
+    bottom: 65%;
     left: 0;
     right: 0;
     margin: auto;
@@ -168,6 +168,12 @@
       font-family: Ubuntu;
       position: relative;
       transform: rotate(-2deg);
+  }
+  .prilipalyInfo > p{
+    font-size: 14px;
+    padding: 13px 10px;
+    display: block;
+    margin: auto;
   }
   h4.lined::before,
   h4.lined::after{
