@@ -1,31 +1,55 @@
 self.__precacheManifest = [
   {
-    "revision": "78677ff3fc7835a80e189eb5ebf07ca8",
-    "url": "/prilipaly-five/static/media/raspberry1-noacod.78677ff3.png"
+    "revision": "98325c5c0b8ec47677e9e03f3d39fa37",
+    "url": "/prilipaly-five/static/media/23.98325c5c.png"
   },
   {
-    "revision": "a9757cd101fde04bf551",
-    "url": "/prilipaly-five/static/css/main.4e2ad153.chunk.css"
+    "revision": "f2a9ed3f4a1d612a13c5",
+    "url": "/prilipaly-five/static/css/main.4cf06c6e.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
-    "url": "/prilipaly-five/static/js/runtime~main.f4b9eeb8.js"
+    "url": "/prilipaly-five/static/js/runtime~main.20bfe9e0.js"
   },
   {
     "revision": "3a11169fb8c65a510bf6b2f59fa5a404",
     "url": "/prilipaly-five/static/media/pinkObayash.3a11169f.png"
   },
   {
-    "revision": "3efdcf80d7cbf04653a0",
-    "url": "/prilipaly-five/static/js/2.3efdcf80.chunk.js"
+    "revision": "a38657f92b38dab969d0",
+    "url": "/prilipaly-five/static/js/2.4eb20452.chunk.js"
+  },
+  {
+    "revision": "d0ade5fa8010e9beeae23aae51001944",
+    "url": "/prilipaly-five/static/media/prod-1.d0ade5fa.png"
   },
   {
     "revision": "d2583cd0942d66048bacb1050f9a8985",
     "url": "/prilipaly-five/static/media/gameImg0.d2583cd0.png"
   },
   {
+    "revision": "78677ff3fc7835a80e189eb5ebf07ca8",
+    "url": "/prilipaly-five/static/media/raspberry1-noacod.78677ff3.png"
+  },
+  {
+    "revision": "1baeb90727adf60b6d383e0e353397b8",
+    "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
+  },
+  {
+    "revision": "035f4ae30cb198f23f1cabce0153b217",
+    "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
+  },
+  {
+    "revision": "605805f323ed7bbd667b8922fe253ceb",
+    "url": "/prilipaly-five/static/media/tomat1.605805f3.png"
+  },
+  {
     "revision": "ed7f23e9f2e1b312b732cf44e64f9e16",
     "url": "/prilipaly-five/static/media/greenPlaksa.ed7f23e9.png"
+  },
+  {
+    "revision": "7a3017000156571dc8e1d138d4e94c77",
+    "url": "/prilipaly-five/static/media/melon.7a301700.png"
   },
   {
     "revision": "3585831083390de15d3d076b1c828cdb",
@@ -144,8 +168,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/22.1c05778f.png"
   },
   {
-    "revision": "98325c5c0b8ec47677e9e03f3d39fa37",
-    "url": "/prilipaly-five/static/media/23.98325c5c.png"
+    "revision": "f2a9ed3f4a1d612a13c5",
+    "url": "/prilipaly-five/static/js/main.4b921e04.chunk.js"
   },
   {
     "revision": "3f332258fb8e5425b6e9a56cea7e7914",
@@ -156,20 +180,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/mobile-phone.15cef59e.png"
   },
   {
-    "revision": "a9757cd101fde04bf551",
-    "url": "/prilipaly-five/static/js/main.a9757cd1.chunk.js"
-  },
-  {
     "revision": "733e8b9f9e2ec3627f5752278441adcb",
     "url": "/prilipaly-five/static/media/ufo3_7.733e8b9f.png"
-  },
-  {
-    "revision": "1baeb90727adf60b6d383e0e353397b8",
-    "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
-  },
-  {
-    "revision": "035f4ae30cb198f23f1cabce0153b217",
-    "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
   },
   {
     "revision": "c957697f8725b9f08abc22d07da37a0b",
@@ -180,16 +192,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/pigAndBanana.4b58aa7c.png"
   },
   {
-    "revision": "605805f323ed7bbd667b8922fe253ceb",
-    "url": "/prilipaly-five/static/media/tomat1.605805f3.png"
-  },
-  {
     "revision": "a116618fef731cca635ef49ca6193b44",
     "url": "/prilipaly-five/static/media/yellowmelon.a116618f.png"
-  },
-  {
-    "revision": "a8d12c61510ff298fa288187f5315e5c",
-    "url": "/prilipaly-five/static/media/prod-1.a8d12c61.png"
   },
   {
     "revision": "ea5d8bcc10d73c2330b712670d646da3",
@@ -200,8 +204,16 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/info-icon-active.3a51caf7.svg"
   },
   {
-    "revision": "bc549c86604dc20e128ef894d0a63237",
-    "url": "/prilipaly-five/static/media/logo-dixy.bc549c86.png"
+    "revision": "21c3d1075ad14bd3a6de570f33877f37",
+    "url": "/prilipaly-five/static/media/tomat2.21c3d107.png"
+  },
+  {
+    "revision": "6205dc151def22e0187ca7745cedf5dc",
+    "url": "/prilipaly-five/static/media/banana.6205dc15.png"
+  },
+  {
+    "revision": "349a13fc213d94cf27dd5292871e86ae",
+    "url": "/prilipaly-five/static/media/logo-dixy.349a13fc.png"
   },
   {
     "revision": "36745c2dd82d74ac182e9a7b71cc59ba",
@@ -216,12 +228,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/clouds-2.2ed1bb1f.png"
   },
   {
-    "revision": "54a9372cdb61cce30a2996bde5a99d0b",
-    "url": "/prilipaly-five/static/media/sec-sand.54a9372c.png"
-  },
-  {
     "revision": "d5e9e4b841a96e2a9150373d5dc34b7a",
     "url": "/prilipaly-five/static/media/back-sand.d5e9e4b8.png"
+  },
+  {
+    "revision": "54a9372cdb61cce30a2996bde5a99d0b",
+    "url": "/prilipaly-five/static/media/sec-sand.54a9372c.png"
   },
   {
     "revision": "6416cc796e3a9fa1e92ca410c143f5e2",
@@ -272,20 +284,36 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/wave.c31633d8.svg"
   },
   {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
+  },
+  {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/prilipaly-five/static/media/slick.ced611da.eot"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
+    "revision": "453e52d7027c8ae170d1b4532b68fc9b",
+    "url": "/prilipaly-five/static/media/prod-2.453e52d7.png"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/prilipaly-five/static/media/slick.ced611da.eot"
+    "revision": "e79862a7e8305f7a90ad59fe98073226",
+    "url": "/prilipaly-five/static/media/prod-3.e79862a7.png"
+  },
+  {
+    "revision": "e3cd4cf419075e306efc8af871b16528",
+    "url": "/prilipaly-five/static/media/prod-4.e3cd4cf4.png"
+  },
+  {
+    "revision": "b23affc0fd329f20d9c44317d67fa9d3",
+    "url": "/prilipaly-five/static/media/prod-p.b23affc0.png"
   },
   {
     "revision": "8159d310e3e65f79b708c3a217ac38cd",
@@ -304,11 +332,11 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/pinkInsect.19e20d29.png"
   },
   {
-    "revision": "3efdcf80d7cbf04653a0",
-    "url": "/prilipaly-five/static/css/2.b1a7fdfe.chunk.css"
+    "revision": "a38657f92b38dab969d0",
+    "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "9f8d3072ef8c012bf1642b1b80670d69",
+    "revision": "aae08f067fb7f31d7812e654a9b90595",
     "url": "/prilipaly-five/index.html"
   }
 ];
