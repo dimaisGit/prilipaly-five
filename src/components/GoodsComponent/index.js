@@ -14,7 +14,7 @@ export default class GoodsComponent extends React.Component {
                     <div className="sponsorsDescription">
                         <div className="sponsorsInfo">
                             <h4 className="header smaller lined">ТОВАРЫ-СПОНСОРЫ</h4>
-                            <p className="text-data">Лакомка никогда не упустит шанс съесть чего-нибудь вкусненького. Особенно, если за это можно получить еще больше Прилипал! </p>
+                            <p className="text-data">Пора подкрепиться! Лакомка никогда не упустит шанс съесть чего-нибудь вкусненького. Особенно, если за это можно получить еще больше Прилипал!</p>
                             <div className="formSearch">
                                 <form>
                                     <p>

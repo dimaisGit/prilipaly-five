@@ -5,6 +5,7 @@
     animation: bounceInDown 1s;
     transition: all .5s;
     top: 150px;
+    box-shadow: -4px 4px 0 #944287;
 }
 .logo-d.min{
     background: url(../../images/logo-dixy-min.png) no-repeat;

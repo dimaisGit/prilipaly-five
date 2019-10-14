@@ -4,13 +4,33 @@ import CloudsComponent from "../CloudsComponent";
 import SandComponent from "../SandComponent";
 import GrassComponent from '../GrassComponent'
 import apple from '../../images/apple-logo.png'
+import melon from '../../images/melon.png'
+import tomato from '../../images/tomat1.png'
+import tomato2 from '../../images/tomat2.png'
+import banana from '../../images/banana.png'
+import plant from '../../images/eggplant4.png'
 import googleP from '../../images/google-play.png'
+import berry from '../../images/raspberry1-noacod.png'
+import ufo from '../../images/ufo3_5.png'
+import ufo2 from '../../images/ufo3_3.png'
 
 
 export default class FooterComponent extends React.Component {
     render() {
         return (
             <div className='footerWindow'>
+                 <div className="bgToys">
+                        <img src={melon} className="footer-melon" />
+                        <img src={tomato} className="footer-tomato" />
+                        <img src={plant} className="footer-plant" />
+                        <img src={berry} className="footer-berry" />
+                        <img src={ufo} className="footer-ufo" />
+                        <img src={melon} className="footer-melon-2" />
+                        <img src={berry} className="footer-berry-2" />
+                        <img src={tomato2} className="footer-tomato-2" />
+                        <img src={banana} className="footer-banana" />
+                        <img src={ufo2} className="footer-ufo2" />
+                    </div>
                 <div className="footerContainer">
                     <CloudsComponent />
                     <GrassComponent />
@@ -46,11 +66,11 @@ export default class FooterComponent extends React.Component {
                                 проведения, сроки, адреса, порядок получения игрушек
                                 можете узнать по телефону горячей линии: 8-800-333-
                                 02-01 или на нашем <a href="https://dixy.ru/" target="_blank">сайте</a>. Акция может
-                                        быть
-                                        прекращена
-                                        предусмотренных правилами. В период проведения
-                                        акции не гарантируется наличие акционного товара в
-                                        каждом магазине ДИКСИ.
+                                            быть
+                                            прекращена
+                                            предусмотренных правилами. В период проведения
+                                            акции не гарантируется наличие акционного товара в
+                                            каждом магазине ДИКСИ.
                                 </p>
                             </div>
                             <div className="socialLinks">
@@ -70,7 +90,7 @@ export default class FooterComponent extends React.Component {
                             <a className="linkToSocial">
                                 <img src={apple}></img>
                             </a>
-                            <a className="linkToSocial">
+                            <a className="linkToSocial goog-pl">
                                 <img src={googleP}></img>
                             </a>
                         </div>
