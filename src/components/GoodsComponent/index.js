@@ -18,13 +18,13 @@ export default class GoodsComponent extends React.Component {
                             <div className="formSearch">
                                 <form>
                                     <p>
-                                    <label for="region" className="light">Ваш регион:</label>
+                                    <label htmlFor="region" className="light">Ваш регион:</label>
                                     <select id="region" name="region">
                                         <option>ЦФО</option>
                                         <option>СЗФО</option>
                                         <option>УФО</option>
                                     </select>
-                                    <label for=""></label>
+                                    <label htmlFor=""></label>
                                     <select className="sponsorsClass">
                                         <option selected>1 ТОВАР = 1 ПРИЛИПАЛА</option>
                                         <option>2 ТОВАРА = 1 ПРИЛИПАЛА</option>

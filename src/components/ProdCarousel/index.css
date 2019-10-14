@@ -82,7 +82,16 @@
     border: 10px solid transparent; /* Прозрачные границы */
     border-top: 10px solid green; /* Добавляем треугольник */
    }
-
+    .slick-list {
+        margin-right: 100px;
+    }
+    .currentGoodPage {
+        position: absolute;
+        left: 175px;
+        top: 280px;
+        color: white;
+        font-size: 20px;
+    }
    .slick-arrow.slick-prev{
     position: absolute;
     left: 9%;

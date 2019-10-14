@@ -153,5 +153,7 @@
     height: 436px;
     left: 19px;
     border-radius: 4px;
-    filter: brightness(0.3);
  }
+.ytp-cued-thumbnail-overlay-image {
+    width: 10px
+}
