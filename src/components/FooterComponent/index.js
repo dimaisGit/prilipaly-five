@@ -3,7 +3,8 @@ import './index.css'
 import CloudsComponent from "../CloudsComponent";
 import SandComponent from "../SandComponent";
 import GrassComponent from '../GrassComponent'
-
+import apple from '../../images/apple-logo.png'
+import googleP from '../../images/google-play.png'
 
 
 export default class FooterComponent extends React.Component {
@@ -14,16 +15,67 @@ export default class FooterComponent extends React.Component {
                     <CloudsComponent />
                     <GrassComponent />
                     <SandComponent />
-                    <nav className="footerNavigationPanel">
-                        <ul>
-                            <li><a href="#">КОЛЛЕКЦИЯ</a></li>
-                            <li><a href="#">ПРИЛОЖЕНИЕ-ИГРА</a></li>
-                            <li><a href="#">ТОВАРЫ-СПОНСОРЫ</a></li>
-                            <li><a href="#">КАРТА МАГАЗИНОВ</a></li>
-                            <li><a href="#">ИГРАЙ С ПРИЛИПАЛАМИ</a></li>
-                            <li><a href="#">ОБМЕН ПРИЛИПАЛАМИ</a></li>
-                        </ul>
-                    </nav>
+                    <div className="footerData">
+                        <div className="logoAll">
+                            <div className="logo-d"></div>
+                            <div className="logo-p"></div>
+                        </div>
+                        <nav className="footerNavigationPanel">
+                            <ul>
+                                <li><a href="#">КОЛЛЕКЦИЯ</a></li>
+                                <li><a href="#">ПРИЛОЖЕНИЕ-ИГРА</a></li>
+                                <li><a href="#">ТОВАРЫ-СПОНСОРЫ</a></li>
+                                <li><a href="#">КАРТА МАГАЗИНОВ</a></li>
+                                <li><a href="#">ИГРАЙ С ПРИЛИПАЛАМИ</a></li>
+                                <li><a href="#">ОБМЕН ПРИЛИПАЛАМИ</a></li>
+                            </ul>
+                        </nav>
+                        <div className="rulesAndLinks">
+                            <div className='ruleData'>
+                                <p className="rules">
+                                    За каждые 500 рублей в чеке (без учета табачной
+                                продукции (табак, табачные изделия и курительные
+                                принадлежности, в том числе трубок, кальянов,
+                                сигаретной бумаги, зажигалок)
+                                продукции)
+                                покупатель
+                                приобрести игрушку за 1 копейку.
+                                Акция проводится с 01.11.19 по 15.12.19 включительно.
+                                Подробности проведения акции, о товарах-спонсорах,
+                                информацию об организаторе акции, правила ее
+                                проведения, сроки, адреса, порядок получения игрушек
+                                можете узнать по телефону горячей линии: 8-800-333-
+                                02-01 или на нашем <a href="https://dixy.ru/" target="_blank">сайте</a>. Акция может
+                                        быть
+                                        прекращена
+                                        предусмотренных правилами. В период проведения
+                                        акции не гарантируется наличие акционного товара в
+                                        каждом магазине ДИКСИ.
+                                </p>
+                            </div>
+                            <div className="socialLinks">
+                                <a href="">Читать полные правила акции</a>
+                                <a href="https://dixy.ru/" target="_blank">Dixy.ru</a>
+                                <a href="tel:88003330201">8 800 333 02 01</a>
+                                <div className="smmLinks">
+                                    <a href="" target="_blank" className="social-icon vk"><i class="fab fa-vk"></i></a>
+                                    <a href="" target="_blank" className="social-icon f"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="" target="_blank" className="social-icon ok"><i class="fab fa-odnoklassniki"></i></a>
+                                    <a href="" target="_blank" className="social-icon ytube"><i class="fab fa-youtube"></i></a>
+                                    <a href="" target="_blank" className="social-icon inst"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="GamingCenter">
+                            <a className="linkToSocial">
+                                <img src={apple}></img>
+                            </a>
+                            <a className="linkToSocial">
+                                <img src={googleP}></img>
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         )
