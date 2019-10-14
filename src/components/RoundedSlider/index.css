@@ -89,7 +89,8 @@
     top: -50px;
   }
   .dot span img{
-      max-width: 90px;
+    max-width: 110px;
+    max-height: 180px;
   }
   .circle-carousel .next,
   .circle-carousel .prev,
@@ -159,7 +160,6 @@
     left: 0;
     right: 0;
     margin: auto;
-    /* z-index: 5; */
   }
   .prilipalyInfo h4{
       text-align: center;
@@ -226,4 +226,5 @@
     bottom: 50px;
     font-family: Ubuntu;
     font-size: 30px;
+    color: #fff;
   }

@@ -1,3 +1,8 @@
+.videoWindow{
+    position: relative;
+    top: -185px;  
+    margin-bottom: -185px;
+}
 .videoContainer{
     min-height: 90vh;
     background: url(../../images/backgroundMSK.jpg) no-repeat center;
@@ -8,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .contentBlocks > div{
     flex: 30%;
@@ -100,10 +105,13 @@
     animation: swell 13s infinite linear
 }
 .toys-1-2{
-    top: -140px;
+    top: -100px;
     position: relative;
     z-index: 150;
-    left: 200px;
+    left: 280px;
+}
+.toys-1-2 img{
+    max-width: 100px
 }
 .toys-2{
     justify-self: flex-end;
