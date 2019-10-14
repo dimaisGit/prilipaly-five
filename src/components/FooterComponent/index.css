@@ -1,0 +1,63 @@
+.footerContainer{
+    background: linear-gradient(135deg, #1082bf, #eec4ef);
+    height: 80vh;
+    position: relative;
+}
+.footerWindow{
+    height: 80vh;
+    overflow: hidden;
+}
+.footerContainer .sandContainer{
+    height: 140px;
+    bottom: -25px;
+}
+.footerContainer .grassContainer{
+    height: 110px;
+    bottom: 4px;
+}
+.footerNavigationPanel{
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255,255,255,.7);
+    width: 100%;
+}
+.footerNavigationPanel ul{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+}
+.footerNavigationPanel ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.footerNavigationPanel a{
+    color: #a84f9a;
+    position: relative;
+    transition: all .3s;
+    text-decoration: none;
+    font-family: Ubuntu;
+}
+.footerNavigationPanel a::after{
+    width: 0%;
+    bottom: -3px;
+    position: absolute;
+    content: '';
+    transition: all .3s;
+    background-color: #a84f9a;
+    height: 1px;
+    left: 0
+}
+.footerNavigationPanel a:hover{
+    filter: brightness(0.5);
+}
+.footerNavigationPanel a:hover::after{
+    width: 100%;
+    bottom: -3px;
+    position: absolute;
+    content: '';
+    background-color: #a84f9a;    
+    transition: all .3s;
+    height: 1px;
+    left: 0
+}
