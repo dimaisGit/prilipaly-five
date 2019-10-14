@@ -4,7 +4,15 @@ import CloudsComponent from "../CloudsComponent";
 import SandComponent from "../SandComponent";
 import GrassComponent from '../GrassComponent'
 import apple from '../../images/apple-logo.png'
+import melon from '../../images/melon.png'
+import tomato from '../../images/tomat1.png'
+import tomato2 from '../../images/tomat2.png'
+import banana from '../../images/banana.png'
+import plant from '../../images/eggplant4.png'
 import googleP from '../../images/google-play.png'
+import berry from '../../images/raspberry1-noacod.png'
+import ufo from '../../images/ufo3_5.png'
+import ufo2 from '../../images/ufo3_3.png'
 
 
 export default class FooterComponent extends React.Component {
@@ -12,6 +20,18 @@ export default class FooterComponent extends React.Component {
         return (
             <div className='footerWindow'>
                 <div className="footerContainer">
+                    <div className="bgToys">
+                        <img src={melon} />
+                        <img src={tomato} />
+                        <img src={plant} />
+                        <img src={berry} />
+                        <img src={ufo} />
+                        <img src={melon} />
+                        <img src={berry} />
+                        <img src={tomato2} />
+                        <img src={banana} />
+                        <img src={ufo2} />
+                    </div>
                     <CloudsComponent />
                     <GrassComponent />
                     <SandComponent />
@@ -46,11 +66,11 @@ export default class FooterComponent extends React.Component {
                                 проведения, сроки, адреса, порядок получения игрушек
                                 можете узнать по телефону горячей линии: 8-800-333-
                                 02-01 или на нашем <a href="https://dixy.ru/" target="_blank">сайте</a>. Акция может
-                                        быть
-                                        прекращена
-                                        предусмотренных правилами. В период проведения
-                                        акции не гарантируется наличие акционного товара в
-                                        каждом магазине ДИКСИ.
+                                            быть
+                                            прекращена
+                                            предусмотренных правилами. В период проведения
+                                            акции не гарантируется наличие акционного товара в
+                                            каждом магазине ДИКСИ.
                                 </p>
                             </div>
                             <div className="socialLinks">
