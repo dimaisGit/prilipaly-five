@@ -111,7 +111,6 @@ export default class GamesComponent extends React.Component {
     render() {
         const { gamesData, isNeedAnimate } = this.state
         let currentGame = gamesData.filter((item) => item.gameNumber === this.state.currentGame)[0];
-        console.log(currentGame);
         return(
             <div className='gamesWindow Background-bot'>
                 <div className='gamesWindowBg'>
