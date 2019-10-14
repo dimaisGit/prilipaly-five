@@ -19,19 +19,19 @@ export default class FooterComponent extends React.Component {
     render() {
         return (
             <div className='footerWindow'>
-                <div className="footerContainer">
-                    <div className="bgToys">
-                        <img src={melon} />
-                        <img src={tomato} />
-                        <img src={plant} />
-                        <img src={berry} />
-                        <img src={ufo} />
-                        <img src={melon} />
-                        <img src={berry} />
-                        <img src={tomato2} />
-                        <img src={banana} />
-                        <img src={ufo2} />
+                 <div className="bgToys">
+                        <img src={melon} className="footer-melon" />
+                        <img src={tomato} className="footer-tomato" />
+                        <img src={plant} className="footer-plant" />
+                        <img src={berry} className="footer-berry" />
+                        <img src={ufo} className="footer-ufo" />
+                        <img src={melon} className="footer-melon-2" />
+                        <img src={berry} className="footer-berry-2" />
+                        <img src={tomato2} className="footer-tomato-2" />
+                        <img src={banana} className="footer-banana" />
+                        <img src={ufo2} className="footer-ufo2" />
                     </div>
+                <div className="footerContainer">
                     <CloudsComponent />
                     <GrassComponent />
                     <SandComponent />
@@ -90,7 +90,7 @@ export default class FooterComponent extends React.Component {
                             <a className="linkToSocial">
                                 <img src={apple}></img>
                             </a>
-                            <a className="linkToSocial">
+                            <a className="linkToSocial goog-pl">
                                 <img src={googleP}></img>
                             </a>
                         </div>
