@@ -1,6 +1,6 @@
 .sliderContainer{
     background: linear-gradient(180deg, #DCFC00, #FE9103);
-    height: 875px;
+    height: 960px;
     overflow: hidden;
 }
 .sliderWindow::after{
@@ -19,6 +19,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
+    align-items: flex-start;
 }
 .sliderWindow{
   position: relative;

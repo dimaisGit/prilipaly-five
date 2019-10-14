@@ -223,3 +223,9 @@
       position: relative;
       transform: rotate(-2deg);
   }
+  .slides h2{
+    position: relative;
+    bottom: 50px;
+    font-family: Ubuntu;
+    font-size: 30px;
+  }

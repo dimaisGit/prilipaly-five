@@ -11,7 +11,8 @@ export default class SliderComponent extends React.Component {
                         <div className="infoBlock shadowViolet">
                             СОБЕРИ ВСЮ КОЛЛЕКЦИЮ ПРИЛИПАЛ!
                     </div>
-                        <div className="infoBlock red shadowRed">СОВЕРШИ ПОКУПКУ <span className="yellowText">ОТ 500 РУБЛЕЙ</span> И ЗАБЕРИ СВОЕГО ПРИЛИПАЛУ НА КАССЕ</div>
+                        <div className="infoBlock red shadowRed"><span className="yellowText">ЧТО ТЫ ЧУВСТВУЕШЬ СЕГОДНЯ?</span><p>ХОЧЕТСЯ ЧЕГО-НИБУДЬ ВКУСНЕНЬКОГО, ПОШАЛИТЬ ИЛИ, НАОБОРОТ,
+                            ПОЛЕНИТЬСЯ? ПРИЛИПАЛЫ ОЧЕНЬ ХОРОШО ТЕБЯ ПОНИМАЮТ. УЗНАЙ, ЧТО ЕЩЕ У ВАС ОБЩЕГО?</p> </div>
                     </div>
                     <SliderRound />
                 </div>

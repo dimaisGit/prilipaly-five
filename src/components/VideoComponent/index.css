@@ -145,3 +145,13 @@
 .toys-3-4 img{
     display: block;
 }
+.phoneContainer
+ iframe{
+    position: absolute;
+    bottom: 68px;
+    width: 245px;
+    height: 436px;
+    left: 19px;
+    border-radius: 4px;
+    filter: brightness(0.3);
+ }
