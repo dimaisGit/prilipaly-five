@@ -11,133 +11,59 @@ import Prod5 from '../../images/prod-p.png'
 import Info from '../../images/info-icon.svg'
 import InfoActive from '../../images/info-icon-active.svg'
 
+import { gooods } from "../../constants/goods";
+
 import './index.css'
 
 export default class ProdCarousel extends React.Component {
     constructor(props){
         super(props)
         this.state={
-            active: true
+            active: true,
+            goods: gooods
         }
     }
-    handleClick = (props) => {
+    handleClick = (itemIndex) => {
+        let goods = this.state.goods
+        goods[itemIndex].isDescActive = !goods[itemIndex].isDescActive
         this.setState({
-            active: !this.state.active
+            goods: goods
         })
     }
     render() {
         let settings = {
             dots: false,
-            infinite: true,
+            infinite: false,
             speed: 500,
             slidesToShow: 5,
             slidesToScroll: 5,
             adaptiveHeight: true
         };
-        const {active} = this.state
+        const {active, goods} = this.state
         return (
             <Slider {...settings}>
-                <div className="item class-1">
-                    <div className="item-img">
-                        <img src={Prod}></img>
-                    </div>
-                    <div className="item-info">
-                        <div className="item-info-icon"  onClick={this.handleClick}>
-                            {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
+                {goods.map((item, index) => (
+                    <div className='item class-1'>
+                        <div className='item-img'>
+                            <img src={item.img} />
                         </div>
-                        <div className="item-info-data "> 
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
+                        <div className='item-info'>
+                            <div className='item-info-icon' onClick={() => this.handleClick(index)}>
+                                {item.isDescActive ? <img src={InfoActive} /> : <img src={Info} />}
+                            </div>
+                            <div className={item.isDescActive ? 'item-info-data active' : 'item-info-data'}>
+                                <p>{item.description}</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="itemFullName">
-                        <p>Круассаны Мини «Amelite» с кремом</p>
-                    </div>
-                    <div className="itemPrice"><p>от 77 руб. </p></div>
-                </div>
-                <div className="item class-1">
-                    <div className="item-img">
-                        <img src={Prod2}></img>
-                    </div>
-                    <div className="item-info">
-                        <div className="item-info-icon"  onClick={this.handleClick}>
-                            {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
+                        <div className='itemFullName'>
+                            <p>{item.name}</p>
                         </div>
-                        <div className="item-info-data "> 
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
+                        <div className="itemPrice">
+                            <p>от {item.price} руб. </p>
                         </div>
                     </div>
-                    <div className="itemFullName">
-                        <p>Круассаны Мини «Amelite» с кремом</p>
-                    </div>
-                    <div className="itemPrice"><p>от 77 руб. </p></div>
-                </div>
-                <div className="item class-1">
-                    <div className="item-img">
-                        <img src={Prod3}></img>
-                    </div>
-                    <div className="item-info">
-                        <div className="item-info-icon"  onClick={this.handleClick}>
-                            {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
-                        </div>
-                        <div className="item-info-data "> 
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
-                        </div>
-                    </div>
-                    <div className="itemFullName">
-                        <p>Круассаны Мини «Amelite» с кремом</p>
-                    </div>
-                    <div className="itemPrice"><p>от 77 руб. </p></div>
-                </div>
-                <div className="item class-1">
-                    <div className="item-img">
-                        <img src={Prod4}></img>
-                    </div>
-                    <div className="item-info">
-                        <div className="item-info-icon"  onClick={this.handleClick}>
-                            {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
-                        </div>
-                        <div className="item-info-data "> 
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
-                        </div>
-                    </div>
-                    <div className="itemFullName">
-                        <p>Круассаны Мини «Amelite» с кремом</p>
-                    </div>
-                    <div className="itemPrice"><p>от 77 руб. </p></div>
-                </div>
-                <div className="item class-1">
-                    <div className="item-img">
-                        <img src={Prod5}></img>
-                    </div>
-                    <div className="item-info">
-                        <div className="item-info-icon"  onClick={this.handleClick}>
-                            {this.state.active ? <img src={InfoActive}></img> : <img src={Info}></img>}
-                        </div>
-                        <div className="item-info-data "> 
-                            <p>Чипсы лейс из печи. Ароматный укроп 85 г. Чипсы лейс из печи. Ароматный укроп 85 г., чипсы лейс из печи Лисички в сметане 85 г., чипсы Лейс из печи Нежный сыр 85 г.</p>
-                        </div>
-                    </div>
-                    <div className="itemFullName">
-                        <p>Круассаны Мини «Amelite» с кремом</p>
-                    </div>
-                    <div className="itemPrice"><p>от 77 руб. </p></div>
-                </div>
-                <div>
-                    <h3>1</h3>
-                </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                
+                ))}
+
             </Slider>
         );
     }

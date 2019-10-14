@@ -38,78 +38,11 @@ export default class SliderRound extends React.Component {
                     <div className="container">
                         <div className="circle-carousel" data-speed="1000">
                             <div className="slides">
-                                <div className="slide">
-                                    <h2>Slide 1</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 2</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 3</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 4</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 5</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 6</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 7</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 8</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 9</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 10</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 11</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 12</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 13</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 14</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 15</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 16</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 17</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 18</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 19</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 20</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 20</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 20</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 20</h2>
-                                </div>
-                                <div className="slide">
-                                    <h2>Slide 20</h2>
-                                </div>
+                                {prilipalaInfo.map((item, index) => (
+                                    <div className='slide'>
+                                        <h2>{index + 1} из  24</h2>
+                                    </div>
+                                ))}
                             </div>
                             <div className="pagination">
                                 {prilipalaInfo.map(item => (
