@@ -14,7 +14,7 @@
     background-size: contain;
     background-position: 100% bottom;
     height: 370px;
-    animation: swell 13s infinite linear;
+    animation: appearFromRight 1.8s ease-in-out, swell 13s infinite linear;
     z-index: 10;
 }
 .sand-2{
@@ -22,7 +22,7 @@
     background-size: contain;
     background-position: 20% bottom;
     height: 195px;
-    animation: swell 4s infinite linear;
+    animation: appearance 1.3s ease-in, swell 4s infinite linear;
     z-index: 20;
 }
 .sand-3{
@@ -30,6 +30,6 @@
     background-size: contain;
     background-position: 0 bottom;
     height: 230px;
-    animation: swell 7s infinite;
+    animation: appearance 1.4s ease-in, swell 7s infinite;
     z-index: 30;
 }

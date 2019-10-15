@@ -6,17 +6,17 @@ import yellow from '../../images/yellow.png'
 import apple from '../../images/apple-logo.png'
 import googleP from '../../images/google-play.png'
 
-
 export default class GrassComponent extends React.Component {
+
     render() {
         return (
             <div className="welcomeDataContainer">
                 <div className="logoContainerWelcome ">
                     <div className="logo-d min"></div>
-                    <div className="logo-p ">
+                    <div className="logo-p appear">
                     </div>
                     <p>C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
-                    <div className='startWindowClose main-logo' >
+                    <div className='startWindowClose main-logo appear' >
                         ПОЧУДИМ?
                     </div>
                 </div>

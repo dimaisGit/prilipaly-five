@@ -5,7 +5,7 @@ import SliderRound from '../RoundedSlider'
 export default class SliderComponent extends React.Component {
     render() {
         return (
-            <div className='sliderWindow'>
+            <div className='sliderWindow' id="collection">
                 <div className="sliderContainer">
                     <div className="infoBlockContainer">
                         <div className="infoBlock shadowViolet">

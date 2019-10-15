@@ -2,10 +2,10 @@
     position: absolute;
     text-align: center;
     right: 29%;
-    animation: bounceInDown 1s;
-    transition: all .5s;
+    transition: all .3s;
     top: 150px;
     box-shadow: -4px 4px 0 #944287;
+    max-height: 38px;
 }
 .logo-d.min{
     background: url(../../images/logo-dixy-min.png) no-repeat;
@@ -61,15 +61,16 @@
     position: absolute;
 }
 .girl img{
-    margin: auto;
-    display: block;
-    position: relative;
-    left: -150px;
-    bottom: -320px;
     max-height: 520px;
 }
 .girl{
-    animation: 7s swell infinite;
+    animation: appearance 1.7s ease-in-out, 7s swell infinite;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+   
 }
 .yellow{
     position: absolute;
@@ -143,4 +144,63 @@
     transform: translateY(-2px);
     transition: all .3s;
     filter: drop-shadow(2px 4px 6px #fff);
+}
+
+.logo-p.appear, .main-logo.appear{
+    animation: appearance 2.3s linear;
+    transition: all .7s;
+}
+@keyframes appearance{
+    from{
+        transform: translate(0,100vh);
+        bottom: -100vh;
+    }
+    40%{
+        transform: translate(0,100vh);
+        bottom: -100vh;
+    }
+    to{
+        transform: translate(0,0);
+        bottom: 0;
+    }
+}
+@keyframes appearFromNone{
+   0%{
+       opacity: 0
+   }
+   40%{
+       opacity: 0
+   }
+   100%{
+       opacity: 1
+   }
+}
+@keyframes appearFromLeft{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+    40%{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+@keyframes appearFromRight{
+    from{
+        transform: translate(100vh, 0);
+        right: -100vh;
+        left: 200vh
+    }
+    40%{
+        transform: translate(100vh, 0);
+        right: -100vh;
+        left: 200vh
+    }
+    to{
+        transform: translate(0,0);
+
+    }
 }

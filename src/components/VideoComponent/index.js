@@ -16,7 +16,7 @@ import melon from '../../images/yellowmelon.png'
 export default class VideoComponent extends React.Component {
     render() {
         return (
-            <div className='videoWindow'>
+            <div className='videoWindow' id="video">
                 <div className="videoContainer">
                     <div className="contentBlocks">
                         <div className="toysAndSocial">

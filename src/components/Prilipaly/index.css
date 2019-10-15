@@ -7,7 +7,7 @@
     justify-content: space-between;
 }
 .piggy{
-    animation: 7s swell  infinite;
+    animation: appearance 1.5s linear, 7s swell  infinite;
     position: relative;
     left: 110px;
     bottom: -5px;
@@ -17,7 +17,7 @@
     position: relative;
     align-self: flex-end;
     bottom: 15%;
-    animation: 7s swell  infinite;
+    animation: appearance 2.2s  ease-in-out, 7s swell  infinite;
     left: 320px;
     z-index: 35;
 }
@@ -25,15 +25,16 @@
     position: relative;
     left: 50px;
     bottom: 5px;
-    animation: swell 13s infinite;
+    animation: appearFromRight 2.2s ease-in-out, swell 13s infinite;
     z-index: 15;
 }
 .green{
     position: relative;
     align-self: flex-start;
-    top: -125px;
+    top: -125px; 
     right: 145px;
     z-index: 45;
+    animation: appearFromRight 1.5s ease-in;
 }
 .heart-box {
     position: absolute;
@@ -41,6 +42,7 @@
     height: 300px;
     bottom: 250px;
     left: 35px;
+    animation: appearance 1.5s linear;
   }
   .heart {
     position: absolute;

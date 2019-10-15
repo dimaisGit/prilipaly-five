@@ -9,7 +9,7 @@ import ProdCarousel from '../ProdCarousel'
 export default class GoodsComponent extends React.Component {
     render() {
         return (
-            <div className='goodsWindow'>
+            <div className='goodsWindow' id="sponsors">
                 <div className="goodsContainer">
                     <div className="sponsorsDescription">
                         <div className="sponsorsInfo">

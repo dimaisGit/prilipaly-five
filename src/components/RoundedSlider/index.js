@@ -15,7 +15,6 @@ export default class SliderRound extends React.Component {
 
     }
     handleSetCurrentGame = gameIndex => {
-        console.log(gameIndex)
         this.setState({
             isNeedAnimate: true
         })

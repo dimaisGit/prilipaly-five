@@ -42,12 +42,12 @@ export default class FooterComponent extends React.Component {
                         </div>
                         <nav className="footerNavigationPanel">
                             <ul>
-                                <li><a href="#">КОЛЛЕКЦИЯ</a></li>
-                                <li><a href="#">ПРИЛОЖЕНИЕ-ИГРА</a></li>
-                                <li><a href="#">ТОВАРЫ-СПОНСОРЫ</a></li>
-                                <li><a href="#">КАРТА МАГАЗИНОВ</a></li>
-                                <li><a href="#">ИГРАЙ С ПРИЛИПАЛАМИ</a></li>
-                                <li><a href="#">ОБМЕН ПРИЛИПАЛАМИ</a></li>
+                                <li><a href="#collection">КОЛЛЕКЦИЯ</a></li>
+                                <li><a href="#video">ПРИЛОЖЕНИЕ-ИГРА</a></li>
+                                <li><a href="#sponsors">ТОВАРЫ-СПОНСОРЫ</a></li>
+                                <li><a href="#map">КАРТА МАГАЗИНОВ</a></li>
+                                <li><a href="#game">ИГРАЙ С ПРИЛИПАЛАМИ</a></li>
+                                <li><a href="#exchange">ОБМЕН ПРИЛИПАЛАМИ</a></li>
                             </ul>
                         </nav>
                         <div className="rulesAndLinks">
@@ -80,7 +80,7 @@ export default class FooterComponent extends React.Component {
                                 <div className="smmLinks">
                                     <a href="" target="_blank" className="social-icon vk"><i class="fab fa-vk"></i></a>
                                     <a href="" target="_blank" className="social-icon f"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="" target="_blank" className="social-icon ok"><i class="fab fa-odnoklassniki"></i></a>
+                                    <a href="#" target="_blank" className="social-icon ok"><i class="fab fa-odnoklassniki"></i></a>
                                     <a href="" target="_blank" className="social-icon ytube"><i class="fab fa-youtube"></i></a>
                                     <a href="" target="_blank" className="social-icon inst"><i class="fab fa-instagram"></i></a>
                                 </div>

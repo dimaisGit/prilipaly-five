@@ -4,7 +4,7 @@ import './index.css'
 export default class MapComponent extends React.Component {
     render() {
         return (
-            <div className='mapWindow'>
+            <div className='mapWindow' id="map">
                 <div className="mapContainer">
                     <div className="infoBlock shadowViolet back">
                         <span class="blueText">АДРЕСА</span> <span class="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>

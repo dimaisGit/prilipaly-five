@@ -112,7 +112,7 @@ export default class GamesComponent extends React.Component {
         const { gamesData, isNeedAnimate } = this.state
         let currentGame = gamesData.filter((item) => item.gameNumber === this.state.currentGame)[0];
         return (
-            <div className='gamesWindow'>
+            <div className='gamesWindow' id="game">
                 <div className='gamesWindowBg'>
                     <CloudsComponent />
                     <div className="pril-bg"></div>
@@ -152,7 +152,7 @@ export default class GamesComponent extends React.Component {
                         ))}
                     </div>
                 </div>
-                <div className='gamesWindowBottomText'>
+                <div className='gamesWindowBottomText' id="exchange">
                     <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
                     <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
                     <a className='header' href='#'>VKONTAKTE</a>
