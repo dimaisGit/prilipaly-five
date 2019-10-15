@@ -15,7 +15,7 @@ export default class GrassComponent extends React.Component {
                     <div className="logo-d min"></div>
                     <div className="logo-p appear">
                     </div>
-                    <p>C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
+                    <p className="greetingText">C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
                     <div className='startWindowClose main-logo appear' >
                         ПОЧУДИМ?
                     </div>

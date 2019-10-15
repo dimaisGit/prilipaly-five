@@ -15,6 +15,7 @@
     left: 30px;
     filter: drop-shadow(2px 4px 6px #fff);
     position: absolute;
+    animation: rollIn 1s ease-in;
 }
 .logoContainerWelcome p{
     position: absolute;
@@ -77,10 +78,10 @@
     top:200px;
     left:70px;
     transform: rotate(-5deg);
-
 }
 .yellow img{
     max-height: 145px;
+    animation: appearFromTop 2.8s ease-in;
 }
 .blueSec{
     position: absolute;
@@ -90,6 +91,7 @@
     display: block;
     width: 230px;
     z-index: 80;
+    animation: appearFromTop 3.8s ease-in;
 }
 .infoBlock{
     padding: 10px 15px;
@@ -101,6 +103,7 @@
     text-align: center;
     font-weight: bold;
     line-height: 1.5;
+    animation: appearFromTop 2.8s ease-in;
 }
 .red{
     background-color: #E2000F;
@@ -150,6 +153,9 @@
     animation: appearance 2.3s linear;
     transition: all .7s;
 }
+.greetingText{
+    animation: appearFromNone 1s ease-in;
+}
 @keyframes appearance{
     from{
         transform: translate(0,100vh);
@@ -164,6 +170,19 @@
         bottom: 0;
     }
 }
+@keyframes appearFromTop{
+    0%{
+        transform: translate(0, -100vh);
+        top: -100vh;
+    }
+    40%{
+        transform: translate(0, -100vh);
+        top: -100vh;
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+ }
 @keyframes appearFromNone{
    0%{
        opacity: 0
@@ -204,3 +223,20 @@
 
     }
 }
+@keyframes rollIn {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+   70%{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+   }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }

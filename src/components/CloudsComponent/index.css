@@ -1,26 +1,46 @@
 .cloudsContainer{
     width: 100%;
-    top: 90px;
+    top: 100px;
     position: relative;
     filter: grayscale(1);
-    /* animation: wind 25s linear infinite; */
     animation-delay: 0ms;
 }
 .cloud-1{
     background: url(../../images/clouds-1.png) 0 200px;
-    animation: wind 25s ease-out infinite;
+    animation: wind 25s ease-in-out infinite;
     background-size: contain;
     height: 120px;
     width: 100%;
-    /* transition: 1s all */
+    margin-bottom: 80px;
+    
+}
+.cloud-1::after{
+    background: url(../../images/clouds-1.png) 0 200px;
+    animation: wind 30s ease-in-out infinite;
+    background-size: contain;
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    top: 120px;
+    content:'';
 }
 .cloud-2{
     background: url(../../images/clouds-2.png) 0 300px;
-    animation: wind 40s ease-out infinite;
+    animation: wind 40s ease-in-out infinite;
     background-size: contain;
-    height: 200px;
+    height: 230px;
     width: 100%;
-    
+}
+.cloud-2::after{
+    background: url(../../images/clouds-2.png) 0 200px;
+    animation: wind 38s ease-in-out infinite;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 220px;
+    opacity: .3;
+    content:'';
 }
 @keyframes wind{
     0% {
