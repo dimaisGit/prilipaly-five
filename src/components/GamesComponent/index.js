@@ -42,57 +42,57 @@ export default class GamesComponent extends React.Component {
                     gameNumber: 0,
                     gameImg: gameImg0,
                     posterImg: posterImg0,
-                    gameName: 'Collect puzzle #0',
-                    gameDescription: 'Some description #0 for some game i don no what can i write here so all gonna well',
+                    gameName: 'Влюбленное послание',
+                    gameDescription: 'Влюбляка просто обожает обниматься и дарить подарки. А еще она любит комплименты и добрые пожелания! Напиши в этой открытке все самые лучшие слова и подари любимому другу!',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo1,
                     gameNumber: 1,
                     gameImg: gameImg0,
                     posterImg: posterImg1,
-                    gameName: 'Collect puzzle #1',
-                    gameDescription: 'Some description #1 for some game i don no what can i write here so all gonna well',
+                    gameName: 'Летучие прилипучие',
+                    gameDescription: 'Складываем из бумаги по инструкции фигурку самолета, запускаем по всей квартире или на улице!',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo2,
                     gameNumber: 2,
                     gameImg: gameImg0,
                     posterImg: posterImg2,
-                    gameName: 'Collect puzzle #2',
-                    gameDescription: 'Some description #2 for some game i don no what can i write here so all gonna well',
+                    gameName: 'Прилипальная комната',
+                    gameDescription: 'Нихочуха тот еще вредина! Любит разгонять прилипал подальше. Поэтому они решили проучить Нихочуху и спрятаться куда подальше! Сможешь теперь их отыскать?',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo3,
                     gameNumber: 3,
                     gameImg: gameImg0,
                     posterImg: posterImg3,
-                    gameName: 'Collect puzzle #3',
-                    gameDescription: 'Some description #3 for some game i don no what can i write here so all gonna well',
+                    gameName: 'Секретная вкусняшка',
+                    gameDescription: 'Кто из прилипал больше всех любит вкусно поесть? Собери кусочки и узнай любимую вкусняшку прилипучего Обжоры!',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo4,
                     gameNumber: 4,
                     gameImg: gameImg0,
                     posterImg: posterImg4,
-                    gameName: 'Collect puzzle #4',
-                    gameDescription: 'Some description #4 for some game i don no what can i write here so all gonna well',
+                    gameName: 'ЗЛЮЧНЫЙ ЛАБИРИНТ',
+                    gameDescription: 'Злюка — любитель подшутить над прилипалами. Но иногда эти шутки бывают действительно злыми! Вот и сейчас, он завел друзей в лабиринт и забыл, как из него выбираться! Только ты ему можешь помочь',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo5,
                     gameNumber: 5,
                     gameImg: gameImg0,
                     posterImg: posterImg5,
-                    gameName: 'Collect puzzle #5',
-                    gameDescription: 'Some description #5 for some game i don no what can i write here so all gonna well',
+                    gameName: 'ИГРА ТЕНЕЙ',
+                    gameDescription: 'Страх просто до ужаса боится темноты! А в остальное время пугается собственной тени. Пора показать ему, что все это совсем не страшно! Кстати, а где его тень? Помоги прилипалам разобраться с этой незадачей!',
                     linkForPdf: '#'
                 }, {
                     gameLogo: gameLogo6,
                     gameNumber: 6,
                     gameImg: gameImg0,
                     posterImg: posterImg6,
-                    gameName: 'Collect puzzle #6',
-                    gameDescription: 'Some description #6 for some game i don no what can i write here so all gonna well',
-                    linkForPdf: '#'
+                    gameName: 'Раскрась прилипал',
+                    gameDescription: 'Раскрась прилипал',
+                    linkForPdf: '../../games/HeroesBWflat.pdf'
                 }
             ],
             currentGame: 0
@@ -124,7 +124,7 @@ export default class GamesComponent extends React.Component {
 
                     </div>
                     <div className='gameMechanic'>
-                        <div className= "imgContainer">
+                        <div className="imgContainer">
                             <img src={currentGame.gameImg} alt='gameImg' className='gameImg' />
                             <img src={currentGame.posterImg} alt='posterImg' className={isNeedAnimate ? 'posterImg leave' : 'posterImg stay'} />
                             <div className={isNeedAnimate ? 'gameData leave' : 'gameData stay'}>
@@ -135,7 +135,7 @@ export default class GamesComponent extends React.Component {
                                     {currentGame.gameDescription}
                                 </p>
                                 <a className='playLink' href={currentGame.linkForPdf}>
-                                   ИГРАТЬ
+                                    ИГРАТЬ
                             </a>
                             </div>
                         </div>
@@ -151,13 +151,13 @@ export default class GamesComponent extends React.Component {
                             />
                         ))}
                     </div>
-                    </div>
-                    <div className='gamesWindowBottomText'>
-                        <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
-                        <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
-                        <a className='header' href='#'>VKONTAKTE</a>
                 </div>
-                
+                <div className='gamesWindowBottomText'>
+                    <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
+                    <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
+                    <a className='header' href='#'>VKONTAKTE</a>
+                </div>
+
             </div>
         )
     }
