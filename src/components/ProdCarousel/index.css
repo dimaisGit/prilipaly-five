@@ -2,7 +2,7 @@
     flex: 60%;
     max-width: 60%;
     margin-left: 60px;
-    /* padding: 60px 0 0; */
+    padding: 36px 0;
 }
 .item, .item-info{
     display: flex !important;
@@ -24,6 +24,7 @@
 }
 .itemPrice p{
     font-size: .7em;
+    max-width:100%;
 }
 .item-img{
     display: flex;
@@ -34,6 +35,7 @@
 }
 .item-info{
     position: relative;
+    top: 6px;
 }
 .item-info-data{
     position: absolute;
@@ -91,6 +93,7 @@
         top: 280px;
         color: white;
         font-size: 20px;
+        font-family: Ubuntu;
     }
    .slick-arrow.slick-prev{
     position: absolute;

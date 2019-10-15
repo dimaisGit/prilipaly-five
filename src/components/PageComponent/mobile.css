@@ -31,4 +31,112 @@
     .blueSec{
         right: 50px!important;
     }
+    .infoBlock{
+        font-size: 13px!important;
+        max-width: 300px!important;
+    }
+    .prilipalyContainer{
+        height: 290px!important;
+    }
+    .prilipalyContainer img{
+        max-height: 150px!important;
+    }
+    .green{
+        right: 165px!important;
+        top: -143px!important;
+    }
+    .piggy{
+        bottom: 45px!important;
+    }
+    .heart-box{
+        bottom: 170px!important;
+    }
+    .dot span img{
+        max-width: 100px!important;
+        max-height: 100px!important;
+    }
+    .sliderContainer {
+        height: 650px!important;
+    }
+    .prilipalyInfo{
+        position: absolute!important;
+        padding: 26px 12px!important;
+        bottom: 62%!important;
+        width: 440px!important;
+        height: 166px!important;
+    }
+    .toys-1-2{
+        left: 140px!important;
+        top: -70px!important;
+    }
+    .toys-1-2 img {
+        max-width: 80px!important;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev{
+        left: 9%!important;
+        bottom: 58%!important;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next{
+        right: 33%!important;
+        bottom: 58%!important;
+    }
+    .slides h2{
+        bottom: -42px!important;
+        font-size: 25px!important;
+    }
+    .prilipalyInfo p{
+        padding: 0!important;
+    }
+    .prilipalyInfo::before, .prilipalyInfo::after{
+        height: 66px!important;
+        top: -49px!important;
+        background-position: 11px 0px, 47px 2px!important;
+    }
+
+    .circle-carousel .pagination{
+        width: 100%!important;
+        height: 100%!important;
+    }
+    .toys-2-1 img, .toys-3-4 img{
+        max-width: 240px!important;
+        max-height: 170px!important;
+    }
+    .toys-2-1{
+        bottom: -290px!important;
+    }
+    .toys-3-4{
+        bottom: 140px!important;
+    }
+    .contentBlocks{
+        margin-bottom: -340px!important;
+    }
+    .videoContainer{
+        min-height: 60vh!important;
+    }
+    .sponsorsDescription{
+        margin-left: 40px!important;
+        flex: 30%!important;
+    }
+    .sponsorsInfo{
+        width: 484px;
+        padding: 30px 20px!important;
+    }
+    .sponsorsCarousel{
+        margin-left: 0!important;
+    }
+    .slick-slide img {
+        display: block!important;
+        max-width: 70px!important;
+        height: auto!important;
+    }
+    .infoBlock::before{
+        height: 142px!important;
+        width: 75px!important;
+        left: 41px!important;
+        top: -100px!important;
+    }
+    .mapContainer .infoBlock{
+        padding-top: 10px!important;
+    }
 }
+
