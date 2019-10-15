@@ -45,7 +45,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #0',
                     gameDescription: 'Some description #0 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo1,
                     gameNumber: 1,
                     gameImg: gameImg0,
@@ -53,7 +53,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #1',
                     gameDescription: 'Some description #1 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo2,
                     gameNumber: 2,
                     gameImg: gameImg0,
@@ -61,7 +61,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #2',
                     gameDescription: 'Some description #2 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo3,
                     gameNumber: 3,
                     gameImg: gameImg0,
@@ -69,7 +69,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #3',
                     gameDescription: 'Some description #3 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo4,
                     gameNumber: 4,
                     gameImg: gameImg0,
@@ -77,7 +77,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #4',
                     gameDescription: 'Some description #4 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo5,
                     gameNumber: 5,
                     gameImg: gameImg0,
@@ -85,7 +85,7 @@ export default class GamesComponent extends React.Component {
                     gameName: 'Collect puzzle #5',
                     gameDescription: 'Some description #5 for some game i don no what can i write here so all gonna well',
                     linkForPdf: '#'
-                },{
+                }, {
                     gameLogo: gameLogo6,
                     gameNumber: 6,
                     gameImg: gameImg0,
@@ -111,67 +111,53 @@ export default class GamesComponent extends React.Component {
     render() {
         const { gamesData, isNeedAnimate } = this.state
         let currentGame = gamesData.filter((item) => item.gameNumber === this.state.currentGame)[0];
-        return(
-            <div className='gamesWindow Background-bot'>
+        return (
+            <div className='gamesWindow'>
                 <div className='gamesWindowBg'>
-                    <div className='gamesWindowSand'></div>
-                    <div className='gamesWindowSky'></div>
-                    <div className='gameGrass'>
-                        <div className='game-grass-1'></div>
-                        <div className='game-grass-2'></div>
-                    </div>
                     <CloudsComponent />
+                    <div className="pril-bg"></div>
                 </div>
-                <div className='gamesWindowText'>
-                    <h4 className='header smaller lined'>ИГРАЙ С ПРИЛИПАЛАМИ</h4>
-                    <p className='text-data'>Даже Ворчун не сможет удержаться с такими веселыми играми. Распечатывай, раскрашивай, складывай и играй с друзьями!</p>
-                    
-                </div>
-                <div className='gameMechanic'>
-                    <div>
-                        <img src={currentGame.gameImg} alt='gameImg' className='gameImg'/>
-                        <img src={currentGame.posterImg} alt='posterImg' className={isNeedAnimate ? 'posterImg leave' : 'posterImg stay'} />
-                        <div className={isNeedAnimate ? 'gameData leave' : 'gameData stay'}>
-                            <p className='gameName'>
-                                {currentGame.gameName}
-                            </p>
-                            <p className='gameDescription'>
-                                {currentGame.gameDescription}
-                            </p>
-                            <a className='playLink' href={currentGame.linkForPdf}>
-                                Play
+                <div className="gamingData">
+                    <div className='gamesWindowText'>
+                        <h4 className='header smaller lined'>ИГРАЙ С ПРИЛИПАЛАМИ</h4>
+                        <p className='text-data'>Даже Ворчун не сможет удержаться с такими веселыми играми. Распечатывай, раскрашивай, складывай и играй с друзьями!</p>
+
+                    </div>
+                    <div className='gameMechanic'>
+                        <div className= "imgContainer">
+                            <img src={currentGame.gameImg} alt='gameImg' className='gameImg' />
+                            <img src={currentGame.posterImg} alt='posterImg' className={isNeedAnimate ? 'posterImg leave' : 'posterImg stay'} />
+                            <div className={isNeedAnimate ? 'gameData leave' : 'gameData stay'}>
+                                <p className='gameName'>
+                                    {currentGame.gameName}
+                                </p>
+                                <p className='gameDescription'>
+                                    {currentGame.gameDescription}
+                                </p>
+                                <a className='playLink' href={currentGame.linkForPdf}>
+                                   ИГРАТЬ
                             </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className='gameButtons'>
-                    {gamesData.map((item) => (
-                        <img
-                            className='gameLogo'
-                            key={item.gameNumber}
-                            src={item.gameLogo}
-                            alt='game logo'
-                            onClick={(e) => this.handleSetCurrentGame(item.gameNumber)}
-                        />
-                    ))}
-                </div>
-                <div className='gamesWindowBottomText'>
-                    <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
-                    <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
-                    <a className='header' href='#'>VKONTAKTE</a>
-                    <div className='plaksaImages'>
-                        <img
-                            src={greenPlaksa}
-                            alt='plaksa'
-                        />
-                        <img
-                            src={greenPlaksa}
-                            alt='plaksa'
-                        />
+                    <div className='gameButtons'>
+                        {gamesData.map((item) => (
+                            <img
+                                className='gameLogo'
+                                key={item.gameNumber}
+                                src={item.gameLogo}
+                                alt='game logo'
+                                onClick={(e) => this.handleSetCurrentGame(item.gameNumber)}
+                            />
+                        ))}
                     </div>
-                    
+                    </div>
+                    <div className='gamesWindowBottomText'>
+                        <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
+                        <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
+                        <a className='header' href='#'>VKONTAKTE</a>
                 </div>
-                <div className="pril-bg"></div>
+                
             </div>
         )
     }

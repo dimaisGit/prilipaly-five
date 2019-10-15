@@ -1,89 +1,84 @@
 .gamesWindow {
-    height: 100vh;
+    padding: 0 0 250px;
     position: relative;
+}
+.gamingData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
 .gamesWindowBg {
     height: 100%;
     z-index: -5;
     position: absolute;
     width: 100%;
-}
-.gamesWindowSky {
-    background: url(../../images/gamesComponentSky.png) repeat-x;
-    background-size: 600px;
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    z-index: 0;
-    width: 100%;
-    height: 80%;
-}
-.gamesWindowSand {
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    height: 45%;
-    background: linear-gradient(930deg, #FFDC36, #FCA43E);
+    background: linear-gradient(360deg, #1685C1, #52b3e8), url(../../images/sand-gaming.svg) repeat-x;
+    background-position: 350px bottom;
+    background-blend-mode: overlay;
 }
 .gamesWindowText {
     font-family: 'Ubuntu', sans-serif;
-    position: absolute;
     background: url(../../images/gamesTextBg.png) no-repeat;
     width: 475px;
-    text-align: center;
-    background-size: cover;
-    left: 50%;
-    top: 70px;
+    text-align: center;   
     padding: 37px 34px;
-    transform: translateX(-50%);
     height: 170px;
     background-size: contain;
+    margin: 50px 0 25px;
 }
 .text-1-line-1, .text-1-line-2 {
-    position: absolute;
     background: url(../../images/curve1.png);
     width: 50px;
     height: 11px;
 }
 .text-2-line-1, .text-2-line-2 {
-    position: absolute;
     background: url(../../images/curve2.png) no-repeat;
     background-size: contain;
     width: 50px;
     height: 11px;
 }
-.text-1-line-1, .text-2-line-1 {
-    top: 44px;
-    left: 13px;
-}
-.text-1-line-2, .text-2-line-2 {
-    top: 44px;
-    right: 13px;
-}
-.plaksaImages {
-    position: absolute;
-    top: -70px;
-    right: 50px;
-}
-.plaksaImages img {
-    margin-left: 15px;
-}
+
 .gamesWindowBottomText {
     font-family: 'Ubuntu', sans-serif;
-    position: absolute;
     background: url(../../images/gamesBottomTextBg.png) no-repeat;
     background-size: cover;
     width: 590px;
     text-align: center;
     padding: 37px 34px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    bottom: 60px;
     height: 200px;
     background-size: contain;
     position: absolute;
     z-index: 5;
+    bottom: 42px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.gamesWindowBottomText::before{
+    position: absolute;
+    top: -71px;
+    left: 10px;
+    content: '';
+    width: 180px;
+    height: 91px;
+    background: url(../../images/grass-3-4.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
+    background-size: 40%, 50%;
+    background-position: 61px 43px, 30px 16px;
+    z-index: 0;
+    transform: rotate(-2deg);
+}
+.gamesWindowBottomText::after{
+    position: absolute;
+    content: '';
+    background: url(../../images/prilipaly/23.png) repeat-x;
+    height: 100px;
+    width: 125px;
+    background-size: contain;
+    top: -89px;
+    right: 50px;
+    transform: rotate(-3deg);
 }
 .gamesWindowText .header, .gamesWindowBottomText .header {
     font-size: 25px;
@@ -109,27 +104,7 @@ a.header:after {
     position: absolute;
     background: #FEED03;
 }
-.gameGrass {
-    position: absolute;
-    bottom: 30%;
-    left: 40%;
-}
-.game-grass-1 {
-    position: absolute;
-    width: 97px;
-    height: 95px;
-    background: url(../../images/grass-3-3.png);
-    animation: 1s windy-grass infinite;
-}
-.game-grass-2 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 106px;
-    height: 79px;
-    background: url(../../images/grass-3-4.png);
-    animation: 3s windy-grass infinite;
-}
+
 .gamesWindowText .text-data, .gamesWindowBottomText .text-data {
     font-size: 16px;
     color: white;
@@ -140,26 +115,20 @@ a.header:after {
     padding: 35px;
     box-shadow: 10px 10px 0px #A84F9A;
     font-family: 'Ubuntu', sans-serif;
-    position: absolute;
     width: 522px;
-    top: 255px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-bottom: 25px;
+}
+.imgContainer{
+    position: relative;
 }
 .posterImg {
     position: absolute;
-    left: 136px;
-    top: 50px;
+    left: 100px;
+    top: 17px;
     width: 35px;
     max-height: 40px;
 }
-.gameButtons {
-    position: absolute;
-    width: 525px;
-    top: 525px;
-    left: 50%;
-    transform: translateX(-50%);
-}
+
 .gameLogo {
     cursor: pointer;
     width: 65px;
@@ -196,8 +165,11 @@ a.header:after {
     width: 120px;
     padding: 10px;
     text-align: center;
+    color: #278DC5;
 }
-
+.playLink:hover{
+    filter: opacity(0.7);
+}
 .leave {
     opacity: 0;
     transition: .3s all;
@@ -206,26 +178,7 @@ a.header:after {
     opacity: 1;
     transition: .3s all;
 }
-.gamesPrilipaliLeft, .gamesPrilipaliRight {
-    position: absolute;
-    bottom: 85px;
-    left: 10%;
-    width: calc(50% - 255px);
-    max-width: 422px;
-}
-.gamesPrilipaliLeft img{
-    margin: 0 4%;
-    width: 15%;
-    max-width: 50px;
-}
-.gamesPrilipaliRight {
-    left: calc(67%)
-}
-.gamesPrilipaliRight img {
-    margin: 0 4%;
-    width: 12%;
-    max-width: 50px;
-}
+
 .pril-bg{
     width: 4000px;
     height: 200px;
