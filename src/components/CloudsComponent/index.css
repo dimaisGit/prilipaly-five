@@ -16,7 +16,7 @@
 }
 .cloud-1::after{
     background: url(../../images/clouds-1.png) 0 200px;
-    animation: wind 15s linear infinite;
+    animation: carousel 15s linear infinite;
     background-size: contain;
     height: 90px;
     width: 100%;
@@ -26,14 +26,14 @@
 }
 .cloud-2{
     background: url(../../images/clouds-2.png) 0 300px;
-    animation: wind 10s linear infinite;
+    animation: carousel 10s linear infinite;
     background-size: contain;
     height: 230px;
     width: 100%;
 }
 .cloud-2::after{
     background: url(../../images/clouds-2.png) 0 200px;
-    animation: wind 18s linear infinite;
+    animation: carousel 18s linear infinite;
     background-size: contain;
     height: 100px;
     width: 100%;
