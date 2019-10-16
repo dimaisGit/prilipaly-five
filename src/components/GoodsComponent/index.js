@@ -2,11 +2,17 @@ import React from 'react'
 // import SelectPage from '../../scripts/SelectPage'
 import './index.css'
 import ProdCarousel from '../ProdCarousel'
-
+import $ from 'jquery'
 
 
 
 export default class GoodsComponent extends React.Component {
+    constructor(props){
+        super(props)
+    }
+    componentDidMount(){
+        $('.sponsorsClass').addClass('.arrowed')
+    }
     render() {
         return (
             <div className='goodsWindow' id="sponsors">

@@ -30,7 +30,7 @@
 .sponsorsDescription  {
     position: relative;
     z-index: 300;
-    margin-top: 40px;
+    margin-top: 90px;
     margin-left: 80px;
     display: flex;
     justify-content: flex-start;
@@ -87,7 +87,31 @@ label.light{
     padding: 35px 20px;
     height: 211px;
     background-size: contain;
-
+    position: relative;
+}
+.sponsorsInfo::after{
+    content:'';
+    position: absolute;
+    height: 115px;
+    width: 70px;
+    background: url(../../images/prilipaly/3.png) no-repeat center;
+    background-size: contain;
+    left: 20px;
+    top: -70px;
+    z-index: 15;
+}
+.sponsorsInfo::before{
+    content:'';
+    position: absolute;
+    height: 115px;
+    width: 110px;
+    background: url(../../images/grass-3-3.png) no-repeat center;
+    background-size: contain;
+    background-position: 0 31px;
+    right: 42%;
+    top: -103px;
+    z-index: 0;
+    transform: rotate(-2.5deg);
 }
 .sponsorsInfo h4.header.smaller.lined{
     font-size: 18px;
@@ -100,8 +124,14 @@ label.light{
 .formSearch{
     margin-top: 10px;
 }
+#region{
+    color: #FDB91A;
+    cursor: pointer;
+}
 .sponsorsClass{
     position: relative;
+    cursor: pointer;
+    color: #FDB91A;
 }
 .sponsorsClass::after{
     position: absolute;
@@ -124,4 +154,9 @@ label.light{
 }
 .slick-initialized .slick-slide > div{
     display: flex!important;
+}
+
+select:focus option{
+    background: #fff;
+    color: #a84f9a;
 }

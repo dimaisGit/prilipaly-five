@@ -93,9 +93,11 @@
     max-height: 180px;
   }
   .circle-carousel .next,
+  .slick-prev, .slick-next,
   .circle-carousel .prev,
   .slick-arrow.slick-prev,
-  .slick-arrow.slick-next {
+  .slick-arrow.slick-next,
+  .slick-arrow.slick-disabled {
     position: absolute;
     bottom: 6%;
     z-index: 1;
@@ -103,7 +105,7 @@
     user-select: none;
     width: 35px;
     height: 40px;
-    background-color: #A84F9A;
+    background-color: #A84F9A !important;
     border-radius: 0 15px 15px 0;
   }
   .circle-carousel .next::before,
@@ -128,7 +130,10 @@
   .slick-arrow.slick-prev:hover,
   .slick-arrow.slick-next:hover {
     cursor: pointer;
-
+    background-color: #A84F9A;
+  }
+  .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
+    background-color: #A84F9A;
   }
 
   .circle-carousel .next,

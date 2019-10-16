@@ -89,24 +89,25 @@
     }
     .currentGoodPage {
         position: absolute;
-        left: 175px;
-        top: 280px;
+        left: 14%;
+        bottom: 60px;
         color: white;
-        font-size: 20px;
+        font-size: 29px;
         font-family: Ubuntu;
     }
    .slick-arrow.slick-prev{
     position: absolute;
     left: 9%;
     bottom: -20px;
-    margin-top: 100px;
+    margin-top: 130px;
     z-index: 330;
    }
+ 
    .slick-arrow.slick-next{
     position: absolute;
     left: 21%;
     bottom: -20px;
-    margin-top: 100px;
+    margin-top: 130px;
     z-index: 330;
    }
    .slick-slider{
