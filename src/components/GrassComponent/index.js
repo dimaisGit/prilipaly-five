@@ -9,7 +9,7 @@ export default class GrassComponent extends React.Component {
                     <div className="grass-1-1"></div>
                     <div className="grass-1-2"></div>
                 </div>
-                <div className="grass grass-2">
+                <div className="grass grass-2 ">
                     <div className="grass-2-1"></div>
                     <div className="grass-2-2"></div>
                 </div>

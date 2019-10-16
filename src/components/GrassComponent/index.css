@@ -14,7 +14,8 @@
   height: 200px;
   bottom: 0;
   z-index: 0;
-  animation: appearFromNone 3.5s linear;
+  opacity: 0;
+  animation: appearFromNone 3.5s ease-in 1.5s forwards;
 }
 .grass-1-1{
   background: url(../../images/grass-2-2.png) no-repeat;
@@ -39,7 +40,8 @@
   height: 200px;
   z-index: 60;
   bottom: 0;
-  animation: appearFromNone 3.5s ease-in;
+  opacity: 0;
+  animation: appearFromNone 2.5s ease-in 2.5s forwards;
 }
 .grass-2-1{
   background: url(../../images/grass-3-1.png) no-repeat;
@@ -67,7 +69,8 @@
   height: 480px;
   right: 0;
   bottom: 120px;
-  animation: appearFromNone 2.5s ease-in;
+  opacity:0;
+  animation: appearFromNone 2.5s ease-in .8s forwards;
 }
 .grass-4{
     background: url(../../images/grass-1.png) no-repeat bottom;
@@ -78,7 +81,19 @@
     bottom: -22px;
     right: -15px;
     z-index: 40;
-    animation: appearFromNone 1.5s ease-in;
+    opacity:0;
+    animation: appearFromNone .6s ease-in 1.7s forwards;
+}
+.grass-4::after{
+  content:'';
+  position: absolute;
+  height: 185px;
+  width: 130px;
+  background: url(../../images/prilipaly/2.png) no-repeat center;
+  background-size: contain;
+  right: 30%;
+  top: -110px;
+  z-index: 15;
 }
 .grass-3-1{
   background: url(../../images/grass-1-2.png) no-repeat;

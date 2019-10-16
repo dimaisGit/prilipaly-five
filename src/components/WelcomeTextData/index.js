@@ -38,9 +38,6 @@ export default class GrassComponent extends React.Component {
                     </a>
                     </div>
                 </div>
-                <div className="girl">
-                    <img src={girl}></img>
-                </div>
             </div>
         )
     }

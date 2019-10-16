@@ -65,7 +65,8 @@
     max-height: 520px;
 }
 .girl{
-    animation: appearance 1.7s ease-in-out, 7s swell infinite;
+    opacity: 0;
+    animation: appearanceGirl 2.2s ease-in-out 1.2s forwards, 7s swell infinite;
     margin: auto;
     display: block;
     position: absolute;
@@ -150,7 +151,7 @@
 }
 
 .logo-p.appear, .main-logo.appear{
-    animation: appearance 2.3s linear;
+    animation: appearance 1.1s linear;
     transition: all .7s;
 }
 .greetingText{
@@ -161,13 +162,47 @@
         transform: translate(0,100vh);
         bottom: -100vh;
     }
-    40%{
-        transform: translate(0,100vh);
-        bottom: -100vh;
-    }
+
     to{
         transform: translate(0,0);
         bottom: 0;
+        opacity: 1;
+    }
+}
+@keyframes appearanceGirl{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 30%;
+    }
+}
+@keyframes appearanceBlue{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 13%;
+    }
+}
+@keyframes appearancePiggy{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 5%;
     }
 }
 @keyframes appearFromTop{
@@ -175,21 +210,17 @@
         transform: translate(0, -100vh);
         top: -100vh;
     }
-    40%{
-        transform: translate(0, -100vh);
-        top: -100vh;
-    }
+   
     100%{
         transform: translate(0, 0);
+        opacity: 1
     }
  }
 @keyframes appearFromNone{
    0%{
        opacity: 0
    }
-   40%{
-       opacity: 0
-   }
+   
    100%{
        opacity: 1
    }
@@ -199,30 +230,26 @@
         transform: translate(-100vh, 0);
         left: -100vh;
     }
-    40%{
-        transform: translate(-100vh, 0);
-        left: -100vh;
-    }
+   
     to{
         transform: translate(0,0);
+        opacity:1;
+        left: 0
     }
 }
 @keyframes appearFromRight{
     from{
-        transform: translate(100vh, 0);
-        right: -100vh;
-        left: 200vh
+        transform: translate(-200vh, 0);
+        right: -200vh;
     }
-    40%{
-        transform: translate(100vh, 0);
-        right: -100vh;
-        left: 200vh
-    }
+   
     to{
-        transform: translate(0,0);
-
+        transform: translate(0, 0);
+        right:0;
+        opacity: 1
     }
 }
+
 @keyframes rollIn {
     from {
       opacity: 0;

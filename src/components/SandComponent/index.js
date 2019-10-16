@@ -6,7 +6,7 @@ export default class SandComponent extends React.Component {
         return (
             <div className="sandContainer">
                 <div className="sand parallax sand-1"  data-speed="20"></div>
-                <div className="sand parallax sand-2"  data-speed="10"></div>
+                <div className="sand  sand-2"  data-speed="10"></div>
                 <div className="sand parallax sand-3"  data-speed="15"></div>
             </div>
         )
