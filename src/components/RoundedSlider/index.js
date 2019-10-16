@@ -57,7 +57,7 @@ export default class SliderRound extends React.Component {
                                     <div className="item">
                                         <div className="dot">
                                             <span>
-                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img} alt = {item.alt} className="lazy"/>
+                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img}/>
                                             </span>
                                         </div>
                                     </div>

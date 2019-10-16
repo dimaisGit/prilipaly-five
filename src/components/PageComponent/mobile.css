@@ -138,5 +138,65 @@
     .mapContainer .infoBlock{
         padding-top: 10px!important;
     }
+    .welcomeContent .sand-3::before{
+        bottom: 12%;
+        height: 410px;
+        width: 268px;
+    }
+    .welcomeContent .sand-3::after{
+        bottom: 21%;
+    }
+    .welcomeContent .sand-1::before{
+        height: 145px;
+    }
+    .grass-3{
+        width: 158px;
+        height: 390px;
+    }
+    .grass-3-1{
+        width: 140px;
+        height: 380px;
+        left: 60px;
+    }
+    .grass-3-2{
+        width: 170px;
+        height: 270px;
+    }
+    .grass-4{
+        width: 410px;
+        height: 327px;
+    }
+    .welcomeContent .grass-4::after{
+        right: 29%;
+        top: -95px;
+        height: 170px;
+        width: 120px;
+    }
+    .prilipalyContainer{
+        bottom: -13px;
+    }
+    .grass-1-1{
+        width: 273px;
+        height: 400px;
+        bottom: 90px;
+    }
+    .grass-1-2{
+        width: 246px;
+        height: 210px; 
+    }
+    .grass-2-1{
+        width: 296px;
+        height: 180px;  
+    }
+    .grass-2-2{
+        width: 246px;
+        height: 98px;
+    }
+    .main-logo{
+        right: 34%;
+    }
+    .logoContainerWelcome .logo-p{
+        right: 30%;
+    }
 }
 
