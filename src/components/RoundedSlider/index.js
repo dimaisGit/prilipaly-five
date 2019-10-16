@@ -2,6 +2,12 @@ import React from 'react'
 import './index.css'
 import { slider } from '../../scripts/slider'
 import { prilipalyData } from "../../constants/prilipaly";
+import LazyLoad from "vanilla-lazyload";
+import lazyloadConfig from "./config/lazyload";
+
+if (!document.lazyLoadInstance) {
+    document.lazyLoadInstance = new LazyLoad(lazyloadConfig);
+  }
 
 
 export default class SliderRound extends React.Component {
@@ -24,12 +30,15 @@ export default class SliderRound extends React.Component {
         }), 300)
     }
     componentDidMount() {
+        document.lazyLoadInstance.update();
         slider()
     }
+    componentDidUpdate() {
+        document.lazyLoadInstance.update();
+      }
     render() {
-        const { prilipalaInfo, isNeedAnimate } = this.state
+        const { prilipalaInfo, isNeedAnimate, alt, src, srcset } = this.state
         let currentGame = prilipalaInfo.filter((item) => item.numberId === this.state.curPrilipala)[0];
-        console.log(currentGame);
         return (
             <div className="sliderRounded">
 
@@ -48,7 +57,7 @@ export default class SliderRound extends React.Component {
                                     <div className="item">
                                         <div className="dot">
                                             <span>
-                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img}></img>
+                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img} alt = {item.alt} className="lazy"/>
                                             </span>
                                         </div>
                                     </div>

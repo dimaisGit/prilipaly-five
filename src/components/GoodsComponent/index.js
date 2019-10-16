@@ -3,7 +3,7 @@ import React from 'react'
 import './index.css'
 import ProdCarousel from '../ProdCarousel'
 import $ from 'jquery'
-
+// import triangle from '../../images/triangle.png'
 
 
 export default class GoodsComponent extends React.Component {
@@ -11,8 +11,10 @@ export default class GoodsComponent extends React.Component {
         super(props)
     }
     componentDidMount(){
-        $('.sponsorsClass').addClass('.arrowed')
+        $('.sponsorsClass').addClass('arrowed')
+        $('#region').addClass('arrowed')
     }
+    
     render() {
         return (
             <div className='goodsWindow' id="sponsors">

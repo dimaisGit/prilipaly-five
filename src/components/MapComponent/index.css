@@ -1,6 +1,5 @@
 .mapContainer{
-    min-height: 40vh;
-    /* background-color: #8181dc; */
+    min-height: 60vh;
     position: relative;
     z-index: 200;
 }

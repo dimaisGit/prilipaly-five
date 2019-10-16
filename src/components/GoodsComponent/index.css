@@ -155,7 +155,9 @@ label.light{
 .slick-initialized .slick-slide > div{
     display: flex!important;
 }
-
+.arrowed{
+    background: url(../../images/triangle.png) no-repeat right;
+}
 select:focus option{
     background: #fff;
     color: #a84f9a;
