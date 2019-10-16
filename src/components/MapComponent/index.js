@@ -1,45 +1,65 @@
 import React from 'react'
 import './index.css'
 import {data} from '../../data/shops'
+import { cities } from "../../data/cities";
 
 export default class MapComponent extends React.Component {
     componentDidMount() {
-        window.ymaps.ready(init);
+        window.ymaps.ready(this.init);
+    }
 
-        function init() {
-            let myMap = new window.ymaps.Map('map', {
-                    center: [55.76, 37.64],
-                    zoom: 10
-                }, {
-                    searchControlProvider: 'yandex#search'
-                }),
-                objectManager = new window.ymaps.ObjectManager({
-                    // Чтобы метки начали кластеризоваться, выставляем опцию.
-                    clusterize: true,
-                    // ObjectManager принимает те же опции, что и кластеризатор.
-                    gridSize: 64,
-                    clusterDisableClickZoom: true
-                });
+    init = () => {
+        this.myMap = new window.ymaps.Map('map', {
+                center: [55.76, 37.64],
+                zoom: 10
+            }, {
+                searchControlProvider: 'yandex#search'
+            })
+        let objectManager = new window.ymaps.ObjectManager({
+            // Чтобы метки начали кластеризоваться, выставляем опцию.
+            clusterize: true,
+            // ObjectManager принимает те же опции, что и кластеризатор.
+            gridSize: 64,
+            clusterDisableClickZoom: true
+        });
 
-            // Чтобы задать опции одиночным объектам и кластерам,
-            // обратимся к дочерним коллекциям ObjectManager.
-            objectManager.objects.options.set('iconColor', '#111111');
-            objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
-            myMap.geoObjects.add(objectManager);
+        // Чтобы задать опции одиночным объектам и кластерам,
+        // обратимся к дочерним коллекциям ObjectManager.
+        objectManager.objects.options.set('iconColor', '#111111');
+        objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+        this.myMap.geoObjects.add(objectManager);
 
-            let center;
-            let getGeocode = new window.ymaps.geocode('Moscow', {
-                results: 1
-            }).then(function (res) {
-                center = res.geoObjects.get(0).geometry.getCoordinates();
-                console.log(center)
-                myMap.setCenter(center);
-            });
-            // fetch('https://d.mywfc.ru/local/ajax/components/dixy_shop_points.php')
-            //     .then(response => response.json())
-            //     .then(resJson => console.log(resJson));
-            objectManager.add(data);
+        let center;
+        let getGeocode = new window.ymaps.geocode('Moscow', {
+            results: 1
+        }).then(function (res) {
+            center = res.geoObjects.get(0).geometry.getCoordinates();
+            console.log(center)
+            this.myMap.setCenter(center);
+        });
+        let resultingObjects = data.map((item, index) => {
+            return {
+                type: 'Feature',
+                id: index,
+                geometry: {
+                    type: 'Point',
+                    coordinates: [item[0], item[1]]
+                }
+            }
+        })
+        let resultingData = {
+            "type": "FeatureCollection",
+            "features": resultingObjects
         }
+        objectManager.add(resultingData);
+    }
+
+    onCityChange = (e) => {
+        const { value } = e.target
+        console.log(value);
+        let currentCity = cities.filter(item => item.city === value)[0];
+        console.log(currentCity)
+        this.myMap.setCenter(currentCity.coordinates);
     }
 
     render() {
@@ -51,9 +71,8 @@ export default class MapComponent extends React.Component {
                         <span class="blueText">АДРЕСА</span> <span class="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
                     <div className="searchingFormMap shadowVioletOther">
                         <form>
-                            <select name="city">
-                                <option selected>Москва</option>
-                                <option >Санкт-Петербург</option>
+                            <select name="city" onChange={(e) => { e.persist(); this.onCityChange(e)}}>
+                                {cities.map(item => <option>{item.city}</option>)}
                             </select><label for="city"></label>
                             <select name="region">
                                 <option selected disabled>Район</option>
