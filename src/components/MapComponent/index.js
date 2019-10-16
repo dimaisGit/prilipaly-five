@@ -44,7 +44,7 @@ export default class MapComponent extends React.Component {
 
     render() {
         return (
-            <div className='mapWindow' id="map">
+            <div className='mapWindow'>
                 <div className="mapContainer">
                     <div id='map' style={{ width: '100%', height: '600px', position: 'absolute', top: 0}}></div>
                     <div className="infoBlock shadowViolet back">
