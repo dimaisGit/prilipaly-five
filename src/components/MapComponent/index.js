@@ -4,17 +4,33 @@ import {data} from '../../data/shops'
 import { cities } from "../../data/cities";
 
 export default class MapComponent extends React.Component {
-    componentDidMount() {
-        window.ymaps.ready(this.init);
+    componentDidMount = () => {
+        window.ymaps.ready(this.setInit);
     }
 
-    init = () => {
+    setInit = () => {
+        setTimeout(this.init, 7000)
+    }
+
+    sleep = ms => {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    init = async () => {
+        let zoomControl = new window.ymaps.control.ZoomControl({
+            options: {
+                float: 'right'
+            }
+        })
         this.myMap = new window.ymaps.Map('map', {
                 center: [55.76, 37.64],
-                zoom: 10
-            }, {
-                searchControlProvider: 'yandex#search'
-            })
+                zoom: 10,
+                controls: [zoomControl]
+            },
+            {
+                zoomControlFloat: 'right'
+            }
+        )
         let objectManager = new window.ymaps.ObjectManager({
             // Чтобы метки начали кластеризоваться, выставляем опцию.
             clusterize: true,
@@ -37,7 +53,7 @@ export default class MapComponent extends React.Component {
             console.log(center)
             this.myMap.setCenter(center);
         });
-        let resultingObjects = data.map((item, index) => {
+        let resultingObjects = data.map( async (item, index) => {
             return {
                 type: 'Feature',
                 id: index,
@@ -47,11 +63,15 @@ export default class MapComponent extends React.Component {
                 }
             }
         })
-        let resultingData = {
-            "type": "FeatureCollection",
-            "features": resultingObjects
-        }
-        objectManager.add(resultingData);
+        let resultingData
+        Promise.all(resultingObjects).then((completed) => {
+            resultingData = {
+                "type": "FeatureCollection",
+                "features": completed
+            }
+            objectManager.add(resultingData);
+            console.log(resultingData)
+        });
     }
 
     onCityChange = (e) => {
