@@ -5,15 +5,16 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    /* align-items: flex-end; */
     bottom: 0;
+    /* z-index:1; */
 }
 .grass-1{
   position: absolute;
   width: 200px;
   height: 200px;
   bottom: 0;
-  z-index: 0;
+  /* z-index: 1; */
   opacity: 0;
   animation: appearFromNone 3.5s ease-in 1.5s forwards;
 }
@@ -50,7 +51,6 @@
   position: absolute;
   bottom: -30px;
   background-size: contain;
-  z-index: 50;
   animation: 10s windy-grass infinite;
   left: -5px;
 }
@@ -61,7 +61,6 @@
   position: absolute;
   bottom: 0;
   background-size: contain;
-  z-index: 50;
 }
 .grass-3{
   position: absolute;
@@ -93,7 +92,6 @@
   background-size: contain;
   right: 30%;
   top: -110px;
-  z-index: 15;
 }
 .grass-3-1{
   background: url(../../images/grass-1-2.png) no-repeat;

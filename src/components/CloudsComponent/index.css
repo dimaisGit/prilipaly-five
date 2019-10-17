@@ -6,9 +6,11 @@
     animation-delay: 0ms;
 }
 .cloud-1{
-    background: url(../../images/clouds-1.png) 0 200px;
-    animation: wind 25s linear infinite;
+    background: url(../../images/clouds-1.png) ;
+    background-repeat: repeat-x;
+    animation: carousel 55s linear infinite forwards;
     background-size: contain;
+    background-position: 0 0;
     height: 120px;
     width: 100%;
     margin-bottom: 80px;
@@ -16,7 +18,7 @@
 }
 .cloud-1::after{
     background: url(../../images/clouds-1.png) 0 200px;
-    animation: carousel 15s linear infinite;
+    animation: carousel 175s linear infinite forwards;
     background-size: contain;
     height: 90px;
     width: 100%;
@@ -25,16 +27,17 @@
     content:'';
 }
 .cloud-2{
-    background: url(../../images/clouds-2.png) 0 300px;
-    animation: carousel 10s linear infinite;
+    background: url(../../images/clouds-2.png);
+    animation: carousel 195s linear infinite forwards;
     background-size: contain;
     height: 230px;
     width: 100%;
 }
 .cloud-2::after{
     background: url(../../images/clouds-2.png) 0 200px;
-    animation: carousel 18s linear infinite;
+    animation: carousel 188s linear infinite forwards;
     background-size: contain;
+    background-repeat: repeat-x; 
     height: 100px;
     width: 100%;
     position: absolute;
@@ -42,11 +45,12 @@
     opacity: .3;
     content:'';
 }
-@keyframes wind{
-    0% {
-        background-position: 0 0px, 0 300px;
+
+@keyframes carousel{
+    from{
+        background-position: -200%;
     }
-    100% {
-        background-position: 1160px 0px, 1200px 300px;
+    to{
+        background-position: 200%;
     }
 }

@@ -186,19 +186,10 @@ a.header:after {
     position: absolute;
     left: 0;
     bottom: 20px;
-    animation: carousel 90s infinite linear;
     z-index: 1;
     background-size: 40%;
-    filter: drop-shadow(1px 1px 4px rgba(0,0,0,.7));
 }
-@keyframes carousel{
-    from{
-        background-position: -100% 0;
-    }
-    to{
-        background-position: 100% 0;
-    }
-}
+
 
 
 

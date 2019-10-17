@@ -15,7 +15,7 @@
 }
 @media(max-width:1401px){
  .orange img{
-     max-width: 100px;
+     max-width: 100px!important;
  }
  .orange{
      bottom: -15px!important;
@@ -72,11 +72,11 @@
     .toys-1-2 img {
         max-width: 80px!important;
     }
-    .circle-carousel .prev, .slick-arrow.slick-prev{
+     .slick-arrow.slick-prev{
         left: 9%!important;
         bottom: 58%!important;
     }
-    .circle-carousel .next, .slick-arrow.slick-next{
+    .slick-arrow.slick-next{
         right: 33%!important;
         bottom: 58%!important;
     }
@@ -118,7 +118,7 @@
         flex: 30%!important;
     }
     .sponsorsInfo{
-        width: 484px;
+        width: 484px!important;
         padding: 30px 20px!important;
     }
     .sponsorsCarousel{
@@ -240,12 +240,42 @@
         left: 30%!important;
     }
     .currentGoodPage{
-        left: 17.5%;
-        bottom: 80px;
-        font-size: 25px;
+        left: 17.5%!important;
+        bottom: 80px!important;
+        font-size: 25px!important;
     }
     .goodsWindow{
         min-height: 46vh;
     }
 }
-
+@media(max-height: 801px){
+    .main-logo::after{
+        width: 220px!important;
+        height: 442px!important;
+        top: -26px!important;
+        left: -3px!important;
+    }
+    .yellow{
+        top: 150px!important;
+        left: 100px!important;
+    }
+    .yellow .infoBlock{
+        max-width: 250px!important;
+        margin-left: -70px !important;
+    }
+    .sliderContainer {
+        height: 690px!important;
+    }
+    .container {
+        width: 86%!important;
+    }
+    .slides h2 {
+        bottom: -18px!important;
+    }
+    .videoWindow .infoBlock span{
+        font-size: 15px!important;
+    }
+    .searchingFormMap{
+        top: 140px!important;
+    }
+}
