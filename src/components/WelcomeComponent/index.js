@@ -12,6 +12,9 @@ export default class WelcomeComponent extends React.Component {
     componentDidMount() {
         parallax()
     }
+    shouldComponentUpdate(nextProps, nextState) {
+        return true;
+      }
     render() {
         return (
             <div className='welcomeWindow Background-bot'>

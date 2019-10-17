@@ -151,8 +151,8 @@
 }
 
 .logo-p.appear, .main-logo.appear{
-    animation: appearance 1.1s linear;
-    transition: all .7s;
+    animation: appearance .8s linear;
+    /* transition: all .7s; */
 }
 .greetingText{
     animation: appearFromNone 1s ease-in;

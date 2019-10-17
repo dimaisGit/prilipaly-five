@@ -156,9 +156,21 @@ label.light{
     display: flex!important;
 }
 .arrowed{
-    background: url(../../images/triangle.png) no-repeat right;
+    background: #fff url(../../images/triangle.png) no-repeat -10px;
+    background-blend-mode: normal;
+    background-position-x: 49px;
+    font-size: 12px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+.sponsorsClass.arrowed{
+    background-position-x: 170px;
 }
 select:focus option{
     background: #fff;
     color: #a84f9a;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    border: none;
 }
