@@ -2,11 +2,10 @@
     background: linear-gradient(180deg, #DCFC00, #FE9103);
     height: 960px;
     overflow: hidden;
-    background: linear-gradient(45deg, #DCFC00, #FE9103, #F1720E, #e73c7e);
+    background: linear-gradient(180deg, #FE9103,#DCFC00, #F1720E, #e73c7e);
     background-size: 400% 400%;
-	animation: gradientBG 15s ease infinite;
+    animation: gradientAnimated 27s ease infinite;
     border-radius: 0 0 20% 20%;
-    /* box-shadow: 0px 4px 13px 0px black; */
 }
 
 .infoBlockContainer{

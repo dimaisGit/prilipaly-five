@@ -7,7 +7,9 @@ import apple from '../../images/apple-logo.png'
 import googleP from '../../images/google-play.png'
 
 export default class GrassComponent extends React.Component {
-
+    shouldComponentUpdate(nextProps, nextState) {
+        return true;
+      }
     render() {
         return (
             <div className="welcomeDataContainer">

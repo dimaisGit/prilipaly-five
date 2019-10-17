@@ -139,64 +139,113 @@
         padding-top: 10px!important;
     }
     .welcomeContent .sand-3::before{
-        bottom: 12%;
-        height: 410px;
-        width: 268px;
+        bottom: 12%!important;
+        height: 410px!important;
+        width: 268px!important;
     }
     .welcomeContent .sand-3::after{
-        bottom: 21%;
+        bottom: 21%!important;
     }
     .welcomeContent .sand-1::before{
-        height: 145px;
+        height: 145px!important;
     }
     .grass-3{
-        width: 158px;
-        height: 390px;
+        width: 158px!important;
+        height: 390px!important;
     }
     .grass-3-1{
-        width: 140px;
-        height: 380px;
-        left: 60px;
+        width: 140px!important;
+        height: 380px!important;
+        left: 60px!important;
     }
     .grass-3-2{
-        width: 170px;
-        height: 270px;
+        width: 170px!important;
+        height: 270px!important;
+        left: 60px !important;
     }
     .grass-4{
-        width: 410px;
-        height: 327px;
+        width: 410px!important;
+        height: 327px!important;
     }
     .welcomeContent .grass-4::after{
-        right: 29%;
-        top: -95px;
-        height: 170px;
-        width: 120px;
+        right: 29%!important;
+        top: -95px!important;
+        height: 170px!important;
+        width: 120px!important;
     }
     .prilipalyContainer{
-        bottom: -13px;
+        bottom: -13px!important;
     }
     .grass-1-1{
-        width: 273px;
-        height: 400px;
-        bottom: 90px;
+        width: 273px!important;
+        height: 400px!important;
+        bottom: 90px!important;
     }
     .grass-1-2{
-        width: 246px;
-        height: 210px; 
+        width: 246px!important;
+        height: 210px!important;
     }
     .grass-2-1{
-        width: 296px;
-        height: 180px;  
+        width: 296px!important;
+        height: 180px!important;  
     }
     .grass-2-2{
-        width: 246px;
-        height: 98px;
+        width: 246px!important;
+        height: 98px!important;
     }
     .main-logo{
-        right: 34%;
+        right: 34%!important;
     }
     .logoContainerWelcome .logo-p{
-        right: 30%;
+        right: 30%!important;
+    }
+    .sponsorsInfo::after{
+        left: 20px!important;
+        height: 85px!important;
+        width: 70px!important;
+        top: -52px !important;
+    }
+    .sponsorsInfo::before{
+        top: -83px!important;
+        height: 95px!important;
+    }
+    .sponsorsInfo{
+        width: 470px!important;
+    }
+    .sponsorsInfo .text-data{
+        font-size: 13px!important;
+    }
+    .goodsContainer{
+        padding: 20px 0;
+    }
+    .formSearch {
+        margin-top: 0px!important;
+    }
+    .circle-carousel .next, .slick-prev, .slick-next, .circle-carousel .prev, .slick-arrow.slick-prev, .slick-arrow.slick-next, .slick-arrow.slick-disabled{
+        width: 25px!important;
+        height: 30px!important;
+    }
+    .circle-carousel .next::before, .circle-carousel .prev::before, .slick-arrow.slick-prev::before, .slick-arrow.slick-next::before{
+        left: 0px!important;
+        width: 18px!important;
+        height: 14px!important;
+        top: calc(50% - 8px)!important;
+        background-size: contain!important;
+    }
+    .circle-carousel .prev::before, .slick-arrow.slick-prev::before{
+        left: 19px!important;
+        top: 15px!important;
+    }
+    .slick-arrow.slick-next{
+        left: 30%!important;
+    }
+    .currentGoodPage{
+        left: 17.5%;
+        bottom: 80px;
+        font-size: 25px;
+    }
+    .goodsWindow{
+        min-height: 46vh;
     }
 }
 

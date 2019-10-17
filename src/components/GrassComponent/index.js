@@ -2,6 +2,9 @@ import React from 'react'
 import './index.css'
 
 export default class GrassComponent extends React.Component {
+    shouldComponentUpdate(nextProps, nextState) {
+        return false;
+      }
     render() {
         return (
             <div className="grassContainer">

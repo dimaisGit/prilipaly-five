@@ -78,19 +78,19 @@ export default class FooterComponent extends React.Component {
                                 <a href="https://dixy.ru/" target="_blank">Dixy.ru</a>
                                 <a href="tel:88003330201">8 800 333 02 01</a>
                                 <div className="smmLinks">
-                                    <a href="" target="_blank" className="social-icon vk"><i className="fab fa-vk"></i></a>
-                                    <a href="" target="_blank" className="social-icon f"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="#" target="_blank" className="social-icon ok"><i className="fab fa-odnoklassniki"></i></a>
-                                    <a href="" target="_blank" className="social-icon ytube"><i className="fab fa-youtube"></i></a>
-                                    <a href="" target="_blank" className="social-icon inst"><i className="fab fa-instagram"></i></a>
+                                    <a href="https://vk.com/dixyclub" target="_blank" className="social-icon vk"><i class="fab fa-vk"></i></a>
+                                    <a href="https://www.facebook.com/Dixyclub" target="_blank" className="social-icon f"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://ok.ru/dixyclub" target="_blank" className="social-icon ok"><i class="fab fa-odnoklassniki"></i></a>
+                                    <a href="https://www.youtube.com/user/DixyChannel" target="_blank" className="social-icon ytube"><i class="fab fa-youtube"></i></a>
+                                    <a href="https://www.instagram.com/dixy.channel/" target="_blank" className="social-icon inst"><i class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div className="GamingCenter">
-                            <a className="linkToSocial">
+                            <a className="linkToSocial" href="" target="_blank">
                                 <img src={apple}></img>
                             </a>
-                            <a className="linkToSocial goog-pl">
+                            <a className="linkToSocial goog-pl" href="" target="_blank">
                                 <img src={googleP}></img>
                             </a>
                         </div>

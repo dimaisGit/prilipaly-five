@@ -29,9 +29,10 @@
 .item-img{
     display: flex;
     justify-content: center;
-    max-height: 190px;
-    max-width: 150px;
+    height: 190px;
+    width: 150px;
     margin: auto;
+    align-items: flex-end;
 }
 .item-info{
     position: relative;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.css'
-import {data} from '../../data/shops'
+import { data } from '../../data/shops'
 import { cities } from "../../data/cities";
 
 export default class MapComponent extends React.Component {
@@ -23,10 +23,10 @@ export default class MapComponent extends React.Component {
             }
         })
         this.myMap = new window.ymaps.Map('map', {
-                center: [55.76, 37.64],
-                zoom: 10,
-                controls: [zoomControl]
-            },
+            center: [55.76, 37.64],
+            zoom: 10,
+            controls: [zoomControl]
+        },
             {
                 zoomControlFloat: 'right'
             }
@@ -50,10 +50,10 @@ export default class MapComponent extends React.Component {
             results: 1
         }).then(function (res) {
             center = res.geoObjects.get(0).geometry.getCoordinates();
-            console.log(center)
+
             this.myMap.setCenter(center);
         });
-        let resultingObjects = data.map( async (item, index) => {
+        let resultingObjects = data.map(async (item, index) => {
             return {
                 type: 'Feature',
                 id: index,
@@ -83,7 +83,7 @@ export default class MapComponent extends React.Component {
         return (
             <div className='mapWindow'>
                 <div className="mapContainer">
-                    <div id='map' style={{ width: '100%', height: '60vh'}}></div>
+                    <div id='map' style={{ width: '100%', height: '60vh' }}></div>
                     <div className="infoBlock shadowViolet back">
                         <span className="blueText">АДРЕСА</span> <span className="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
                     <div className="searchingFormMap shadowVioletOther">
@@ -98,7 +98,7 @@ export default class MapComponent extends React.Component {
                                 <option >Балашиха</option>
                             </select> <label className="region" htmlFor="region"></label>
                             <input type="search" placeholder='Введите адрес' />
-                            <input type="submit" className="btn" value="Найти"/>
+                            <input type="submit" className="btn" value="Найти" />
                         </form>
                     </div>
                 </div>
