@@ -26,7 +26,7 @@ export default class FooterComponent extends React.Component {
                             <ul>
                                 <li><a href="#collection">КОЛЛЕКЦИЯ</a></li>
                                 <li><a href="#video">ПРИЛОЖЕНИЕ-ИГРА</a></li>
-                                <li><a href="#sponsors">ТОВАРЫ-СПОНСОРЫ</a></li>
+                                <li><a href="#sp">ТОВАРЫ-СПОНСОРЫ</a></li>
                                 <li><a href="#map">КАРТА МАГАЗИНОВ</a></li>
                                 <li><a href="#game">ИГРАЙ С ПРИЛИПАЛАМИ</a></li>
                                 <li><a href="#exchange">ОБМЕН ПРИЛИПАЛАМИ</a></li>
