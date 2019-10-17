@@ -17,7 +17,7 @@ export default class PageComponent extends React.Component {
                 <SliderComponent />
                 <VideoComponent />
                 <GoodsComponent />
-                {/*<MapComponent />*/}
+                <MapComponent />
                 <GamesComponent />
                 <FooterComponent />
             </div>
