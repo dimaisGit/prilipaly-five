@@ -102,7 +102,7 @@ export default class ProdCarousel extends React.Component {
             <>
                 <Slider {...settings} ref={ref => this.slider = ref}>
                     {goods.map((item, index) => (
-                        <div className='item class-1'>
+                        <div className='item class-1' key={index}>
                             <div className='item-img'>
                                 <img src={item.img} />
                             </div>

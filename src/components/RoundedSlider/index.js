@@ -47,14 +47,14 @@ export default class SliderRound extends React.Component {
                         <div className="circle-carousel" data-speed="1000">
                             <div className="slides">
                                 {prilipalaInfo.map((item, index) => (
-                                    <div className='slide'>
+                                    <div className='slide' key={index}>
                                         <h2>{index + 1} из  24</h2>
                                     </div>
                                 ))}
                             </div>
                             <div className="pagination">
                                 {prilipalaInfo.map(item => (
-                                    <div className="item">
+                                    <div className="item" key={item.numberId}>
                                         <div className="dot">
                                             <span>
                                                 <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img}/>

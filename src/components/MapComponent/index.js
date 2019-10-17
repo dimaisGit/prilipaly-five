@@ -70,15 +70,12 @@ export default class MapComponent extends React.Component {
                 "features": completed
             }
             objectManager.add(resultingData);
-            console.log(resultingData)
         });
     }
 
     onCityChange = (e) => {
         const { value } = e.target
-        console.log(value);
         let currentCity = cities.filter(item => item.city === value)[0];
-        console.log(currentCity)
         this.myMap.setCenter(currentCity.coordinates);
     }
 
@@ -88,18 +85,18 @@ export default class MapComponent extends React.Component {
                 <div className="mapContainer">
                     <div id='map' style={{ width: '100%', height: '60vh'}}></div>
                     <div className="infoBlock shadowViolet back">
-                        <span class="blueText">АДРЕСА</span> <span class="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
+                        <span className="blueText">АДРЕСА</span> <span className="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
                     <div className="searchingFormMap shadowVioletOther">
                         <form>
                             <select name="city" onChange={(e) => { e.persist(); this.onCityChange(e)}}>
-                                {cities.map(item => <option>{item.city}</option>)}
-                            </select><label for="city"></label>
+                                {cities.map(item => <option key={item.city}>{item.city}</option>)}
+                            </select><label htmlFor="city"></label>
                             <select name="region">
-                                <option selected disabled>Район</option>
+                                <option disabled>Район</option>
                                 <option >Одинцово</option>
                                 <option >Лефортово</option>
                                 <option >Балашиха</option>
-                            </select> <label className="region" for="region"></label>
+                            </select> <label className="region" htmlFor="region"></label>
                             <input type="search" placeholder='Введите адрес' />
                             <input type="submit" className="btn" value="Найти"/>
                         </form>

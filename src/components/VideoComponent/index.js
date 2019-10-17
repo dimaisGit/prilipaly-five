@@ -22,10 +22,10 @@ export default class VideoComponent extends React.Component {
                         <div className="toysAndSocial">
                             <div className="toys-1">
                                 <div className="toys-1-1">
-                                    <img src={ufo}></img>
+                                    <img alt="img" src={ufo}></img>
                                 </div>
                                 <div className="toys-1-2">
-                                    <img src={rapsberry}></img>
+                                    <img alt="img" src={rapsberry}></img>
                                 </div>
                             </div>
                             <div className="socialContainerData">
@@ -34,44 +34,44 @@ export default class VideoComponent extends React.Component {
                                 </div>
                                 <div className="socialBlock">
                                     <a className="linkToSocial">
-                                        <img src={apple}></img>
+                                        <img alt="img" src={apple}></img>
                                     </a>
                                     <a className="linkToSocial">
-                                        <img src={googleP}></img>
+                                        <img alt="img" src={googleP}></img>
                                     </a>
                                 </div>
                             </div>
 
                             <div className="toys-2">
                                 <div className="toys-2-1">
-                                    <img src={ufoN}></img>
+                                    <img alt="img" src={ufoN}></img>
                                 </div>
                                 <div className="toys-2-2">
-                                    <img src={melon}></img>
+                                    <img alt="img" src={melon}></img>
                                 </div>
                             </div>
                         </div>
                         <div className="videoPhone">
                             <div className="phoneContainer">
-                            <iframe src="https://www.youtube.com/embed/ipWnb2NkcYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <img src={phone}></img>
+                            <iframe src="https://www.youtube.com/embed/ipWnb2NkcYI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                                <img alt="img" src={phone}></img>
                             </div>
                         </div>
                         <div className="toysAndInfoBlock">
                             <div  className="toys-3-1">
-                                <img src={grAndBl}></img>
+                                <img alt="img" src={grAndBl}></img>
                             </div>
                             <div  className="toys-3-2">
-                                <img src={ufoL}></img>
+                                <img alt="img" src={ufoL}></img>
                             </div>
                             <div  className="infoBlock shadowYellow lastInfoB">
                             <span className="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
                             </div>
                             <div  className="toys-3-3">
-                                <img src={tomato}></img>
+                                <img alt="img" src={tomato}></img>
                             </div>
                             <div  className="toys-3-4">
-                                <img src={banana}></img>
+                                <img alt="img" src={banana}></img>
                             </div>
                         </div>
                     </div>

@@ -20,16 +20,16 @@ export default class FooterComponent extends React.Component {
         return (
             <div className='footerWindow'>
                  <div className="bgToys">
-                        <img src={melon} className="footer-melon" />
-                        <img src={tomato} className="footer-tomato" />
-                        <img src={plant} className="footer-plant" />
-                        <img src={berry} className="footer-berry" />
-                        <img src={ufo} className="footer-ufo" />
-                        <img src={melon} className="footer-melon-2" />
-                        <img src={berry} className="footer-berry-2" />
-                        <img src={tomato2} className="footer-tomato-2" />
-                        <img src={banana} className="footer-banana" />
-                        <img src={ufo2} className="footer-ufo2" />
+                        <img alt="img" src={melon} className="footer-melon" />
+                        <img alt="img" src={tomato} className="footer-tomato" />
+                        <img alt="img" src={plant} className="footer-plant" />
+                        <img alt="img" src={berry} className="footer-berry" />
+                        <img alt="img" src={ufo} className="footer-ufo" />
+                        <img alt="img" src={melon} className="footer-melon-2" />
+                        <img alt="img" src={berry} className="footer-berry-2" />
+                        <img alt="img" src={tomato2} className="footer-tomato-2" />
+                        <img alt="img" src={banana} className="footer-banana" />
+                        <img alt="img" src={ufo2} className="footer-ufo2" />
                     </div>
                 <div className="footerContainer">
                     <CloudsComponent />
@@ -78,11 +78,11 @@ export default class FooterComponent extends React.Component {
                                 <a href="https://dixy.ru/" target="_blank">Dixy.ru</a>
                                 <a href="tel:88003330201">8 800 333 02 01</a>
                                 <div className="smmLinks">
-                                    <a href="" target="_blank" className="social-icon vk"><i class="fab fa-vk"></i></a>
-                                    <a href="" target="_blank" className="social-icon f"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#" target="_blank" className="social-icon ok"><i class="fab fa-odnoklassniki"></i></a>
-                                    <a href="" target="_blank" className="social-icon ytube"><i class="fab fa-youtube"></i></a>
-                                    <a href="" target="_blank" className="social-icon inst"><i class="fab fa-instagram"></i></a>
+                                    <a href="" target="_blank" className="social-icon vk"><i className="fab fa-vk"></i></a>
+                                    <a href="" target="_blank" className="social-icon f"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#" target="_blank" className="social-icon ok"><i className="fab fa-odnoklassniki"></i></a>
+                                    <a href="" target="_blank" className="social-icon ytube"><i className="fab fa-youtube"></i></a>
+                                    <a href="" target="_blank" className="social-icon inst"><i className="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -7,9 +7,6 @@ import $ from 'jquery'
 
 
 export default class GoodsComponent extends React.Component {
-    constructor(props){
-        super(props)
-    }
     componentDidMount(){
         $('.sponsorsClass').addClass('arrowed')
         $('#region').addClass('arrowed')
@@ -34,7 +31,7 @@ export default class GoodsComponent extends React.Component {
                                     </select>
                                     <label htmlFor=""></label>
                                     <select className="sponsorsClass">
-                                        <option selected>1 ТОВАР = 1 ПРИЛИПАЛА</option>
+                                        <option>1 ТОВАР = 1 ПРИЛИПАЛА</option>
                                         <option>2 ТОВАРА = 1 ПРИЛИПАЛА</option>
                                         <option>1 ТОВАР = 2 ПРИЛИПАЛЫ</option>
                                         <option>2 ТОВАРА = 2 ПРИЛИПАЛЫ</option>
