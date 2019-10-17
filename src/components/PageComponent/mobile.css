@@ -264,7 +264,7 @@
         margin-left: -70px !important;
     }
     .sliderContainer {
-        height: 690px!important;
+        height: 650px!important;
     }
     .container {
         width: 86%!important;
@@ -278,14 +278,28 @@
     .searchingFormMap{
         top: 140px!important;
     }
+    .phoneContainer img{
+        display: block!important;
+        margin: auto!important;
+        max-height: 90%!important;
+        width: 78%!important;
+    }
+    .phoneContainer
+ iframe{
+    position: absolute!important;
+    bottom: 12%!important;
+    width: 68%!important;
+    height: 76%!important;
+    left: 16%!important;
+    border-radius: 4px!important;
+ }
 }
 @media(max-height: 750px){
     .welcomeContent .sand-1::before{
-        height: 40px!important;
+        height: 110px!important;
         width: 90px!important;
         bottom: 44%!important;
     }
-    .sliderContainer {
-        height: 650px!important;
-    }
+
+   
 }

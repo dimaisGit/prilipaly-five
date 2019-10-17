@@ -27,7 +27,7 @@
     bottom: -6px;
     right: 0;
 }
-.sponsorsDescription  {
+.spDescription  {
     position: relative;
     z-index: 300;
     margin-top: 90px;
@@ -79,7 +79,7 @@ form, select, label, option, input {
 label.light{
     color: #fff;
 }
-.sponsorsInfo{
+.spInfo{
     background: url(../../images/goodsTextBg.png) no-repeat;
     width: 500px;
     text-align: center;
@@ -89,7 +89,7 @@ label.light{
     background-size: contain;
     position: relative;
 }
-.sponsorsInfo::after{
+.spInfo::after{
     content:'';
     position: absolute;
     height: 115px;
@@ -100,7 +100,7 @@ label.light{
     top: -70px;
     z-index: 15;
 }
-.sponsorsInfo::before{
+.spInfo::before{
     content:'';
     position: absolute;
     height: 115px;
@@ -113,11 +113,11 @@ label.light{
     z-index: 0;
     transform: rotate(-2.5deg);
 }
-.sponsorsInfo h4.header.smaller.lined{
+.spInfo h4.header.smaller.lined{
     font-size: 18px;
     color: #FEED03;
 }
-.sponsorsInfo .text-data{
+.spInfo .text-data{
     padding-bottom: 0;
     font-size: 15px;
 }
@@ -128,12 +128,12 @@ label.light{
     color: #FDB91A;
     cursor: pointer;
 }
-.sponsorsClass{
+.spClass{
     position: relative;
     cursor: pointer;
     color: #FDB91A;
 }
-.sponsorsClass::after{
+.spClass::after{
     position: absolute;
     content: 'k';
     right: -10px;
@@ -163,7 +163,7 @@ label.light{
     padding-right: 20px;
     border-radius: 3px;
 }
-.sponsorsClass.arrowed{
+.spClass.arrowed{
     background-position-x: 170px;
 }
 select:focus option{

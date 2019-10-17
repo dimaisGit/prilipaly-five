@@ -8,16 +8,16 @@ import $ from 'jquery'
 
 export default class GoodsComponent extends React.Component {
     componentDidMount(){
-        $('.sponsorsClass').addClass('arrowed')
+        $('.spClass').addClass('arrowed')
         $('#region').addClass('arrowed')
     }
     
     render() {
         return (
-            <div className='goodsWindow' id="sponsors">
+            <div className='goodsWindow' id="sp">
                 <div className="goodsContainer">
-                    <div className="sponsorsDescription">
-                        <div className="sponsorsInfo">
+                    <div className="spDescription">
+                        <div className="spInfo">
                             <h4 className="header smaller lined">ТОВАРЫ-СПОНСОРЫ</h4>
                             <p className="text-data">Пора подкрепиться! Лакомка никогда не упустит шанс съесть чего-нибудь вкусненького. Особенно, если за это можно получить еще больше Прилипал!</p>
                             <div className="formSearch">
@@ -30,7 +30,7 @@ export default class GoodsComponent extends React.Component {
                                         <option>УФО</option>
                                     </select>
                                     <label htmlFor=""></label>
-                                    <select className="sponsorsClass">
+                                    <select className="spClass">
                                         <option>1 ТОВАР = 1 ПРИЛИПАЛА</option>
                                         <option>2 ТОВАРА = 1 ПРИЛИПАЛА</option>
                                         <option>1 ТОВАР = 2 ПРИЛИПАЛЫ</option>
@@ -42,7 +42,7 @@ export default class GoodsComponent extends React.Component {
                             </div>
                         </div>
                     </div>
-                    <div className="sponsorsCarousel">
+                    <div className="spCarousel">
                         <ProdCarousel />
                     </div>
                 </div>
