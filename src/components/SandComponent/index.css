@@ -62,7 +62,6 @@
     background-size: contain;
     right: 45%;
     bottom: 18%;
-    z-index: 15;
 }
 .welcomeContent .sand-1::before{
     content:'';
@@ -73,5 +72,25 @@
     background-size: contain;
     right: 26%;
     bottom: 54%;
-    z-index: 15;
+}
+.footerContainer .sand-3::before{
+    content:'';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: url(../../images/raspberry1-noacod.png) no-repeat center;
+    background-size: contain;
+    left: 26%;
+    bottom: 34%;
+}
+.footerContainer .sand-3::after{
+    content:'';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: url(../../images/melon.png) no-repeat center;
+    background-size: contain;
+    background-position: 0 75px;
+    left: 50%;
+    bottom: 0;
 }

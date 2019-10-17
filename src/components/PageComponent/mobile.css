@@ -279,3 +279,13 @@
         top: 140px!important;
     }
 }
+@media(max-height: 750px){
+    .welcomeContent .sand-1::before{
+        height: 40px!important;
+        width: 90px!important;
+        bottom: 44%!important;
+    }
+    .sliderContainer {
+        height: 650px!important;
+    }
+}

@@ -4,33 +4,15 @@ import CloudsComponent from "../CloudsComponent";
 import SandComponent from "../SandComponent";
 import GrassComponent from '../GrassComponent'
 import apple from '../../images/apple-logo.png'
-import melon from '../../images/melon.png'
-import tomato from '../../images/tomat1.png'
-import tomato2 from '../../images/tomat2.png'
-import banana from '../../images/banana.png'
-import plant from '../../images/eggplant4.png'
 import googleP from '../../images/google-play.png'
-import berry from '../../images/raspberry1-noacod.png'
-import ufo from '../../images/ufo3_5.png'
-import ufo2 from '../../images/ufo3_3.png'
+
 
 
 export default class FooterComponent extends React.Component {
     render() {
         return (
             <div className='footerWindow'>
-                 <div className="bgToys">
-                        <img alt="img" src={melon} className="footer-melon" />
-                        <img alt="img" src={tomato} className="footer-tomato" />
-                        <img alt="img" src={plant} className="footer-plant" />
-                        <img alt="img" src={berry} className="footer-berry" />
-                        <img alt="img" src={ufo} className="footer-ufo" />
-                        <img alt="img" src={melon} className="footer-melon-2" />
-                        <img alt="img" src={berry} className="footer-berry-2" />
-                        <img alt="img" src={tomato2} className="footer-tomato-2" />
-                        <img alt="img" src={banana} className="footer-banana" />
-                        <img alt="img" src={ufo2} className="footer-ufo2" />
-                    </div>
+                
                 <div className="footerContainer">
                     <CloudsComponent />
                     <GrassComponent />
@@ -87,7 +69,7 @@ export default class FooterComponent extends React.Component {
                             </div>
                         </div>
                         <div className="GamingCenter">
-                            <a className="linkToSocial" href="" target="_blank">
+                            <a className="linkToSocial appStore" href="" target="_blank">
                                 <img src={apple}></img>
                             </a>
                             <a className="linkToSocial goog-pl" href="" target="_blank">
