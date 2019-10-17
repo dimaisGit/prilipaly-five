@@ -22,7 +22,7 @@
     background: url(../../images/sec-sand.png) no-repeat;
     background-size: contain;
     background-position: 20% bottom;
-    height: 195px;
+    height: 270px;
     opacity: 0;
     animation: appearFromRight 1.3s ease-in 1s forwards, swell 4s infinite linear;
     z-index: 20;
