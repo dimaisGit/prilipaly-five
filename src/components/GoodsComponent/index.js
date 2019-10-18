@@ -7,9 +7,22 @@ import $ from 'jquery'
 
 
 export default class GoodsComponent extends React.Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            selectValue: '1 товар=1 игрушка'
+        }
+    }
     componentDidMount(){
         $('.spClass').addClass('arrowed')
         $('#region').addClass('arrowed')
+    }
+
+    onPrilipalaSelectChange = (e) => {
+        console.log(e.target.value)
+        this.setState({
+            selectValue: e.target.value
+        })
     }
     
     render() {
@@ -30,11 +43,11 @@ export default class GoodsComponent extends React.Component {
                                         <option>УФО</option>
                                     </select>
                                     <label htmlFor=""></label>
-                                    <select className="spClass">
-                                        <option>1 ТОВАР = 1 ПРИЛИПАЛА</option>
-                                        <option>2 ТОВАРА = 1 ПРИЛИПАЛА</option>
-                                        <option>1 ТОВАР = 2 ПРИЛИПАЛЫ</option>
-                                        <option>2 ТОВАРА = 2 ПРИЛИПАЛЫ</option>
+                                    <select className="spClass" onChange={(e) =>{ e.persist(); this.onPrilipalaSelectChange(e)}}>
+                                        <option>1 товар=1 игрушка</option>
+                                        <option>2 товара=1 игрушка</option>
+                                        <option>1 товар=2 игрушки</option>
+                                        <option>4 товара=1 игрушка</option>
                                     </select>
                                     </p>
 
@@ -43,7 +56,7 @@ export default class GoodsComponent extends React.Component {
                         </div>
                     </div>
                     <div className="spCarousel">
-                        <ProdCarousel />
+                        <ProdCarousel filter={this.state.selectValue}/>
                     </div>
                 </div>
                 <div className="wavingBg">

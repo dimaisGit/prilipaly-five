@@ -98,10 +98,11 @@ export default class ProdCarousel extends React.Component {
             ]
         };
         const {active, goods} = this.state
+        const filteredGoods = goods.filter(item => item.class === this.props.filter)
         return (
             <>
                 <Slider {...settings} ref={ref => this.slider = ref}>
-                    {goods.map((item, index) => (
+                    {filteredGoods.map((item, index) => (
                         <div className='item class-1' key={index}>
                             <div className='item-img'>
                                 <img src={item.img} />
@@ -121,7 +122,7 @@ export default class ProdCarousel extends React.Component {
                     ))}
                 </Slider>
                 <div className='currentGoodPage'>
-                    {this.state.currentGood / this.state.goodsPerSlide + 1} из {Math.floor(this.state.goods.length / this.state.goodsPerSlide + 1)}
+                    {this.state.currentGood / this.state.goodsPerSlide + 1} из {Math.floor(filteredGoods.length / this.state.goodsPerSlide + 1)}
                 </div>
             </>
         );
