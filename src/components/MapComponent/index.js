@@ -19,9 +19,24 @@ export default class MapComponent extends React.Component {
     init = async () => {
         let zoomControl = new window.ymaps.control.ZoomControl({
             options: {
-                float: 'right'
+                position: {
+                    right: 50,
+                    top: 50
+                },
+                size: 'large'
             }
-        })
+        });
+        // let zoomBehavior = new window.ymaps.Ibehavior({
+        //     options:{
+        //         behavior:  {
+        //             ScrollZoom: {
+        //                 options: {
+        //                     events: 'disable'
+        //                 }
+        //             }
+        //         }
+        //     }
+        // })
         this.myMap = new window.ymaps.Map('map', {
             center: [55.76, 37.64],
             zoom: 10,
@@ -41,8 +56,13 @@ export default class MapComponent extends React.Component {
 
         // Чтобы задать опции одиночным объектам и кластерам,
         // обратимся к дочерним коллекциям ObjectManager.
-        objectManager.objects.options.set('iconColor', '#111111');
-        objectManager.clusters.options.set('preset', 'islands#greenClusterIcons');
+        objectManager.objects.options.set('iconColor', 'islands#violetDotIcon');
+        // {
+        //     iconLayout: 'default#image',
+        //     iconImageHref: pin,
+        //     iconImageSize: [16, 16] 
+        // }
+        objectManager.clusters.options.set('preset', 'islands#violetClusterIcons');
         this.myMap.geoObjects.add(objectManager);
 
         let center;
