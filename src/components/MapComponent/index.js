@@ -2,8 +2,17 @@ import React from 'react'
 import './index.css'
 import { data } from '../../data/shops'
 import { cities } from "../../data/cities";
+import pin from '../../images/pin.png'
+import { func } from 'prop-types';
 
 export default class MapComponent extends React.Component {
+    constructor(props){
+        super(props);
+        this.state= {
+            currentRegion : 'Москва',
+            searchValue : ''
+        }
+    }
     componentDidMount = () => {
         window.ymaps.ready(this.setInit);
     }
@@ -26,45 +35,40 @@ export default class MapComponent extends React.Component {
                 size: 'large'
             }
         });
-        // let zoomBehavior = new window.ymaps.Ibehavior({
-        //     options:{
-        //         behavior:  {
-        //             ScrollZoom: {
-        //                 options: {
-        //                     events: 'disable'
-        //                 }
-        //             }
-        //         }
-        //     }
-        // })
-        this.myMap = new window.ymaps.Map('map', {
-            center: [55.76, 37.64],
-            zoom: 10,
-            controls: [zoomControl]
-        },
+        this.myMap = new window.ymaps.Map('map',
             {
-                zoomControlFloat: 'right'
+                center: [55.76, 37.64],
+                zoom: 12.2,
+                controls: [zoomControl]
             }
         )
+
         let objectManager = new window.ymaps.ObjectManager({
-            // Чтобы метки начали кластеризоваться, выставляем опцию.
             clusterize: true,
-            // ObjectManager принимает те же опции, что и кластеризатор.
             gridSize: 64,
             clusterDisableClickZoom: true
         });
-
+        let  MyIconContentLayout = window.ymaps.templateLayoutFactory.createClass(
+            '<div style="color: #278DC5; font-weight:bold;width:46px;vertical-align:middle;line-height:46px;">$[properties.iconContent]</div>'
+        );
         // Чтобы задать опции одиночным объектам и кластерам,
         // обратимся к дочерним коллекциям ObjectManager.
-        objectManager.objects.options.set('iconColor', 'islands#violetDotIcon');
-        // {
-        //     iconLayout: 'default#image',
-        //     iconImageHref: pin,
-        //     iconImageSize: [16, 16] 
-        // }
-        objectManager.clusters.options.set('preset', 'islands#violetClusterIcons');
+        objectManager.objects.options.set(
+            {
+                iconLayout: 'default#image',
+                iconImageHref: 'pins.png',
+                iconImageSize: [16, 16]
+            });
+        objectManager.clusters.options.set({
+            clusterIconLayout: 'default#imageWithContent',
+            clusterIconImageHref: pin,
+            clusterIconImageSize: [46, 46],
+            clusterIconImageOffset: [-23, -23],
+            clusterIconContentLayout: MyIconContentLayout 
+        });
+        
         this.myMap.geoObjects.add(objectManager);
-
+        this.myMap.behaviors.disable('scrollZoom');
         let center;
         let getGeocode = new window.ymaps.geocode('Moscow', {
             results: 1
@@ -96,9 +100,29 @@ export default class MapComponent extends React.Component {
     onCityChange = (e) => {
         const { value } = e.target
         let currentCity = cities.filter(item => item.city === value)[0];
+        this.setState ({
+            currentRegion: currentCity.region
+        })
         this.myMap.setCenter(currentCity.coordinates);
     }
-
+    handleSearch = (e) => {
+        console.log(e.target.value)
+        this.setState({
+            searchValue: e.target.value
+        })
+    }
+    handleSubmit = (e) => {
+        e.preventDefault();
+        window.ymaps.geocode(this.state.searchValue, {
+            results: 1
+        }).then((res)=>{
+            let firstGeoObject = res.geoObjects.get(0),
+            coords = firstGeoObject.geometry.getCoordinates();
+            console.log(coords)
+            this.myMap.setCenter(coords);
+            this.myMap.setZoom(16)
+        })
+    }
     render() {
         return (
             <div className='mapWindow'>
@@ -108,17 +132,15 @@ export default class MapComponent extends React.Component {
                         <span className="blueText">АДРЕСА</span> <span className="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
                     <div className="searchingFormMap shadowVioletOther">
                         <form>
-                            <select name="city" onChange={(e) => { e.persist(); this.onCityChange(e)}}>
+                            <select name="city" onChange={(e) => { e.persist(); this.onCityChange(e) }}>
                                 {cities.map(item => <option key={item.city}>{item.city}</option>)}
                             </select><label htmlFor="city"></label>
                             <select name="region">
-                                <option disabled>Район</option>
-                                <option >Одинцово</option>
-                                <option >Лефортово</option>
-                                <option >Балашиха</option>
+                                <option>{this.state.currentRegion}</option>
+                               
                             </select> <label className="region" htmlFor="region"></label>
-                            <input type="search" placeholder='Введите адрес' />
-                            <input type="submit" className="btn" value="Найти" />
+                            <input type="search" placeholder='Введите адрес' onChange={(e) => {this.handleSearch(e)}} />
+                            <input type="submit" className="btn" value="Найти" onClick={this.handleSubmit} />
                         </form>
                     </div>
                 </div>

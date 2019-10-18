@@ -60,7 +60,7 @@
     font-family: Ubuntu;
     font-size: 13px;
     margin: 10px auto;
-    width: 160px;
+    width: 190px;
     position: relative;
 }
 .searchingFormMap select + label{
@@ -75,7 +75,7 @@
     height: 10px;
     background-size: contain;
     z-index: 350;
-    right: -60px;
+    right: -73px;
     top: -20px;
 }
 .searchingFormMap select + label::after{
@@ -86,12 +86,12 @@
     height: 10px;
     background-size: contain;
     z-index: 350;
-    right: -60px;
+    right: -73px;
     top: -70px;
     transform: rotate(0deg);
     transition: all .3s;
 }
-.searchingFormMap select:hover +label::after{
+.searchingFormMap select:focus +label::after{
     transform: rotateX(180deg)
 }
 input.btn{
