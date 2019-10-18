@@ -27,40 +27,12 @@
     bottom: -5px;
     z-index: 40;
 }
-.blue{
-    position: relative;
-    align-self: flex-end;
-    bottom: 15%;
-    opacity: 0;
-    animation: appearanceBlue 1.5s ease-in-out 1.2s forwards, 7s swell infinite;
-    z-index: 35;
-    margin-right: 6%;
-}
-.orange{
-  position: relative;
-  margin-right: -6%;
-  bottom:5px;
-  opacity: 0;
-  animation: appearFromRight 2.2s ease-in-out 1.3s forwards, swell 13s infinite;
-  z-index: 15;
-}
-.orange img{
-  max-height:180px;
-}
-.green{
-    position: relative;
-    align-self: flex-start;
-    top: -125px; 
-    margin: 0 7.5% 0 -5.5%;
-    z-index: 45;
-    opacity:0;
-    animation: appearFromRight 2.2s ease-in-out 1.3s forwards;
-}
+
 .heart-box {
     position: absolute;
     width: 240px;
-    height: 300px;
-    bottom: 250px;
+    height: 80vh;
+    bottom: 0vh;
     left: 35px;
     opacity: 0;
     animation: appearFromRight .001s linear 3.9s forwards;
@@ -77,13 +49,13 @@
     width: 22px;
   }
   .animate-topright {
-    animation: movetopRight 3.5s 3.5s infinite;
+    animation: movetopRight 5.5s 3.5s infinite;
   }
   .animate-topleft {
-    animation: movetopLeft 4.5s 3.4s infinite;
+    animation: movetopLeft 6.5s 3.4s infinite;
   }
   .animate-up {
-    animation: moveup 2.5s 3s infinite;
+    animation: moveup 7.5s 3s infinite;
   }
   .top-2{
       margin-top: 30px;

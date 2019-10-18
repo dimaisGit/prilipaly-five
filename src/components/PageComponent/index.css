@@ -10,20 +10,8 @@
 }
 .bg-bot{
     background: linear-gradient(180deg, #1685C1, #efefef);
-    animation: gradientAnimated2 5s ease infinite;
     min-height: 100vh;
     top: 0;
     position: absolute;
     width: 100%;
-}
-@keyframes gradientAnimated2{
-    0%{
-        filter: hue-rotate(0deg);    
-    }
-    50%{
-        filter: hue-rotate(30deg);
-    }
-    100%{
-        filter: hue-rotate(0deg);    
-    }
 }

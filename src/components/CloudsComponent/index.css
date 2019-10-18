@@ -3,54 +3,24 @@
     top: 100px;
     position: relative;
     filter: grayscale(1);
-    animation-delay: 0ms;
 }
-.cloud-1{
-    background: url(../../images/clouds-1.png) ;
-    background-repeat: repeat-x;
-    animation: carousel 55s linear infinite forwards;
-    background-size: contain;
-    background-position: 0 0;
-    height: 120px;
-    width: 100%;
-    margin-bottom: 80px;
-    
+#clouds-container{
+    height: 250px
 }
-.cloud-1::after{
-    background: url(../../images/clouds-1.png) 0 200px;
-    animation: carousel 175s linear infinite forwards;
-    background-size: contain;
-    height: 90px;
-    width: 100%;
+#clouds-canvas{
     position: absolute;
-    top: 120px;
-    content:'';
+    left: 0;
+    right: 0;
+    margin: auto;
 }
-.cloud-2{
-    background: url(../../images/clouds-2.png);
-    animation: carousel 195s linear infinite forwards;
-    background-size: contain;
-    height: 230px;
-    width: 100%;
-}
-.cloud-2::after{
-    background: url(../../images/clouds-2.png) 0 200px;
-    animation: carousel 188s linear infinite forwards;
-    background-size: contain;
-    background-repeat: repeat-x; 
-    height: 100px;
-    width: 100%;
-    position: absolute;
-    top: 220px;
-    opacity: .3;
-    content:'';
-}
+
 
 @keyframes carousel{
     from{
-        background-position: -200%;
+        background-position: -100% 0;
     }
     to{
-        background-position: 200%;
+        background-position: 100% 0;
     }
+  
 }

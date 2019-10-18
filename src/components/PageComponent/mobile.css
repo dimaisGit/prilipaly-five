@@ -300,6 +300,29 @@
         width: 90px!important;
         bottom: 44%!important;
     }
-
-   
+}
+@media(max-height:1080px){
+    .main-logo::after{
+        width: 350px!important;
+        height: 622px!important;
+        top: -23px!important;
+        left: -52px!important;
+    }
+    .main-logo{
+        right: 39%!important;
+    }
+    .logoContainerWelcome .logo-p{
+        margin-bottom: -24px!important;
+        top: 20px!important;
+        right: 35%!important;
+        position: absolute!important;
+    }
+    .yellow{
+        left: 140px!important;
+    }
+    .leftPos {
+        margin-left: -70px!important;
+        max-width: 250px!important;
+        font-size: 20px;
+    }
 }
