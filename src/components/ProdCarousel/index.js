@@ -117,9 +117,6 @@ export default class ProdCarousel extends React.Component {
                             <div className='itemFullName'>
                                 <p>{item.name}</p>
                             </div>
-                            <div className="itemPrice">
-                                <p>от {item.price} руб. </p>
-                            </div>
                         </div>
                     ))}
                 </Slider>
