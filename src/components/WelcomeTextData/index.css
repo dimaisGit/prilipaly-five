@@ -1,9 +1,9 @@
 .main-logo{
     position: absolute;
     text-align: center;
-    right: 29%;
+    right: 39%;
     transition: all .3s;
-    top: 150px;
+    top: 15vh;
     box-shadow: -4px 4px 0 #944287;
     max-height: 38px;
 }
@@ -38,9 +38,9 @@
     position: absolute;
     background: url(../../images/boy.png) no-repeat center;
     background-size: contain;
-    width: 320px;
-    height: 542px;
-    top: -4px;
+    width: 32vh;
+    height: 48vh;
+    top: 2.5vh;
     -webkit-transform: rotate(-5deg);
     transform: rotate(-2deg);
     margin: auto;
@@ -57,8 +57,8 @@
 }
 .logoContainerWelcome .logo-p{
     margin-bottom: -24px;
-    top: 20px;
-    right: 25%;
+    top: 2vh;
+    right: 35%;
     position: absolute;
 }
 .girl img{

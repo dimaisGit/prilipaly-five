@@ -3,17 +3,15 @@
     top: 100px;
     position: relative;
     filter: grayscale(1);
+    height: 500px;
 }
-#clouds-container{
-    height: 250px
-}
-#clouds-canvas{
+.clouds-canvas{
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
+    top: 0;
 }
-
 
 @keyframes carousel{
     from{
