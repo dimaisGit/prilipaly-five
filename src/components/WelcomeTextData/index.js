@@ -14,11 +14,12 @@ export default class GrassComponent extends React.Component {
                 <div className="logoContainerWelcome ">
                     <div className="logo-d min"></div>
                     <div className="logo-p appear">
-                    </div>
-                    <p className="greetingText">C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
                     <div className='startWindowClose main-logo appear' >
                         ПОЧУДИМ?
                     </div>
+                    </div>
+                    <p className="greetingText">C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
+                   
                 </div>
                 <div className="yellow">
                     <img src={yellow}></img>

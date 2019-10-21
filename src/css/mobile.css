@@ -1,0 +1,348 @@
+
+
+@media(max-width:1681px) and (max-height: 1051px){
+    .circle-carousel{
+        height: 200%;
+    }
+    .prilipalyInfo p {
+        padding: 15px 13px;
+        font-size: 18px;
+    }
+    .slides h2{
+        bottom: 32px;
+    }
+    .toys-3-4{
+        bottom: 70px;
+    }
+    .toys-2-1{
+        bottom: -140px;
+    }
+    .toys-2-1 img{
+        max-width: 85%;
+    }
+    .toys-3-4 img{
+        width: 45%;
+    }
+    .videoWindow{
+        height: 94vh;
+    }
+}
+@media(max-width: 1601px) and (max-height: 1201px){
+    .circle-carousel{
+        height: 160%;
+    }
+    .dot span img {
+        max-width: 90px;
+        max-height: 162px;
+    }
+    .sliderContainer{
+        height: 96vh;
+        min-height: 96vh;
+    }
+    .videoWindow {
+        top: -30vh;
+        margin-bottom: -30vh;
+    }
+    .toys-3-4{
+        bottom: -60px;
+    }
+    .toys-3-3{
+        margin-top: 60px;
+        margin-bottom: -60px;
+    }
+    .toys-2-1{
+        bottom: -240px;
+    }
+}
+@media(max-width: 1601px) and (max-height: 1025px){
+    .sliderContainer {
+        height: 100vh;
+        min-height: 100vh
+    }
+    .slides h2 {
+        bottom: -55px;
+    }
+    .videoWindow {
+        top: -33vh;
+        margin-bottom: -33vh;
+    }
+    .prilipalyInfo{
+        bottom: 60%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev, .circle-carousel .next, .slick-arrow.slick-next{
+        bottom: 55%;
+    }
+    .videoWindow{
+        height: 100vh;
+    }
+    .toys-3-4 {
+        bottom: -30px;
+    }
+    
+}
+@media (max-width: 1601px) and (max-height: 901px){
+    .welcomeContent .sand-3::before{
+        max-height: 200%;
+    }
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 170px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .piggy{
+        bottom: -75px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -100px;
+    }
+    .welcomeContent .sand-1::before{
+        right: 25%;
+        height: 155px;
+    }
+    .circle-carousel {
+        height: 190%;
+    }
+    .sliderContainer {
+        height: 117vh;
+        min-height: 100vh;
+    }
+    .videoWindow{
+        height: 115vh;
+    }
+    .toys-3-4 {
+        bottom: -30px;
+    }
+}
+@media(max-width: 1441px) and (max-height: 1081px){
+    .piggy{
+        bottom: -56px;
+    }
+    .slides h2{
+        bottom: 5px;
+    }
+    .toys-3-4 img{
+        max-width: 45%;
+    }
+    .toys-3-4 {
+        bottom: 0;
+    }
+    .toys-2-1 img{
+        max-width: 85%;
+    }
+}
+@media (max-width: 1281px) and (max-height: 1025px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 175px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .welcomeContent .sand-3::before{
+        max-height: 200%;
+        bottom: 12%;
+    }
+    .piggy{
+        bottom: -115px;
+    }
+    .grass-2-1{
+        height: 180px;
+    }
+    .grass-1-1{
+        bottom: 110px;
+    }
+    .grass-1-2{
+        bottom: -10px;
+    }
+    .grass-3-2{
+        left: 40px;
+        bottom: 100px;
+        width: 160px;
+        height: 350px;
+    }
+    .grass-4{
+        right: -75px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -105px;
+    }
+    .welcomeContent .sand-1::before{
+        right: 28%;
+        bottom: 36%;
+    }
+    .welcomeContent .sand-3::after{
+        right: 29%;
+        bottom: 22%;
+    }
+    .blueSec{
+        right: 70px;
+    }
+    .logoContainerWelcome p{
+        font-size: 22px;
+    }
+    .yellow{
+        left: 10%;
+    }
+    .circle-carousel {
+        height: 145%;
+    }
+    .sliderContainer {
+        height: 93vh;
+        min-height: 93vh;
+    }
+    .slides h2 {
+        bottom: -60px;
+    }
+    .dot span img{
+        max-width: 75px;
+    }
+    .prilipalyInfo {
+        width: 560px;
+    }
+    .prilipalyInfo p {
+        font-size: 15px;
+    }
+    .toys-1-2{
+        left: 170px;
+    }
+    .videoWindow {
+        top: -22vh;
+        margin-bottom: -45vh;
+        height: 110vh;
+    }
+    .contentBlocks{
+        padding-top: 110px;
+    }
+}
+@media(max-width:1281px) and (max-height:770px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 135px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .piggy{
+        bottom: -125px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -75px;
+    }
+    .welcomeContent .sand-3::before {
+        max-height: 170%;
+        bottom: 9%;
+    }
+    .heart-box{
+        width: 160px;
+    }
+    .logoContainerWelcome p {
+        font-size: 19px;
+    }
+    .blueSec{
+        width: 240px;
+        top: 50px;
+    }
+    .infoBlock{
+        max-width: 290px;
+        font-size: 14px;
+    }
+    .main-logo::after{
+        left: -21px;
+        top: 27px;
+    }
+    .circle-carousel {
+        height: 196%;
+    }
+    .sliderContainer {
+        height: 120vh;
+    }
+    .slides h2{
+        font-size: 22px;
+    }
+    .videoWindow {
+        top: -27vh;
+        margin-bottom: -23vh;
+        height: 109vh;
+    }
+}
+@media(max-width: 1153px) and (max-height: 865px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 135px;
+        max-width: 100%;
+    }
+    .logoContainerWelcome p{
+        font-size: 20px;
+        left: 137px;
+        top: 75px;
+    }
+    .main-logo::after{
+        left: -29px;
+        top: 26px;
+    }
+    .yellow {
+        left: 12%;
+    }
+    .welcomeContent .sand-3::before {
+        max-height: 185%;
+        bottom: 9%;
+    }    
+    .piggy {
+        bottom: -155px;
+    }
+    .grass-2-1 {
+        height: 160px;
+    }
+    .welcomeContent .grass-4::after {
+        top: -90px;
+        max-height: 155px;
+    }
+    .grass-3{
+        bottom: 50px;
+    }
+    .grass-1-1 {
+        bottom: 50px;
+    }
+    .circle-carousel {
+        height: 173%;
+    }
+    .sliderContainer {
+        height: 111vh;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        max-width: 275px;
+        font-size: 15px;
+        margin-left: 90px;
+    }
+    .sliderWindow .red {
+        margin-right: 80px;
+        font-size: 15px;
+    }
+    .videoWindow {
+    top: -24vh;
+    margin-bottom: -30vh;
+    height: 100vh;
+    }
+    .toys-3-3 img{
+        max-width: 21%;
+    }
+    .toys-3-2 img{
+        max-width: 48%;
+    }
+    .videoWindow .infoBlock span{
+        font-size: 13px;
+    }
+    .videoWindow .infoBlock.lastInfoB, .infoBlock.back{
+        width: 280px;
+    }
+    .socialContainerData .socialBlock{
+        width: 54%;
+    }
+    .toys-1-2 img {
+        max-width: 80px;
+    }
+    .toys-1-2{
+        top: -100px;
+    }
+}

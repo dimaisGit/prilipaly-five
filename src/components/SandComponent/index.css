@@ -11,8 +11,8 @@
 }
 .sand-1{
     background: url(../../images/back-sand.png) no-repeat;
-    background-size: contain;
-    background-position: 100% bottom;
+    background-size: cover;
+    background-position: 0;
     height: 370px;
     opacity: 0;
     animation: appearFromRight 1.8s ease-in-out .5s both, swell 13s infinite linear;
@@ -26,6 +26,7 @@
     opacity: 0;
     animation: appearFromRight 1.3s ease-in 1s forwards, swell 4s infinite linear;
     z-index: 20;
+    bottom: -50px;
 }
 .sand-3{
     background: url(../../images/fr-sand.png) no-repeat;
@@ -44,8 +45,8 @@
 .welcomeContent .sand-3::after{
     content:'';
     position: absolute;
-    height: 155px;
-    width: 100px;
+    height: 205px;
+    width: 130px;
     background: url(../../images/prilipaly/3.png) no-repeat center;
     background-size: contain;
     transform: rotateY(180deg);
@@ -56,8 +57,8 @@
 .welcomeContent .sand-3::before{
     content:'';
     position: absolute;
-    height: 520px;
-    width: 268px;
+    height: 590px;
+    width: 336px;
     background: url(../../images/girl.png) no-repeat center;
     background-size: contain;
     right: 45%;
@@ -70,8 +71,8 @@
     width: 130px;
     background: url(../../images/prilipaly/12.png) no-repeat center;
     background-size: contain;
-    right: 26%;
-    bottom: 54%;
+    right: 30%;
+    bottom: 56%;
 }
 .footerContainer .sand-3::before{
     content:'';

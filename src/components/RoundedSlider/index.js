@@ -5,6 +5,7 @@ import { prilipalyData } from "../../constants/prilipaly";
 import LazyLoad from "vanilla-lazyload";
 import lazyloadConfig from "./config/lazyload";
 
+
 if (!document.lazyLoadInstance) {
     document.lazyLoadInstance = new LazyLoad(lazyloadConfig);
   }
@@ -41,7 +42,6 @@ export default class SliderRound extends React.Component {
         let currentGame = prilipalaInfo.filter((item) => item.numberId === this.state.curPrilipala)[0];
         return (
             <div className="sliderRounded">
-
                 <main className="page">
                     <div className="container">
                         <div className="circle-carousel" data-speed="1000">
@@ -57,13 +57,13 @@ export default class SliderRound extends React.Component {
                                     <div className="item" key={item.numberId}>
                                         <div className="dot">
                                             <span>
-                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img}/>
+                                                <img onClick={() => this.handleSetCurrentGame(item.numberId)} src={item.img }/>
                                             </span>
                                         </div>
                                     </div>
                                 ))}
                             </div>
-                            <div onClick={() => this.setState({ curPrilipala: (this.state.curPrilipala + 1) % 24 })}className="next shadowViolet"></div>
+                            <div onClick={() => this.setState({ curPrilipala: (this.state.curPrilipala + 1) % 24 })}className="next "></div>
                             <div className="prilipalyInfo">
                                 <h4 className="yellowText lined">
                                     {currentGame.name}
@@ -73,7 +73,7 @@ export default class SliderRound extends React.Component {
                                 </p>
                             </div>
                            
-                        <div onClick={() => this.setState({ curPrilipala: this.state.curPrilipala === 0 ? 23 : this.state.curPrilipala - 1 })} className="prev shadowViolet" ></div>
+                        <div onClick={() => this.setState({ curPrilipala: this.state.curPrilipala === 0 ? 23 : this.state.curPrilipala - 1 })} className="prev " ></div>
                         </div>
                     </div>
                 </main>

@@ -1,9 +1,9 @@
 .main-logo{
     position: absolute;
     text-align: center;
-    right: 39%;
+    right: 30%;
     transition: all .3s;
-    top: 15vh;
+    top: 85%;
     box-shadow: -4px 4px 0 #944287;
     max-height: 38px;
 }
@@ -20,18 +20,17 @@
 .logoContainerWelcome p{
     position: absolute;
     left: 160px;
-    width: 400px;
     top: 70px;
     color: #fff;
     font-family: Ubuntu;
     filter: none;
-    font-size: 20px
+    font-size: 30px;
 }
 .shadowViolet{
     filter: drop-shadow(-8px 8px 0 #944287);
 }
 .shadowRed{
-    box-shadow: -5px 4px 0 #D8001E;
+    box-shadow: -7px 7px 0 #a3081d;
 }
 .main-logo::after{
     content: '';
@@ -40,11 +39,9 @@
     background-size: contain;
     width: 32vh;
     height: 48vh;
-    top: 2.5vh;
-    -webkit-transform: rotate(-5deg);
+    top: 20px;
     transform: rotate(-2deg);
-    margin: auto;
-    left: -43px;
+    left: -52px;
 }
 .logoContainerWelcome{
     margin: 0 auto;
@@ -76,13 +73,14 @@
 }
 .yellow{
     position: absolute;
-    top:200px;
-    left:70px;
+    top: 18%;
+    left: 7%;
     transform: rotate(-5deg);
 }
 .yellow img{
-    max-height: 145px;
+    max-height: 165px;
     animation: appearFromTop 2.8s ease-in;
+    filter: drop-shadow(0px 0px 12px #fff);
 }
 .blueSec{
     position: absolute;
@@ -90,7 +88,7 @@
     top: 70px;
     transform: rotate(3deg);
     display: block;
-    width: 230px;
+    width: 270px;
     z-index: 80;
     animation: appearFromTop 3.8s ease-in;
 }
@@ -100,11 +98,14 @@
     border-radius: 7px;
     margin-top: -10px;
     font-family: Ubuntu;
-    max-width: 350px;
+    max-width: 280px;
     text-align: center;
     font-weight: bold;
     line-height: 1.5;
     animation: appearFromTop 2.8s ease-in;
+}
+.infoBlock.leftPos{
+    margin-left: -80px;
 }
 .red{
     background-color: #E2000F;
@@ -120,9 +121,11 @@
     color: #3F82A6;
     display: block;
 }
-.blueSec img{
+.blueSec > img{
     display: block;
     margin: auto;
+    width: 45%;
+    filter: drop-shadow(0px 0px 12px #fff);
 }
 .violetText{
     color:#6A6084;
@@ -133,7 +136,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* margin-left: -20px; */
 }
 .linkToSocial{
     margin: 10px 0;

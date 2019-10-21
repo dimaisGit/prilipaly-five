@@ -86,12 +86,13 @@
 .welcomeContent .grass-4::after{
   content:'';
   position: absolute;
-  height: 185px;
-  width: 130px;
+  height: 205px;
+  width: 140px;
   background: url(../../images/prilipaly/2.png) no-repeat center;
   background-size: contain;
   right: 30%;
-  top: -110px;
+  top: -130px;
+  transform: rotateY(180deg);
 }
 .grass-3-1{
   background: url(../../images/grass-1-2.png) no-repeat;

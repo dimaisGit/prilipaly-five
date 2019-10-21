@@ -1,10 +1,11 @@
 .videoWindow{
     position: relative;
-    top: -185px;  
-    margin-bottom: -185px;
+    top: -40vh;
+    margin-bottom: -40vh;
+    height: 105vh;
 }
 .videoContainer{
-    min-height: 90vh;
+    min-height: 80vh;
     background: url(../../images/backgroundMSK.jpg) no-repeat center;
     background-size: cover;
     background-attachment: fixed;
@@ -68,6 +69,7 @@
 .infoBlock.back{
     background: url(../../images/info-tB.png) no-repeat center;
     background-size: contain;
+    max-width: 100%;
 }
 .videoWindow .infoBlock span{
     transform: rotate(-4deg);
@@ -78,10 +80,11 @@
     transform: rotate(5deg);
     height: 70px;
     width: 345px;
+    max-width: 100%;
     margin: auto;
 }
 .socialContainerData .socialBlock{
-    width: 70%;
+    width: 85%;
     margin: 6px auto;
     transform: rotate(-6deg);
     left: 10px;
@@ -106,7 +109,7 @@
     z-index: 300;
 }
 .toys-1-2{
-    top: -100px;
+    top: -60px;
     position: relative;
     z-index: 150;
     left: 280px;
@@ -148,7 +151,7 @@
     justify-content: flex-end;
     position: relative;
     z-index: 130;
-    bottom: -50px;
+    bottom: 20px;
     right: 40px;
 }
 .toys-3-4 img{

@@ -13,7 +13,7 @@ export function cloudsRunning() {
         canvas.height = $(cloudsContainer).outerHeight();
         let img = new Image();
         img.src = cloud;
-
+        // ctx.clearRect(0, 0, canvas.width, canvas.height);
         // Global letiables
         let imageWidth;
         let imageHeight;
