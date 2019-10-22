@@ -95,8 +95,8 @@ export default class ProdCarousel extends React.Component {
                 <Slider {...settings} ref={ref => this.slider = ref}>
                     {filteredGoods.map((item, index) => (
                         <div className='item class-1' key={index}>
-                            <div className={'item-img ' + item.img}>
-                                {/* <img src={"images/products" + item.img} /> */}
+                            <div className="item-img">
+                                <img src={process.env.PUBLIC_URL + '/products' + item.img} />
                             </div>
                             <div className='item-info'>
                                 <div className='item-info-icon' onClick={() => this.handleClick(index)}>

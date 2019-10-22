@@ -30,7 +30,7 @@
     height: 190px;
     width: 150px;
     margin: auto;
-    background: #fff;
+    /* background: #fff; */
 }
 .item-info{
     position: relative;
