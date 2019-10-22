@@ -117,6 +117,7 @@ a.header:after {
     font-family: 'Ubuntu', sans-serif;
     width: 522px;
     margin-bottom: 25px;
+    height: 290px;
 }
 .imgContainer{
     position: relative;
@@ -188,6 +189,7 @@ a.header:after {
     bottom: 20px;
     z-index: 1;
     background-size: 40%;
+    animation: carousel 100s infinite linear;
 }
 
 
