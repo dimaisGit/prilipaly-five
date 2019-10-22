@@ -42,10 +42,7 @@ export default class MapComponent extends React.Component {
                 zoom: 12.2,
                 controls: [zoomControl]
             }
-        )
-        let balloon = new window.ymaps.Balloon({
-
-        });
+        );
         let objectManager = new window.ymaps.ObjectManager({
             clusterize: true,
             gridSize: 64,

@@ -32,25 +32,32 @@ export default class ProdCarousel extends React.Component {
         const { slidesToShow } = this.slider.props.responsive.filter((item) => item.breakpoint === breakpoint)[0].settings
         this.setState({
             goodsPerSlide: slidesToShow
-        })
-        // let class = $();
-        
+        });
+        document.getElementsByClassName('currentGoodPage')[0].style.opacity = 0;
+        setTimeout(function(){
+            console.log('loaded')
+        document.getElementsByClassName('currentGoodPage')[0].style.opacity = 1;
+        }, 20000)        
     }
 
     render() {
         let settings = {
             dots: false,
-            infinite: false,
+            infinite: true,
             speed: 500,
-            lazyLoad: true,
+            lazyLoad: 'progressive',
+            onLazyLoad: () => {
+                
+            },
             slidesToShow: 5,
             slidesToScroll: 5,
             swipeToSlide: false,
-            adaptiveHeight: true,
+            adaptiveHeight: false,
             afterChange: index => {
                 this.setState({
                     currentGood: index
                 })
+                // console.log(this.state.currentGood)
             },
             beforeChange: () => {
                 this.state.goodsPerSlide = 5
@@ -90,13 +97,14 @@ export default class ProdCarousel extends React.Component {
         };
         const {active, goods} = this.state
         const filteredGoods = goods.filter(item => item.class === this.props.filter)
+        
         return (
             <>
                 <Slider {...settings} ref={ref => this.slider = ref}>
                     {filteredGoods.map((item, index) => (
                         <div className='item class-1' key={index}>
-                            <div className="item-img">
-                                <img src={process.env.PUBLIC_URL + '/products' + item.img} />
+                            <div className='item-img'>
+                            <img src={process.env.PUBLIC_URL + '/products' + item.img} />
                             </div>
                             <div className='item-info'>
                                 <div className='item-info-icon' onClick={() => this.handleClick(index)}>
@@ -113,7 +121,7 @@ export default class ProdCarousel extends React.Component {
                     ))}
                 </Slider>
                 <div className='currentGoodPage'>
-                    {this.state.currentGood / this.state.goodsPerSlide + 1} из {Math.floor(filteredGoods.length / this.state.goodsPerSlide + 1)}
+                    {(this.state.currentGood / this.state.goodsPerSlide) + 1} из {Math.ceil(filteredGoods.length / this.state.goodsPerSlide)}
                 </div>
             </>
         );

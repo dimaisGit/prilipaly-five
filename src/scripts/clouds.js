@@ -60,12 +60,12 @@ export function cloudsRunning() {
         loop();
 
         // On window resize, also resize the canvas.
-        window.addEventListener('resize', function () {
-            canvas.width = $(cloudsContainer).width();
-            canvas.height = $(cloudsContainer).outerHeight();
+        // window.addEventListener('resize', function () {
+        //     canvas.width = $(cloudsContainer).width();
+        //     canvas.height = $(cloudsContainer).outerHeight();
 
-            stackedVertical = Math.ceil(canvas.height / imageHeight);
-        }, false);
+        //     stackedVertical = Math.ceil(canvas.height / imageHeight);
+        // }, false);
     }
 
 }
