@@ -19,17 +19,6 @@ import posterImg4 from '../../images/gameImages/posterImg4.png'
 import posterImg5 from '../../images/gameImages/posterImg5.png'
 import posterImg6 from '../../images/gameImages/posterImg6.png'
 
-import greenPlaksa from '../../images/greenPlaksa.png'
-
-import knowItAll from '../../images/knowItAll.png'
-import boyaka from '../../images/boyaka.png'
-import redWithCup from '../../images/redWithCup.png'
-import greenIhtiandr from '../../images/greenIhtiandr.png'
-
-import pinkInsect from '../../images/pinkInsect.png'
-import greenZabiyaka from '../../images/greenZabiyaka.png'
-import pinkObayash from '../../images/pinkObayash.png'
-import violetTriangle from '../../images/violetTriangle.png'
 
 export default class GamesComponent extends React.Component {
     constructor(props) {
@@ -155,7 +144,7 @@ export default class GamesComponent extends React.Component {
                 <div className='gamesWindowBottomText' id="exchange">
                     <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
                     <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
-                    <a className='header' href='#'>VKONTAKTE</a>
+                    <a className='header' href='#'><i className="fab fa-vk"></i></a>
                 </div>
 
             </div>

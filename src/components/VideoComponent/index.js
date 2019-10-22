@@ -16,10 +16,10 @@ import melon from '../../images/yellowmelon.png'
 export default class VideoComponent extends React.Component {
     render() {
         return (
-            <div className='videoWindow' id="video">
+            <div className='videoWindow bg-parallax' id="video">
                 <div className="videoContainer">
-                    <div className="contentBlocks">
-                        <div className="toysAndSocial">
+                    <div className="contentBlocks ">
+                        <div className="toysAndSocial ">
                             <div className="toys-1">
                                 <div className="toys-1-1">
                                     <img alt="img" src={ufo}></img>
@@ -43,7 +43,7 @@ export default class VideoComponent extends React.Component {
                             </div>
 
                             <div className="toys-2">
-                                <div className="toys-2-1">
+                                <div className="toys-2-1 parallax-3">
                                     <img alt="img" src={ufoN}></img>
                                 </div>
                                 <div className="toys-2-2">
@@ -58,7 +58,7 @@ export default class VideoComponent extends React.Component {
                             </div>
                         </div>
                         <div className="toysAndInfoBlock">
-                            <div  className="toys-3-1">
+                            <div  className="toys-3-1 parallax">
                                 <img alt="img" src={grAndBl}></img>
                             </div>
                             <div  className="toys-3-2">
@@ -67,7 +67,7 @@ export default class VideoComponent extends React.Component {
                             <div  className="infoBlock shadowYellow lastInfoB">
                             <span className="blueText">ИГРАЙ, НАБИРАЙ БОЛЬШЕ ВСЕХ ОЧКОВ И ВЫИГРЫВАЙ ПРИЗЫ!</span>
                             </div>
-                            <div  className="toys-3-3">
+                            <div  className="toys-3-3 parallax">
                                 <img alt="img" src={tomato}></img>
                             </div>
                             <div  className="toys-3-4">

@@ -17,7 +17,7 @@ export default class WelcomeComponent extends React.Component {
       }
     render() {
         return (
-            <div className='welcomeWindow Background-bot'>
+            <div className='welcomeWindow Background-bot  bg-parallax'>
                 <div className="bg-bot"></div>
                 <div className="welcomeContent ">
                     <WelcomeTextData />

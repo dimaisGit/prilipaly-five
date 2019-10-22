@@ -11,7 +11,7 @@ import googleP from '../../images/google-play.png'
 export default class FooterComponent extends React.Component {
     render() {
         return (
-            <div className='footerWindow'>
+            <div className='footerWindow bg-parallax'>
                 
                 <div className="footerContainer">
                     <CloudsComponent />

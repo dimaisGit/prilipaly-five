@@ -7,15 +7,22 @@ import $ from 'jquery'
 
 
 export default class GoodsComponent extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
             selectValue: '1 товар=1 игрушка'
         }
     }
-    componentDidMount(){
-        $('.spClass').addClass('arrowed')
-        $('#region').addClass('arrowed')
+    componentDidMount() {
+        $('select').on('focus', function () {
+            $(this).addClass('arrowed');
+            $(this).on('change', function () {
+                $(this).removeClass('arrowed');
+            })
+        });
+        $('select').on('blur', function () {
+            $(this).removeClass('arrowed');
+        });
     }
 
     onPrilipalaSelectChange = (e) => {
@@ -24,7 +31,7 @@ export default class GoodsComponent extends React.Component {
             selectValue: e.target.value
         })
     }
-    
+
     render() {
         return (
             <div className='goodsWindow' id="sp">
@@ -36,19 +43,19 @@ export default class GoodsComponent extends React.Component {
                             <div className="formSearch">
                                 <form>
                                     <p>
-                                    <label htmlFor="region" className="light">Ваш регион:</label>
-                                    <select id="region" name="region">
-                                        <option>ЦФО</option>
-                                        <option>СЗФО</option>
-                                        <option>УФО</option>
-                                    </select>
-                                    <label htmlFor=""></label>
-                                    <select className="spClass" onChange={(e) =>{ e.persist(); this.onPrilipalaSelectChange(e)}}>
-                                        <option>1 товар=1 игрушка</option>
-                                        <option>2 товара=1 игрушка</option>
-                                        <option>1 товар=2 игрушки</option>
-                                        <option>4 товара=1 игрушка</option>
-                                    </select>
+                                        <label htmlFor="region" className="light">Ваш регион:</label>
+                                        <select id="region" name="region">
+                                            <option>ЦФО</option>
+                                            <option>СЗФО</option>
+                                            <option>УФО</option>
+                                        </select>
+                                        <label htmlFor=""></label>
+                                        <select className="spClass" onChange={(e) => { e.persist(); this.onPrilipalaSelectChange(e) }}>
+                                            <option>1 товар=1 игрушка</option>
+                                            <option>2 товара=1 игрушка</option>
+                                            <option>1 товар=2 игрушки</option>
+                                            <option>4 товара=1 игрушка</option>
+                                        </select>
                                     </p>
 
                                 </form>
@@ -56,7 +63,7 @@ export default class GoodsComponent extends React.Component {
                         </div>
                     </div>
                     <div className="spCarousel">
-                        <ProdCarousel filter={this.state.selectValue}/>
+                        <ProdCarousel filter={this.state.selectValue} />
                     </div>
                 </div>
                 <div className="wavingBg">

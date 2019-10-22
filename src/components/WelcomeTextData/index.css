@@ -137,11 +137,18 @@
     align-items: center;
     width: 100%;
 }
+.parallax,  .parallax-3{
+    transition: 1.2s all;
+}
+.parallax-2{
+    transition: 1.5s all;
+}
 .linkToSocial{
-    margin: 10px 0;
+    margin: 14px 5px;
     display: block;
-    cursor:pointer;
+    cursor: pointer;
     filter: none;
+    max-width: 106px;
 }
 .linkToSocial img{
     max-width: 100%;

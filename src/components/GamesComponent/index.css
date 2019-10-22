@@ -90,20 +90,6 @@ a.header {
     display: block;
     width: 143px;
 }
-a.header:hover:after {
-    width: 150px;
-    transform: translateX(-75px);
-}
-a.header:after {
-    display: block;
-    content: ' ';
-    width: 0px;
-    height: 3px;
-    transition: 0.5s all;
-    left: 50%;
-    position: absolute;
-    background: #FEED03;
-}
 
 .gamesWindowText .text-data, .gamesWindowBottomText .text-data {
     font-size: 16px;
@@ -192,8 +178,15 @@ a.header:after {
     animation: carousel 100s infinite linear;
 }
 
+i{
+    font-family: 'FontAwesome';
+    text-decoration: none;
+    font-variant: normal;
+    color: #fff;
+    font-size: 30px
+}
 
-
-
-
+a.header:hover i{
+    color: #FFDF00;
+}
 
