@@ -436,3 +436,217 @@
         right: 27px;
     }
 }
+
+
+
+/* ipad pro */
+@media(max-width: 1025px){
+    .logo-d.min{
+        width: 150px;
+        height: 155px;
+        background-size: cover;
+        filter: unset;
+        top: 150px;
+        left: 60px;
+    }
+    .logoContainerWelcome .logo-p{
+        top: 310px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 430px;
+        height: 200px;
+        background-size: contain;
+    }
+    .blueSec .infoBlock, .planes, .blueSec > img, .welcomeContent .sand-3::before, .welcomeContent .sand-3::after, .welcomeContent .sand-1::before, .welcomeContent .grass-4::after{
+        display: none;
+    }
+    .blueSec .socialBlock{
+        height: 100px;
+        top: 300px;
+        position: absolute;
+    }
+    .yellow{
+        position: relative;
+        right: 30px;
+        top: -80px;
+        left: 25%;
+        transform: none;
+        width: 630px;
+        text-align: right;
+    }
+    .infoBlock.leftPos{
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        font-size: 27px;
+    }
+    .yellow img{
+        transform: rotateY(180deg);
+        filter: none;
+        margin-bottom: -15px;
+    }
+    .logoContainerWelcome p{
+        font-size: 34px;
+        left: 299px;
+        top: 107px;
+    }
+    .main-logo{
+        width: 210px;
+        font-size: 29px;
+        max-height: 70px;
+        padding: 20px 0;
+        border-radius: 12px;
+        right: 20%;
+    }
+    .main-logo::after{
+        left: -58px;
+        top: 55px;
+        height: 500px;
+    }
+    .sandContainer{
+        bottom: -25px;
+    }
+    .sand-2 {
+        bottom: -33px;
+        left: 16%;
+        width: 160%;
+        transform: rotateY(180deg);
+    }
+    .grass-4{
+        z-index: 12;
+    }
+    .leftItems {
+        display: flex;
+        justify-content: flex-end;
+        flex: 100%;
+        max-width: 88%;
+        align-items: flex-end;
+    }
+    .piggy{
+        bottom: 20px;
+        height: 220px;
+        left: 12%;
+    }
+    .prilipalyContainer{
+        z-index: 35;
+    }
+    .piggy img{
+        transform: rotateY(180deg);
+        height: 100%;
+    }
+    .heart-box{
+        left: calc(100% - 250px);
+        width: 200px;
+        height: 510px;
+        bottom: 11vh;
+    }
+    .welcomeContent .sand-3 {
+        position: relative;
+        width: 170%;
+        height: 100%;
+        bottom: -10%;
+    }
+    .prilipalyContainer::after{
+        position: absolute;
+        content: '';
+        width: 210px;
+        height: 140px;
+        background: url(../images/grass-block.png) no-repeat, url(../images/grass-3-3.png) no-repeat;
+        background-size: contain;
+        background-position: left bottom, 50px -1px;
+        bottom: -20px;
+        right: -60px;
+        z-index: 200;
+    }
+    .sand-1{
+        bottom: 5%;
+    }
+    .sand-1, .sand-2, .sand-3, .piggy {
+        animation: none;
+        opacity: 1;
+    }
+    .grass-2:before{
+        content: '';
+        position: absolute;
+        left: 5%;
+        top: -105%;
+        background: url(../images/prilipaly/2.png) no-repeat center;
+        background-size: contain;
+        width: 170px;
+        height: 220px;
+        transform: rotateY(180deg)
+    }
+    .sand-2::after{
+        content: '';
+        left: 72%;
+        position: absolute;
+        bottom: 49%;
+        background: url(../images/prilipaly/12.png) no-repeat center;
+        background-size: contain;
+        width: 160px;
+        height: 270px;
+        transform: rotateY(180deg);
+
+    }
+    .blueSec{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        transform: rotate(0deg);
+        top: 50px;
+    }
+    .linkToSocial img{
+        width: 230px;
+        position: relative;
+        display: block;
+    }
+    .linkToSocial:first-child img{
+        transform: rotate(-5deg)
+    }
+    .linkToSocial:first-child::after{
+        content: '';
+        left: 5px;
+        position: absolute;
+        top: -175px;
+        height: 250px;
+        width: 100px;
+        background: url(../images/prilipaly/1.png) no-repeat center;
+        background-size: contain;
+        transform: rotate(-5deg)
+    }
+    .linkToSocial:last-child img{
+        transform: rotate(5deg)
+    }
+    .linkToSocial:last-child::after{
+        content: '';
+        right: -15px;
+        position: absolute;
+        top: -170px;
+        height: 250px;
+        width: 100px;
+        background: url(../images/prilipaly/3.png) no-repeat center;
+        background-size: contain;
+        transform: rotateY(180deg) rotate(-5deg);
+    }
+}
+
+/* mobile */
+@media(max-width: 813px){
+}
+@media(max-width: 769px){
+}
+@media(max-width: 737px){
+}
+@media(max-width: 668px){
+}
+@media(max-width: 569px){
+}
+@media(max-width: 415px){
+}
+@media(max-width: 376px){
+}
+@media(max-width: 321px){
+}
