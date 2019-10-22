@@ -3,14 +3,15 @@ import './index.css'
 import { data } from '../../data/shops'
 import { cities } from "../../data/cities";
 import pin from '../../images/pin.png'
+import placemark from '../../images/placemark.png'
 import { func } from 'prop-types';
 
 export default class MapComponent extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
-        this.state= {
-            currentRegion : 'Москва',
-            searchValue : ''
+        this.state = {
+            currentRegion: 'Москва',
+            searchValue: ''
         }
     }
     componentDidMount = () => {
@@ -42,13 +43,15 @@ export default class MapComponent extends React.Component {
                 controls: [zoomControl]
             }
         )
+        let balloon = new window.ymaps.Balloon({
 
+        });
         let objectManager = new window.ymaps.ObjectManager({
             clusterize: true,
             gridSize: 64,
             clusterDisableClickZoom: false
         });
-        let  MyIconContentLayout = window.ymaps.templateLayoutFactory.createClass(
+        let MyIconContentLayout = window.ymaps.templateLayoutFactory.createClass(
             '<div style="color: #278DC5; font-weight:bold;width:46px;vertical-align:middle;line-height:46px;">$[properties.iconContent]</div>'
         );
         // Чтобы задать опции одиночным объектам и кластерам,
@@ -56,8 +59,8 @@ export default class MapComponent extends React.Component {
         objectManager.objects.options.set(
             {
                 iconLayout: 'default#image',
-                iconImageHref: 'pins.png',
-                iconImageSize: [16, 16]
+                iconImageHref: placemark,
+                iconImageSize: [36, 36]
             });
         objectManager.clusters.options.set({
             clusterIconLayout: 'default#imageWithContent',
@@ -68,7 +71,7 @@ export default class MapComponent extends React.Component {
             clusterHideIconOnBalloonOpen: false,
             clusterDisableClickZoom: false
         });
-        
+
         this.myMap.geoObjects.add(objectManager);
         this.myMap.behaviors.disable('scrollZoom');
         let center;
@@ -102,7 +105,7 @@ export default class MapComponent extends React.Component {
     onCityChange = (e) => {
         const { value } = e.target
         let currentCity = cities.filter(item => item.city === value)[0];
-        this.setState ({
+        this.setState({
             currentRegion: currentCity.region
         })
         this.myMap.setCenter(currentCity.coordinates);
@@ -117,9 +120,9 @@ export default class MapComponent extends React.Component {
         e.preventDefault();
         window.ymaps.geocode(this.state.searchValue, {
             results: 1
-        }).then((res)=>{
+        }).then((res) => {
             let firstGeoObject = res.geoObjects.get(0),
-            coords = firstGeoObject.geometry.getCoordinates();
+                coords = firstGeoObject.geometry.getCoordinates();
             console.log(coords)
             this.myMap.setCenter(coords);
             this.myMap.setZoom(16)
@@ -139,9 +142,9 @@ export default class MapComponent extends React.Component {
                             </select><label htmlFor="city"></label>
                             <select name="region">
                                 <option>{this.state.currentRegion}</option>
-                               
+
                             </select> <label className="region" htmlFor="region"></label>
-                            <input type="search" placeholder='Введите адрес' onChange={(e) => {this.handleSearch(e)}} />
+                            <input type="search" placeholder='Введите адрес' onChange={(e) => { this.handleSearch(e) }} />
                             <input type="submit" className="btn" value="Найти" onClick={this.handleSubmit} />
                         </form>
                     </div>
