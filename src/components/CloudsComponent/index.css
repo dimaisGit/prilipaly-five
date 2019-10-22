@@ -4,6 +4,9 @@
     position: relative;
     filter: grayscale(1);
     height: 500px;
+    background: url('../../images/clouds-1.png');
+    background-size: cover;
+    animation: carousel 18s infinite linear;
 }
 .clouds-canvas{
     position: absolute;

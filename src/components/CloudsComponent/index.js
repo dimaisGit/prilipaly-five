@@ -6,7 +6,7 @@ import { cloudsRunning } from '../../scripts/clouds.js'
 
 export default class CloudsComponent extends React.Component {
     componentDidMount(){
-        cloudsRunning();
+        // cloudsRunning();
     }
     
     render() {
