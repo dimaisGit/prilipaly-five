@@ -1,8 +1,8 @@
 .spCarousel{
     flex: 60%;
-    max-width: 60%;
-    margin-left: 60px;
-    padding: 36px 0;
+    max-width: 65%;
+    margin-left: 40px;
+    padding: 36px 0 70px;
 }
 .item, .item-info{
     display: flex !important;
@@ -27,12 +27,10 @@
     max-width:100%;
 }
 .item-img{
-    display: flex;
-    justify-content: center;
     height: 190px;
     width: 150px;
     margin: auto;
-    align-items: flex-end;
+    background: #fff;
 }
 .item-info{
     position: relative;
@@ -78,40 +76,33 @@
     position: relative;
     color: #fff;
 }
-.block::after {
-    content: '';
-    position: absolute; /* Абсолютное позиционирование */
-    left: 20px; bottom: -20px; /* Положение треугольника */
-    border: 10px solid transparent; /* Прозрачные границы */
-    border-top: 10px solid green; /* Добавляем треугольник */
-}
+
 .slick-list {
     margin-right: 100px;
 }
 .currentGoodPage {
-    position: absolute;
-    left: 14%;
-    bottom: 60px;
+    left: 0;
+    right: 0;
     color: white;
     font-size: 29px;
     font-family: Ubuntu;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
 }
 .slick-arrow.slick-prev{
-    position: absolute;
-    left: 9%;
     bottom: -20px;
-    margin-top: 130px;
     z-index: 330;
+    left: -30px;
 }
 
 .slick-arrow.slick-next{
-    position: absolute;
-    left: 21%;
+    right: 30px;
     bottom: -20px;
-    margin-top: 130px;
     z-index: 330;
 }
 .slick-slider{
-    position: static;
+    /* position: static; */
     padding: 20px 0;
 }

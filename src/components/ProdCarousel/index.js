@@ -2,12 +2,6 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Prod from '../../images/prod-1.png'
-import Prod2 from '../../images/prod-2.png'
-import Prod3 from '../../images/prod-3.png'
-import Prod4 from '../../images/prod-4.png'
-import Prod5 from '../../images/prod-p.png'
-
 import Info from '../../images/info-icon.svg'
 import InfoActive from '../../images/info-icon-active.svg'
 
@@ -39,6 +33,8 @@ export default class ProdCarousel extends React.Component {
         this.setState({
             goodsPerSlide: slidesToShow
         })
+        // let class = $();
+        
     }
 
     render() {
@@ -52,13 +48,11 @@ export default class ProdCarousel extends React.Component {
             swipeToSlide: false,
             adaptiveHeight: true,
             afterChange: index => {
-                console.log('after')
                 this.setState({
                     currentGood: index
                 })
             },
             beforeChange: () => {
-                console.log('before')
                 this.state.goodsPerSlide = 5
             },
             responsive: [
@@ -68,7 +62,6 @@ export default class ProdCarousel extends React.Component {
                         slidesToShow: 5,
                         slidesToScroll: 5,
                         beforeChange: () => {
-                            console.log('before')
                             this.state.goodsPerSlide = 5
                         }
                     }
@@ -79,18 +72,16 @@ export default class ProdCarousel extends React.Component {
                         slidesToShow: 4,
                         slidesToScroll: 4,
                         beforeChange: () => {
-                            console.log('before')
                             this.state.goodsPerSlide = 4
                         }
                     }
                 },
                 {
-                    breakpoint: 1300,
+                    breakpoint: 1450,
                     settings: {
                         slidesToShow: 3,
                         slidesToScroll: 3,
                         beforeChange: () => {
-                            console.log('before')
                             this.state.goodsPerSlide = 3
                         }
                     }
@@ -104,8 +95,8 @@ export default class ProdCarousel extends React.Component {
                 <Slider {...settings} ref={ref => this.slider = ref}>
                     {filteredGoods.map((item, index) => (
                         <div className='item class-1' key={index}>
-                            <div className='item-img'>
-                                <img src={item.img} />
+                            <div className={'item-img ' + item.img}>
+                                {/* <img src={"images/products" + item.img} /> */}
                             </div>
                             <div className='item-info'>
                                 <div className='item-info-icon' onClick={() => this.handleClick(index)}>

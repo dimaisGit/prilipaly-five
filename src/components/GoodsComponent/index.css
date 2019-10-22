@@ -1,10 +1,14 @@
 .goodsContainer{
     background: linear-gradient(182deg, #FDB91A, #FF6118);
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+    height: 45vh;
+    align-items: center;
 }
 .goodsWindow{
     position: relative;
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid #FFF;
 }
 .goodsWindow::before{
     content: '';
@@ -13,7 +17,7 @@
     height:100px;
     background: url(../../images/grass-3-2.png) no-repeat;
     background-size: contain;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
 }
 .goodsWindow::after{
@@ -23,15 +27,15 @@
     height:100px;
     background: url(../../images/grass-block.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
     background-size: contain;
-    background-position: left bottom, 50px -1px;
-    bottom: -6px;
+    background-position: left 5px, 50px 4px;
+    bottom: 0px;
     right: 0;
+    z-index: 0;
 }
 .spDescription  {
     position: relative;
     z-index: 300;
-    margin-top: 90px;
-    margin-left: 80px;
+    margin-left: 2%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
