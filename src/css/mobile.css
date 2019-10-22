@@ -631,6 +631,61 @@
         background-size: contain;
         transform: rotateY(180deg) rotate(-5deg);
     }
+    .container {
+        width: 100%;
+        height: 60vh;
+    }
+    .sliderContainer {
+        min-height: 50vh;
+    }
+    .page{
+        max-width: 85%;
+        margin: auto;
+        overflow: hidden;
+        padding: 110px;
+    }
+    .circle-carousel {
+        height: 204%;
+        right: 22px;
+    }
+    .circle-carousel .pagination{
+        left:0;
+        right: 0;
+        margin: auto;
+        transform: none;
+        width: 0;
+    }
+    .sliderRounded{
+        margin-top: 40px;
+    }
+    .prilipalyInfo{
+        bottom: 67%;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next, 
+    .circle-carousel .prev, .slick-arrow.slick-prev{
+        bottom: 63%;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next{
+        right: 30%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        left: 30%;
+    }
+    .slides h2{
+        bottom: 100px;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 160px;
+    }
+
+
+
+
+
+    .videoWindow{
+        top: -24vh;
+    }
 }
 
 /* mobile */

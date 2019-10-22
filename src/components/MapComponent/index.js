@@ -46,7 +46,7 @@ export default class MapComponent extends React.Component {
         let objectManager = new window.ymaps.ObjectManager({
             clusterize: true,
             gridSize: 64,
-            clusterDisableClickZoom: true
+            clusterDisableClickZoom: false
         });
         let  MyIconContentLayout = window.ymaps.templateLayoutFactory.createClass(
             '<div style="color: #278DC5; font-weight:bold;width:46px;vertical-align:middle;line-height:46px;">$[properties.iconContent]</div>'
@@ -64,7 +64,9 @@ export default class MapComponent extends React.Component {
             clusterIconImageHref: pin,
             clusterIconImageSize: [46, 46],
             clusterIconImageOffset: [-23, -23],
-            clusterIconContentLayout: MyIconContentLayout 
+            clusterIconContentLayout: MyIconContentLayout,
+            clusterHideIconOnBalloonOpen: false,
+            clusterDisableClickZoom: false
         });
         
         this.myMap.geoObjects.add(objectManager);
