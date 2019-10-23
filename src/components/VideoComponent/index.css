@@ -32,7 +32,7 @@
 .phoneContainer img{
     display: block;
     margin: auto;
-    max-width: 45%;
+    max-width: 44.5%;
 }
 .phoneContainer::before{
     content:'';

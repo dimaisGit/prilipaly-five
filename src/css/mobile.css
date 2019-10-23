@@ -189,7 +189,73 @@
     }
 }
 @media(max-width: 1366px) and (max-height: 768px){
+    .welcomeContent .sand-3::before {
+        max-height: 168%;
+        right: 43%;
+        bottom: 10%;
     
+    }
+    .phoneContainer img{
+        max-width: 61%;
+    }
+    .grass-4{
+        bottom: -92px;
+    }
+    .sand-1{
+        bottom: -80px;
+    }
+    .leftItems{
+        align-self: flex-end
+    }
+    .piggy {
+        bottom: 100px;
+    }
+    .heart-box {
+        width: 190px;
+        height: 80vh;
+        bottom: 10vh;
+        left: 0;
+    }
+    .infoBlock.leftPos{
+        font-size: 15px
+    }
+    .blueSec > img, .yellow img{
+        max-width: 45%;
+    }
+    .sliderContainer {
+        height: 131vh;
+    }
+    .circle-carousel {
+        height: 210%;
+    }
+    .slides h2 {
+        bottom: -56px;
+        font-size: 22px;
+    }
+    .videoWindow {
+        height: 130vh;
+    }
+    .goodsContainer {
+        height: 60vh;
+    }
+    .slick-arrow.slick-next {
+        right: 45px;
+    }
+    .searchingFormMap{
+        min-height: 280px;
+        top: 155px;
+    }
+    .footerContainer .grass-2{
+        bottom: -10px;
+    }
+    .footerContainer .grass-1 {
+        width: 150px;
+        height: 140px;
+        bottom: -70px;
+    }
+    .footerContainer .cloudsContainer{
+        top: -130px
+    }
 }
 @media (max-width: 1281px) and (max-height: 1025px){
     .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
