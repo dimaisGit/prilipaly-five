@@ -144,7 +144,7 @@ export default class GamesComponent extends React.Component {
                 <div className='gamesWindowBottomText' id="exchange">
                     <h4 className='header smaller lined'>ПОВТОРЯЮТСЯ? ОБМЕНЯЙСЯ!</h4>
                     <p className='text-data'>Одинаковые прилипалы? Отличный повод найти новых друзей! Скорее заходи в группу и меняйся прилипалами с другими!</p>
-                    <a className='header' href='#'><i className="fab fa-vk"></i></a>
+                    <a className='header' href='https://vk.com/prilipaly5' target="_blank"><i className="fab fa-vk"></i></a>
                 </div>
 
             </div>

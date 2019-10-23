@@ -1013,6 +1013,249 @@
 
 /* mobile */
 @media(max-width: 813px){
+    .welcomeWindow .yellow{
+        width:65%
+    }
+    .welcomeWindow .infoBlock.leftPos{
+        font-size: 25px
+    }
+    .logo-d.min {
+        width: 100px;
+        height: 105px;
+        top: 180px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 26px;
+        left: 28%;
+        top: 128px;
+    }
+    .cloudsContainer{
+        top: 0;
+    }
+    .logoContainerWelcome .logo-p{
+        top: 285px;
+        width: 360px;
+        height: 200px;
+    }
+    .welcomeWindow .main-logo{
+        width: 170px;
+        font-size: 21px;
+        max-height: 70px;
+        padding: 16px 0;
+        right: 28%;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -43px;
+        top: 45px;
+        height: 375px;
+    }
+    .welcomeWindow .grassContainer{
+        bottom: -70px;
+    }
+    .welcomeWindow .sand-2::after{
+        height: 130px;
+    }
+    .welcomeWindow .grass-2:before{
+        height: 150px;
+        top: -65%;
+
+    }
+    .piggy {
+        bottom: 3px;
+        height: 180px;
+        left: 12%;
+    }
+    .welcomeContent .sand-3 {
+        position: relative;
+        width: 180%;
+        height: 100%;
+        bottom: 0%;
+        transform: rotate(-3deg);
+        left: -10%;
+    }
+    .prilipalyContainer::after{
+        width: 110px;
+        height: 80px;
+        bottom: -10px;
+        right: 0;
+    }
+    .heart-box {
+        left: 78%;
+        width: 110px;
+        height: 510px;
+        bottom: 0;
+    }
+    .blueSec .socialBlock{
+        top: 140px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after{
+        top: -112px;
+        height: 170px;
+        width: 80px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after{
+        top: -127px;
+        height: 190px;
+        width: 80px;
+    }
+    .piggy img{
+        height: 85%;
+    }
+    .grass-3{
+        bottom: 0;
+    }
+    .grass-1-1 {
+        bottom: 40px;
+        width: 313px;
+        height: 440px;
+    }
+    .sliderWindow .red{
+        margin-right: 30px;
+        font-size: 15px;
+        max-width: 250px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        margin-left: 30px;
+        font-size: 15px;
+        max-width: 255px;
+    }
+    .sliderRounded {
+        margin-top: -60px;
+    }
+    .page{
+        padding: 160px;
+    }
+    .dot span img {
+        max-width: 160px;
+        max-height: 160px;
+    }
+    .circle-carousel {
+        height: 350%;
+        right: 20px;
+    }
+    .prilipalyInfo {
+        bottom: 78%;
+        width: 460px;
+        margin-right: -90px;
+    }
+    .sliderContainer {
+        height: 1130px;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next, .circle-carousel .prev, .slick-arrow.slick-prev {
+        top: 480px;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next {
+        right: 5%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        left: 15%;
+    }
+    .slides h2 {
+        bottom: 435px;
+    }
+    .prilipalyInfo p {
+        font-size: 13px;
+    }
+    .videoWindow {
+        top: -24vh;
+    }
+    .contentBlocks {
+        padding-top: 180px;
+    }
+    .phoneContainer iframe {
+        bottom: 12%;
+        width: 35%;
+        height: 76%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .videoWindow .infoBlock{
+        animation: none;
+    }
+    .videoWindow .infoBlock.lastInfoB {
+        height: 80px;
+        width: 227px;
+        position: relative;
+        top: -80px;
+    }
+    .videoWindow .infoBlock.lastInfoB span {
+        font-size: 13px;
+    }
+    .toys-2-1 img, .toys-3-4 img {
+        max-width: 150px;
+    }
+    .toys-3-4 {
+        right: 7%;
+    }
+    .toys-2-2{
+        bottom: -390px;
+    }
+    .goodsContainer {
+        height: 77vh;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next, .circle-carousel .prev, .slick-arrow.slick-prev {
+        top: 700px;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next {
+        right: 30%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        left: 30%;
+    }
+    .gameData{
+        margin-left: 15px;
+    }
+    .gameDescription, .gamesWindowBottomText .text-data, .gamesWindowText .text-data{
+        font-size: 17px;
+    }
+    .gameButtons{
+        right: 125px;
+    }
+    .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 19px;
+    }
+    .gamesWindowText, .gamesWindowBottomText {
+        height: 260px;
+        width: 80%;
+    }
+    .footerData {
+        height: 85%;
+        padding-top: 100px;
+    }
+    .footerContainer {
+        height: 95vh;
+        min-height: 30vh;
+    }
+    .rules {
+        display: block;
+        max-width: 70%;
+    }
+    .footerNavigationPanel ul li {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .footerNavigationPanel ul{
+        padding: 10px 5px;
+    }
+    .footerNavigationPanel::before {
+        height: 137px;
+        width: 80px;
+        left: 85%;
+        bottom: -14%;
+    }
+    .footerNavigationPanel ul::before{
+        left: 10%;
+    }
+    .circle-carousel .next, .circle-carousel .prev{
+        top: 480px;
+    }
+    .circle-carousel .next{
+        right: 10%;
+    }
+    .circle-carousel .prev{
+        left: 10%;
+    }
 }
 @media(max-width: 769px){
 }
