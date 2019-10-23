@@ -1265,7 +1265,128 @@
 }
 @media(max-width: 569px){
 }
+/* IPhone X width */
 @media(max-width: 415px){
+    p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
+        font-size: 12px;
+    }
+    .logo-d.min {
+        width: 60px;
+        height: 65px;
+        top: 30px;
+    }
+    .welcomeContent .sand-3::after, .welcomeContent .sand-1::before, .welcomeContent .grass-4::after, .yellow img, .blueSec > img {
+        max-height: 85px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 15px;
+        left: 30%;
+        top: 69px;
+    }
+    .logoContainerWelcome .logo-p {
+        top: 130px;
+        width: 260px;
+    }
+    .welcomeWindow .main-logo {
+        width: 107px;
+        font-size: 13px;
+        max-height: 50px;
+        padding: 8px 0;
+        right: 37%;
+        border-radius: 4px;
+        top: 76%;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -29px;
+        top: 22px;
+        height: 275px;
+    }
+    .sand-1{
+        height: 220px;
+    }
+    .welcomeWindow .linkToSocial img {
+        max-width: 70%;
+        width: 170px;
+    }
+    .blueSec{
+        width: 100%;
+    }
+    .blueSec .socialBlock{
+        top: 80px;
+        left: 37px;
+        width: 80%;
+    }
+    .welcomeWindow .linkToSocial:last-child{
+        position: relative;
+        left: 40px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after {
+        top: -81px;
+        height: 90px;
+        width: 80px;
+        right: 30px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after {
+        top: -53px;
+        height: 91px;
+        width: 80px;
+    }
+    .welcomeWindow .grassContainer {
+        bottom: 0;
+    }
+    .grass-1-1{
+        width: 150px;
+        height: 250px;
+        bottom: 40px;
+    }
+    .grass-1-2 {
+        bottom: 0;
+        width: 130px;
+        height: 130px;
+    }
+    .grass-2-1, .grass-2-2{
+        height: 80px;
+    }
+    .grass-3{
+        width: 128px;
+    }
+    .grass-3-1{
+        width: 97px;
+        bottom: 100px;
+    }
+    .grass-3-1, .grass-3-2{
+        max-height: 250px;
+    }
+    .grass-4 {
+        right: 0;
+        width: 280px;
+        height: 230px;
+        bottom: 0;
+    }
+    .welcomeWindow .sand-2 {
+        bottom: 0;
+    }
+    .welcomeWindow .sand-2::after{
+        bottom: 50px;
+        left: 65%;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 150px;
+        top: 0;
+        left: -20px;
+    }
+    .piggy{
+        bottom: -40px;
+    }
+    .piggy img{
+        max-width: 120px
+    }
+    .prilipalyContainer::after {
+        width: 80px;
+        height: 50px;
+        bottom: -13px;
+        right: 0;
+    }
 }
 @media(max-width: 376px){
 }
