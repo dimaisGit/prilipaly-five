@@ -175,7 +175,7 @@ a.header {
     bottom: 20px;
     z-index: 1;
     background-size: 40%;
-    animation: carousel 100s infinite linear;
+    animation: carousel 10000s infinite linear;
 }
 
 .gamesWindow i{

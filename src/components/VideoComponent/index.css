@@ -32,6 +32,7 @@
 .phoneContainer img{
     display: block;
     margin: auto;
+    max-width: 45%;
 }
 .phoneContainer::before{
     content:'';
@@ -164,7 +165,9 @@
     bottom: 68px;
     width: 245px;
     height: 436px;
-    left: 19px;
+    left: 0;
+    right: 0;
+    margin: auto;
     border-radius: 4px;
  }
 .ytp-cued-thumbnail-overlay-image {

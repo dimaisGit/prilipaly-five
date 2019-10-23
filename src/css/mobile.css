@@ -598,6 +598,9 @@
         transform: rotate(0deg);
         top: 50px;
     }
+    .welcomeWindow .linkToSocial{
+        max-width: 206px;
+    }
     .welcomeWindow .linkToSocial img{
         width: 230px;
         position: relative;
@@ -624,7 +627,7 @@
         content: '';
         right: -15px;
         position: absolute;
-        top: -170px;
+        top: -186px;
         height: 250px;
         width: 100px;
         background: url(../images/prilipaly/3.png) no-repeat center;
@@ -678,13 +681,124 @@
         max-width: 100px;
         max-height: 160px;
     }
-
-
-
-
-
     .videoWindow{
-        top: -24vh;
+        top: -23vh;
+        height: 135vh;
+        margin-bottom: -50vh;
+    }
+    .contentBlocks{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .videoWindow .infoBlock, .videoWindow .infoBlock span{
+        transform: rotateX(180deg) rotate(5deg);
+    }
+    .socialContainerData .socialBlock{
+        transform: rotate(0deg);
+        width: 60%;
+        margin: -5px auto;
+        justify-content: space-between;
+    }
+    .contentBlocks > div{
+        flex: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .socialContainerData .socialBlock .linkToSocial{
+        max-width: 154px;
+        margin: 0;
+    }
+    .infoBlock.back{
+        height: 137px;
+    }
+    .socialContainerData{
+        order: 1;
+        margin: auto;
+        max-width: 100%;
+    }
+    .toys-1{
+        order:2;
+    }
+    .toys-1-1{
+        left: 20%;
+        top: 0px;
+    }
+    .toys-1-2{
+        left: -50px;
+        top: -240px;
+    }
+    .toys-2{
+        order:3
+    }
+    .toys-1-2 img {
+        max-width: 60px;
+    }
+    .videoWindow .infoBlock span{
+        font-size: 22px;
+    }
+    .videoPhone{
+        margin-top: -270px;
+    }
+    .videoContainer {
+        min-height: 110vh;
+    }
+    .phoneContainer{
+        width: 100%;
+    }
+    .phoneContainer img{
+        width: 40%;
+    }
+    .phoneContainer iframe{
+        bottom: 99px;
+        width: 355px;
+        height: 628px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .toys-2-1{
+        bottom: -50vh;
+        left: 70%;
+        transform: rotateY(180deg);
+    }
+    .toys-2-1 img, .toys-3-4 img{
+        max-width: 250px;
+    }
+    .toysAndInfoBlock{
+        margin-top: -65%;
+    }
+    .toys-3-1{
+        left: 0;
+        width: 40%;
+    }
+    .toys-3-2{
+        top: -740px;
+        position: relative;
+    }
+    .toys-3-2 img{
+        width: 70px;
+    }
+    .toys-3-3 {
+        display: none;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        transform: rotate(0deg);
+        height: 100px;
+        width: 285px;
+    }
+    .videoWindow .infoBlock.lastInfoB span{
+        font-size: 17px;
+    }
+    .toys-2-2{
+        position: relative;
+        bottom: -500px;
+        left: -20%;
+    }
+    .toys-3-4{
+        bottom: 570px;
+        right: 90px;
     }
 }
 
