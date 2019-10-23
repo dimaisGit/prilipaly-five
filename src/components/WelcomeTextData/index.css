@@ -9,6 +9,7 @@
 }
 .logo-d.min{
     background: url(../../images/logo-dixy-min.png) no-repeat;
+    background-size: contain;
     height: 100px;
     width: 100px;
     top: 50px;
