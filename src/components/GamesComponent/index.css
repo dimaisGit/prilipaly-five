@@ -178,7 +178,7 @@ a.header {
     animation: carousel 100s infinite linear;
 }
 
-i{
+.gamesWindow i{
     font-family: 'FontAwesome';
     text-decoration: none;
     font-variant: normal;

@@ -475,7 +475,7 @@
         width: 630px;
         text-align: right;
     }
-    .infoBlock.leftPos{
+    .welcomeWindow  .infoBlock.leftPos{
         margin: 0;
         width: 100%;
         max-width: 100%;
@@ -486,12 +486,12 @@
         filter: none;
         margin-bottom: -15px;
     }
-    .logoContainerWelcome p{
+    .welcomeWindow  .logoContainerWelcome p{
         font-size: 34px;
         left: 299px;
         top: 107px;
     }
-    .main-logo{
+    .welcomeWindow  .main-logo{
         width: 210px;
         font-size: 29px;
         max-height: 70px;
@@ -499,21 +499,21 @@
         border-radius: 12px;
         right: 20%;
     }
-    .main-logo::after{
+    .welcomeWindow .main-logo::after{
         left: -58px;
         top: 55px;
         height: 500px;
     }
-    .sandContainer{
+    .welcomeWindow .sandContainer{
         bottom: -25px;
     }
-    .sand-2 {
+    .welcomeWindow .sand-2 {
         bottom: -33px;
         left: 16%;
         width: 160%;
         transform: rotateY(180deg);
     }
-    .grass-4{
+    .welcomeWindow .grass-4{
         z-index: 12;
     }
     .leftItems {
@@ -559,14 +559,14 @@
         right: -60px;
         z-index: 200;
     }
-    .sand-1{
+    .welcomeWindow .sand-1{
         bottom: 5%;
     }
     .sand-1, .sand-2, .sand-3, .piggy {
         animation: none;
         opacity: 1;
     }
-    .grass-2:before{
+    .welcomeWindow .grass-2:before{
         content: '';
         position: absolute;
         left: 5%;
@@ -577,7 +577,7 @@
         height: 220px;
         transform: rotateY(180deg)
     }
-    .sand-2::after{
+    .welcomeWindow .sand-2::after{
         content: '';
         left: 72%;
         position: absolute;
@@ -598,15 +598,15 @@
         transform: rotate(0deg);
         top: 50px;
     }
-    .linkToSocial img{
+    .welcomeWindow .linkToSocial img{
         width: 230px;
         position: relative;
         display: block;
     }
-    .linkToSocial:first-child img{
+    .welcomeWindow .linkToSocial:first-child img{
         transform: rotate(-5deg)
     }
-    .linkToSocial:first-child::after{
+    .welcomeWindow .linkToSocial:first-child::after{
         content: '';
         left: 5px;
         position: absolute;
@@ -617,10 +617,10 @@
         background-size: contain;
         transform: rotate(-5deg)
     }
-    .linkToSocial:last-child img{
+    .welcomeWindow .linkToSocial:last-child img{
         transform: rotate(5deg)
     }
-    .linkToSocial:last-child::after{
+    .welcomeWindow .linkToSocial:last-child::after{
         content: '';
         right: -15px;
         position: absolute;
