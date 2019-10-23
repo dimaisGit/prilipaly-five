@@ -6,7 +6,7 @@
     height: 500px;
     background: url('../../images/clouds-1.png') repeat-x;
     /* background-size: 100%; */
-    animation: carousel 2s infinite linear;
+    animation: carousel 20s infinite linear;
 }
 .clouds-canvas{
     position: absolute;
