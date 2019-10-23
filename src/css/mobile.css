@@ -188,6 +188,9 @@
     bottom: 410%;
     }
 }
+@media(max-width: 1366px) and (max-height: 768px){
+    
+}
 @media (max-width: 1281px) and (max-height: 1025px){
     .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
         max-height: 175px;
@@ -889,7 +892,13 @@
     .gamesWindowBottomText .text-data {
         padding: 20px 35px;
     }
-    
+    .footerData{
+        height: 50%;
+    }
+    .footerNavigationPanel ul li {
+        margin: 0 21px;
+        font-size: 13px;
+    }
 }
 
 /* mobile */
