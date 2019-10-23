@@ -800,6 +800,70 @@
         bottom: 570px;
         right: 90px;
     }
+    .goodsContainer{
+        flex-direction: column;
+        height: 55vh;
+    }
+    .spCarousel{
+        width: 100%;
+        max-width: 100%;;margin: 0;
+    }
+    .spDescription{
+        margin: 100px 0 0;
+    }
+    .slick-list{
+        margin: 0;
+    }
+    .slick-slider{
+        position: static;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next, .circle-carousel .prev, .slick-arrow.slick-prev{
+        top: 93%;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next{
+        right: 35%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev{
+        left: 35%;
+    }
+    .currentGoodPage{
+        margin-top: 16px;
+    }
+    .mapContainer .infoBlock{
+        top: 120px;
+    }
+    .searchingFormMap{
+        top: 250px;
+    }
+    .mapContainer .infoBlock.back{
+        height: 132px;
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .gamingData > div{
+        width: 70%;
+    }
+    .gamesWindowText, .gamesWindowBottomText{
+        height: 210px;
+    }
+    .gamesWindowText h4.header.smaller, .gameName{
+        font-size: 25px;
+    }
+    .gamesWindowText .text-data{
+        padding:  30px
+    }
+    .gamesWindowText .text-data, .gameDescription{
+        font-size: 20px;
+    }
+    .gamesWindowBottomText .text-data{
+        font-size: 18px
+    }
+    .gameButtons{
+        text-align: center;
+    }
+    .gamesWindowBottomText a.header{
+        margin: -10px auto;
+    }
 }
 
 /* mobile */

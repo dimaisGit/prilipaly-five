@@ -5,8 +5,8 @@
     filter: grayscale(1);
     height: 500px;
     background: url('../../images/clouds-1.png') repeat-x;
-    background-size: 80%;
-    animation: carousel 1855s infinite linear;
+    background-size: 100%;
+    animation: carousel 15s infinite linear;
 }
 .clouds-canvas{
     position: absolute;
@@ -18,10 +18,10 @@
 
 @keyframes carousel{
     from{
-        background-position: -10000%;
+        background-position: -100%;
     }
     to{
-        background-position: 10000%;
+        background-position: 100%;
     }
   
 }
