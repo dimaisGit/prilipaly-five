@@ -129,7 +129,7 @@ export default class MapComponent extends React.Component {
         return (
             <div className='mapWindow'>
                 <div className="mapContainer">
-                    <div id='map' style={{ width: '100%', height: '60vh' }}></div>
+                    <div id='map' style={{ width: '100%', height: '100%' }}></div>
                     <div className="infoBlock shadowViolet back">
                         <span className="blueText">АДРЕСА</span> <span className="blueText">МАГАЗИНОВ «ДИКСИ»</span></div>
                     <div className="searchingFormMap shadowVioletOther">

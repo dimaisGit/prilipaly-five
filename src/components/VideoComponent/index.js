@@ -53,7 +53,8 @@ export default class VideoComponent extends React.Component {
                         </div>
                         <div className="videoPhone">
                             <div className="phoneContainer">
-                            <iframe src="https://www.youtube.com/embed/ipWnb2NkcYI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                            {/* <iframe src="https://www.youtube.com/embed/ipWnb2NkcYI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
+                            <iframe src="https://www.youtube.com/embed/PB-tJjE7Qwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <img alt="img" src={phone}></img>
                             </div>
                         </div>

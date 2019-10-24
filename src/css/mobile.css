@@ -1110,9 +1110,7 @@
         height: 440px;
     }
     .sliderWindow .red{
-        margin-right: 30px;
-        font-size: 15px;
-        max-width: 250px;
+        display: none;
     }
     .sliderWindow .infoBlock.shadowViolet{
         margin-left: 30px;
@@ -1256,16 +1254,21 @@
     .circle-carousel .prev{
         left: 10%;
     }
+    
 }
+/* IPad width */
 @media(max-width: 769px){
 }
+/* IPhone 6/7/8+ horizontal width */
 @media(max-width: 737px){
 }
+/* IPhone6/7/8 horizontal width */
 @media(max-width: 668px){
 }
+/* IPhone5c horizontal width */
 @media(max-width: 569px){
 }
-/* IPhone X width */
+/* IPhone 6/7/8+ width */
 @media(max-width: 415px){
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
         font-size: 12px;
@@ -1386,6 +1389,293 @@
         height: 50px;
         bottom: -13px;
         right: 0;
+    }
+    p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet {
+        font-size: 15px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: none;
+    }
+    .sliderWindow .infoBlockContainer{
+        padding-top: 0;
+        justify-content: center;
+    }
+    .dot span img {
+        max-width: 140px;
+        max-height: 130px;
+    }
+    .circle-carousel {
+        height: 500%;
+    }
+    .page {
+        max-width: 95%;
+    }
+    .prilipalyInfo {
+        bottom: 79%;
+        width: 360px;
+        margin-right: -162px;
+        padding: 20px 15px;
+    }
+    .prilipalyInfo p {
+        font-size: 11px;
+        padding-top: 5px;
+    }
+    .prilipalyInfo::before, .prilipalyInfo::after{
+        height: 60px;
+        top: -51px;
+        background-position: left 7px, 50px 11px;
+        transform: rotate(-1deg);
+    }
+    .circle-carousel .prev {
+        left: -60%;
+    }
+    .circle-carousel .next {
+        right: -80%;
+    }
+    .slides h2 {
+        bottom: 545px;
+        left: 8px;
+    }
+    .circle-carousel .next, .circle-carousel .prev {
+        top: 398px;
+    }
+    .sliderContainer{
+        clip-path: ellipse(153% 49% at 50% 36%);
+        height: 840px;
+    }
+    .videoWindow .infoBlock span {
+        font-size: 14px;
+    }
+    .contentBlocks {
+        padding-top: 60px;
+    }
+    .socialContainerData{
+        width: 100%;
+    }
+    .videoWindow .infoBlock{
+        margin: auto;
+    }
+    .socialContainerData .socialBlock{
+        width: 70%;
+        margin-top: -25px;
+    }
+    .videoWindow  .linkToSocial img {
+        max-width: 90%;
+    }
+    .toys-1-1{
+        left: 5px;
+    }
+    .toys-1-1 img{
+        width: 62%;
+    }
+    .toys-3-4 img {
+        max-width: 100px;
+    }
+    .phoneContainer{
+        top: 110px;
+    }
+    .toys-3-4 {
+        bottom: 370px;
+        right: 1%;
+
+    }
+    .toys-3-1 img{
+        max-width: 100px;
+    }
+    .toys-3-1{
+        left: -21px;
+    }
+    .phoneContainer img {
+        width: 50%;
+    }
+    .phoneContainer iframe {
+        width: 43%;
+    }
+    .toys-1-2 {
+        left: -90px;
+        top: -200px;
+    }
+    .toys-2-2 {
+        bottom: -290px;
+        left: -33%;
+    }
+    .toys-2-2 img{
+        max-width: 140px
+    }
+    .videoWindow {
+        height: 155vh;
+        margin-bottom: -60vh;
+    }
+    .videoContainer {
+        min-height: 120vh;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        top: 224px;
+    }
+    .toys-2-1 img {
+        max-width: 120px;
+    }
+    .spInfo {
+        width: 400px;
+        padding: 20px 10px;
+    }
+    .spInfo h4.header.smaller.lined {
+        font-size: 16px;
+    }
+    .spInfo .text-data{
+        padding: 10px;
+    }
+    label{
+        padding: 2px
+    }
+    #region{
+        width: 60px;
+        margin: 0 7px;
+    }
+    .spClass {
+        width: 155px;
+    }
+    .formSearch form{
+        margin-top: -2px
+    }
+    .spCarousel{
+        padding: 0;
+        margin-top: -55px;
+    }
+    .goodsWindow::after{
+        width: 100px;
+        height: 70px;
+    }
+    .goodsWindow::before{
+        width: 70px;
+        height: 80px;
+        bottom: 0;
+    }
+    .goodsContainer {
+        height: 90vh;
+    }
+    .spInfo::before{
+        height: 95px;
+        width: 100px;
+        top: -85px;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        left: 25%;
+    }
+    .slick-arrow.slick-prev, .slick-arrow.slick-next {
+        top: 605px;
+    }
+    .slick-arrow.slick-next {
+        right: 25%;
+    }
+    .slick-slide img {
+        display: block;
+        margin: auto;
+    }
+    .mapContainer .infoBlock.back{
+        width: 90%;
+        transform: rotate(3deg);
+        left: -70px;
+        right: 0;
+        margin: auto;
+        top: 64px;
+    }
+    .mapContainer {
+        height: 100vh;
+    }
+    .mapContainer .infoBlock::before{
+        left: 30px;
+        top: -57px;
+        height: 110px;
+        width: 50px;
+    }
+    .searchingFormMap{
+        width: 100%;
+        background-size: cover;
+        min-height: 150px;
+        border-radius: 30px;
+        top: 73%;
+    }
+    .searchingFormMap form{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .searchingFormMap select + label{
+        display: none;
+    }
+    .gamesWindowText{
+        width: 97%;
+        padding: 30px 23px;
+        height: 168px;
+    }
+    .gamesWindowText .text-data {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 14px;
+    }
+    .gameMechanic{
+        width: 92%;
+        height: 336px;
+    }
+    .gameButtons{
+        position: static;
+    display: initial;
+    }
+    .gameImg{
+        margin-left: -10px;
+    }
+    .posterImg{
+        left: 65px;
+    }
+    .gameData{
+        width: 58%;
+    }
+    .gameData .gameName {
+        margin-bottom: 21px;
+        font-size: 20px;
+    }
+    .gameDescription{
+        font-size: 14px;
+    }
+    .playLink{
+        font-size: 15px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin: 25px auto;
+    }
+    .gameLogo{
+        margin:0 5px;
+    }
+    .gamesWindowBottomText{
+        width: 100%;
+        height: 145px;
+    }
+    .gamesWindow{
+        height: 130vh;
+    }
+    .gameDescription, .gamesWindowBottomText .text-data {
+        padding: 0;
+    }
+    .gamesWindowBottomText{
+        padding: 28px 24px;
+    }
+    .gamesWindowBottomText .text-data{
+        font-size: 12px
+    }
+    .gamesWindowBottomText::after{
+        height: 80px;
+        width: 99px;
+        top: -69px;
+    }
+    .gamesWindowBottomText::before {
+        top: -78px;
+    }
+    .gamesWindowBottomText .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 12px;
+        margin: 15px 0;
     }
 }
 @media(max-width: 376px){

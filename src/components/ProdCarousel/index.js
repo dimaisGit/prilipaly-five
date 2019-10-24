@@ -92,6 +92,16 @@ export default class ProdCarousel extends React.Component {
                             this.state.goodsPerSlide = 3
                         }
                     }
+                },
+                {
+                    breakpoint: 700,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        beforeChange: () => {
+                            this.state.goodsPerSlide = 1
+                        }
+                    }
                 }
             ]
         };
