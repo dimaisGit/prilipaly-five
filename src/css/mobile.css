@@ -1559,7 +1559,7 @@
         width: 100px;
         top: -85px;
     }
-    .circle-carousel .prev, .slick-arrow.slick-prev {
+    .slick-arrow.slick-prev {
         left: 25%;
     }
     .slick-arrow.slick-prev, .slick-arrow.slick-next {
@@ -1621,7 +1621,7 @@
     }
     .gameButtons{
         position: static;
-    display: initial;
+        display: initial;
     }
     .gameImg{
         margin-left: -10px;
@@ -1660,10 +1660,11 @@
         padding: 0;
     }
     .gamesWindowBottomText{
-        padding: 28px 24px;
+        padding: 30px 24px;
     }
     .gamesWindowBottomText .text-data{
-        font-size: 12px
+        font-size: 12px;
+        margin: 15px 0;
     }
     .gamesWindowBottomText::after{
         height: 80px;
@@ -1675,7 +1676,93 @@
     }
     .gamesWindowBottomText .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
         font-size: 12px;
-        margin: 15px 0;
+    }
+    .footerNavigationPanel ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerNavigationPanel ul li {
+        margin: 10px 20px;
+        font-size: 12px;
+        flex: 35%;
+        text-align: left;
+    }
+    .socialLinks{
+        flex-wrap: wrap
+    }
+    .footerContainer {
+        height: 180vh;
+    }
+    .logoAll {
+        justify-content: center;
+        align-items: space-between;
+        flex-wrap: wrap-reverse;
+    }
+    .logoAll .logo-d{
+        margin-top: 80px;
+    }
+    .footerWindow::after, .footerWindow::before{
+        display: none;
+    }
+    .footerNavigationPanel::before{
+        left: 77%;
+        bottom: 86%;
+    }
+    .rules {
+        max-width: 80%;
+    }
+    .socialLinks > a{
+        flex: 40%;
+        font-size: 17px;
+        text-align: center;
+    }
+    .socialLinks > a:first-child{
+        flex:100%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .smmLinks{
+        margin: 30px 0 0;
+        flex: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .smmLinks a{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .rulesAndLinks{
+        order: 3;
+    }
+    .GamingCenter{
+        order:2;
+        margin: 20px 40px 30px;
+    }
+    .goog-pl::after{
+        height: 40px;
+        bottom: -30px;
+    }
+    .footerData {
+        height: 85%;
+        padding-top: 290px;
+    }
+    .footerContainer .grass-4{
+        bottom: -30px;
+    }
+    .footerContainer .sandContainer {
+        height: 180px;
+        bottom: 0;
+        width: 190%;
+    }
+    .footerContainer  .sand-2{
+        bottom: 20px;
+    }
+    .footerContainer  .sand-3{
+        bottom: 2px;
+    }
+    .footerNavigationPanel {
+        margin: 30px 0;
     }
 }
 @media(max-width: 376px){
