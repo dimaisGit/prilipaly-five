@@ -26,6 +26,7 @@ class App extends React.Component {
 					<PageComponent />
 				} */}
 				<PageComponent />
+				{/* <StartComponent/> */}
 			</div>
 		);
 	}
