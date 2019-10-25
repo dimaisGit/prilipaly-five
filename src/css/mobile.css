@@ -892,6 +892,8 @@
         transform: rotate(0deg);
         height: 100px;
         width: 285px;
+        top: 380px;
+        position: relative;
     }
     .videoWindow .infoBlock.lastInfoB span{
         font-size: 17px;
@@ -1156,6 +1158,7 @@
     }
     .videoWindow {
         top: -24vh;
+        height: 145vh;
     }
     .contentBlocks {
         padding-top: 180px;
@@ -1175,7 +1178,10 @@
         height: 80px;
         width: 227px;
         position: relative;
-        top: -80px;
+        top: 210px;
+    }
+    .videoContainer {
+        min-height: 120vh;
     }
     .videoWindow .infoBlock.lastInfoB span {
         font-size: 13px;

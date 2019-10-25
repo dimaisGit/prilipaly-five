@@ -137,10 +137,10 @@ export default class MapComponent extends React.Component {
                             <select name="city" onChange={(e) => { e.persist(); this.onCityChange(e) }}>
                                 {cities.map(item => <option key={item.city}>{item.city}</option>)}
                             </select><label htmlFor="city"></label>
-                            <select name="region">
+                            <select className="regionSel" name="region">
                                 <option>{this.state.currentRegion}</option>
 
-                            </select> <label className="region" htmlFor="region"></label>
+                            </select> <label  htmlFor="region"></label>
                             <input type="search" placeholder='Введите адрес' onChange={(e) => { this.handleSearch(e) }} />
                             <input type="submit" className="btn" value="Найти" onClick={this.handleSubmit} />
                         </form>

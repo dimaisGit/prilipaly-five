@@ -109,3 +109,6 @@ input.btn:hover{
     background-color: #75386c;
     transition: all .3s;
 }
+select.regionSel{
+    display: none;
+}
