@@ -1891,6 +1891,9 @@
     .prilipalyInfo p {
         font-size: 11.5px;
     }
+    .prilipalyInfo:after{
+        transform: rotate(-4deg);
+    }
     .circle-carousel .next, .circle-carousel .prev{
         top: 428px;
     }
