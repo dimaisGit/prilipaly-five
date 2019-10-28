@@ -679,7 +679,7 @@
     }
     .welcomeWindow .sand-1{
         bottom: 5%;
-        z-index: 0;
+        z-index: -1;
     }
     .sand-1, .sand-2, .sand-3, .piggy {
         animation: none;
@@ -1844,7 +1844,7 @@
         left: -20px;
     }
     .welcomeWindow .sand-1{
-        z-index: 0;
+        z-index: -1;
     }
     .welcomeWindow .sand-2{
         z-index: 30;
