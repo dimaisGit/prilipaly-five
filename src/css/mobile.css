@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
 @media(max-width:1920px) and (max-height: 1080px){
     .videoWindow{
         margin-bottom: -49vh;
@@ -1399,6 +1400,7 @@
     }
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet {
         font-size: 15px;
+        font-family: 'Ubuntu', sans-serif;
     }
     .welcomeWindow .infoBlock.leftPos{
         max-width: 280px;
