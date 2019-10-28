@@ -1918,6 +1918,11 @@
     .toys-1-2 img {
         max-width: 40px;
     }
+    .toys-3-4 img {
+        max-width: 100px;
+        height: 100%;
+        width: 100%;
+    }
     .videoWindow .infoBlock.lastInfoB{
         width: 250px;
     }
