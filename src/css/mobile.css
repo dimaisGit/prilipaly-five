@@ -1878,6 +1878,8 @@
     }
     .videoContainer {
         min-height: 130vh;
+        background: url(../images/backgroundMSK.jpg);
+        background-size: auto;
     }
     .spInfo {
         width: 363px;
