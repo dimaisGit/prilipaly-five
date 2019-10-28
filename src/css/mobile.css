@@ -1278,6 +1278,7 @@
 @media(max-width: 415px){
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
         font-size: 12px;
+        letter-spacing: 0px;
     }
     .logo-d.min {
         width: 60px;
