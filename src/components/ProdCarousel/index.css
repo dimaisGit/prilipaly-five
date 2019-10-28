@@ -14,7 +14,7 @@
 }
 .itemFullName p, .itemPrice p{
     color:#fff;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
     display: block;
     max-width:80%;
@@ -43,7 +43,7 @@
     border-radius: 5px;
     bottom: 0;
     font-size: 13px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     display: none;
 
 }
@@ -86,7 +86,7 @@
     right: 0;
     color: white;
     font-size: 29px;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     margin: auto;
     width: 100%;
     text-align: center;

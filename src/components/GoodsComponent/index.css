@@ -77,7 +77,7 @@ form, select, label, option, input {
     background: transparent;
     border: none;
     outline: none;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
 }
 label.light{
     color: #fff;
@@ -148,7 +148,7 @@ label.light{
 }
 .sponsor-iteration{
     color: #fff;
-    font-family: Ubuntu;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     position: absolute;
     left: 11%;

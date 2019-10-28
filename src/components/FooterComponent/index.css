@@ -142,7 +142,7 @@
     position: relative;
     transition: all .3s;
     text-decoration: none;
-    font-family: Ubuntu;
+    font-family:  'Ubuntu', sans-serif;;
     font-weight: bold;
 }
 .footerNavigationPanel a::after, .socialLinks > a::after{
@@ -181,7 +181,7 @@
     display: block;
     max-width: 50%;
     color: #fff;
-    font-family: Ubuntu;
+    font-family:  'Ubuntu', sans-serif;;
     font-size: 14px;
     line-height:1.5;
     margin: 0 auto;
