@@ -1907,7 +1907,7 @@
         padding: 10px 0;
     }
     .videoContainer {
-        min-height: 150vh;
+        min-height: 135vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
         background-size: auto;
     }
