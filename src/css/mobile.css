@@ -1276,7 +1276,10 @@
     .circle-carousel .prev{
         left: 10%;
     }
-    
+    .heart{
+        height: 12px;
+        width: 12px;
+    }
 }
 /* IPad width */
 @media(max-width: 769px){
