@@ -1903,10 +1903,23 @@
     .videoWindow {
         height: 165vh;
     }
+    .videoWindow .infoBlock{
+        padding: 10px 0;
+    }
     .videoContainer {
         min-height: 130vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
         background-size: auto;
+    }
+    .toys-1-2 {
+        left: -110px;
+        top: -210px;
+    }
+    .toys-1-2 img {
+        max-width: 40px;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        width: 250px;
     }
     .spInfo {
         width: 363px;
