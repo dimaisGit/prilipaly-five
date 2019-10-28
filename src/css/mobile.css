@@ -1885,11 +1885,14 @@
         width: 400%;
     }
     .slides h2 {
-        bottom: 442px;
+        bottom: 432px;
         left: -38px;
     }
     .prilipalyInfo p {
-        font-size: 10.5px;
+        font-size: 11.5px;
+    }
+    .circle-carousel .next, .circle-carousel .prev{
+        top: 428px;
     }
     .videoWindow {
         height: 165vh;
