@@ -738,6 +738,10 @@
         background-size: contain;
         transform: rotate(-5deg)
     }
+    .welcomeWindow .linkToSocial:hover{
+        filter:none;
+        transform: none
+    }
     .welcomeWindow .linkToSocial:last-child img{
         transform: rotate(5deg)
     }
@@ -1343,15 +1347,16 @@
         left: 40px;
     }
     .welcomeWindow .linkToSocial:last-child::after {
-        top: -81px;
+        top: -83px;
         height: 90px;
         width: 80px;
-        right: 30px;
+        right: 15px;
     }
     .welcomeWindow .linkToSocial:first-child::after {
-        top: -53px;
+        top: -50px;
         height: 91px;
         width: 80px;
+        left: -20px;
     }
     .welcomeWindow .grassContainer {
         bottom: 0;
