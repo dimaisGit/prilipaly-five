@@ -1409,7 +1409,7 @@
         right: 0;
     }
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet {
-        font-size: 15px;
+        font-size: 14px;
         font-family: 'Ubuntu', sans-serif;
     }
     .welcomeWindow .infoBlock.leftPos{
