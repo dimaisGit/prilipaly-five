@@ -629,7 +629,7 @@
         left: 16%;
         width: 160%;
         transform: rotateY(180deg);
-        z-index:20;
+        z-index:30;
     }
     .welcomeWindow .grass-4{
         z-index: 12;
@@ -705,7 +705,7 @@
         width: 160px;
         height: 270px;
         transform: rotateY(180deg);
-        z-index: 20
+        z-index: 30
     }
     .blueSec{
         position: relative;
@@ -1072,6 +1072,7 @@
     }
     .welcomeWindow .sand-2::after{
         height: 130px;
+        z-index: 30;
     }
     .welcomeWindow .grass-2:before{
         height: 150px;
@@ -1398,10 +1399,11 @@
     }
     .welcomeWindow .sand-2 {
         bottom: 0;
-        z-index: 20
+        z-index: 30;
     }
     .welcomeWindow .sand-2::after{
         bottom: 50px;
+        z-index: 30;
         left: 65%;
     }
     .welcomeWindow .grass-2:before {
@@ -1844,11 +1846,11 @@
         z-index: 0;
     }
     .welcomeWindow .sand-2{
-        z-index: 20;
+        z-index: 30;
     }
     .welcomeWindow .sand-2::after {
         height: 110px;
-        
+        z-index: 30;
     }
     .piggy img {
         height: 65%;
