@@ -629,6 +629,7 @@
         left: 16%;
         width: 160%;
         transform: rotateY(180deg);
+        z-index:20;
     }
     .welcomeWindow .grass-4{
         z-index: 12;
@@ -704,7 +705,7 @@
         width: 160px;
         height: 270px;
         transform: rotateY(180deg);
-
+        z-index: 20
     }
     .blueSec{
         position: relative;
@@ -1386,6 +1387,7 @@
     }
     .welcomeWindow .sand-2 {
         bottom: 0;
+        z-index: 20
     }
     .welcomeWindow .sand-2::after{
         bottom: 50px;
