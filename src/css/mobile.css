@@ -1413,7 +1413,7 @@
         font-family: 'Ubuntu', sans-serif;
     }
     .welcomeWindow .infoBlock.leftPos{
-        max-width: 280px;
+        max-width: 300px;
     }
     .sliderWindow .infoBlock.shadowViolet{
         transform: none;
