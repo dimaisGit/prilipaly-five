@@ -681,6 +681,9 @@
         bottom: 5%;
         z-index: -1;
     }
+    .bg-bot{
+        z-index: -1;
+    }
     .sand-1, .sand-2, .sand-3, .piggy {
         animation: none;
         opacity: 1;
