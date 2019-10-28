@@ -1901,7 +1901,8 @@
         top: 428px;
     }
     .videoWindow {
-        height: 175vh;
+        height: 170vh;
+        top: -26vh;
     }
     .videoWindow .infoBlock{
         padding: 10px 0;
