@@ -1827,9 +1827,15 @@
         top: 40px;
         left: -20px;
     }
+    .welcomeWindow .sand-1{
+        z-index: 0;
+    }
+    .welcomeWindow .sand-2{
+        z-index: 20;
+    }
     .welcomeWindow .sand-2::after {
         height: 110px;
-        z-index: 20;
+        
     }
     .piggy img {
         height: 65%;
