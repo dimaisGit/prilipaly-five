@@ -1400,6 +1400,9 @@
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet {
         font-size: 15px;
     }
+    .welcomeWindow .infoBlock.leftPos{
+        max-width: 280px;
+    }
     .sliderWindow .infoBlock.shadowViolet{
         transform: none;
     }
