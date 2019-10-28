@@ -1280,6 +1280,9 @@
         height: 12px;
         width: 12px;
     }
+    .top-1{
+        animation: moveup 4.4s 2.6s infinite;
+    }
 }
 /* IPad width */
 @media(max-width: 769px){
