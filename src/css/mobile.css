@@ -1955,6 +1955,7 @@
     }
     .videoWindow .infoBlock.lastInfoB{
         width: 200px;
+        top: 205px;
     }
     .spInfo {
         width: 363px;
