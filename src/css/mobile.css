@@ -2379,4 +2379,7 @@
         top: calc(50% - 3px);
         width: 48px;
     }
+    .footerData{
+        top: 60px
+    }
 }
