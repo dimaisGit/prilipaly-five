@@ -1887,6 +1887,12 @@
     .sliderContainer{
         height: 890px;
     }
+    .circle-carousel .next {
+        right: 40px;
+    }
+    .circle-carousel .prev {
+        left: 80px;
+    }
 }
 /* IPhone 6/7/8 width */
 @media(max-width: 376px) and (max-height: 667px){
