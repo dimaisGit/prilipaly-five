@@ -2009,6 +2009,9 @@
         font-size: 13px;
         padding: 0 10px;
     }
+    .prilipalyInfo::before, .prilipalyInfo::after{
+        transform: rotate(-4deg);
+    }
     .gameLogo:hover{
         width: 40px;
         margin: 0 5px;
