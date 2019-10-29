@@ -2229,15 +2229,15 @@
         margin: auto;
     }
     .slides h2 {
-        bottom: 337px;
+        bottom: 310px;
         left: 0;
     }
     .circle-carousel .next{
-        top: 410px;
+        top: 400px;
         right: 30px;
     }
     .circle-carousel .prev {
-        top: 410px;
+        top: 400px;
         left: 70px;
     }
     .sliderWindow div, .welcomeWindow {
