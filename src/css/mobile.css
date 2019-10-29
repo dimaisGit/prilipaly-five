@@ -2111,5 +2111,224 @@
         width: 50px;
     }
 }
+/* IPhone 5/SE */
 @media(max-width: 321px){
+    .welcomeWindow .infoBlock.leftPos{
+        font-size: 12px;
+    }
+    .welcomeWindow .yellow {
+        width: 85%;
+        left: 10%;
+    }
+    .logo-d.min {
+        left: 15px;
+        top: 15px;
+        width: 45px;
+        height: 47px;
+        animation: none;
+        opacity: 1
+    }
+    .logoContainerWelcome .logo-p{
+        width: 180px;
+        top: 140px;
+        animation: none;
+        opacity: 1;
+        height: 83px;
+    }
+    .yellow{
+        top: -100px;  
+    }
+    .yellow img{
+        max-height: 78px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 13px;
+        left: 70px;
+        top: 40px;
+    }
+    .welcomeWindow .main-logo {
+        right: 25px;
+        top: 73px;
+    }
+    .blueSec .socialBlock {
+        top: -20px;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 100px;
+        top: 67px;
+        left: -30px;
+    }
+    .grass-1-1{
+        bottom: 0;
+    }
+    .grass-3-1, .grass-3-2{
+        bottom: 40px;
+    }
+    .grass-2-1, .grass-2-2 {
+        height: 70px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after {
+        top: -32px;
+        height: 75px;
+        width: 73px;
+        left: -20px;
+    }
+    .welcomeWindow .sand-2::after{
+        height: 88px;
+    }
+    .piggy img {
+        height: 90px;
+    }
+    .piggy{
+        height: 155px;
+    }
+    .grass-4{
+        width: 180px;
+        height: 124px; 
+    }
+    .prilipalyContainer::after {
+        width: 80px;
+        height: 40px;
+        bottom: -10px;
+        right: 0;
+    }
+    .heart-box {
+        left: calc(100% - 90px);
+        width: 110px;
+        height: 140px;
+        bottom: 90px;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -22px;
+        top: 24px;
+        height: 205px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after {
+        top: -69px;
+        height: 75px;
+        width: 80px;
+        right: 8px;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 90px;
+    }
+    .prilipalyInfo {
+        width: 305px;
+        margin-right: -20px;
+        background-size: 304px 171px;
+        height: 190px
+    }
+    .page {
+        padding: 120px 0;
+    }
+    .circle-carousel .slide {
+        width: 100%;
+        left: 0;
+        right: -40px;
+        margin: auto;
+    }
+    .slides h2 {
+        bottom: 337px;
+        left: 0;
+    }
+    .circle-carousel .next{
+        top: 410px;
+        right: 30px;
+    }
+    .circle-carousel .prev {
+        top: 410px;
+        left: 70px;
+    }
+    .sliderWindow div, .welcomeWindow {
+        animation: none; 
+        opacity: 1;
+    }
+    .sliderContainer{
+        height: 800px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        margin-top: 30px
+    }
+    .prilipalyInfo p {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .phoneContainer::before{
+        height: 80px;
+        width: 78px;
+        top: -70px;
+    }
+    .phoneContainer img {
+        width: 210px;
+    }
+    .phoneContainer iframe {
+        width: 184px;
+    }
+    .phoneContainer {
+        top: 140px;
+    }
+    .toys-3-4 {
+        bottom: 360px;
+        right: -250px;
+        width: 60px;
+    }
+    .toys-2-1{
+        bottom: -360px;
+        left: 200px;
+    }
+    .toys-2-1 img {
+        max-width: 100px;
+    }
+    .toys-2-2 img {
+        max-width: 90px;
+    }
+    .videoContainer{
+        min-height: 890px;  
+    }
+    .videoWindow {
+        height: 1060px;
+        top: -148px;
+    }
+    .toys-3-1 img {
+        max-width: 60px;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        width: 250px;
+        top: 235px;
+    }
+    .spInfo{
+        width: 310px;
+        height: 149px; 
+        background-size: 310px 140px; 
+    }
+    .spInfo .text-data {
+        padding: 8px;
+        font-size: 11px;
+    }
+    .formSearch form {
+        margin-top: -6px;
+        padding: 0 0 10px;
+    }
+    .formSearch p, .goodsWindow select {
+        font-size: 11px;
+    }
+    #region {
+        width: 56px;
+        margin: 0 5px;
+    }
+    .spClass {
+        width: 130px;
+    }
+    .slick-arrow.slick-next {
+        right: 40px;
+        top: 515px;
+    }
+    .slick-arrow.slick-prev {
+        left: 40px;
+        top: 515px;
+    }
+    .currentGoodPage {
+        margin-top: -15px;
+    }
 }
