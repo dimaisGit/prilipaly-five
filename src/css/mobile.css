@@ -1033,7 +1033,7 @@
         max-width: 200px;
     }
 }
-/* mobile */
+/* Mobile horizontal*/
 @media(max-width: 813px){
     .welcomeWindow .yellow{
         width:65%
@@ -1807,8 +1807,85 @@
         margin: 30px 0;
     }
 }
+/* IPhone X */
+@media (max-width: 376px) and (max-height: 813px) {
+    .logo-d.min{
+        left: 30px;  
+    }
+    .welcomeWindow .yellow {
+        width: 300px;
+        left: calc((100% - 300px) / 2);
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 13px;
+        left: 99px;
+        top: 53px;
+    }
+    .welcomeWindow .main-logo{
+        top: 142px;
+        right: 82px;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -46px;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 120px;
+        top: 35px;
+        left: -27px;
+    }
+    .piggy {
+        bottom: -68px;
+        left: 45px;
+    }
+    .piggy img {
+        max-width: 100px;
+        max-height: 106px;
+    }
+    .welcomeWindow .sand-2::after {
+        height: 100px;
+    }
+    .grass-1-1{
+        height: 220px;
+    }
+    .grass-1-2{
+        height: 110px;
+    }
+    .grass-3-1 {
+        width: 67px;
+        bottom: 80px;
+        max-height: 180px;
+    }
+    .grass-3-2 {
+        left: 60px;
+        bottom: 80px;
+        width: 130px;
+        height: 240px;
+    }
+    .dot span img {
+        max-width: 120px;
+        max-height: 110px;
+    }
+    .circle-carousel{
+        right: 0;
+        left: -21px;
+        margin: auto;
+    }
+    .container {
+        width: 100%;
+        height: 370px;
+    }
+    .page {
+        padding: 160px 0;
+    }
+    .sliderRounded {
+        margin-top: -80px;
+    }
+    .prilipalyInfo{
+        margin: 0
+    }
+}
 /* IPhone 6/7/8 width */
-@media(max-width: 376px){
+@media(max-width: 376px) and (max-height: 667px){
     .welcomeWindow .yellow {
         width: 75%;
         left: 15%;
