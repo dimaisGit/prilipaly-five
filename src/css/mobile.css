@@ -1945,7 +1945,6 @@
     }
     .gameLogo:hover{
         width: 40px;
-        filter: drop-shadow(2px 4px 6px #fff);
         margin: 0 5px;
     }
     .spDescription {
@@ -2066,9 +2065,6 @@
     .pril-bg{
         display: none;
     }
-    .footerContainer {
-        height: 200vh;
-    }
     .logo-p {
         width: 280px;
         height: 130px;
@@ -2076,6 +2072,9 @@
     .logoAll > div::before{
         width: 70px;
         left: 33px;
+    }
+    .footerContainer {
+        height: 1130px;
     }
     .footerNavigationPanel::after {
         left: 75%;
