@@ -1898,6 +1898,9 @@
         width: 356px;
         margin-right: -181px;
     }
+    .circle-carousel {
+        height: 532%;
+    }
     .circle-carousel .prev {
         left: -180%;
     }
@@ -1935,6 +1938,9 @@
         background: url(../images/backgroundMSK.jpg) no-repeat center;
         background-size: auto;
     }
+    .spDescription {
+        margin: 65px 0 35px;
+    }
     .toys-1-2 {
         left: -110px;
         top: -210px;
@@ -1948,7 +1954,7 @@
         width: 100%;
     }
     .videoWindow .infoBlock.lastInfoB{
-        width: 250px;
+        width: 200px;
     }
     .spInfo {
         width: 363px;
@@ -1982,6 +1988,7 @@
     }
     .mapContainer .infoBlock.back{
         width: 80%;
+        top: 15px;
         left: -70px;
     }
     .mapContainer .infoBlock span{
@@ -1993,6 +2000,7 @@
     .searchingFormMap select, .searchingFormMap input{
         flex: 40%;
         width: 70px;
+        text-overflow: ellipsis;
         margin: 10px;
     }
     .searchingFormMap{
