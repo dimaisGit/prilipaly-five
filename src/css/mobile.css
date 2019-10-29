@@ -2365,8 +2365,9 @@
         font-size: 13px;
         line-height: 1.3;
     }
-    .gameLogo{
+    .gameLogo, .gameLogo:hover{
         width: 55px;
+        margin: 0 5px;
     }
     .gamesWindow {
         height: 980px;
