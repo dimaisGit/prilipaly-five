@@ -127,13 +127,11 @@
     z-index: 150;
     bottom: -130px;
     left: 30px;
-    /* animation: swell 5s infinite linear */
 }
 .toys-2-2{
     left: 40px;
     position: relative;
     bottom: -100px;
-    animation: swell 1s infinite linear
 }
 .videoWindow .infoBlock.lastInfoB span{
     transform: rotate(0);

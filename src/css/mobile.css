@@ -2077,9 +2077,33 @@
     .footerContainer {
         height: 1430px;
     }
+    .footerContainer .grass-3{
+        bottom: -60px;
+    }
     .footerNavigationPanel::after {
         left: 75%;
         bottom: 320px;
+        height: 50px;
+        width: 50px;
+    }
+    .footerNavigationPanel::before {
+        left: 300px;
+        bottom: 110px;
+        width: 60px;
+    }
+    .footerContainer .sand-3::before{
+        height: 50px;
+        width: 50px;
+        bottom: 54px;
+    }
+    .smmLinks a {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .footerNavigationPanel ul::before {
+        left: 30px;
+        width: 50px;
     }
 }
 @media(max-width: 321px){
