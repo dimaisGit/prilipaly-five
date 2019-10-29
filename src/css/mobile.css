@@ -2331,4 +2331,7 @@
     .currentGoodPage {
         margin-top: -15px;
     }
+    .welcomeWindow {
+        height: 580px;
+    }
 }
