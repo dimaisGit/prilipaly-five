@@ -71,6 +71,8 @@ export default class MapComponent extends React.Component {
 
         this.myMap.geoObjects.add(objectManager);
         this.myMap.behaviors.disable('scrollZoom');
+        this.myMap.behaviors.disable('Drag');
+
         let center;
         let getGeocode = new window.ymaps.geocode('Moscow', {
             results: 1
