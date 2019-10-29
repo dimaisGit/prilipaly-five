@@ -1986,14 +1986,14 @@
         width: 356px;
         margin-right: -181px;
     }
-    .circle-carousel {
+    /* .circle-carousel {
         height: 532%;
     }
     .circle-carousel .prev {
-        left: -180%;
+        left: 50px;
     }
     .circle-carousel .next {
-        right: -280%;
+        right: 10px;
     }
     .circle-carousel .slide{
         width: 400%;
@@ -2014,7 +2014,7 @@
     }
     .circle-carousel .next, .circle-carousel .prev{
         top: 428px;
-    }
+    } */
     .videoWindow {
         height: 170vh;
         top: -26vh;
