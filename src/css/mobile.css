@@ -2216,7 +2216,7 @@
     .prilipalyInfo {
         width: 305px;
         margin-right: -20px;
-        background-size: 304px 171px;
+        background-size: 304px 151px;
         height: 190px
     }
     .page {
@@ -2229,7 +2229,7 @@
         margin: auto;
     }
     .slides h2 {
-        bottom: 310px;
+        bottom: 300px;
         left: 0;
     }
     .circle-carousel .next{
