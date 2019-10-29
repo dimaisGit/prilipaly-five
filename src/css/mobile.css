@@ -1870,6 +1870,11 @@
     .top-1, .top-2{
         display: none;
     }
+    .cloudsContainer{
+        height: 220px;
+        background-size: 1270px;
+        top: 70px !important;
+    }
     .grass-3-2 {
         left: 60px;
     }
