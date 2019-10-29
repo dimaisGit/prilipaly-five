@@ -1916,6 +1916,7 @@
     }
     .prilipalyInfo p {
         font-size: 11.5px;
+        margin-top: 10px;
     }
     .prilipalyInfo:after{
         transform: rotate(-4deg);
@@ -1937,6 +1938,14 @@
         min-height: 135vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
         background-size: auto;
+    }
+    .videoWindow .infoBlock.lastInfoB span {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .gameLogo:hover{
+        width: 40px;
+        filter: drop-shadow(2px 4px 6px #fff);
     }
     .spDescription {
         margin: 65px 0 35px;
@@ -1981,6 +1990,9 @@
     .slick-arrow.slick-prev, .slick-arrow.slick-next {
         top: 587px;
     }
+    h4.lined:after, h4.lined:before{
+        top: calc(50% - 5px);
+    }
     .slick-arrow.slick-next {
         right: 20%;
     }
@@ -2022,12 +2034,17 @@
     .gamesWindowText .text-data {
         font-size: 13px;
     }
+    .gamesWindowBg{
+        background-size: auto;
+    }
     .gameImg{
         max-width: 95px;
     }
     .posterImg {
-        left: 47px;
-        max-width: 26px;
+        left: 50px;
+        top: 12px;
+        max-width: 22px;
+        max-height: 28px;
     }
     .gameMechanic{
         height: 332px;
