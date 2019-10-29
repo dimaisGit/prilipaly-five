@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "1d244a534c6230d5c1d5",
-    "url": "/prilipaly-five/static/css/main.01dd1c98.chunk.css"
+    "revision": "2eebde5ae6ca559d7432",
+    "url": "/prilipaly-five/static/css/main.e704a17e.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_7.733e8b9f.png"
   },
   {
-    "revision": "1d244a534c6230d5c1d5",
+    "revision": "2eebde5ae6ca559d7432",
     "url": "/prilipaly-five/static/js/main.23168404.chunk.js"
   },
   {
@@ -220,12 +220,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/girl.aa93b6e6.png"
   },
   {
-    "revision": "342603a17da172d4b82461964556c339",
-    "url": "/prilipaly-five/static/media/grass-1-2.342603a1.png"
-  },
-  {
     "revision": "329b98c3bf9324f25bb89a50d3c82a6c",
     "url": "/prilipaly-five/static/media/grass-3-2.329b98c3.png"
+  },
+  {
+    "revision": "342603a17da172d4b82461964556c339",
+    "url": "/prilipaly-five/static/media/grass-1-2.342603a1.png"
   },
   {
     "revision": "28fd39d1eef1f6c8bdde621ee4f841f7",
@@ -312,7 +312,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "1e29dd4f3b3b083a9a66547e3fe20620",
+    "revision": "fed9e75c0fe7a5a1aa419e85940d63df",
     "url": "/prilipaly-five/index.html"
   }
 ];
