@@ -2216,7 +2216,7 @@
     .prilipalyInfo {
         width: 305px;
         margin-right: -20px;
-        background-size: 304px 151px;
+        background-size: 304px 170px;
         height: 190px
     }
     .page {
@@ -2340,5 +2340,42 @@
     .welcomeWindow div{
         animation: none;
         opacity: 1;
+    }
+    .goodsContainer {
+        height: 575px;
+    }
+    .gamesWindowText{
+        background-size: 310px 145px;  
+        height: 148px;
+    }
+    .gamesWindowBottomText {
+        padding: 30px 15px;
+        bottom: 10px;
+        background-size: 310px 140px;
+    }
+    .gameMechanic {
+        height: 325px;
+        padding: 20px 0 30px 15px;
+    }
+    .gameData {
+        width: 60%;
+        margin-left: 10px;
+    }
+    .gameDescription {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .gameLogo{
+        width: 55px;
+    }
+    .gamesWindow {
+        height: 980px;
+    }
+    .gamesWindow i{
+        font-size: 23px;
+    }
+    h4.lined:after, h4.lined:before {
+        top: calc(50% - 3px);
+        width: 48px;
     }
 }
