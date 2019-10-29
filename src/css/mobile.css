@@ -2334,4 +2334,7 @@
     .welcomeWindow {
         height: 580px;
     }
+    .cloudsContainer{
+        animation: none
+    }
 }
