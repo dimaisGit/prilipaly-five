@@ -2337,4 +2337,8 @@
     .cloudsContainer{
         animation: none
     }
+    .welcomeWindow div{
+        animation: none;
+        opacity: 1;
+    }
 }
