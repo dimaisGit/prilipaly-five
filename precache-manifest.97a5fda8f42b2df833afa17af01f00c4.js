@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "4a86428aefea308c61bf",
-    "url": "/prilipaly-five/static/css/main.f1cf98af.chunk.css"
+    "revision": "f76a9b678deee6382a85",
+    "url": "/prilipaly-five/static/css/main.cb07a364.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_7.733e8b9f.png"
   },
   {
-    "revision": "4a86428aefea308c61bf",
+    "revision": "f76a9b678deee6382a85",
     "url": "/prilipaly-five/static/js/main.23168404.chunk.js"
   },
   {
@@ -240,12 +240,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/grass-1-1.a451996d.png"
   },
   {
-    "revision": "906a9c3400697f687f3a19b8c690523b",
-    "url": "/prilipaly-five/static/media/grass-3-1.906a9c34.png"
-  },
-  {
     "revision": "ccc3b52b1f507cc6754de197e9f92072",
     "url": "/prilipaly-five/static/media/grass-1.ccc3b52b.png"
+  },
+  {
+    "revision": "906a9c3400697f687f3a19b8c690523b",
+    "url": "/prilipaly-five/static/media/grass-3-1.906a9c34.png"
   },
   {
     "revision": "a9382220492ecb8b1dcf99228233c236",
@@ -284,16 +284,16 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/prilipaly-five/static/media/slick.ced611da.eot"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/prilipaly-five/static/media/slick.ced611da.eot"
   },
   {
     "revision": "2160fd8ef1aad0956a7ce39e98c3b112",
@@ -312,7 +312,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "a0e76445350bd4333ff18e58ca9ace4e",
+    "revision": "a04dc63e09ad1059a545f77f64bb0ffd",
     "url": "/prilipaly-five/index.html"
   }
 ];
