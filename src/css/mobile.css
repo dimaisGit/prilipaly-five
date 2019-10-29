@@ -2233,19 +2233,19 @@
         left: 0;
     }
     .circle-carousel .next{
-        top: 400px;
+        top: 390px;
         right: 30px;
     }
     .circle-carousel .prev {
-        top: 400px;
+        top: 390px;
         left: 70px;
     }
     .sliderWindow div, .welcomeWindow {
         animation: none; 
         opacity: 1;
     }
-    .sliderContainer{
-        height: 800px;
+    .sliderContainer {
+        height: 760px;
     }
     .sliderWindow .infoBlock.shadowViolet{
         margin-top: 30px
