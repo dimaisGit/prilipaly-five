@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "d07df4fe6f041ea1f47c",
-    "url": "/prilipaly-five/static/css/main.227562c6.chunk.css"
+    "revision": "b8bd97fc42867c20a8a2",
+    "url": "/prilipaly-five/static/css/main.0821882e.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_7.733e8b9f.png"
   },
   {
-    "revision": "d07df4fe6f041ea1f47c",
+    "revision": "b8bd97fc42867c20a8a2",
     "url": "/prilipaly-five/static/js/main.b34dc8f8.chunk.js"
   },
   {
@@ -220,20 +220,20 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/girl.aa93b6e6.png"
   },
   {
-    "revision": "342603a17da172d4b82461964556c339",
-    "url": "/prilipaly-five/static/media/grass-1-2.342603a1.png"
-  },
-  {
     "revision": "329b98c3bf9324f25bb89a50d3c82a6c",
     "url": "/prilipaly-five/static/media/grass-3-2.329b98c3.png"
   },
   {
-    "revision": "c8ea42098bf66b8bba18416d673554ee",
-    "url": "/prilipaly-five/static/media/grass-2-1.c8ea4209.png"
+    "revision": "342603a17da172d4b82461964556c339",
+    "url": "/prilipaly-five/static/media/grass-1-2.342603a1.png"
   },
   {
     "revision": "28fd39d1eef1f6c8bdde621ee4f841f7",
     "url": "/prilipaly-five/static/media/grass-2-2.28fd39d1.png"
+  },
+  {
+    "revision": "c8ea42098bf66b8bba18416d673554ee",
+    "url": "/prilipaly-five/static/media/grass-2-1.c8ea4209.png"
   },
   {
     "revision": "a451996dba0ad722ffc3dc2b451517f9",
@@ -288,12 +288,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
-  },
-  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "2160fd8ef1aad0956a7ce39e98c3b112",
@@ -312,7 +312,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "1b10e5fcfc02ca74d6db1ec25546563f",
+    "revision": "6fe90591cfd7c87f0bd22ca7e9791c6e",
     "url": "/prilipaly-five/index.html"
   }
 ];
