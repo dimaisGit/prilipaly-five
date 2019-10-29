@@ -1993,6 +1993,7 @@
     }
     h4.lined:after, h4.lined:before{
         top: calc(50% - 5px);
+        width: 60px;
     }
     .slick-arrow.slick-next {
         right: 20%;
@@ -2095,6 +2096,10 @@
         height: 50px;
         width: 50px;
         bottom: 54px;
+    }
+    .GamingCenter {
+        order: 2;
+        margin: 20px 40px 60px;
     }
     .smmLinks a {
         width: 45px;
