@@ -2037,6 +2037,7 @@
     }
     .gamesWindowBg{
         background-size: auto;
+        background-position: center bottom;
     }
     .gameImg{
         max-width: 95px;
