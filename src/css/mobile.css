@@ -1867,6 +1867,9 @@
         max-height: 200px;
         width: 79px;
     }
+    .top-1{
+        display: none;
+    }
     .grass-3-2 {
         left: 60px;
     }
