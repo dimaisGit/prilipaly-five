@@ -2003,13 +2003,20 @@
         text-overflow: ellipsis;
         margin: 10px;
     }
-    .searchingFormMap{
-        top: 69%;
+    .searchingFormMap {
+        top: 81%;
+        width: 130%;
+        background-size: cover;
+        min-height: 135px;
+        border-radius: 28%;
+        left: -15%;
+        background: linear-gradient(to right, rgba(255,221,0,1) 0%, rgba(255,161,19,1) 100%);
     }
     .searchingFormMap select{
         background: #fff url(../images/select-bg.png) no-repeat 100% 50%;
         background-size: 40px;
         padding-right: 43px;
+        border-radius: 4px;
     }
     .gamesWindowText .text-data {
         font-size: 13px;
