@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/prilipaly-five/precache-manifest.db2d73a970566825cd86cc546556d303.js"
+  "/prilipaly-five/precache-manifest.56ead1c1eb07f638d99329f395ff105f.js"
 );
 
 workbox.clientsClaim();
