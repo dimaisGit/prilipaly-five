@@ -53,54 +53,27 @@
     align-items: center;
 }
 .searchingFormMap select,
-.searchingFormMap input{
+.searchingFormMap input:not([type=submit]){
     display: block;
     padding: 8px 7px;
-    background-color: #fff;
     border-radius: 2px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 13px;
     margin: 10px auto;
     width: 190px;
     position: relative;
+    background: #fff url(../../images/arr.png) no-repeat 95% 50%;
+    border-radius: 3px
 }
-.searchingFormMap select + label{
-    position: absolute;
-    display: block;
-}
-.searchingFormMap select + label.region::after{
-    content: '';
-    position: absolute;
-    background: url(../../images/arr.png) no-repeat center;
-    width: 10px;
-    height: 10px;
-    background-size: contain;
-    z-index: 350;
-    right: -73px;
-    top: -20px;
-}
-.searchingFormMap select + label::after{
-    content: '';
-    position: absolute;
-    background: url(../../images/arr.png) no-repeat center;
-    width: 10px;
-    height: 10px;
-    background-size: contain;
-    z-index: 350;
-    right: -73px;
-    top: -70px;
-    transform: rotate(0deg);
-    transition: all .3s;
-}
-.searchingFormMap select:focus +label::after{
-    transform: rotateX(180deg)
-}
+
 input.btn{
     background-color: #A84F9A;
     color: #fff;
     padding: 10px 0;
     transition: all .3s;
-
+    width: 190px;
+    margin: 10px auto;
+    border-radius: 3px;
 }
 input.btn:hover{
     cursor: pointer;
