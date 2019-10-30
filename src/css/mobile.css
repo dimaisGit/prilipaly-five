@@ -1512,6 +1512,7 @@
     }
     .toys-3-4 img {
         max-width: 100px;
+        max-height: 100%;
     }
     .phoneContainer{
         top: 110px;
@@ -1549,6 +1550,7 @@
         margin-bottom: -60vh;
     }
     .videoContainer {
+        background-size: auto;
         min-height: 120vh;
     }
     .videoWindow .infoBlock.lastInfoB{
