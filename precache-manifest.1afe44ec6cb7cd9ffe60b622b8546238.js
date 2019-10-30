@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1baeb90727adf60b6d383e0e353397b8",
-    "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
+    "revision": "035f4ae30cb198f23f1cabce0153b217",
+    "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
   },
   {
-    "revision": "7bf91000f79708eab1a0",
-    "url": "/prilipaly-five/static/css/main.acfa2906.chunk.css"
+    "revision": "40f5146283e57b9bc6a9",
+    "url": "/prilipaly-five/static/css/main.f23103b7.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/hearts.ea7b1d8d.png"
   },
   {
-    "revision": "8d572805e64f78cd85e7",
-    "url": "/prilipaly-five/static/js/2.efb12517.chunk.js"
+    "revision": "280b8c61efe45d1b62a3",
+    "url": "/prilipaly-five/static/js/2.82e6bad8.chunk.js"
   },
   {
     "revision": "d2583cd0942d66048bacb1050f9a8985",
@@ -156,12 +156,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_7.733e8b9f.png"
   },
   {
-    "revision": "7bf91000f79708eab1a0",
-    "url": "/prilipaly-five/static/js/main.23168404.chunk.js"
+    "revision": "1baeb90727adf60b6d383e0e353397b8",
+    "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "035f4ae30cb198f23f1cabce0153b217",
-    "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
+    "revision": "40f5146283e57b9bc6a9",
+    "url": "/prilipaly-five/static/js/main.46b4482b.chunk.js"
   },
   {
     "revision": "c957697f8725b9f08abc22d07da37a0b",
@@ -190,6 +190,10 @@ self.__precacheManifest = [
   {
     "revision": "d67e53a0e36135a2e189efc43383f707",
     "url": "/prilipaly-five/static/media/pin.d67e53a0.png"
+  },
+  {
+    "revision": "2b7adf24a2a2e4755edb03945565ed50",
+    "url": "/prilipaly-five/static/media/Rules.2b7adf24.pdf"
   },
   {
     "revision": "349a13fc213d94cf27dd5292871e86ae",
@@ -240,12 +244,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/grass-1-1.a451996d.png"
   },
   {
-    "revision": "ccc3b52b1f507cc6754de197e9f92072",
-    "url": "/prilipaly-five/static/media/grass-1.ccc3b52b.png"
-  },
-  {
     "revision": "906a9c3400697f687f3a19b8c690523b",
     "url": "/prilipaly-five/static/media/grass-3-1.906a9c34.png"
+  },
+  {
+    "revision": "ccc3b52b1f507cc6754de197e9f92072",
+    "url": "/prilipaly-five/static/media/grass-1.ccc3b52b.png"
   },
   {
     "revision": "a9382220492ecb8b1dcf99228233c236",
@@ -284,12 +288,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
@@ -308,11 +312,11 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/banana.ac888563.png"
   },
   {
-    "revision": "8d572805e64f78cd85e7",
+    "revision": "280b8c61efe45d1b62a3",
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "4f8d6c86ffa4627d4bc1e2d791e52ed4",
+    "revision": "79cc66c551fa3c8714e0ce185ee232e4",
     "url": "/prilipaly-five/index.html"
   }
 ];
