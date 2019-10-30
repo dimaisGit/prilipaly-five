@@ -389,7 +389,7 @@
         height: 145%;
     }
     .sliderContainer {
-        height: 93vh;
+        height: 100vh;
         min-height: 93vh;
     }
     .slides h2 {
@@ -414,6 +414,9 @@
     }
     .contentBlocks{
         padding-top: 110px;
+    }
+    .phoneContainer img {
+        max-width: 66.5%;
     }
 }
 @media(max-width:1281px) and (max-height:771px){
