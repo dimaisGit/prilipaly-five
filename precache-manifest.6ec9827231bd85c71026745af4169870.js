@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
   },
   {
-    "revision": "2ebfa2d5c4f01779b976",
-    "url": "/prilipaly-five/static/css/main.890dcac8.chunk.css"
+    "revision": "9fbf3703e992fb6c60d3",
+    "url": "/prilipaly-five/static/css/main.e3792dd5.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "2ebfa2d5c4f01779b976",
+    "revision": "9fbf3703e992fb6c60d3",
     "url": "/prilipaly-five/static/js/main.ab129111.chunk.js"
   },
   {
@@ -204,12 +204,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/logo-prilipaly.2f9e7b91.png"
   },
   {
-    "revision": "2d90db71dd79f14598e657a0db7d8704",
-    "url": "/prilipaly-five/static/media/sec-sand.2d90db71.png"
-  },
-  {
     "revision": "7a3017000156571dc8e1d138d4e94c77",
     "url": "/prilipaly-five/static/media/melon.7a301700.png"
+  },
+  {
+    "revision": "2d90db71dd79f14598e657a0db7d8704",
+    "url": "/prilipaly-five/static/media/sec-sand.2d90db71.png"
   },
   {
     "revision": "16ffd58bb1883fb33c161790fab6b113",
@@ -292,12 +292,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "2160fd8ef1aad0956a7ce39e98c3b112",
@@ -316,7 +316,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "a7c72ed4f4dece2da077b592dc580b05",
+    "revision": "4c4cbc378a6d8e0bf0b7a5b859008630",
     "url": "/prilipaly-five/index.html"
   }
 ];
