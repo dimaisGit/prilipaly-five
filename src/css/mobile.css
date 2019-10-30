@@ -32,6 +32,9 @@
     .circle-carousel{
         height: 200%;
     }
+    .sliderContainer {
+        height: 105vh;
+    }
     .prilipalyInfo p {
         padding: 15px 13px;
         font-size: 18px;
@@ -51,8 +54,8 @@
     .toys-3-4 img{
         width: 32%;
     }
-    .videoWindow{
-        height: 100vh;
+    .videoWindow {
+        height: 95vh;
     }
     .videoContainer {
         min-height: 90vh;
