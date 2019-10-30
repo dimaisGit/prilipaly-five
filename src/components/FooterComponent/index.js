@@ -5,6 +5,7 @@ import SandComponent from "../SandComponent";
 import GrassComponent from '../GrassComponent'
 import apple from '../../images/apple-logo.png'
 import googleP from '../../images/google-play.png'
+import rules from '../../docs/Rules.pdf'
 
 
 
@@ -56,7 +57,7 @@ export default class FooterComponent extends React.Component {
                                 </p>
                             </div>
                             <div className="socialLinks">
-                                <a href="">Читать полные правила акции</a>
+                                <a href={rules} target="_blank">Читать полные правила акции</a>
                                 <a href="https://dixy.ru/" target="_blank">Dixy.ru</a>
                                 <a href="tel:88003330201">8 800 333 02 01</a>
                                 <div className="smmLinks">

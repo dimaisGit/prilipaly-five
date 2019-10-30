@@ -1290,19 +1290,19 @@
     }
 }
 /* IPad width */
-@media(max-width: 769px){
+@media only screen and (max-device-width: 769px){
 }
 /* IPhone 6/7/8+ horizontal width */
-@media(max-width: 737px){
+@media only screen and (max-device-width: 737px){
 }
 /* IPhone6/7/8 horizontal width */
-@media(max-width: 668px){
+@media only screen and (max-device-width: 668px){
 }
 /* IPhone5c horizontal width */
-@media(max-width: 569px){
+@media only screen and (max-device-width: 569px){
 }
 /* IPhone 6/7/8+ width */
-@media(max-width: 415px){
+@media only screen and (max-device-width: 415px){
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
         font-size: 12px;
         letter-spacing: 0px;
@@ -1810,7 +1810,7 @@
     }
 }
 /* IPhone X */
-@media (max-width: 376px) and (max-height: 813px) {
+@media only screen and (max-device-width: 376px) and (max-height: 813px) {
     .logo-d.min{
         left: 30px;  
     }
@@ -1897,7 +1897,7 @@
     }
 }
 /* IPhone 6/7/8 width */
-@media(max-width: 376px) and (max-height: 667px){
+@media only screen and (max-device-width: 376px) and (max-height: 667px){
     .welcomeWindow .yellow {
         width: 75%;
         left: 15%;
@@ -2182,7 +2182,7 @@
     }
 }
 /* IPhone 5/SE */
-@media(max-width: 321px){
+@media only screen and (max-device-width: 321px){
     .welcomeWindow .infoBlock.leftPos{
         font-size: 12px;
     }
