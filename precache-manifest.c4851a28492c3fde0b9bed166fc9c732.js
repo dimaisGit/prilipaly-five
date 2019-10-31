@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_3.035f4ae3.png"
   },
   {
-    "revision": "e6623021d518c8081aa0",
-    "url": "/prilipaly-five/static/css/main.8f2c798d.chunk.css"
+    "revision": "20ee101e6fe785f4a213",
+    "url": "/prilipaly-five/static/css/main.ac7cc23b.chunk.css"
   },
   {
     "revision": "f4b9eeb894cfc88e4831",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/ufo3_5.1baeb907.png"
   },
   {
-    "revision": "e6623021d518c8081aa0",
+    "revision": "20ee101e6fe785f4a213",
     "url": "/prilipaly-five/static/js/main.cbd4b451.chunk.js"
   },
   {
@@ -244,12 +244,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/grass-1-1.a451996d.png"
   },
   {
-    "revision": "906a9c3400697f687f3a19b8c690523b",
-    "url": "/prilipaly-five/static/media/grass-3-1.906a9c34.png"
-  },
-  {
     "revision": "ccc3b52b1f507cc6754de197e9f92072",
     "url": "/prilipaly-five/static/media/grass-1.ccc3b52b.png"
+  },
+  {
+    "revision": "906a9c3400697f687f3a19b8c690523b",
+    "url": "/prilipaly-five/static/media/grass-3-1.906a9c34.png"
   },
   {
     "revision": "a9382220492ecb8b1dcf99228233c236",
@@ -284,12 +284,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/wave.c31633d8.svg"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
-  },
-  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/prilipaly-five/static/media/slick.ced611da.eot"
+  },
+  {
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
   },
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
@@ -316,7 +316,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "ac8c4a7ccfb9c5e600477861a09e23b7",
+    "revision": "b6fac8f3755c582df14f81cb59f6c4de",
     "url": "/prilipaly-five/index.html"
   }
 ];
