@@ -11,10 +11,7 @@
 	margin: 0;
 }
 @media(max-width:1920px) and (max-height: 1080px){
-    .videoWindow{
-        margin-bottom: -49vh;
-        height: 115vh;
-    }
+
 }
 @media(max-width:1681px) and (max-height: 1051px){
     .circle-carousel{
@@ -39,9 +36,6 @@
     .toys-3-4 img{
         width: 45%;
     }
-    .videoWindow{
-        height: 94vh;
-    }
     .mapContainer .infoBlock{
         max-width: 338px;
     }
@@ -58,9 +52,6 @@
         left: 85%;
         bottom: 46%;
     }
-    .phoneContainer img{
-        max-width: 50.5%;
-    }
 }
 @media(max-width: 1601px) and (max-height: 1201px){
     .circle-carousel{
@@ -73,10 +64,6 @@
     .sliderContainer{
         height: 96vh;
         min-height: 96vh;
-    }
-    .videoWindow {
-        top: -30vh;
-        margin-bottom: -45vh;
     }
     .toys-3-4{
         bottom: -60px;
@@ -98,9 +85,6 @@
         min-height: 70vh;
         padding-top: 90px;
     }
-    .phoneContainer img {
-        max-width: 53.5%;
-    }
 }
 @media(max-width: 1601px) and (max-height: 1025px){
     .sliderContainer {
@@ -110,15 +94,8 @@
     .slides h2 {
         bottom: -55px;
     }
-    .videoWindow {
-        top: -33vh;
-        margin-bottom: -33vh;
-    }
     .prilipalyInfo{
         bottom: 60%;
-    }
-    .videoWindow{
-        height: 100vh;
     }
     .toys-3-4 {
         bottom: -15px;
@@ -154,9 +131,6 @@
     .sliderContainer {
         height: 117vh;
         min-height: 100vh;
-    }
-    .videoWindow{
-        height: 115vh;
     }
     .toys-3-4 {
         bottom: -30px;
@@ -211,9 +185,6 @@
     .slides h2{
         bottom: 5px;
     }
-    .phoneContainer img {
-        max-width: 58.5%;
-    }
 }
 @media(max-width: 1366px) and (max-height: 770px){
     .welcomeContent .sand-3::before {
@@ -221,9 +192,6 @@
         right: 43%;
         bottom: 10%;
 
-    }
-    .phoneContainer img{
-        max-width: 61%;
     }
     .grass-4{
         bottom: -92px;
@@ -259,9 +227,6 @@
         bottom: -56px;
         font-size: 22px;
     }
-    .videoWindow {
-        height: 130vh;
-    }
     .goodsContainer {
         height: 60vh;
     }
@@ -282,9 +247,6 @@
     }
     .footerContainer .cloudsContainer{
         top: -130px
-    }
-    .phoneContainer img {
-        max-width: 66.5%;
     }
     .toys-3-4 {
         bottom: 10px;
@@ -365,14 +327,6 @@
     .toys-1-2{
         left: 170px;
     }
-    .videoWindow {
-        top: -22vh;
-        margin-bottom: -45vh;
-        height: 110vh;
-    }
-    .contentBlocks{
-        padding-top: 110px;
-    }
 }
 @media(max-width:1281px) and (max-height:771px){
     .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
@@ -418,11 +372,6 @@
     }
     .slides h2{
         font-size: 22px;
-    }
-    .videoWindow {
-        top: -27vh;
-        margin-bottom: -23vh;
-        height: 109vh;
     }
     .slick-list {
         margin-right: 50px;
@@ -498,11 +447,6 @@
         margin-right: 80px;
         font-size: 15px;
     }
-    .videoWindow {
-        top: -24vh;
-        margin-bottom: -30vh;
-        height: 100vh;
-    }
     .toys-3-3 img{
         max-width: 21%;
     }
@@ -536,9 +480,6 @@
     }
     .slick-arrow.slick-next {
         right: 27px;
-    }
-    .phoneContainer img {
-        max-width: 73.5%;
     }
     .footerNavigationPanel::before {
         height: 107px;
@@ -804,11 +745,7 @@
         max-width: 100px;
         max-height: 160px;
     }
-    .videoWindow{
-        top: -23vh;
-        height: 135vh;
-        margin-bottom: -50vh;
-    }
+
     .contentBlocks{
         flex-wrap: wrap;
         flex-direction: column;
@@ -870,13 +807,7 @@
     .phoneContainer{
         width: 100%;
     }
-    .phoneContainer img{
-        width: 40%;
-    }
     .phoneContainer iframe{
-        bottom: 99px;
-        width: 355px;
-        height: 628px;
         left: 0;
         right: 0;
         margin: auto;
@@ -1195,17 +1126,8 @@
     .prilipalyInfo p {
         font-size: 13px;
     }
-    .videoWindow {
-        top: -24vh;
-        height: 145vh;
-    }
-    .contentBlocks {
-        padding-top: 180px;
-    }
     .phoneContainer iframe {
         bottom: 12%;
-        width: 35%;
-        height: 76%;
         left: 0;
         right: 0;
         margin: auto;
@@ -1321,7 +1243,14 @@
 }
 /* IPad width */
 @media(max-width: 769px){
-
+    .videoWindow {
+        position: relative;
+        margin: -60vw 0 0;
+    }
+    .contentBlocks {
+        padding-top: 40vw;
+        padding-bottom: 60vw;
+    }
 }
 
 
@@ -1526,9 +1455,6 @@
     .videoWindow .infoBlock span {
         font-size: 14px;
     }
-    .contentBlocks {
-        padding-top: 60px;
-    }
     .socialContainerData{
         width: 100%;
     }
@@ -1566,12 +1492,6 @@
     .toys-3-1{
         left: -21px;
     }
-    .phoneContainer img {
-        width: 50%;
-    }
-    .phoneContainer iframe {
-        width: 43%;
-    }
     .toys-1-2 {
         left: -90px;
         top: -90px;
@@ -1582,10 +1502,6 @@
     }
     .toys-2-2 img{
         max-width: 140px
-    }
-    .videoWindow {
-        height: 155vh;
-        margin-bottom: -60vh;
     }
     .videoContainer {
         background-size: auto;
@@ -2029,17 +1945,13 @@
         bottom: 425px;
         left: 18px;
     }
-    .videoWindow {
-        height: 170vh;
-        top: -26vh;
-    }
     .videoWindow .infoBlock{
         padding: 10px 0;
     }
     .videoContainer {
         min-height: 135vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
-        background-size: auto;
+        background-size: cover;
     }
     .videoWindow .infoBlock.lastInfoB span {
         font-size: 13px;
@@ -2365,12 +2277,6 @@
         width: 78px;
         top: -70px;
     }
-    .phoneContainer img {
-        width: 210px;
-    }
-    .phoneContainer iframe {
-        width: 184px;
-    }
     .phoneContainer {
         top: 140px;
     }
@@ -2391,10 +2297,6 @@
     }
     .videoContainer{
         min-height: 890px;
-    }
-    .videoWindow {
-        height: 1060px;
-        top: -148px;
     }
     .toys-3-1 img {
         max-width: 60px;

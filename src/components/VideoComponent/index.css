@@ -1,8 +1,6 @@
 .videoWindow{
     position: relative;
-    top: -40vh;
-    margin-bottom: -40vh;
-    height: 105vh;
+    margin: -32vw 0 0;
 }
 .videoContainer{
     min-height: 80vh;
@@ -14,7 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 200px;
+    padding-top: 32vw;
 }
 .contentBlocks > div{
     flex: 30%;
@@ -32,7 +30,7 @@
 .phoneContainer img{
     display: block;
     margin: auto;
-    max-width: 44.5%;
+    max-width: 270px;
 }
 .phoneContainer::before{
     content:'';
@@ -157,12 +155,11 @@
 .toys-3-4 img{
     display: block;
 }
-.phoneContainer
- iframe{
+.phoneContainer iframe{
     position: absolute;
-    bottom: 68px;
-    width: 245px;
-    height: 436px;
+    bottom: 63px;
+    width: 235px;
+    height: 420px;
     left: 0;
     right: 0;
     margin: auto;
