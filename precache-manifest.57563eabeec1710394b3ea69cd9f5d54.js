@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/tomat1.6d9de303.png"
   },
   {
-    "revision": "b350885e179dc1308e37",
+    "revision": "23b7d2fb49cf3e5034db",
     "url": "/prilipaly-five/static/css/main.7fb527fa.chunk.css"
   },
   {
@@ -172,8 +172,8 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/pigAndBanana.4b58aa7c.png"
   },
   {
-    "revision": "b350885e179dc1308e37",
-    "url": "/prilipaly-five/static/js/main.cc77a889.chunk.js"
+    "revision": "23b7d2fb49cf3e5034db",
+    "url": "/prilipaly-five/static/js/main.866be5d4.chunk.js"
   },
   {
     "revision": "a116618fef731cca635ef49ca6193b44",
@@ -320,12 +320,12 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/prilipaly-five/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/prilipaly-five/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "2160fd8ef1aad0956a7ce39e98c3b112",
@@ -344,7 +344,7 @@ self.__precacheManifest = [
     "url": "/prilipaly-five/static/css/2.64ee5549.chunk.css"
   },
   {
-    "revision": "c3af8ac6efe19d25746a98e4046e5943",
+    "revision": "5f74d6b8c412d6e20bf07701d67b80fe",
     "url": "/prilipaly-five/index.html"
   }
 ];
