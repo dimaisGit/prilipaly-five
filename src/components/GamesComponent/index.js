@@ -43,7 +43,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg0,
                     gameName: 'Влюбленное послание',
                     gameDescription: 'Влюбляка просто обожает обниматься и дарить подарки. А еще она любит комплименты и добрые пожелания! Напиши в этой открытке все самые лучшие слова и подари любимому другу!',
-                    linkForPdf: {d}
+                    linkForPdf: d
                 }, {
                     gameLogo: gameLogo1,
                     gameNumber: 1,
@@ -51,7 +51,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg1,
                     gameName: 'Летучие прилипучие',
                     gameDescription: 'Складываем из бумаги по инструкции фигурку самолета, запускаем по всей квартире или на улице!',
-                    linkForPdf: {a}
+                    linkForPdf: a
                 }, {
                     gameLogo: gameLogo2,
                     gameNumber: 2,
@@ -59,7 +59,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg2,
                     gameName: 'Прилипальная комната',
                     gameDescription: 'Нихочуха тот еще вредина! Любит разгонять прилипал подальше. Поэтому они решили проучить Нихочуху и спрятаться куда подальше! Сможешь теперь их отыскать?',
-                    linkForPdf: {b}
+                    linkForPdf: b
                 }, {
                     gameLogo: gameLogo3,
                     gameNumber: 3,
@@ -67,7 +67,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg3,
                     gameName: 'Секретная вкусняшка',
                     gameDescription: 'Кто из прилипал больше всех любит вкусно поесть? Собери кусочки и узнай любимую вкусняшку прилипучего Обжоры!',
-                    linkForPdf: {c}
+                    linkForPdf: c
                 }, {
                     gameLogo: gameLogo4,
                     gameNumber: 4,
@@ -75,7 +75,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg4,
                     gameName: 'ЗЛЮЧНЫЙ ЛАБИРИНТ',
                     gameDescription: 'Злюка — любитель подшутить над прилипалами. Но иногда эти шутки бывают действительно злыми! Вот и сейчас, он завел друзей в лабиринт и забыл, как из него выбираться! Только ты ему можешь помочь',
-                    linkForPdf: {e}
+                    linkForPdf: e
                 }, {
                     gameLogo: gameLogo5,
                     gameNumber: 5,
@@ -83,7 +83,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg5,
                     gameName: 'ИГРА ТЕНЕЙ',
                     gameDescription: 'Страх просто до ужаса боится темноты! А в остальное время пугается собственной тени. Пора показать ему, что все это совсем не страшно! Кстати, а где его тень? Помоги прилипалам разобраться с этой незадачей!',
-                    linkForPdf: {f}
+                    linkForPdf: f
                 }, {
                     gameLogo: gameLogo6,
                     gameNumber: 6,
@@ -91,7 +91,7 @@ export default class GamesComponent extends React.Component {
                     posterImg: posterImg6,
                     gameName: 'Раскрась прилипал',
                     gameDescription: 'Раскрась прилипал',
-                    linkForPdf: {x}
+                    linkForPdf: x
                 }
             ],
             currentGame: 0
