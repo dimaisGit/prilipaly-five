@@ -1684,14 +1684,14 @@
         top: -85px;
     }
     .slick-arrow.slick-prev {
-        left: 20%;
+        left: 20% !important;
     }
     .slick-arrow.slick-prev, .slick-arrow.slick-next {
         top: auto !important;
-        bottom: 40px;
+        bottom: 40px!important;
     }
     .slick-arrow.slick-next {
-        right: 20%;
+        right: 20%!important;
     }
     .slick-slide img {
         display: block;
@@ -2144,7 +2144,7 @@
         height: 100vh;
     }
     .slick-arrow.slick-prev, .slick-arrow.slick-next {
-        top: 587px;
+        top: 587px !important;
     }
     h4.lined:after, h4.lined:before{
         top: calc(50% - 5px);
