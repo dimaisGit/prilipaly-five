@@ -163,6 +163,7 @@
 .logo-p.appear, .main-logo.appear{
     animation: appearance .8s linear;
     /* transition: all .7s; */
+    text-decoration: none;
 }
 .greetingText{
     animation: appearFromNone 1s ease-in;

@@ -33,10 +33,10 @@ export default class VideoComponent extends React.Component {
                                     <span className="blueText">ПРИЛИПАЛЫ В ДОПОЛНЕННОЙ РЕАЛЬНОСТИ!</span>
                                 </div>
                                 <div className="socialBlock">
-                                    <a className="linkToSocial">
+                                    <a className="linkToSocial" href="https://apps.apple.com/us/app/%D0%BF%D1%80%D0%B8%D0%BB%D0%B8%D0%BF%D0%B0%D0%BB%D1%8B-5/id1483748691?l=ru&ls=1" target="_blank">
                                         <img alt="img" src={apple}></img>
                                     </a>
-                                    <a className="linkToSocial">
+                                    <a className="linkToSocial" href="https://play.google.com/store/apps/details?id=com.sadc.yaprilipay&hl=en_US" target="_blank">
                                         <img alt="img" src={googleP}></img>
                                     </a>
                                 </div>
@@ -53,8 +53,7 @@ export default class VideoComponent extends React.Component {
                         </div>
                         <div className="videoPhone">
                             <div className="phoneContainer">
-                            {/* <iframe src="https://www.youtube.com/embed/ipWnb2NkcYI" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> */}
-                            <iframe src="https://www.youtube.com/embed/PB-tJjE7Qwk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/WebVTFHKMRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <img alt="img" src={phone}></img>
                             </div>
                         </div>

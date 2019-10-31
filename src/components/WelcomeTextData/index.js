@@ -14,9 +14,9 @@ export default class GrassComponent extends React.Component {
                 <div className="logoContainerWelcome ">
                     <div className="logo-d min"></div>
                     <div className="logo-p appear">
-                    <div className='startWindowClose main-logo appear' >
+                    <a className='startWindowClose main-logo appear' href="#collection">
                         ПОЧУДИМ?
-                    </div>
+                    </a>
                     </div>
                     <p className="greetingText">C 1 НОЯБРЯ ПО 15 ДЕКАБРЯ</p>
                    
@@ -31,10 +31,10 @@ export default class GrassComponent extends React.Component {
                         <span className="blueText">СКАЧАЙ ИГРУ</span> <span className="violetText">И ВЫИГРЫВАЙ ПРИЗЫ</span>
                     </div>
                     <div className="socialBlock">
-                    <a className="linkToSocial">
+                    <a className="linkToSocial" href="https://apps.apple.com/us/app/%D0%BF%D1%80%D0%B8%D0%BB%D0%B8%D0%BF%D0%B0%D0%BB%D1%8B-5/id1483748691?l=ru&ls=1" target="_blank">
                         <img src={apple}></img>
                     </a>
-                    <a className="linkToSocial">
+                    <a className="linkToSocial" href="https://play.google.com/store/apps/details?id=com.sadc.yaprilipay&hl=en_US" target="_blank">
                         <img src={googleP}></img>
                     </a>
                     </div>

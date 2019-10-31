@@ -69,10 +69,10 @@ export default class FooterComponent extends React.Component {
                             </div>
                         </div>
                         <div className="GamingCenter">
-                            <a className="linkToSocial appStore" href="" target="_blank">
+                            <a className="linkToSocial appStore" href="https://apps.apple.com/us/app/%D0%BF%D1%80%D0%B8%D0%BB%D0%B8%D0%BF%D0%B0%D0%BB%D1%8B-5/id1483748691?l=ru&ls=1" target="_blank">
                                 <img src={apple}></img>
                             </a>
-                            <a className="linkToSocial goog-pl" href="" target="_blank">
+                            <a className="linkToSocial goog-pl" href="https://play.google.com/store/apps/details?id=com.sadc.yaprilipay&hl=en_US" target="_blank">
                                 <img src={googleP}></img>
                             </a>
                         </div>

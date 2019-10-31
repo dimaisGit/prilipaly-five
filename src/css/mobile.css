@@ -12,11 +12,21 @@
 }
 @media(max-width:1920px) and (max-height: 1080px){
     .videoWindow{
-        margin-bottom: -49vh;
+        margin-bottom: -59vh;
         height: 115vh;
+    }
+    .sliderContainer {
+        min-height: 1265px;
+    }
+    .toys-3-4 img {
+        display: block;
+        max-height: 170px;
     }
 }
 @media(max-width:1681px) and (max-height: 1051px){
+    .sliderContainer {
+        min-height: 1292px;
+    }
     .circle-carousel{
         height: 200%;
     }
@@ -40,7 +50,8 @@
         width: 45%;
     }
     .videoWindow{
-        height: 94vh;
+        height: 120vh;
+        top: -30vh;
     }
     .mapContainer .infoBlock{
         max-width: 338px;
@@ -71,7 +82,7 @@
         max-height: 162px;
     }
     .sliderContainer{
-        height: 96vh;
+        height: 1205px;
         min-height: 96vh;
     }
     .videoWindow {
@@ -104,7 +115,7 @@
 }
 @media(max-width: 1601px) and (max-height: 1025px){
     .sliderContainer {
-        height: 100vh;
+        height: 1075px;
         min-height: 100vh
     }
     .slides h2 {
@@ -125,6 +136,12 @@
     }
     .footerContainer {
         min-height: 90vh;
+    }
+    .circle-carousel .next {
+        top: 41% !important;
+    }
+    .circle-carousel .prev{
+        top: 41% !important; 
     }
 }
 @media (max-width: 1601px) and (max-height: 901px){
@@ -152,8 +169,11 @@
         height: 190%;
     }
     .sliderContainer {
-        height: 117vh;
+        height: 1102px;
         min-height: 100vh;
+    }
+    .circle-carousel .slide.active h2{
+        bottom: -27px;
     }
     .videoWindow{
         height: 115vh;
@@ -189,6 +209,12 @@
     }
     .toys-2-1 img{
         max-width: 85%;
+    }
+    .sliderContainer {
+        height: 1135px;
+    }
+    .circle-carousel .slide.active h2{
+        bottom: 0
     }
     .spCarousel {
         flex: 30% 1;
@@ -250,14 +276,14 @@
         max-width: 45%;
     }
     .sliderContainer {
-        height: 131vh;
+        height: 1079px;
     }
     .circle-carousel {
         height: 210%;
     }
-    .slides h2 {
-        bottom: -56px;
-        font-size: 22px;
+    .circle-carousel .slide.active h2 {
+        bottom: -21px;
+        text-align: center;
     }
     .videoWindow {
         height: 130vh;
@@ -347,11 +373,14 @@
         height: 145%;
     }
     .sliderContainer {
-        height: 93vh;
-        min-height: 93vh;
+        height: 901px;
+        min-height: auto;
     }
     .slides h2 {
-        bottom: -60px;
+        bottom: -50px;
+    }
+    .circle-carousel .slide.active{
+        top: 42.5%;
     }
     .dot span img{
         max-width: 75px;
@@ -414,11 +443,13 @@
         height: 196%;
     }
     .sliderContainer {
-        height: 120vh;
+        height: 840px;
     }
-    .slides h2{
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
         font-size: 22px;
     }
+    
     .videoWindow {
         top: -27vh;
         margin-bottom: -23vh;
@@ -519,10 +550,10 @@
         width: 54%;
     }
     .toys-1-2 img {
-        max-width: 80px;
+        max-width: 60px;
     }
-    .toys-1-2{
-        top: -100px;
+    .toys-1-2 {
+        top: -70px;
     }
     .spInfo{
         width: 450px;
@@ -548,6 +579,27 @@
     }
     .cloudsContainer{
         top: 0;
+    }
+    .sliderContainer {
+        height: 850px;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    .dot span img {
+        max-width: 60px;
+    }
+    .mapContainer .infoBlock span{
+        font-size: 13px;
+    }
+    .mapContainer .infoBlock.back{
+        padding-top: 10px;
+    }
+    .mapContainer .infoBlock::before{
+        left: 30px;
+        top: -110px;
     }
 }
 
@@ -779,17 +831,19 @@
         margin: auto;
         transform: none;
         width: 0;
+        top: 55%;
     }
     .sliderRounded{
         margin-top: 40px;
     }
     .prilipalyInfo{
-        bottom: 100%;
+        bottom: 60%;
         transform: translate(0%, -70%) scale(.8);
     }
-    .circle-carousel .next, .slick-arrow.slick-next,
-    .circle-carousel .prev, .slick-arrow.slick-prev{
-        bottom: 63%;
+    .circle-carousel .next, 
+    .circle-carousel .prev{
+        bottom: auto;
+        top: 33% !important
     }
     .circle-carousel .next, .slick-arrow.slick-next{
         right: 30%;
@@ -801,7 +855,7 @@
         bottom: 100px;
     }
     .dot span img {
-        max-width: 100px;
+        max-width: 80px;
         max-height: 160px;
     }
     .videoWindow{
@@ -943,21 +997,11 @@
         position: static;
     }
     .circle-carousel .next,
-    .slick-arrow.slick-next,
-    .circle-carousel .prev,
-    .slick-arrow.slick-prev{
+    .circle-carousel .prev{
         top: 93%;
     }
-    .circle-carousel .next, .slick-arrow.slick-next{
-        right: 30%;
-        bottom: auto;
-        top: -10% !important;
-    }
-    .circle-carousel .prev, .slick-arrow.slick-prev{
-        left: 30%;
-        bottom: auto;
-        top: -10% !important;
-        border-radius: 15px 0 0 15px;
+    .circle-carousel .slide.active {
+        top: 34%;
     }
     .currentGoodPage{
         margin-top: 16px;
@@ -986,9 +1030,9 @@
     .gamesWindowText .text-data, .gameDescription, .gamesWindowBottomText .text-data{
         font-size: 20px;
     }
-    .gameLogo{
+    .gameLogo, .gameLogo:hover{
         width: 40px;
-        margin: 0;
+        margin: 0 5px;
     }
     .gamesWindowBottomText a.header{
         margin: -10px auto;
@@ -1031,14 +1075,26 @@
     }
     .sliderWindow .red{
         transform: scale(.65) translate(33%, -50%) rotate(5deg);
-        margin-right: 0;
+        margin-right: 100px;
         transition: all .3s;
     }
     .sliderWindow .infoBlock.shadowViolet{
         transform: translate(-30%, -100%) rotate(-5deg);
+        margin-left: 150px;
     }
-    .circle-carousel .slide.active{
-        top: -9%;
+    .pagination .item.item.active{
+        opacity: 1
+    }
+    .pagination .item{
+        opacity: 0;
+    }
+    .sliderRounded {
+        margin-top: -210px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        bottom: auto;
+        z-index: 330;
+        top: 93% !important;
     }
 }
 
@@ -1321,7 +1377,21 @@
 }
 /* IPad width */
 @media(max-width: 769px){
-
+    .circle-carousel .pagination{
+        top: 50%
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: translate(95%, -100%) rotate(0deg); 
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
+        top: 22% !important;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        top: 88% !important
+    }
+    .slick-arrow.slick-prev{
+        left: 30% !important;
+    }
 }
 
 
@@ -1354,6 +1424,12 @@
 }
 /* IPhone 6/7/8+ width */
 @media(max-width: 415px){
+    .circle-carousel .pagination .item{
+        opacity: 0
+    }
+    .circle-carousel .pagination .item.active{
+        opacity: 1;
+    }
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
         font-size: 12px;
         letter-spacing: 0px;
@@ -1493,8 +1569,8 @@
         justify-content: center;
     }
     .dot span img {
-        max-width: 140px;
-        max-height: 130px;
+        max-width: 110px;
+        max-height: 105px;
     }
     .page {
         max-width: 95%;
@@ -1852,9 +1928,38 @@
         transform: translateX(-50%);
         min-width: 200px;
     }
+    .circle-carousel .slide.active h2 {
+        bottom: -48px;
+    }
+    .prilipalyInfo::before{
+        transform: rotate(-4deg);
+    }
+    .prilipalyInfo::after{
+        display: none;
+    }
+    .currentGoodPage {
+        margin-top: -4px;
+    }
+    .slick-arrow.slick-prev {
+        left: 20% !important;
+    }
+    .slick-arrow.slick-next {
+        right: 20%;
+    }
 }
+@media(max-width: 412px) and (max-height:824px){
+    .currentGoodPage {
+        margin-top: 59px;
+    }
+}
+@media(max-width:412px) and(max-height: 732px){
+    .currentGoodPage {
+        margin-top: -13px;
+    }
+}
+
 /* IPhone X */
-@media (max-width: 374px) and (max-height: 813px) {
+@media (max-width: 376px) and (max-height: 813px) {
     .logo-d.min{
         left: 30px;
     }
@@ -1922,7 +2027,7 @@
         margin-top: -80px;
     }
     .sliderContainer{
-        height: 950px;
+        height: 865px;
     }
     .circle-carousel .next {
         right: 40px;
@@ -1930,12 +2035,65 @@
     .circle-carousel .prev {
         left: 40px !important;
     }
+    .circle-carousel .pagination {
+        top: 52%;
+    }
+    .prilipalyInfo {
+        bottom: 68%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 33% !important;
+    }
+    .toys-1-2{
+        top: -190px;
+    }
+    .toys-2-1 {
+        bottom: -500px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 83% !important;
+    }
+    .slick-arrow.slick-next {
+        right: 20%;
+    }
+    .slick-arrow.slick-prev {
+        left: 20% !important;
+    }
+    .gamesWindowText .text-data {
+        font-size: 13px;
+    }
+    .gameImg {
+        margin-left: -10px;
+        max-width: 103px;
+    }
+    .posterImg {
+        left: 53px;
+        max-width: 26px;
+        max-height: 30px;
+    }
 }
 /* IPhone 6/7/8 width */
 @media(max-width: 376px) and (max-height: 667px){
     .welcomeWindow .yellow {
         width: 75%;
         left: 15%;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 90px;
+    }
+    .circle-carousel .pagination {
+        top: 50%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 30% !important;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+    }
+    .currentGoodPage {
+        margin-top: -18px;
+        font-size: 25px;
     }
     .logo-d.min{
         left: 40px;
@@ -2019,7 +2177,7 @@
         left: 80px;
     }
     .prilipalyInfo {
-        bottom: 73%;
+        bottom: 70%;
         width: 356px;
     }
     .sliderContainer{
@@ -2213,6 +2371,11 @@
     .footerNavigationPanel ul::before {
         left: 30px;
         width: 50px;
+    }
+}
+@media(max-width:361px){
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 86% !important;
     }
 }
 /* IPhone 5/SE */
@@ -2485,7 +2648,19 @@
         top: calc(50% - 3px);
         width: 48px;
     }
-    .footerData{
-        top: 100px
+    .footerData {
+        top: 0px;
+    }
+    .footerContainer {
+        height: 1500px;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
+        top: 32% !important;
+    }
+    .circle-carousel .pagination {
+        top: 54%;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 89% !important;
     }
 }
