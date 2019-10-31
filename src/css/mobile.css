@@ -980,12 +980,12 @@
     .slick-arrow.slick-next{
         right: 30%;
         bottom: auto;
-        top: -15% !important;
+        top: -10% !important;
     }
     .slick-arrow.slick-prev{
         left: 30%;
         bottom: auto;
-        top: -15% !important;
+        top: -10% !important;
         border-radius: 15px 0 0 15px;
     }
     .currentGoodPage{
@@ -1068,8 +1068,13 @@
         transform: scale(.65) translate(-33%, -100%) rotate(-5deg);
     }
     .circle-carousel .slide.active{
-        top: -14%;
-        transform: translate(-50%, -20%);
+        top: -9%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .circle-carousel {
+        transform: translateY(-7vw);
     }
 }
 /* Mobile horizontal*/
@@ -1191,13 +1196,15 @@
     }
     .circle-carousel {
         height: 350%;
-        right: 20px;
+        left: 80%;
+        transform: translateX(-80%);
+        min-width: 200px;
     }
     .prilipalyInfo {
-        transform: translate(0%, 0%) scale(1);
+        transform: translate(-50%, 0%) scale(1);
         bottom: 78%;
         width: 460px;
-        margin-right: -90px;
+        left: 50%;
     }
     .sliderContainer {
         height: 1130px;
@@ -1358,13 +1365,8 @@
         left: 30% !important;
     }
 }
-/* IPhone 6/7/8+ horizontal width */
-@media(max-width: 737px){
-    .circle-carousel .next, .circle-carousel .prev {
-        top: 398px;
-        transform: translateZ(0);
-    }
-}
+
+
 /* IPhone6/7/8 horizontal width */
 @media(max-width: 668px){
     .circle-carousel .next {
@@ -1374,7 +1376,19 @@
         left: 0 !important;
     }
     .circle-carousel .slide.active {
-        transform: translate(-10%, 20%) scale(.7);
+        transform: translate(-50%, 20%) scale(.7);
+    }
+}
+/* IPhone 6/7/8+ horizontal width */
+@media(max-width: 737px){
+    .circle-carousel .next, .circle-carousel .prev {
+        top: 25% !important;
+        transform: translateZ(0);
+    }
+    .circle-carousel .slide.active{
+        top: 25%;
+        transform: translate(-50%, 0) scale(1);
+        text-align: center;
     }
 }
 /* IPhone5c horizontal width */
@@ -1524,16 +1538,12 @@
         max-width: 140px;
         max-height: 130px;
     }
-    .circle-carousel {
-        height: 530%;
-    }
     .page {
         max-width: 95%;
     }
     .prilipalyInfo {
-        bottom: 79%;
+        bottom: 75%;
         width: 360px;
-        margin-right: -162px;
         padding: 20px 15px;
         background-size: 356px 173px;
     }
@@ -1547,19 +1557,9 @@
         background-position: left 7px, 50px 11px;
         transform: rotate(-1deg);
     }
-    .circle-carousel .prev {
-        left: -60px !important;
-    }
-    .circle-carousel .next {
-        right: -110px;
-    }
-    .circle-carousel .slide.active h2 {
-        bottom: -32px;
-        left: -7px;
-        font-size: 25px;
-    }
-    .circle-carousel .next, .circle-carousel .prev {
-        top: 21.5% !important;
+    .slides h2 {
+        bottom: 545px;
+        left: 8px;
     }
     .sliderContainer{
         clip-path: ellipse(153% 49% at 50% 36%);
@@ -1616,7 +1616,7 @@
     }
     .toys-1-2 {
         left: -90px;
-        top: -200px;
+        top: -90px;
     }
     .toys-2-2 {
         bottom: -290px;
@@ -1889,6 +1889,12 @@
     .footerNavigationPanel {
         margin: 30px 0;
     }
+    .circle-carousel {
+        height: 350%;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+    }
 }
 @media  only screen and (max-device-width: 412px) and (max-height: 732px){
     .currentGoodPage {
@@ -1953,11 +1959,6 @@
         max-width: 120px;
         max-height: 110px;
     }
-    .circle-carousel{
-        right: 0;
-        left: -21px;
-        margin: auto;
-    }
     .container {
         width: 100%;
         height: 370px;
@@ -1968,17 +1969,6 @@
     .sliderRounded {
         margin-top: -80px;
     }
-    .prilipalyInfo{
-        margin: 0;
-        left: 21px;
-        margin-right: -186px;
-    }
-    .prilipalyInfo::before{
-        transform: rotate(-4deg);
-    }
-    .prilipalyInfo::after{
-       display: none;
-    }
     .sliderContainer{
         height: 950px;
     }
@@ -1986,37 +1976,7 @@
         right: 40px;
     }
     .circle-carousel .prev {
-        left: 80px !important;
-    }
-    .circle-carousel .slide.active h2 {
-        font-size: 35px;
-        bottom: -46px;
-        left: -35px;
-    }
-    .currentGoodPage {
-        margin-top: 60px;
-    }
-    .searchingFormMap select, .searchingFormMap input:not([type=submit]){
-        width: 150px;
-        margin: 5px
-    }
-    input.btn{
-        width:310px
-    }
-    .gamesWindowText .text-data {
-        font-size: 13px;
-    }
-    .gameImg{
-        max-width: 100px;
-    }
-    .gameLogo:hover{
-        width: 40px;
-        margin: 0 5px;
-    }
-    .posterImg {
-        left: 51px;
-        max-width: 22px;
-        max-height: 30px;
+        left: 40px !important;
     }
 }
 /* IPhone 6/7/8 width */
@@ -2107,9 +2067,8 @@
         left: 80px;
     }
     .prilipalyInfo {
-        bottom: 78%;
+        bottom: 73%;
         width: 356px;
-        margin-right: -181px;
     }
     .sliderContainer{
         height: 810px;
@@ -2419,7 +2378,6 @@
     }
     .prilipalyInfo {
         width: 305px;
-        margin-right: -20px;
         background-size: 304px 170px;
         height: 190px
     }
@@ -2429,7 +2387,7 @@
     .circle-carousel .slide {
         width: 100%;
         left: 0;
-        right: -40px;
+        right: auto;
         margin: auto;
     }
     .slides h2 {
@@ -2437,12 +2395,15 @@
         left: 0;
     }
     .circle-carousel .next{
-        top: 390px;
+        top: 27% !important;
         right: 30px;
     }
     .circle-carousel .prev {
-        top: 390px;
+        top: 27% !important;
         left: 70px;
+    }
+    .circle-carousel .slide.active{
+        top: 27%;
     }
     .sliderWindow div, .welcomeWindow {
         animation: none;
