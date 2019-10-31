@@ -44,7 +44,7 @@ export default class SliderRound extends React.Component {
             <div className="sliderRounded">
                 <main className="page">
                     <div className="container">
-                        <div className="circle-carousel" data-speed="5000" data-autoplay="">
+                        <div className="circle-carousel" data-speed="1000" data-autoplay="">
                             <div className="slides">
                                 {prilipalaInfo.map((item, index) => (
                                     <div className='slide' key={index}>

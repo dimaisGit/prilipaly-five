@@ -1684,13 +1684,14 @@
         top: -85px;
     }
     .slick-arrow.slick-prev {
-        left: 25%;
+        left: 20%;
     }
     .slick-arrow.slick-prev, .slick-arrow.slick-next {
-        top: 605px;
+        top: auto !important;
+        bottom: 40px;
     }
     .slick-arrow.slick-next {
-        right: 25%;
+        right: 20%;
     }
     .slick-slide img {
         display: block;
@@ -2150,10 +2151,10 @@
         width: 60px;
     }
     .slick-arrow.slick-next {
-        right: 20%;
+        right: 20% !important;
     }
     .slick-arrow.slick-prev {
-        left: 20%;
+        left: 20% !important;
     }
     .mapContainer .infoBlock.back{
         width: 80%;
