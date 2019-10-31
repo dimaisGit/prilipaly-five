@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 *{
     vertical-align: baseline;
-    font-weight: inherit;
-    font-family: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    border: 0 none;
-    outline: 0;
-    padding: 0;
-    margin: 0;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
 }
 @media(max-width:1920px) and (max-height: 1080px){
-
+    .videoWindow{
+        margin-bottom: -59vh;
+        height: 115vh;
+    }
+    .sliderContainer {
+        min-height: 1265px;
+    }
+    .toys-3-4 img {
+        display: block;
+        max-height: 170px;
+    }
 }
 @media(max-width:1681px) and (max-height: 1051px){
+    .sliderContainer {
+        min-height: 1292px;
+    }
     .circle-carousel{
         height: 200%;
     }
@@ -36,6 +49,10 @@
     .toys-3-4 img{
         width: 45%;
     }
+    .videoWindow{
+        height: 120vh;
+        top: -30vh;
+    }
     .mapContainer .infoBlock{
         max-width: 338px;
     }
@@ -52,6 +69,9 @@
         left: 85%;
         bottom: 46%;
     }
+    .phoneContainer img{
+        max-width: 50.5%;
+    }
 }
 @media(max-width: 1601px) and (max-height: 1201px){
     .circle-carousel{
@@ -62,8 +82,12 @@
         max-height: 162px;
     }
     .sliderContainer{
-        height: 96vh;
+        height: 1205px;
         min-height: 96vh;
+    }
+    .videoWindow {
+        top: -30vh;
+        margin-bottom: -45vh;
     }
     .toys-3-4{
         bottom: -60px;
@@ -85,23 +109,39 @@
         min-height: 70vh;
         padding-top: 90px;
     }
+    .phoneContainer img {
+        max-width: 53.5%;
+    }
 }
 @media(max-width: 1601px) and (max-height: 1025px){
     .sliderContainer {
-        height: 100vh;
+        height: 1075px;
         min-height: 100vh
     }
     .slides h2 {
         bottom: -55px;
     }
+    .videoWindow {
+        top: -33vh;
+        margin-bottom: -33vh;
+    }
     .prilipalyInfo{
         bottom: 60%;
+    }
+    .videoWindow{
+        height: 100vh;
     }
     .toys-3-4 {
         bottom: -15px;
     }
     .footerContainer {
         min-height: 90vh;
+    }
+    .circle-carousel .next {
+        top: 41% !important;
+    }
+    .circle-carousel .prev{
+        top: 41% !important; 
     }
 }
 @media (max-width: 1601px) and (max-height: 901px){
@@ -129,8 +169,14 @@
         height: 190%;
     }
     .sliderContainer {
-        height: 117vh;
+        height: 1102px;
         min-height: 100vh;
+    }
+    .circle-carousel .slide.active h2{
+        bottom: -27px;
+    }
+    .videoWindow{
+        height: 115vh;
     }
     .toys-3-4 {
         bottom: -30px;
@@ -164,6 +210,12 @@
     .toys-2-1 img{
         max-width: 85%;
     }
+    .sliderContainer {
+        height: 1135px;
+    }
+    .circle-carousel .slide.active h2{
+        bottom: 0
+    }
     .spCarousel {
         flex: 30% 1;
         padding: 36px 0;
@@ -185,6 +237,9 @@
     .slides h2{
         bottom: 5px;
     }
+    .phoneContainer img {
+        max-width: 58.5%;
+    }
 }
 @media(max-width: 1366px) and (max-height: 770px){
     .welcomeContent .sand-3::before {
@@ -192,6 +247,9 @@
         right: 43%;
         bottom: 10%;
 
+    }
+    .phoneContainer img{
+        max-width: 61%;
     }
     .grass-4{
         bottom: -92px;
@@ -218,14 +276,17 @@
         max-width: 45%;
     }
     .sliderContainer {
-        height: 131vh;
+        height: 1079px;
     }
     .circle-carousel {
         height: 210%;
     }
-    .slides h2 {
-        bottom: -56px;
-        font-size: 22px;
+    .circle-carousel .slide.active h2 {
+        bottom: -21px;
+        text-align: center;
+    }
+    .videoWindow {
+        height: 130vh;
     }
     .goodsContainer {
         height: 60vh;
@@ -247,6 +308,9 @@
     }
     .footerContainer .cloudsContainer{
         top: -130px
+    }
+    .phoneContainer img {
+        max-width: 66.5%;
     }
     .toys-3-4 {
         bottom: 10px;
@@ -309,11 +373,14 @@
         height: 145%;
     }
     .sliderContainer {
-        height: 93vh;
-        min-height: 93vh;
+        height: 901px;
+        min-height: auto;
     }
     .slides h2 {
-        bottom: -60px;
+        bottom: -50px;
+    }
+    .circle-carousel .slide.active{
+        top: 42.5%;
     }
     .dot span img{
         max-width: 75px;
@@ -326,6 +393,14 @@
     }
     .toys-1-2{
         left: 170px;
+    }
+    .videoWindow {
+        top: -22vh;
+        margin-bottom: -45vh;
+        height: 110vh;
+    }
+    .contentBlocks{
+        padding-top: 110px;
     }
 }
 @media(max-width:1281px) and (max-height:771px){
@@ -368,10 +443,17 @@
         height: 196%;
     }
     .sliderContainer {
-        height: 120vh;
+        height: 840px;
     }
-    .slides h2{
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
         font-size: 22px;
+    }
+    
+    .videoWindow {
+        top: -27vh;
+        margin-bottom: -23vh;
+        height: 109vh;
     }
     .slick-list {
         margin-right: 50px;
@@ -447,6 +529,11 @@
         margin-right: 80px;
         font-size: 15px;
     }
+    .videoWindow {
+        top: -24vh;
+        margin-bottom: -30vh;
+        height: 100vh;
+    }
     .toys-3-3 img{
         max-width: 21%;
     }
@@ -463,10 +550,10 @@
         width: 54%;
     }
     .toys-1-2 img {
-        max-width: 80px;
+        max-width: 60px;
     }
-    .toys-1-2{
-        top: -100px;
+    .toys-1-2 {
+        top: -70px;
     }
     .spInfo{
         width: 450px;
@@ -481,6 +568,9 @@
     .slick-arrow.slick-next {
         right: 27px;
     }
+    .phoneContainer img {
+        max-width: 73.5%;
+    }
     .footerNavigationPanel::before {
         height: 107px;
         width: 130px;
@@ -489,6 +579,27 @@
     }
     .cloudsContainer{
         top: 0;
+    }
+    .sliderContainer {
+        height: 850px;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    .dot span img {
+        max-width: 60px;
+    }
+    .mapContainer .infoBlock span{
+        font-size: 13px;
+    }
+    .mapContainer .infoBlock.back{
+        padding-top: 10px;
+    }
+    .mapContainer .infoBlock::before{
+        left: 30px;
+        top: -110px;
     }
 }
 
@@ -720,17 +831,19 @@
         margin: auto;
         transform: none;
         width: 0;
+        top: 55%;
     }
     .sliderRounded{
         margin-top: 40px;
     }
     .prilipalyInfo{
-        bottom: 100%;
+        bottom: 60%;
         transform: translate(0%, -70%) scale(.8);
     }
-    .circle-carousel .next, .slick-arrow.slick-next,
-    .circle-carousel .prev, .slick-arrow.slick-prev{
-        bottom: 63%;
+    .circle-carousel .next, 
+    .circle-carousel .prev{
+        bottom: auto;
+        top: 33% !important
     }
     .circle-carousel .next, .slick-arrow.slick-next{
         right: 30%;
@@ -742,10 +855,14 @@
         bottom: 100px;
     }
     .dot span img {
-        max-width: 100px;
+        max-width: 80px;
         max-height: 160px;
     }
-
+    .videoWindow{
+        top: -23vh;
+        height: 135vh;
+        margin-bottom: -50vh;
+    }
     .contentBlocks{
         flex-wrap: wrap;
         flex-direction: column;
@@ -807,7 +924,13 @@
     .phoneContainer{
         width: 100%;
     }
+    .phoneContainer img{
+        width: 40%;
+    }
     .phoneContainer iframe{
+        bottom: 99px;
+        width: 355px;
+        height: 628px;
         left: 0;
         right: 0;
         margin: auto;
@@ -874,21 +997,11 @@
         position: static;
     }
     .circle-carousel .next,
-    .slick-arrow.slick-next,
-    .circle-carousel .prev,
-    .slick-arrow.slick-prev{
+    .circle-carousel .prev{
         top: 93%;
     }
-    .circle-carousel .next, .slick-arrow.slick-next{
-        right: 30%;
-        bottom: auto;
-        top: -10% !important;
-    }
-    .circle-carousel .prev, .slick-arrow.slick-prev{
-        left: 30%;
-        bottom: auto;
-        top: -10% !important;
-        border-radius: 15px 0 0 15px;
+    .circle-carousel .slide.active {
+        top: 34%;
     }
     .currentGoodPage{
         margin-top: 16px;
@@ -917,9 +1030,9 @@
     .gamesWindowText .text-data, .gameDescription, .gamesWindowBottomText .text-data{
         font-size: 20px;
     }
-    .gameLogo{
+    .gameLogo, .gameLogo:hover{
         width: 40px;
-        margin: 0;
+        margin: 0 5px;
     }
     .gamesWindowBottomText a.header{
         margin: -10px auto;
@@ -962,14 +1075,26 @@
     }
     .sliderWindow .red{
         transform: scale(.65) translate(33%, -50%) rotate(5deg);
-        margin-right: 0;
+        margin-right: 100px;
         transition: all .3s;
     }
     .sliderWindow .infoBlock.shadowViolet{
         transform: translate(-30%, -100%) rotate(-5deg);
+        margin-left: 150px;
     }
-    .circle-carousel .slide.active{
-        top: -9%;
+    .pagination .item.item.active{
+        opacity: 1
+    }
+    .pagination .item{
+        opacity: 0;
+    }
+    .sliderRounded {
+        margin-top: -210px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        bottom: auto;
+        z-index: 330;
+        top: 93% !important;
     }
 }
 
@@ -1126,8 +1251,17 @@
     .prilipalyInfo p {
         font-size: 13px;
     }
+    .videoWindow {
+        top: -24vh;
+        height: 145vh;
+    }
+    .contentBlocks {
+        padding-top: 180px;
+    }
     .phoneContainer iframe {
         bottom: 12%;
+        width: 35%;
+        height: 76%;
         left: 0;
         right: 0;
         margin: auto;
@@ -1243,13 +1377,20 @@
 }
 /* IPad width */
 @media(max-width: 769px){
-    .videoWindow {
-        position: relative;
-        margin: -60vw 0 0;
+    .circle-carousel .pagination{
+        top: 50%
     }
-    .contentBlocks {
-        padding-top: 40vw;
-        padding-bottom: 60vw;
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: translate(95%, -100%) rotate(0deg); 
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
+        top: 22% !important;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        top: 88% !important
+    }
+    .slick-arrow.slick-prev{
+        left: 30% !important;
     }
 }
 
@@ -1283,6 +1424,12 @@
 }
 /* IPhone 6/7/8+ width */
 @media(max-width: 415px){
+    .circle-carousel .pagination .item{
+        opacity: 0
+    }
+    .circle-carousel .pagination .item.active{
+        opacity: 1;
+    }
     p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
         font-size: 12px;
         letter-spacing: 0px;
@@ -1422,8 +1569,8 @@
         justify-content: center;
     }
     .dot span img {
-        max-width: 140px;
-        max-height: 130px;
+        max-width: 110px;
+        max-height: 105px;
     }
     .page {
         max-width: 95%;
@@ -1454,6 +1601,9 @@
     }
     .videoWindow .infoBlock span {
         font-size: 14px;
+    }
+    .contentBlocks {
+        padding-top: 60px;
     }
     .socialContainerData{
         width: 100%;
@@ -1492,6 +1642,12 @@
     .toys-3-1{
         left: -21px;
     }
+    .phoneContainer img {
+        width: 50%;
+    }
+    .phoneContainer iframe {
+        width: 43%;
+    }
     .toys-1-2 {
         left: -90px;
         top: -90px;
@@ -1502,6 +1658,10 @@
     }
     .toys-2-2 img{
         max-width: 140px
+    }
+    .videoWindow {
+        height: 155vh;
+        margin-bottom: -60vh;
     }
     .videoContainer {
         background-size: auto;
@@ -1693,7 +1853,6 @@
     }
     .logoAll {
         justify-content: center;
-        align-items: space-between;
         flex-wrap: wrap-reverse;
     }
     .logoAll .logo-d{
@@ -1768,9 +1927,38 @@
         transform: translateX(-50%);
         min-width: 200px;
     }
+    .circle-carousel .slide.active h2 {
+        bottom: -48px;
+    }
+    .prilipalyInfo::before{
+        transform: rotate(-4deg);
+    }
+    .prilipalyInfo::after{
+        display: none;
+    }
+    .currentGoodPage {
+        margin-top: -4px;
+    }
+    .slick-arrow.slick-prev {
+        left: 20% !important;
+    }
+    .slick-arrow.slick-next {
+        right: 20%;
+    }
 }
+@media(max-width: 412px) and (max-height:824px){
+    .currentGoodPage {
+        margin-top: 59px;
+    }
+}
+@media(max-width:412px) and(max-height: 732px){
+    .currentGoodPage {
+        margin-top: -13px;
+    }
+}
+
 /* IPhone X */
-@media (max-width: 374px) and (max-height: 813px) {
+@media (max-width: 376px) and (max-height: 813px) {
     .logo-d.min{
         left: 30px;
     }
@@ -1838,7 +2026,7 @@
         margin-top: -80px;
     }
     .sliderContainer{
-        height: 950px;
+        height: 865px;
     }
     .circle-carousel .next {
         right: 40px;
@@ -1846,12 +2034,65 @@
     .circle-carousel .prev {
         left: 40px !important;
     }
+    .circle-carousel .pagination {
+        top: 52%;
+    }
+    .prilipalyInfo {
+        bottom: 68%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 33% !important;
+    }
+    .toys-1-2{
+        top: -190px;
+    }
+    .toys-2-1 {
+        bottom: -500px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 83% !important;
+    }
+    .slick-arrow.slick-next {
+        right: 20%;
+    }
+    .slick-arrow.slick-prev {
+        left: 20% !important;
+    }
+    .gamesWindowText .text-data {
+        font-size: 13px;
+    }
+    .gameImg {
+        margin-left: -10px;
+        max-width: 103px;
+    }
+    .posterImg {
+        left: 53px;
+        max-width: 26px;
+        max-height: 30px;
+    }
 }
 /* IPhone 6/7/8 width */
 @media(max-width: 376px) and (max-height: 667px){
     .welcomeWindow .yellow {
         width: 75%;
         left: 15%;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 90px;
+    }
+    .circle-carousel .pagination {
+        top: 50%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 30% !important;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+    }
+    .currentGoodPage {
+        margin-top: -18px;
+        font-size: 25px;
     }
     .logo-d.min{
         left: 40px;
@@ -1935,7 +2176,7 @@
         left: 80px;
     }
     .prilipalyInfo {
-        bottom: 73%;
+        bottom: 70%;
         width: 356px;
     }
     .sliderContainer{
@@ -1945,13 +2186,17 @@
         bottom: 425px;
         left: 18px;
     }
+    .videoWindow {
+        height: 170vh;
+        top: -26vh;
+    }
     .videoWindow .infoBlock{
         padding: 10px 0;
     }
     .videoContainer {
         min-height: 135vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
-        background-size: cover;
+        background-size: auto;
     }
     .videoWindow .infoBlock.lastInfoB span {
         font-size: 13px;
@@ -2127,6 +2372,11 @@
         width: 50px;
     }
 }
+@media(max-width:361px){
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 86% !important;
+    }
+}
 /* IPhone 5/SE */
 @media(max-width: 321px){
     .welcomeWindow .infoBlock.leftPos{
@@ -2277,6 +2527,12 @@
         width: 78px;
         top: -70px;
     }
+    .phoneContainer img {
+        width: 210px;
+    }
+    .phoneContainer iframe {
+        width: 184px;
+    }
     .phoneContainer {
         top: 140px;
     }
@@ -2297,6 +2553,10 @@
     }
     .videoContainer{
         min-height: 890px;
+    }
+    .videoWindow {
+        height: 1060px;
+        top: -148px;
     }
     .toys-3-1 img {
         max-width: 60px;
@@ -2387,7 +2647,19 @@
         top: calc(50% - 3px);
         width: 48px;
     }
-    .footerData{
-        top: 100px
+    .footerData {
+        top: 0px;
+    }
+    .footerContainer {
+        height: 1500px;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
+        top: 32% !important;
+    }
+    .circle-carousel .pagination {
+        top: 54%;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev {
+        top: 89% !important;
     }
 }
