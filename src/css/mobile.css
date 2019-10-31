@@ -800,20 +800,19 @@
         transform: rotateY(180deg) rotate(-5deg);
     }
     .container {
-        width: 100%;
+        width: 85%;
         height: 60vh;
+        overflow: hidden;
+        margin-top: -310px;
+        padding-top: 230px;
     }
     .sliderContainer {
         min-height: 50vh;
     }
-    .page{
-        max-width: 85%;
-        margin: auto;
-        padding: 110px;
-    }
     .circle-carousel {
-        height: 204%;
+        height: 220%;
         right: 22px;
+        top: -100px;
     }
     .circle-carousel .pagination{
         left:0;
@@ -822,29 +821,18 @@
         transform: none;
         width: 0;
     }
+    .circle-carousel .slide.active h2 {
+        position: absolute;
+        bottom: -700px;
+        left: 0;
+        right: 0;
+    }
     .sliderRounded{
         margin-top: 40px;
     }
-    .prilipalyInfo{
-        bottom: 100%;
-        transform: translate(0%, -70%) scale(.8);
-    }
-    .circle-carousel .next, .slick-arrow.slick-next,
-    .circle-carousel .prev, .slick-arrow.slick-prev{
-        bottom: 63%;
-    }
-    .circle-carousel .next, .slick-arrow.slick-next{
-        right: 30%;
-    }
-    .circle-carousel .prev, .slick-arrow.slick-prev {
-        left: 30%;
-    }
-    .slides h2{
-        bottom: 100px;
-    }
     .dot span img {
-        max-width: 100px;
-        max-height: 160px;
+        max-width: 70px;
+        max-height: 120px;
     }
     .videoWindow{
         top: -23vh;
@@ -984,18 +972,17 @@
     .slick-slider{
         position: static;
     }
-    .circle-carousel .next,
+    
     .slick-arrow.slick-next,
-    .circle-carousel .prev,
     .slick-arrow.slick-prev{
         top: 93%;
     }
-    .circle-carousel .next, .slick-arrow.slick-next{
+    .slick-arrow.slick-next{
         right: 30%;
         bottom: auto;
         top: -15% !important;
     }
-    .circle-carousel .prev, .slick-arrow.slick-prev{
+    .slick-arrow.slick-prev{
         left: 30%;
         bottom: auto;
         top: -15% !important;
@@ -1073,11 +1060,12 @@
     }
     .sliderWindow .red{
         transform: scale(.65) translate(33%, -50%) rotate(5deg);
-        margin-right: 0;
-        transition: all .3s;
+        /* margin-right: 0;
+        transition: all .3s; */
     }
     .sliderWindow .infoBlock.shadowViolet{
-        transform: translate(-30%, -100%) rotate(-5deg);
+        /* transform: translate(-30%, -100%) rotate(-5deg); */
+        transform: scale(.65) translate(-33%, -100%) rotate(-5deg);
     }
     .circle-carousel .slide.active{
         top: -14%;
@@ -1087,7 +1075,7 @@
 /* Mobile horizontal*/
 @media(max-width: 813px){
     .welcomeWindow .yellow{
-        width:65%
+        width:72%
     }
     .welcomeWindow .infoBlock.leftPos{
         font-size: 25px
@@ -1356,7 +1344,19 @@
 }
 /* IPad width */
 @media(max-width: 769px){
-
+    .searchingFormMap select, .searchingFormMap input:not([type=submit]){
+        width: 190px;
+    }
+    .gameLogo {
+        width: 65px;
+        margin: 0 5px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        top: 700px!important;
+    }
+    .slick-arrow.slick-prev{
+        left: 30% !important;
+    }
 }
 /* IPhone 6/7/8+ horizontal width */
 @media(max-width: 737px){
@@ -1890,8 +1890,13 @@
         margin: 30px 0;
     }
 }
+@media  only screen and (max-device-width: 412px) and (max-height: 732px){
+    .currentGoodPage {
+        margin-top: -10px;
+    }
+}
 /* IPhone X */
-@media (max-width: 374px) and (max-height: 813px) {
+@media only screen and (max-device-width: 376px) and (max-height: 813px) {
     .logo-d.min{
         left: 30px;
     }
@@ -1900,7 +1905,7 @@
         left: calc((100% - 300px) / 2);
     }
     .welcomeWindow .logoContainerWelcome p {
-        font-size: 13px;
+        font-size: 12px;
         left: 99px;
         top: 53px;
     }
@@ -1965,7 +1970,14 @@
     }
     .prilipalyInfo{
         margin: 0;
-        left: 21px
+        left: 21px;
+        margin-right: -186px;
+    }
+    .prilipalyInfo::before{
+        transform: rotate(-4deg);
+    }
+    .prilipalyInfo::after{
+       display: none;
     }
     .sliderContainer{
         height: 950px;
@@ -1976,9 +1988,35 @@
     .circle-carousel .prev {
         left: 80px !important;
     }
-    .circle-carousel .slide.active {
-        transform: translate(20%, 100%) scale(1);
-        left: 0;
+    .circle-carousel .slide.active h2 {
+        font-size: 35px;
+        bottom: -46px;
+        left: -35px;
+    }
+    .currentGoodPage {
+        margin-top: 60px;
+    }
+    .searchingFormMap select, .searchingFormMap input:not([type=submit]){
+        width: 150px;
+        margin: 5px
+    }
+    input.btn{
+        width:310px
+    }
+    .gamesWindowText .text-data {
+        font-size: 13px;
+    }
+    .gameImg{
+        max-width: 100px;
+    }
+    .gameLogo:hover{
+        width: 40px;
+        margin: 0 5px;
+    }
+    .posterImg {
+        left: 51px;
+        max-width: 22px;
+        max-height: 30px;
     }
 }
 /* IPhone 6/7/8 width */
@@ -2264,6 +2302,17 @@
     .footerNavigationPanel ul::before {
         left: 30px;
         width: 50px;
+    }
+}
+@media only screen and (max-device-width: 361px){
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 12px;
+    }
+    .searchingFormMap select, .searchingFormMap input:not([type=submit]){
+        width: 100px;
+    }
+    .searchingFormMap input:nth-child(2){
+        background: #fff;
     }
 }
 /* IPhone 5/SE */
