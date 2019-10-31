@@ -72,8 +72,8 @@ export default class SliderRound extends React.Component {
                                     {currentGame.infoData}
                                 </p>
                             </div>
-                           
-                        <div onClick={() => this.setState({ curPrilipala: this.state.curPrilipala === 0 ? 23 : this.state.curPrilipala - 1 })} className="prev " ></div>
+
+                            <div onClick={() => this.setState({ curPrilipala: this.state.curPrilipala === 0 ? 23 : this.state.curPrilipala - 1 })} className="prev " ></div>
                         </div>
                     </div>
                 </main>
