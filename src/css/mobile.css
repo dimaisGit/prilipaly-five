@@ -1355,15 +1355,6 @@
     }
 }
 /* IPad width */
-<<<<<<< HEAD
-@media only screen and (max-device-width: 769px){
-}
-/* IPhone 6/7/8+ horizontal width */
-@media only screen and (max-device-width: 737px){
-}
-/* IPhone6/7/8 horizontal width */
-@media only screen and (max-device-width: 668px){
-=======
 @media(max-width: 769px){
 
 }
@@ -1385,7 +1376,6 @@
     .circle-carousel .slide.active {
         transform: translate(-10%, 20%) scale(.7);
     }
->>>>>>> 827b362f27942a45ef0fd2cb4832fca15ae05faf
 }
 /* IPhone5c horizontal width */
 @media only screen and (max-device-width: 569px){
@@ -1899,11 +1889,7 @@
     }
 }
 /* IPhone X */
-<<<<<<< HEAD
-@media only screen and (max-device-width: 376px) and (max-height: 813px) {
-=======
 @media (max-width: 374px) and (max-height: 813px) {
->>>>>>> 827b362f27942a45ef0fd2cb4832fca15ae05faf
     .logo-d.min{
         left: 30px;
     }
