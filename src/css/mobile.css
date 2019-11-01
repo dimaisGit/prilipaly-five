@@ -11,22 +11,12 @@
 	margin: 0;
 }
 @media(max-width:1920px) and (max-height: 1080px){
-    .videoWindow{
-        margin-bottom: -59vh;
-        height: 115vh;
-    }
-    .sliderContainer {
-        min-height: 1265px;
-    }
     .toys-3-4 img {
         display: block;
         max-height: 170px;
     }
 }
 @media(max-width:1681px) and (max-height: 1051px){
-    .sliderContainer {
-        min-height: 1292px;
-    }
     .circle-carousel{
         height: 200%;
     }
@@ -46,13 +36,6 @@
     .toys-2-1 img{
         max-width: 85%;
     }
-    .toys-3-4 img{
-        width: 45%;
-    }
-    .videoWindow{
-        height: 120vh;
-        top: -30vh;
-    }
     .mapContainer .infoBlock{
         max-width: 338px;
     }
@@ -69,25 +52,11 @@
         left: 85%;
         bottom: 46%;
     }
-    .phoneContainer img{
-        max-width: 50.5%;
-    }
 }
 @media(max-width: 1601px) and (max-height: 1201px){
-    .circle-carousel{
-        height: 160%;
-    }
     .dot span img {
         max-width: 90px;
         max-height: 162px;
-    }
-    .sliderContainer{
-        height: 1205px;
-        min-height: 96vh;
-    }
-    .videoWindow {
-        top: -30vh;
-        margin-bottom: -45vh;
     }
     .toys-3-4{
         bottom: -60px;
@@ -109,27 +78,10 @@
         min-height: 70vh;
         padding-top: 90px;
     }
-    .phoneContainer img {
-        max-width: 53.5%;
-    }
 }
 @media(max-width: 1601px) and (max-height: 1025px){
-    .sliderContainer {
-        height: 1075px;
-        min-height: 100vh
-    }
     .slides h2 {
         bottom: -55px;
-    }
-    .videoWindow {
-        top: -33vh;
-        margin-bottom: -33vh;
-    }
-    .prilipalyInfo{
-        bottom: 60%;
-    }
-    .videoWindow{
-        height: 100vh;
     }
     .toys-3-4 {
         bottom: -15px;
@@ -137,11 +89,10 @@
     .footerContainer {
         min-height: 90vh;
     }
-    .circle-carousel .next {
-        top: 41% !important;
-    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
     .circle-carousel .prev{
-        top: 41% !important; 
+        top: 43%;
     }
 }
 @media (max-width: 1601px) and (max-height: 901px){
@@ -168,27 +119,15 @@
     .circle-carousel {
         height: 190%;
     }
-    .sliderContainer {
-        height: 1102px;
-        min-height: 100vh;
-    }
+
     .circle-carousel .slide.active h2{
         bottom: -27px;
-    }
-    .videoWindow{
-        height: 115vh;
     }
     .toys-3-4 {
         bottom: -30px;
     }
     .goodsContainer{
         height: 48vh;
-    }
-    .spCarousel{
-        padding: 36px 0;
-    }
-    .slick-list {
-        margin-right: 60px;
     }
     .footerContainer {
         min-height: 95vh;
@@ -201,28 +140,14 @@
     .slides h2{
         bottom: 5px;
     }
-    .toys-3-4 img{
-        max-width: 45%;
-    }
     .toys-3-4 {
         bottom: -10px;
     }
     .toys-2-1 img{
         max-width: 85%;
     }
-    .sliderContainer {
-        height: 1135px;
-    }
     .circle-carousel .slide.active h2{
         bottom: 0
-    }
-    .spCarousel {
-        flex: 30% 1;
-        padding: 36px 0;
-        max-width: 55%;
-    }
-    .slick-arrow.slick-next {
-        right: 70px;
     }
     .footerContainer {
         min-height: 82vh;
@@ -237,9 +162,6 @@
     .slides h2{
         bottom: 5px;
     }
-    .phoneContainer img {
-        max-width: 58.5%;
-    }
 }
 @media(max-width: 1366px) and (max-height: 770px){
     .welcomeContent .sand-3::before {
@@ -247,9 +169,6 @@
         right: 43%;
         bottom: 10%;
 
-    }
-    .phoneContainer img{
-        max-width: 61%;
     }
     .grass-4{
         bottom: -92px;
@@ -275,18 +194,12 @@
     .blueSec > img, .yellow img{
         max-width: 45%;
     }
-    .sliderContainer {
-        height: 1079px;
-    }
     .circle-carousel {
         height: 210%;
     }
     .circle-carousel .slide.active h2 {
         bottom: -21px;
         text-align: center;
-    }
-    .videoWindow {
-        height: 130vh;
     }
     .goodsContainer {
         height: 60vh;
@@ -308,9 +221,6 @@
     }
     .footerContainer .cloudsContainer{
         top: -130px
-    }
-    .phoneContainer img {
-        max-width: 66.5%;
     }
     .toys-3-4 {
         bottom: 10px;
@@ -379,9 +289,6 @@
     .slides h2 {
         bottom: -50px;
     }
-    .circle-carousel .slide.active{
-        top: 42.5%;
-    }
     .dot span img{
         max-width: 75px;
     }
@@ -393,14 +300,6 @@
     }
     .toys-1-2{
         left: 170px;
-    }
-    .videoWindow {
-        top: -22vh;
-        margin-bottom: -45vh;
-        height: 110vh;
-    }
-    .contentBlocks{
-        padding-top: 110px;
     }
 }
 @media(max-width:1281px) and (max-height:771px){
@@ -426,6 +325,7 @@
     }
     .logoContainerWelcome p {
         font-size: 19px;
+
     }
     .blueSec{
         width: 240px;
@@ -449,18 +349,10 @@
         bottom: 0;
         font-size: 22px;
     }
-    
-    .videoWindow {
-        top: -27vh;
-        margin-bottom: -23vh;
-        height: 109vh;
-    }
     .slick-list {
         margin-right: 50px;
     }
-    .slick-arrow.slick-next {
-        right: 20px;
-    }
+
     .goodsContainer {
         height: 54vh;
     }
@@ -529,11 +421,6 @@
         margin-right: 80px;
         font-size: 15px;
     }
-    .videoWindow {
-        top: -24vh;
-        margin-bottom: -30vh;
-        height: 100vh;
-    }
     .toys-3-3 img{
         max-width: 21%;
     }
@@ -567,9 +454,6 @@
     }
     .slick-arrow.slick-next {
         right: 27px;
-    }
-    .phoneContainer img {
-        max-width: 73.5%;
     }
     .footerNavigationPanel::before {
         height: 107px;
@@ -822,7 +706,6 @@
         padding: 110px;
     }
     .circle-carousel {
-        height: 204%;
         right: 22px;
     }
     .circle-carousel .pagination{
@@ -836,21 +719,6 @@
     .sliderRounded{
         margin-top: 40px;
     }
-    .prilipalyInfo{
-        bottom: 60%;
-        transform: translate(0%, -70%) scale(.8);
-    }
-    .circle-carousel .next, 
-    .circle-carousel .prev{
-        bottom: auto;
-        top: 33% !important
-    }
-    .circle-carousel .next, .slick-arrow.slick-next{
-        right: 30%;
-    }
-    .circle-carousel .prev, .slick-arrow.slick-prev {
-        left: 30%;
-    }
     .slides h2{
         bottom: 100px;
     }
@@ -858,16 +726,13 @@
         max-width: 80px;
         max-height: 160px;
     }
-    .videoWindow{
-        top: -23vh;
-        height: 135vh;
-        margin-bottom: -50vh;
-    }
+
     .contentBlocks{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: 32vw;
     }
     .videoWindow .infoBlock, .videoWindow .infoBlock span{
         transform: rotateX(180deg) rotate(5deg);
@@ -918,19 +783,10 @@
     .videoPhone{
         margin-top: -270px;
     }
-    .videoContainer {
-        min-height: 110vh;
-    }
     .phoneContainer{
         width: 100%;
     }
-    .phoneContainer img{
-        width: 40%;
-    }
     .phoneContainer iframe{
-        bottom: 99px;
-        width: 355px;
-        height: 628px;
         left: 0;
         right: 0;
         margin: auto;
@@ -983,10 +839,6 @@
         flex-direction: column;
         height: 55vh;
     }
-    .spCarousel{
-        width: 100%;
-        max-width: 100%;;margin: 0;
-    }
     .spDescription{
         margin: 100px 0 0;
     }
@@ -996,15 +848,18 @@
     .slick-slider{
         position: static;
     }
-    .circle-carousel .next,
-    .circle-carousel .prev{
-        top: 93%;
+    .circle-carousel .next, .slick-arrow.slick-next{
+        right: 30%;
+        bottom: auto;
     }
-    .circle-carousel .slide.active {
-        top: 34%;
+    .circle-carousel .prev, .slick-arrow.slick-prev{
+        left: 30%;
+        bottom: auto;
+        border-radius: 15px 0 0 15px;
     }
     .currentGoodPage{
         margin-top: 16px;
+        margin-bottom: 30px;
     }
     .mapContainer .infoBlock{
         top: 120px;
@@ -1038,11 +893,11 @@
         margin: -10px auto;
     }
     .gameMechanic{
-        height: 380px;
         width: 75%;
     }
     .gameData .gameName{
         margin-bottom: 44px;
+        overflow: hidden;
     }
     .playLink{
         text-align: center;
@@ -1082,19 +937,31 @@
         transform: translate(-30%, -100%) rotate(-5deg);
         margin-left: 150px;
     }
-    .pagination .item.item.active{
-        opacity: 1
-    }
-    .pagination .item{
-        opacity: 0;
-    }
     .sliderRounded {
         margin-top: -210px;
     }
     .slick-arrow.slick-next, .slick-arrow.slick-prev{
         bottom: auto;
         z-index: 330;
-        top: 93% !important;
+        top: 30%;
+
+    }
+    .slick-arrow.slick-next{
+        right: 0;
+    }
+    .slick-arrow.slick-prev{
+        left: 0;
+    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
+    .circle-carousel .prev{
+        top: 41%;
+    }
+    .prilipalyInfo{
+        top: 23%;
+    }
+    .spCarousel {
+        width: calc(100% - 40px);
     }
 }
 
@@ -1202,9 +1069,6 @@
         width: 313px;
         height: 440px;
     }
-    .sliderWindow .red{
-        display: none;
-    }
     .sliderWindow .infoBlock.shadowViolet{
         margin-left: 30px;
         font-size: 15px;
@@ -1221,29 +1085,24 @@
         max-height: 160px;
     }
     .circle-carousel {
-        height: 350%;
         left: 80%;
         transform: translateX(-80%);
         min-width: 200px;
     }
     .prilipalyInfo {
         transform: translate(-50%, 0%) scale(1);
-        bottom: 78%;
+        bottom: 90%;
         width: 460px;
         left: 50%;
     }
     .sliderContainer {
         height: 1130px;
     }
-    .circle-carousel .next, .slick-arrow.slick-next,
-    .circle-carousel .prev, .slick-arrow.slick-prev {
-        top: 480px;
-    }
     .circle-carousel .next, .slick-arrow.slick-next {
         right: 5%;
     }
     .circle-carousel .prev, .slick-arrow.slick-prev {
-        left: 15%;
+        left: 5%;
     }
     .slides h2 {
         bottom: 435px;
@@ -1251,17 +1110,8 @@
     .prilipalyInfo p {
         font-size: 13px;
     }
-    .videoWindow {
-        top: -24vh;
-        height: 145vh;
-    }
-    .contentBlocks {
-        padding-top: 180px;
-    }
     .phoneContainer iframe {
         bottom: 12%;
-        width: 35%;
-        height: 76%;
         left: 0;
         right: 0;
         margin: auto;
@@ -1281,9 +1131,6 @@
     .videoWindow .infoBlock.lastInfoB span {
         font-size: 13px;
     }
-    .toys-2-1 img, .toys-3-4 img {
-        max-width: 150px;
-    }
     .toys-3-4 {
         right: 7%;
     }
@@ -1293,24 +1140,13 @@
     .goodsContainer {
         height: 77vh;
     }
-    .circle-carousel .next, .slick-arrow.slick-next,
-    .circle-carousel .prev, .slick-arrow.slick-prev {
-        top: 700px;
-    }
     .circle-carousel .next, .slick-arrow.slick-next {
-        right: 30%;
-        top: 20% !important;
         bottom: auto;
         border-radius: 0 15px 15px 0;
     }
     .circle-carousel .prev, .slick-arrow.slick-prev {
-        left: 40% !important;
-        top: 20% !important;
         bottom: auto;
         border-radius: 15px 0 0 15px;
-    }
-    .gameData{
-        margin-left: 15px;
     }
     .gameDescription, .gamesWindowBottomText .text-data, .gamesWindowText .text-data{
         font-size: 17px;
@@ -1353,15 +1189,6 @@
     .footerNavigationPanel ul::before{
         left: 10%;
     }
-    .circle-carousel .next, .circle-carousel .prev{
-        top: 480px;
-    }
-    .circle-carousel .next{
-        right: 10%;
-    }
-    .circle-carousel .prev{
-        left: 10% !important;
-    }
     .heart{
         height: 12px;
         width: 12px;
@@ -1374,6 +1201,23 @@
         transform: translate(-50%, 20%);
         left: 50%;
     }
+    .contentBlocks{
+        padding-top: 50vw;
+    }
+    .pagination .item{
+        opacity: 0;
+    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
+    .circle-carousel .prev{
+        top: 20%;
+    }
+    .prilipalyInfo{
+        top: 10%;
+    }
+    .circle-carousel .pagination .item.active .dot{
+        top: -150px;
+    }
 }
 /* IPad width */
 @media(max-width: 769px){
@@ -1381,46 +1225,48 @@
         top: 50%
     }
     .sliderWindow .infoBlock.shadowViolet{
-        transform: translate(95%, -100%) rotate(0deg); 
+        transform: translate(15%, -100%) rotate(0deg);
     }
-    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
-        top: 22% !important;
+    .circle-carousel .next,
+    .circle-carousel .prev,
+    .circle-carousel
+    .slide.active {
+        top: 45%;
     }
-    .slick-arrow.slick-next, .slick-arrow.slick-prev{
-        top: 88% !important
+    .currentGoodPage{
+        margin-bottom: 60px;
     }
-    .slick-arrow.slick-prev{
-        left: 30% !important;
+    .videoWindow {
+        position: relative;
+        margin: -60vw 0 0;
+    }
+
+    .spCarousel{
+        width: 100%;
     }
 }
 
 
 /* IPhone6/7/8 horizontal width */
 @media(max-width: 668px){
-    .circle-carousel .next {
-        right: 0;
-    }
-    .circle-carousel .prev {
-        left: 0 !important;
-    }
-    .circle-carousel .slide.active {
-        transform: translate(-50%, 20%) scale(.7);
+    .contentBlocks {
+        padding-top: 40vw;
+        padding-bottom: 60vw;
     }
 }
 /* IPhone 6/7/8+ horizontal width */
 @media(max-width: 737px){
-    .circle-carousel .next, .circle-carousel .prev {
-        top: 25% !important;
-        transform: translateZ(0);
-    }
-    .circle-carousel .slide.active{
-        top: 25%;
-        transform: translate(-50%, 0) scale(1);
-        text-align: center;
-    }
+
 }
 /* IPhone5c horizontal width */
 @media(max-width: 569px){
+    .gameDescription, .gamesWindowBottomText .text-data, .gamesWindowText .text-data{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .gamesWindowBottomText a.header {
+        margin: -10px auto;
+    }
 }
 /* IPhone 6/7/8+ width */
 @media(max-width: 415px){
@@ -1576,7 +1422,7 @@
         max-width: 95%;
     }
     .prilipalyInfo {
-        bottom: 75%;
+        top: 10%;
         width: 360px;
         padding: 20px 15px;
         background-size: 356px 173px;
@@ -1591,6 +1437,13 @@
         background-position: left 7px, 50px 11px;
         transform: rotate(-1deg);
     }
+    .circle-carousel .next, .circle-carousel .prev{
+        top: 22% !important;
+    }
+    .circle-carousel .slide.active{
+        top: 22% !important;
+        transform: translate(-50%, 30%) scale(1);
+    }
     .slides h2 {
         bottom: 545px;
         left: 8px;
@@ -1601,9 +1454,6 @@
     }
     .videoWindow .infoBlock span {
         font-size: 14px;
-    }
-    .contentBlocks {
-        padding-top: 60px;
     }
     .socialContainerData{
         width: 100%;
@@ -1642,12 +1492,6 @@
     .toys-3-1{
         left: -21px;
     }
-    .phoneContainer img {
-        width: 50%;
-    }
-    .phoneContainer iframe {
-        width: 43%;
-    }
     .toys-1-2 {
         left: -90px;
         top: -90px;
@@ -1658,10 +1502,6 @@
     }
     .toys-2-2 img{
         max-width: 140px
-    }
-    .videoWindow {
-        height: 155vh;
-        margin-bottom: -60vh;
     }
     .videoContainer {
         background-size: auto;
@@ -1681,7 +1521,8 @@
         font-size: 16px;
     }
     .spInfo .text-data{
-        padding: 10px;
+        padding: 10px 10px 0;
+        font-size: 12px;
     }
     label{
         padding: 2px
@@ -1716,15 +1557,6 @@
         height: 95px;
         width: 100px;
         top: -85px;
-    }
-    .slick-arrow.slick-prev {
-        left: 25%;
-    }
-    .slick-arrow.slick-prev, .slick-arrow.slick-next {
-        top: 605px;
-    }
-    .slick-arrow.slick-next {
-        right: 25%;
     }
     .slick-slide img {
         display: block;
@@ -1775,20 +1607,10 @@
     }
     .gameMechanic{
         width: 92%;
-        height: 336px;
     }
     .gameButtons{
         position: static;
         display: initial;
-    }
-    .gameImg{
-        margin-left: -10px;
-    }
-    .posterImg{
-        left: 65px;
-    }
-    .gameData{
-        width: 58%;
     }
     .gameData .gameName {
         margin-bottom: 21px;
@@ -1799,10 +1621,8 @@
     }
     .playLink{
         font-size: 15px;
-        position: absolute;
         right: 0;
         left: 0;
-        margin: 25px auto;
     }
     .gameLogo{
         margin:0 5px;
@@ -1927,33 +1747,29 @@
         transform: translateX(-50%);
         min-width: 200px;
     }
-    .circle-carousel .slide.active h2 {
-        bottom: -48px;
-    }
     .prilipalyInfo::before{
         transform: rotate(-4deg);
     }
     .prilipalyInfo::after{
         display: none;
     }
-    .currentGoodPage {
-        margin-top: -4px;
+    .sliderWindow .red{
+        display: none;
     }
-    .slick-arrow.slick-prev {
-        left: 20% !important;
-    }
-    .slick-arrow.slick-next {
-        right: 20%;
-    }
-}
-@media(max-width: 412px) and (max-height:824px){
-    .currentGoodPage {
-        margin-top: 59px;
+    .circle-carousel .pagination .item.active .dot{
+        top: -50px;
     }
 }
 @media(max-width:412px) and(max-height: 732px){
     .currentGoodPage {
         margin-top: -13px;
+    }
+    .gamesWindowBottomText a.header {
+        margin: -10px auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 }
 
@@ -2041,7 +1857,7 @@
         bottom: 68%;
     }
     .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
-        top: 33% !important;
+        top: 35% !important;
     }
     .toys-1-2{
         top: -190px;
@@ -2049,26 +1865,18 @@
     .toys-2-1 {
         bottom: -500px;
     }
-    .slick-arrow.slick-next, .slick-arrow.slick-prev {
-        top: 83% !important;
-    }
-    .slick-arrow.slick-next {
-        right: 20%;
-    }
-    .slick-arrow.slick-prev {
-        left: 20% !important;
-    }
     .gamesWindowText .text-data {
         font-size: 13px;
     }
     .gameImg {
-        margin-left: -10px;
         max-width: 103px;
     }
     .posterImg {
-        left: 53px;
         max-width: 26px;
         max-height: 30px;
+    }
+    .prilipalyInfo {
+        top: 17%;
     }
 }
 /* IPhone 6/7/8 width */
@@ -2091,6 +1899,7 @@
         bottom: 0;
     }
     .currentGoodPage {
+        margin-bottom: 50px;
         margin-top: -18px;
         font-size: 25px;
     }
@@ -2176,7 +1985,7 @@
         left: 80px;
     }
     .prilipalyInfo {
-        bottom: 70%;
+        bottom: 75%;
         width: 356px;
     }
     .sliderContainer{
@@ -2186,17 +1995,13 @@
         bottom: 425px;
         left: 18px;
     }
-    .videoWindow {
-        height: 170vh;
-        top: -26vh;
-    }
     .videoWindow .infoBlock{
         padding: 10px 0;
     }
     .videoContainer {
         min-height: 135vh;
         background: url(../images/backgroundMSK.jpg) no-repeat center;
-        background-size: auto;
+        background-size: cover;
     }
     .videoWindow .infoBlock.lastInfoB span {
         font-size: 13px;
@@ -2249,18 +2054,10 @@
     .goodsContainer {
         height: 100vh;
     }
-    .slick-arrow.slick-prev, .slick-arrow.slick-next {
-        top: 587px;
-    }
+
     h4.lined:after, h4.lined:before{
         top: calc(50% - 5px);
         width: 60px;
-    }
-    .slick-arrow.slick-next {
-        right: 20%;
-    }
-    .slick-arrow.slick-prev {
-        left: 20%;
     }
     .mapContainer .infoBlock.back{
         width: 80%;
@@ -2305,13 +2102,11 @@
         max-width: 95px;
     }
     .posterImg {
-        left: 50px;
-        top: 12px;
+        left: 60px;
         max-width: 22px;
         max-height: 28px;
     }
     .gameMechanic{
-        height: 332px;
         padding: 30px 0px 30px 30px;
     }
     .gamesWindow {
@@ -2373,9 +2168,7 @@
     }
 }
 @media(max-width:361px){
-    .slick-arrow.slick-next, .slick-arrow.slick-prev {
-        top: 86% !important;
-    }
+
 }
 /* IPhone 5/SE */
 @media(max-width: 321px){
@@ -2527,12 +2320,6 @@
         width: 78px;
         top: -70px;
     }
-    .phoneContainer img {
-        width: 210px;
-    }
-    .phoneContainer iframe {
-        width: 184px;
-    }
     .phoneContainer {
         top: 140px;
     }
@@ -2553,10 +2340,6 @@
     }
     .videoContainer{
         min-height: 890px;
-    }
-    .videoWindow {
-        height: 1060px;
-        top: -148px;
     }
     .toys-3-1 img {
         max-width: 60px;
@@ -2588,16 +2371,9 @@
     .spClass {
         width: 130px;
     }
-    .slick-arrow.slick-next {
-        right: 40px;
-        top: 515px;
-    }
-    .slick-arrow.slick-prev {
-        left: 40px;
-        top: 515px;
-    }
     .currentGoodPage {
         margin-top: -15px;
+        margin-bottom: 25px;
     }
     .welcomeWindow {
         height: 580px;
@@ -2622,12 +2398,7 @@
         background-size: 310px 140px;
     }
     .gameMechanic {
-        height: 325px;
         padding: 20px 0 30px 15px;
-    }
-    .gameData {
-        width: 60%;
-        margin-left: 10px;
     }
     .gameDescription {
         font-size: 13px;
@@ -2658,8 +2429,5 @@
     }
     .circle-carousel .pagination {
         top: 54%;
-    }
-    .slick-arrow.slick-next, .slick-arrow.slick-prev {
-        top: 89% !important;
     }
 }

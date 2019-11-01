@@ -6,7 +6,7 @@
 
 .circle-carousel {
     position: relative;
-    height: 210%;
+    height: 100vw;
 }
 
 .circle-carousel .slides {
@@ -34,12 +34,12 @@
 .circle-carousel .slide.active {
     z-index: 1;
     opacity: 1;
-    top: 40.5%;
+    top: 32%;
     left: 50%;
     margin: auto;
-    transform: translate(-50%, -40%);
-    width: 100px;
+    transform: translate(-50%, 25%);
     height: 30px;
+    text-align: center;
     white-space: nowrap;
 }
 
@@ -95,7 +95,9 @@
     height: 100%;
     border-radius: 50%;
 }
-
+.circle-carousel .pagination .item.active{
+    opacity: 1;
+}
 .circle-carousel .pagination .item.active .dot {
     color: black;
     transform: scale(2);
@@ -117,7 +119,6 @@
 .slick-arrow.slick-next,
 .slick-arrow.slick-disabled {
     position: absolute;
-    bottom: 6%;
     z-index: 1;
     transition: .3s;
     user-select: none;
@@ -125,7 +126,7 @@
     height: 40px;
     background-color: #A84F9A !important;
     border-radius: 0 15px 15px 0;
-    top: 20% !important;
+    top: 32%;
 }
 
 .circle-carousel .next::before,
@@ -161,7 +162,6 @@
 .slick-arrow.slick-next {
     right: 38%;
     bottom: auto;
-    top: 39% !important;
 }
 
 .circle-carousel .next::before, .slick-arrow.slick-next::before {
@@ -177,7 +177,6 @@
 .circle-carousel .prev, .slick-arrow.slick-prev {
     left: 38%;
     bottom: auto;
-    top: 39% !important;
     border-radius: 15px 0 0 15px;
 }
 
@@ -188,10 +187,9 @@
     background-size: contain;
     position: absolute;
     padding: 30px;
-    bottom: 63%;
-    left: 0;
-    right: 0;
-    margin: auto;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .prilipalyInfo h4 {

@@ -1,8 +1,8 @@
 .spCarousel{
-    flex: 60%;
-    max-width: 65%;
-    margin-left: 40px;
-    padding: 36px 0 70px;
+    margin: 0 20px;
+    padding: 20px 40px;
+    width: calc(100% - 600px);
+    position: relative;
 }
 .item, .item-info{
     display: flex !important;
@@ -78,7 +78,6 @@
 }
 
 .slick-list {
-    margin-right: 100px;
     height: 278px;
 }
 .currentGoodPage {
@@ -95,15 +94,15 @@
 .slick-arrow.slick-prev{
     bottom: -20px;
     z-index: 330;
-    left: -30px;
+    left: 0;
 }
 
 .slick-arrow.slick-next{
-    right: 30px;
+    right: 0;
     bottom: -20px;
     z-index: 330;
 }
 .slick-slider{
-    /* position: static; */
+    position: static;
     padding: 20px 0;
 }

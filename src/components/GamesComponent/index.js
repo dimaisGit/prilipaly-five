@@ -124,9 +124,9 @@ export default class GamesComponent extends React.Component {
                     </div>
                     <div className='gameMechanic'>
                         <div className="imgContainer">
-                            <img src={currentGame.gameImg} alt='gameImg' className='gameImg' />
-                            <img src={currentGame.posterImg} alt='posterImg' className={isNeedAnimate ? 'posterImg leave' : 'posterImg stay'} />
                             <div className={isNeedAnimate ? 'gameData leave' : 'gameData stay'}>
+                                <img src={currentGame.gameImg} alt='gameImg' className='gameImg' />
+                                <img src={currentGame.posterImg} alt='posterImg' className={isNeedAnimate ? 'posterImg leave' : 'posterImg stay'} />
                                 <p className='gameName'>
                                     {currentGame.gameName}
                                 </p>
