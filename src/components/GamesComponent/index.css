@@ -1,0 +1,191 @@
+.gamesWindow {
+    padding: 0 0 250px;
+    position: relative;
+}
+.gamingData{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.gamesWindowBg {
+    height: 100%;
+    z-index: -5;
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(360deg, #1685C1, #52b3e8), url(../../images/sand-gaming.svg) repeat-x;
+    background-position: 350px bottom;
+    background-blend-mode: overlay;
+}
+.gamesWindowText {
+    font-family: 'Ubuntu', sans-serif;
+    background: url(../../images/gamesTextBg.png) no-repeat;
+    width: 475px;
+    text-align: center;   
+    padding: 37px 34px;
+    height: 170px;
+    background-size: contain;
+    margin: 50px 0 25px;
+}
+.text-1-line-1, .text-1-line-2 {
+    background: url(../../images/curve1.png);
+    width: 50px;
+    height: 11px;
+}
+.text-2-line-1, .text-2-line-2 {
+    background: url(../../images/curve2.png) no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 11px;
+}
+
+.gamesWindowBottomText {
+    font-family: 'Ubuntu', sans-serif;
+    background: url(../../images/gamesBottomTextBg.png) no-repeat;
+    background-size: cover;
+    width: 590px;
+    text-align: center;
+    padding: 37px 34px;
+    height: 200px;
+    background-size: contain;
+    position: absolute;
+    z-index: 5;
+    bottom: 42px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.gamesWindowBottomText::before{
+    position: absolute;
+    top: -71px;
+    left: 10px;
+    content: '';
+    width: 180px;
+    height: 91px;
+    background: url(../../images/grass-3-4.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
+    background-size: 40%, 50%;
+    background-position: 61px 43px, 30px 16px;
+    z-index: 0;
+    transform: rotate(-2deg);
+}
+.gamesWindowBottomText::after{
+    position: absolute;
+    content: '';
+    background: url(../../images/prilipaly/23.png) repeat-x;
+    height: 100px;
+    width: 125px;
+    background-size: contain;
+    top: -89px;
+    right: 50px;
+    transform: rotate(-3deg);
+}
+.gamesWindowText .header, .gamesWindowBottomText .header {
+    font-size: 25px;
+    color: #FEED03;
+}
+a.header {
+    text-decoration: none;
+    margin: 10px auto 0 auto;
+    display: block;
+    width: 143px;
+}
+
+.gamesWindowText .text-data, .gamesWindowBottomText .text-data {
+    font-size: 16px;
+    color: white;
+}
+.gameMechanic {
+    background: white;
+    border-radius: 47px;
+    padding: 35px;
+    box-shadow: 10px 10px 0px #A84F9A;
+    font-family: 'Ubuntu', sans-serif;
+    width: 522px;
+    margin-bottom: 25px;
+}
+.imgContainer{
+    position: relative;
+}
+.posterImg {
+    position: absolute;
+    left: 75px;
+    top: 17px;
+    width: 35px;
+    max-height: 40px;
+}
+
+.gameLogo {
+    cursor: pointer;
+    width: 65px;
+    margin: 12px 5px;
+    transition: 0.1s all;
+}
+.gameLogo:hover {
+    width: 75px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+.gameImg {
+    float: left;
+    margin: 0 3vw 1vw 0;
+}
+.gameData {
+    position: relative;
+    float: left;
+    color: #278DC5;
+    width: 100%;
+}
+.gameName {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.playLink {
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 5px 0px #A84F9A;
+    background: #FFDF00;
+    display: block;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    color: #278DC5;
+    margin: 20px auto 0;
+}
+.playLink:hover{
+    filter: opacity(0.7);
+}
+.leave {
+    opacity: 0;
+    transition: .3s all;
+}
+.stay {
+    opacity: 1;
+    transition: .3s all;
+}
+
+.pril-bg{
+    width: 4000px;
+    height: 200px;
+    background: url(../../images/prilipaly/pril-bg.png) repeat-x;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    z-index: 1;
+    background-size: 40%;
+    animation: carousel 120s infinite linear;
+}
+
+.gamesWindow i{
+    font-family: 'FontAwesome';
+    text-decoration: none;
+    font-variant: normal;
+    color: #fff;
+    font-size: 30px
+}
+
+a.header:hover i{
+    color: #FFDF00;
+}
+

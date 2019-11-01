@@ -1,0 +1,280 @@
+.main-logo{
+    position: absolute;
+    text-align: center;
+    right: 30%;
+    transition: all .3s;
+    top: 85%;
+    box-shadow: -4px 4px 0 #944287;
+    max-height: 38px;
+}
+.logo-d.min{
+    background: url(../../images/logo-dixy-min.png) no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 30px;
+    filter: drop-shadow(2px 4px 6px #fff);
+    position: absolute;
+    animation: rollIn 1s ease-in;
+}
+.logoContainerWelcome p{
+    position: absolute;
+    left: 160px;
+    top: 70px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    filter: none;
+    font-size: 30px;
+}
+.shadowViolet{
+    filter: drop-shadow(-8px 8px 0 #944287);
+}
+.shadowRed{
+    box-shadow: -7px 7px 0 #a3081d;
+}
+.main-logo::after{
+    content: '';
+    position: absolute;
+    background: url(../../images/boy.png) no-repeat center;
+    background-size: contain;
+    width: 32vh;
+    height: 48vh;
+    top: 20px;
+    transform: rotate(-2deg);
+    left: -52px;
+}
+.logoContainerWelcome{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.logoContainerWelcome .logo-p{
+    margin-bottom: -24px;
+    top: 2vh;
+    right: 35%;
+    position: absolute;
+}
+.girl img{
+    max-height: 520px;
+}
+.girl{
+    opacity: 0;
+    animation: appearanceGirl 2.2s ease-in-out 1.2s forwards, 7s swell infinite;
+    margin: auto;
+    display: block;
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+   
+}
+.yellow{
+    position: absolute;
+    top: 18%;
+    left: 7%;
+    transform: rotate(-5deg);
+}
+.yellow img{
+    max-height: 165px;
+    animation: appearFromTop 2.8s ease-in;
+    filter: drop-shadow(0px 0px 12px #fff);
+}
+.blueSec{
+    position: absolute;
+    right:150px;
+    top: 70px;
+    transform: rotate(3deg);
+    display: block;
+    width: 270px;
+    z-index: 80;
+    animation: appearFromTop 3.8s ease-in;
+}
+.infoBlock{
+    padding: 10px 15px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-top: -10px;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 280px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    animation: appearFromTop 2.8s ease-in;
+}
+.infoBlock.leftPos{
+    margin-left: -80px;
+}
+.red{
+    background-color: #E2000F;
+    color: #fff;
+}
+.yellowText{
+    color: yellow
+}
+.leftPos{
+    margin-left: -50px;
+}
+.blueText{
+    color: #3F82A6;
+    display: block;
+}
+.blueSec > img{
+    display: block;
+    margin: auto;
+    width: 45%;
+    filter: drop-shadow(0px 0px 12px #fff);
+}
+.violetText{
+    color:#6A6084;
+    display: block;
+}
+.socialBlock{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.parallax,  .parallax-3{
+    transition: 1.2s all;
+}
+.parallax-2{
+    transition: 1.5s all;
+}
+.linkToSocial{
+    margin: 14px 5px;
+    display: block;
+    cursor: pointer;
+    filter: none;
+    max-width: 106px;
+}
+.linkToSocial img{
+    max-width: 100%;
+}
+.linkToSocial:hover{
+    transform: translateY(-2px);
+    transition: all .3s;
+    filter: drop-shadow(2px 4px 6px #fff);
+}
+
+.logo-p.appear, .main-logo.appear{
+    animation: appearance .8s linear;
+    /* transition: all .7s; */
+    text-decoration: none;
+}
+.greetingText{
+    animation: appearFromNone 1s ease-in;
+}
+@keyframes appearance{
+    from{
+        transform: translate(0,100vh);
+        bottom: -100vh;
+    }
+
+    to{
+        transform: translate(0,0);
+        bottom: 0;
+        opacity: 1;
+    }
+}
+@keyframes appearanceGirl{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 30%;
+    }
+}
+@keyframes appearanceBlue{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 13%;
+    }
+}
+@keyframes appearancePiggy{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 5%;
+    }
+}
+@keyframes appearFromTop{
+    0%{
+        transform: translate(0, -100vh);
+        top: -100vh;
+    }
+   
+    100%{
+        transform: translate(0, 0);
+        opacity: 1
+    }
+ }
+@keyframes appearFromNone{
+   0%{
+       opacity: 0
+   }
+   
+   100%{
+       opacity: 1
+   }
+}
+@keyframes appearFromLeft{
+    from{
+        transform: translate(-100vh, 0);
+        left: -100vh;
+    }
+   
+    to{
+        transform: translate(0,0);
+        opacity:1;
+        left: 0
+    }
+}
+@keyframes appearFromRight{
+    from{
+        transform: translate(-200vh, 0);
+        right: -200vh;
+    }
+   
+    to{
+        transform: translate(0, 0);
+        right:0;
+        opacity: 1
+    }
+}
+
+@keyframes rollIn {
+    from {
+      opacity: 0;
+      -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+      transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    }
+   70%{
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+   }
+    to {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }

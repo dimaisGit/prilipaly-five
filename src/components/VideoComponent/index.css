@@ -1,0 +1,170 @@
+.videoWindow{
+    position: relative;
+    margin: -32vw 0 0;
+}
+.videoContainer{
+    min-height: 80vh;
+    background: url(../../images/backgroundMSK.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contentBlocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 32vw;
+}
+.contentBlocks > div{
+    flex: 30%;
+    /* max-width: 50%; */
+}
+.videoPhone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+}
+.phoneContainer{
+    position: relative;
+}
+.phoneContainer img{
+    display: block;
+    margin: auto;
+    max-width: 270px;
+}
+.phoneContainer::before{
+    content:'';
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 120px;
+    width: 120px;
+    background: url(../../images/orange.png) no-repeat center;
+    background-size: contain;
+    transform: rotateY(180deg);
+}
+.shadowYellow{
+    filter: drop-shadow(-6px 7px 0px #EFD008);
+}
+.toysAndSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.videoWindow .infoBlock,
+.mapContainer .infoBlock {
+    margin-left: 20px;
+    transform: rotate(-5deg);
+    width: 550px;
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.infoBlock.back{
+    background: url(../../images/info-tB.png) no-repeat center;
+    background-size: contain;
+    max-width: 100%;
+}
+.videoWindow .infoBlock span{
+    transform: rotate(-4deg);
+    margin-top: 5px;
+    font-size: 16px;
+}
+.videoWindow .infoBlock.lastInfoB{
+    transform: rotate(5deg);
+    height: 70px;
+    width: 345px;
+    max-width: 100%;
+    margin: auto;
+}
+.socialContainerData .socialBlock{
+    width: 85%;
+    margin: 6px auto;
+    transform: rotate(-6deg);
+    left: 10px;
+    margin-left: 64px;
+    filter: drop-shadow(2px 2px 6px #fff);
+    justify-content: center;
+}
+.socialContainerData .socialBlock .linkToSocial {
+    margin: 10px;
+}
+.socialContainerData{
+    max-width: 400px;
+}
+.toys-1, .toys-2{
+    display: flex;
+}
+.toys-1-1{
+    position: relative;
+    left: 40px;
+    top: -60px;
+    animation: swell 13s infinite linear;
+    z-index: 300;
+}
+.toys-1-2{
+    top: -60px;
+    position: relative;
+    z-index: 150;
+    left: 280px;
+}
+.toys-1-2 img{
+    max-width: 100px
+}
+.toys-2{
+    justify-self: flex-end;
+
+}
+.toys-2-1{
+    position: relative;
+    z-index: 150;
+    bottom: -130px;
+    left: 30px;
+}
+.toys-2-2{
+    left: 40px;
+    position: relative;
+    bottom: -100px;
+}
+.videoWindow .infoBlock.lastInfoB span{
+    transform: rotate(0);
+    margin-top: 0;
+}
+.toys-3-1{
+    text-align: center;
+    position: relative;
+}
+.toys-3-2{
+    margin-right: 50px;
+    text-align: right;
+    animation: swell 2.5s infinite linear
+}
+.toys-3-4{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 130;
+    bottom: 20px;
+    right: 40px;
+}
+.toys-3-4 img{
+    display: block;
+}
+.phoneContainer iframe{
+    position: absolute;
+    bottom: 63px;
+    width: 235px;
+    height: 420px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 4px;
+ }
+.ytp-cued-thumbnail-overlay-image {
+    width: 10px
+}

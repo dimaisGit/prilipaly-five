@@ -1,0 +1,108 @@
+.prilipalyContainer{
+    position: absolute;
+    height: 370px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.leftItems{
+    display: flex;
+    justify-content: space-between;
+    flex: 50%;
+    max-width: 50%;
+}
+.rightItems{
+  display: flex;
+    justify-content: space-between;
+    flex: 50%;
+    max-width: 31%;
+    padding-right: 110px;
+}
+.piggy{
+    opacity: 0;
+    animation: appearancePiggy 1.5s linear 1.7s forwards, 7s swell  infinite;
+    position: relative;
+    left: 5%;
+    bottom: -5px;
+    z-index: 40;
+}
+
+.heart-box {
+    position: absolute;
+    width: 240px;
+    height: 80vh;
+    bottom: 0vh;
+    left: 35px;
+    opacity: 0;
+    animation: appearFromRight .001s linear 3.9s forwards;
+  }
+  .heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../../images/heart-lil.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+  }
+  .animate-topright {
+    animation: movetopRight 5.5s 3.5s infinite;
+  }
+  .animate-topleft {
+    animation: movetopLeft 6.5s 3.4s infinite;
+  }
+  .animate-up {
+    animation: moveup 7.5s 3s infinite;
+  }
+  .top-2{
+      margin-top: 30px;
+      margin-left: 70px;
+      animation: moveup 2.5s 3.3s infinite;
+      transform: scale(1.2)
+  }
+  .top-1{
+      margin-top: 40px;
+      margin-left: -20px;
+      animation: moveup 2.4s 2.6s infinite;
+      transform: scale(.6)
+  }
+@keyframes movetopRight {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 10%;
+      left: 80%;
+      opacity: 0;
+    }
+  }
+  
+@keyframes movetopLeft {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 10%;
+      left: 20%;
+      opacity: 0;
+    }
+  }
+  @keyframes moveup {
+    0% {
+      top: 50%;
+      left: 50%;
+      opacity: 0.9;
+    }
+    100% {
+      top: 0%;
+      left: 45%;
+      opacity: 0;
+    }
+  }

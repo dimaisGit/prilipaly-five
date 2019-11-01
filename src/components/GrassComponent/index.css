@@ -1,0 +1,113 @@
+
+.grassContainer{
+    width: 100%;
+    height: 420px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    bottom: 0;
+    /* z-index:1; */
+}
+.grass-1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  /* z-index: 1; */
+  opacity: 0;
+  animation: appearFromNone 3.5s ease-in 1.5s forwards;
+}
+.grass-1-1{
+  background: url(../../images/grass-2-2.png) no-repeat;
+  width: 313px;
+  height: 460px;
+  position: absolute;
+  bottom: 130px;
+  background-size: contain;
+}
+.grass-1-2{
+  background: url(../../images/grass-2-1.png) no-repeat;
+  width: 296px;
+  height: 270px;
+  position: absolute;
+  bottom: 30px;
+  background-size: contain;
+  animation: 3s windy-grass infinite;
+}
+.grass-2{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 60;
+  bottom: 0;
+  opacity: 0;
+  animation: appearFromNone 2.5s ease-in 2.5s forwards;
+}
+.grass-2-1{
+  background: url(../../images/grass-3-1.png) no-repeat;
+  width: 326px;
+  height: 210px;
+  position: absolute;
+  bottom: -30px;
+  background-size: contain;
+  animation: 10s windy-grass infinite;
+  left: -5px;
+}
+.grass-2-2{
+  background: url(../../images/grass-3-2.png) no-repeat;
+  width: 266px;
+  height: 148px;
+  position: absolute;
+  bottom: 0;
+  background-size: contain;
+}
+.grass-3{
+  position: absolute;
+  width: 188px;
+  height: 480px;
+  right: 0;
+  bottom: 120px;
+  opacity:0;
+  animation: appearFromNone 2.5s ease-in .8s forwards;
+}
+.grass-4{
+    background: url(../../images/grass-1.png) no-repeat bottom;
+    width: 480px;
+    height: 370px;
+    background-size: contain;
+    position: absolute;
+    bottom: -22px;
+    right: -15px;
+    z-index: 40;
+    opacity:0;
+    animation: appearFromNone .6s ease-in 1.7s forwards;
+}
+.welcomeContent .grass-4::after{
+  content:'';
+  position: absolute;
+  height: 205px;
+  width: 140px;
+  background: url(../../images/prilipaly/2.png) no-repeat center;
+  background-size: contain;
+  right: 30%;
+  top: -130px;
+  transform: rotateY(180deg);
+}
+.grass-3-1{
+  background: url(../../images/grass-1-2.png) no-repeat;
+  width: 160px;
+  height: 410px;
+  background-size: contain;
+  position: absolute;
+  right: -3px;
+}
+.grass-3-2{
+  background: url(../../images/grass-1-1.png) no-repeat;
+  width: 510px;
+  height: 410px;
+  background-size: contain;
+  position: absolute;
+  left: 10px;
+  animation: 3s windy-grass infinite;
+}

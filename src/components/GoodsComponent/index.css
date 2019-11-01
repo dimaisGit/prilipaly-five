@@ -1,0 +1,179 @@
+.goodsContainer{
+    background: linear-gradient(182deg, #FDB91A, #FF6118);
+    display: flex;
+    justify-content: space-between;
+    height: 45vh;
+    align-items: center;
+}
+.goodsWindow{
+    position: relative;
+    border-top: 6px solid #fff;
+    border-bottom: 6px solid #FFF;
+}
+.goodsWindow::before{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height:100px;
+    background: url(../../images/grass-3-2.png) no-repeat;
+    background-size: contain;
+    bottom: -5px;
+    left: 0;
+}
+.goodsWindow::after{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height:100px;
+    background: url(../../images/grass-block.png) no-repeat, url(../../images/grass-3-3.png) no-repeat;
+    background-size: contain;
+    background-position: left 5px, 50px 4px;
+    bottom: 0px;
+    right: 0;
+    z-index: 0;
+}
+.spDescription  {
+    position: relative;
+    z-index: 300;
+    margin-left: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.wavingBg{
+    animation: ocean 37s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: .25;
+    background: url(../../images/wave.svg) repeat-x;
+    position: absolute;
+    bottom: -40px;
+    width: 6400px;
+    height: 150px;
+    transform: translate3d(0, 0, 0);
+    background-size: contain;
+    z-index: 0;
+}
+@keyframes ocean {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px;
+    }
+}
+@keyframes swell {
+    0%,
+    100% {
+        -webkit-transform: translate3d(0, -25px, 0);
+        transform: translate3d(0, -25px, 0);
+    }
+    50% {
+        -webkit-transform: translate3d(0, 5px, 0);
+        transform: translate3d(0, 5px, 0);
+    }
+}
+form, select, label, option, input {
+    -webkit-appearance: none;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+label.light{
+    color: #fff;
+}
+.spInfo{
+    background: url(../../images/goodsTextBg.png) no-repeat;
+    width: 500px;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 35px 20px;
+    height: 211px;
+    background-size: contain;
+    position: relative;
+}
+.spInfo::after{
+    content:'';
+    position: absolute;
+    height: 115px;
+    width: 70px;
+    background: url(../../images/prilipaly/3.png) no-repeat center;
+    background-size: contain;
+    left: 20px;
+    top: -70px;
+    z-index: 15;
+}
+.spInfo::before{
+    content:'';
+    position: absolute;
+    height: 115px;
+    width: 110px;
+    background: url(../../images/grass-3-3.png) no-repeat center;
+    background-size: contain;
+    background-position: 0 31px;
+    right: 42%;
+    top: -103px;
+    z-index: 0;
+    transform: rotate(-2.5deg);
+}
+.spInfo h4.header.smaller.lined{
+    font-size: 18px;
+    color: #FEED03;
+}
+.spInfo .text-data{
+    padding-bottom: 0;
+    font-size: 15px;
+}
+.formSearch{
+    margin-top: 10px;
+}
+#region{
+    color: #FDB91A;
+    cursor: pointer;
+    width: 75px;
+    background-position-x: 90%;
+}
+.spClass{
+    position: relative;
+    cursor: pointer;
+    color: #FDB91A;
+}
+.spClass::after{
+    position: absolute;
+    content: 'k';
+    right: -10px;
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+}
+.sponsor-iteration{
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 11%;
+    display: block;
+    bottom: 80px;
+    width: 10%;
+    text-align: center;
+}
+.slick-initialized .slick-slide > div{
+    display: flex!important;
+}
+.arrowed{
+    background: #fff url(../../images/triangle.png) no-repeat -10px;
+    background-blend-mode: luminosity;
+    background-position-x: 49px;
+}
+.spClass{
+    background-position-x: 90%;
+    width: 170px;
+}
+.goodsWindow select{
+    padding-right: 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: url(../../images/triangle.png) no-repeat -10px;
+    background-position-x: 90%;
+    text-align: right;
+}

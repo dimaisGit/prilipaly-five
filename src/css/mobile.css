@@ -1,0 +1,2439 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
+*{
+    vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+@media(max-width:1920px) and (max-height: 1080px){
+    .toys-3-4 img {
+        display: block;
+        max-height: 170px;
+    }
+    .sliderContainer{
+        min-height: 1204px;
+    }
+}
+@media(max-width:1681px) and (max-height: 1051px){
+    .circle-carousel{
+        height: 200%;
+    }
+    .prilipalyInfo p {
+        padding: 15px 13px;
+        font-size: 18px;
+    }
+    .slides h2{
+        bottom: 32px;
+    }
+    .toys-3-4{
+        bottom: 70px;
+    }
+    .toys-2-1{
+        bottom: -140px;
+    }
+    .toys-2-1 img{
+        max-width: 85%;
+    }
+    .mapContainer .infoBlock{
+        max-width: 338px;
+    }
+    .goog-pl::after{
+        bottom: -40px;
+    }
+    .footerNavigationPanel::after{
+        height: 80px;
+        width: 80px;
+    }
+    .footerNavigationPanel::before{
+        height: 137px;
+        width: 160px;
+        left: 85%;
+        bottom: 46%;
+    }
+}
+@media(max-width: 1601px) and (max-height: 1201px){
+    .dot span img {
+        max-width: 90px;
+        max-height: 162px;
+    }
+    .toys-3-4{
+        bottom: -60px;
+    }
+    .toys-3-3{
+        margin-top: 60px;
+        margin-bottom: -60px;
+    }
+    .toys-2-1{
+        bottom: -240px;
+    }
+    .footerData{
+        padding-top: 50px;
+    }
+    .footerNavigationPanel{
+        margin: 0;
+    }
+    .footerContainer{
+        min-height: 70vh;
+        padding-top: 90px;
+    }
+}
+@media(max-width: 1601px) and (max-height: 1025px){
+    .slides h2 {
+        bottom: -55px;
+    }
+    .toys-3-4 {
+        bottom: -15px;
+    }
+    .footerContainer {
+        min-height: 90vh;
+    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
+    .circle-carousel .prev{
+        top: 43%;
+    }
+}
+@media (max-width: 1601px) and (max-height: 901px){
+    .welcomeContent .sand-3::before{
+        max-height: 200%;
+    }
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 170px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .piggy{
+        bottom: -75px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -100px;
+    }
+    .welcomeContent .sand-1::before{
+        right: 25%;
+        height: 155px;
+    }
+    .circle-carousel {
+        height: 190%;
+    }
+
+    .circle-carousel .slide.active h2{
+        bottom: -27px;
+    }
+    .toys-3-4 {
+        bottom: -30px;
+    }
+    .goodsContainer{
+        height: 48vh;
+    }
+    .footerContainer {
+        min-height: 95vh;
+    }
+}
+@media(max-width: 1441px) and (max-height: 1081px){
+    .piggy{
+        bottom: -56px;
+    }
+    .slides h2{
+        bottom: 5px;
+    }
+    .toys-3-4 {
+        bottom: -10px;
+    }
+    .toys-2-1 img{
+        max-width: 85%;
+    }
+    .circle-carousel .slide.active h2{
+        bottom: 0
+    }
+    .footerContainer {
+        min-height: 82vh;
+    }
+    .footerData {
+        padding-top: 110px;
+    }
+    .footerNavigationPanel::after{
+        left: 75%;
+        bottom: 410%;
+    }
+    .slides h2{
+        bottom: 5px;
+    }
+}
+@media(max-width: 1366px) and (max-height: 770px){
+    .welcomeContent .sand-3::before {
+        max-height: 168%;
+        right: 43%;
+        bottom: 10%;
+
+    }
+    .grass-4{
+        bottom: -92px;
+    }
+    .sand-1{
+        bottom: -80px;
+    }
+    .leftItems{
+        align-self: flex-end
+    }
+    .piggy {
+        bottom: 100px;
+    }
+    .heart-box {
+        width: 190px;
+        height: 80vh;
+        bottom: 10vh;
+        left: 0;
+    }
+    .infoBlock.leftPos{
+        font-size: 15px
+    }
+    .blueSec > img, .yellow img{
+        max-width: 45%;
+    }
+    .circle-carousel {
+        height: 210%;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: -21px;
+        text-align: center;
+    }
+    .goodsContainer {
+        height: 60vh;
+    }
+    .slick-arrow.slick-next {
+        right: 45px;
+    }
+    .searchingFormMap{
+        min-height: 280px;
+        top: 155px;
+    }
+    .footerContainer .grass-2{
+        bottom: -10px;
+    }
+    .footerContainer .grass-1 {
+        width: 150px;
+        height: 140px;
+        bottom: -70px;
+    }
+    .footerContainer .cloudsContainer{
+        top: -130px
+    }
+    .toys-3-4 {
+        bottom: 10px;
+    }
+}
+@media (max-width: 1281px) and (max-height: 1025px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 175px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .welcomeContent .sand-3::before{
+        max-height: 200%;
+        bottom: 12%;
+    }
+    .piggy{
+        bottom: -115px;
+    }
+    .grass-2-1{
+        height: 180px;
+    }
+    .grass-1-1{
+        bottom: 110px;
+    }
+    .grass-1-2{
+        bottom: -10px;
+    }
+    .grass-3-2{
+        left: 40px;
+        bottom: 100px;
+        width: 160px;
+        height: 350px;
+    }
+    .grass-4{
+        right: -75px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -105px;
+    }
+    .welcomeContent .sand-1::before{
+        right: 28%;
+        bottom: 36%;
+    }
+    .welcomeContent .sand-3::after{
+        right: 29%;
+        bottom: 22%;
+    }
+    .blueSec{
+        right: 70px;
+    }
+    .logoContainerWelcome p{
+        font-size: 22px;
+    }
+    .yellow{
+        left: 10%;
+    }
+    .circle-carousel {
+        height: 145%;
+    }
+    .sliderContainer {
+        height: 901px;
+        min-height: auto;
+    }
+    .slides h2 {
+        bottom: -50px;
+    }
+    .dot span img{
+        max-width: 75px;
+    }
+    .prilipalyInfo {
+        width: 560px;
+    }
+    .prilipalyInfo p {
+        font-size: 15px;
+    }
+    .toys-1-2{
+        left: 170px;
+    }
+}
+@media(max-width:1281px) and (max-height:771px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 135px;
+        max-width: 100%;
+    }
+    .blueSec > img, .yellow img{
+        width: auto;
+    }
+    .piggy{
+        bottom: -125px;
+    }
+    .welcomeContent .grass-4::after{
+        top: -75px;
+    }
+    .welcomeContent .sand-3::before {
+        max-height: 170%;
+        bottom: 9%;
+    }
+    .heart-box{
+        width: 160px;
+    }
+    .logoContainerWelcome p {
+        font-size: 19px;
+
+    }
+    .blueSec{
+        width: 240px;
+        top: 50px;
+    }
+    .infoBlock{
+        max-width: 290px;
+        font-size: 14px;
+    }
+    .main-logo::after{
+        left: -21px;
+        top: 27px;
+    }
+    .circle-carousel {
+        height: 196%;
+    }
+    .sliderContainer {
+        height: 840px;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+        font-size: 22px;
+    }
+    .slick-list {
+        margin-right: 50px;
+    }
+
+    .goodsContainer {
+        height: 54vh;
+    }
+    .searchingFormMap{
+        min-height: 280px;
+        top: 145px;
+    }
+    .footerContainer {
+        min-height: 100vh;
+    }
+    .footerNavigationPanel::before{
+        bottom: 84%;
+        height: 115px;
+        width: 140px;
+    }
+}
+@media(max-width: 1153px) and (max-height: 865px){
+    .welcomeContent .sand-3::after,.welcomeContent .sand-1::before, .piggy img, .welcomeContent .grass-4::after, .yellow img, .blueSec > img{
+        max-height: 135px;
+        max-width: 100%;
+    }
+    .logoContainerWelcome p{
+        font-size: 20px;
+        left: 137px;
+        top: 75px;
+    }
+    .main-logo::after{
+        left: -29px;
+        top: 26px;
+    }
+    .yellow {
+        left: 12%;
+    }
+    .welcomeContent .sand-3::before {
+        max-height: 185%;
+        bottom: 9%;
+    }
+    .piggy {
+        bottom: -155px;
+    }
+    .grass-2-1 {
+        height: 160px;
+    }
+    .welcomeContent .grass-4::after {
+        top: -90px;
+        max-height: 155px;
+    }
+    .grass-3{
+        bottom: 50px;
+    }
+    .grass-1-1 {
+        bottom: 50px;
+    }
+    .circle-carousel {
+        height: 173%;
+    }
+    .sliderContainer {
+        height: 111vh;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        max-width: 275px;
+        font-size: 15px;
+        margin-left: 90px;
+    }
+    .sliderWindow .red {
+        margin-right: 80px;
+        font-size: 15px;
+    }
+    .toys-3-3 img{
+        max-width: 21%;
+    }
+    .toys-3-2 img{
+        max-width: 48%;
+    }
+    .videoWindow .infoBlock span{
+        font-size: 13px;
+    }
+    .videoWindow .infoBlock.lastInfoB, .infoBlock.back{
+        width: 280px;
+    }
+    .socialContainerData .socialBlock{
+        width: 54%;
+    }
+    .toys-1-2 img {
+        max-width: 60px;
+    }
+    .toys-1-2 {
+        top: -70px;
+    }
+    .spInfo{
+        width: 450px;
+        font-size: 12px;
+    }
+    .spInfo .text-data{
+        font-size: 12px;
+    }
+    .formSearch {
+        margin-top: 0;
+    }
+    .slick-arrow.slick-next {
+        right: 27px;
+    }
+    .footerNavigationPanel::before {
+        height: 107px;
+        width: 130px;
+        left: 85%;
+        bottom: 86%;
+    }
+    .cloudsContainer{
+        top: 0;
+    }
+    .sliderContainer {
+        height: 850px;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+        font-size: 22px;
+        text-align: center;
+    }
+    .dot span img {
+        max-width: 60px;
+    }
+    .mapContainer .infoBlock span{
+        font-size: 13px;
+    }
+    .mapContainer .infoBlock.back{
+        padding-top: 10px;
+    }
+    .mapContainer .infoBlock::before{
+        left: 30px;
+        top: -110px;
+    }
+}
+
+
+
+/* ipad pro */
+@media(max-width: 1025px){
+    .logo-d.min{
+        width: 150px;
+        height: 155px;
+        background-size: cover;
+        filter: unset;
+        top: 150px;
+        left: 60px;
+    }
+    .logoContainerWelcome .logo-p{
+        top: 310px;
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 430px;
+        height: 200px;
+        background-size: contain;
+    }
+    .blueSec .infoBlock, .planes, .blueSec > img, .welcomeContent .sand-3::before, .welcomeContent .sand-3::after, .welcomeContent .sand-1::before, .welcomeContent .grass-4::after{
+        display: none;
+    }
+    .blueSec .socialBlock{
+        height: 100px;
+        top: 300px;
+        position: absolute;
+    }
+    .yellow{
+        position: relative;
+        right: 30px;
+        top: -80px;
+        left: 25%;
+        transform: none;
+        width: 630px;
+        text-align: right;
+    }
+    .welcomeWindow  .infoBlock.leftPos{
+        margin: 0;
+        width: 100%;
+        max-width: 100%;
+        font-size: 27px;
+    }
+    .yellow img{
+        transform: rotateY(180deg);
+        filter: none;
+        margin-bottom: -15px;
+    }
+    .welcomeWindow  .logoContainerWelcome p{
+        font-size: 34px;
+        left: 299px;
+        top: 107px;
+    }
+    .welcomeWindow  .main-logo{
+        width: 210px;
+        font-size: 29px;
+        max-height: 70px;
+        padding: 20px 0;
+        border-radius: 12px;
+        right: 20%;
+    }
+    .welcomeWindow .main-logo::after{
+        left: -58px;
+        top: 55px;
+        height: 500px;
+    }
+    .welcomeWindow .sandContainer{
+        bottom: -25px;
+    }
+    .welcomeWindow .sand-2 {
+        bottom: -33px;
+        left: 16%;
+        width: 160%;
+        transform: rotateY(180deg);
+        z-index:30;
+    }
+    .welcomeWindow .grass-4{
+        z-index: 12;
+    }
+    .leftItems {
+        display: flex;
+        justify-content: flex-end;
+        flex: 100%;
+        max-width: 88%;
+        align-items: flex-end;
+    }
+    .piggy{
+        bottom: 20px;
+        height: 220px;
+        left: 12%;
+    }
+    .prilipalyContainer{
+        z-index: 35;
+    }
+    .piggy img{
+        transform: rotateY(180deg);
+        height: 100%;
+    }
+    .heart-box{
+        left: calc(100% - 250px);
+        width: 200px;
+        height: 510px;
+        bottom: 11vh;
+    }
+    .welcomeContent .sand-3 {
+        position: relative;
+        width: 170%;
+        height: 100%;
+        bottom: -10%;
+    }
+    .prilipalyContainer::after{
+        position: absolute;
+        content: '';
+        width: 210px;
+        height: 140px;
+        background: url(../images/grass-block.png) no-repeat, url(../images/grass-3-3.png) no-repeat;
+        background-size: contain;
+        background-position: left bottom, 50px -1px;
+        bottom: -20px;
+        right: -60px;
+        z-index: 200;
+    }
+    .welcomeWindow .sand-1{
+        bottom: 5%;
+        z-index: -1;
+    }
+    .bg-bot{
+        z-index: -1;
+    }
+    .sand-1, .sand-2, .sand-3, .piggy {
+        animation: none;
+        opacity: 1;
+    }
+    .welcomeWindow .grass-2:before{
+        content: '';
+        position: absolute;
+        left: 5%;
+        top: -105%;
+        background: url(../images/prilipaly/2.png) no-repeat center;
+        background-size: contain;
+        width: 170px;
+        height: 220px;
+        transform: rotateY(180deg)
+    }
+    .welcomeWindow .sand-2::after{
+        content: '';
+        left: 72%;
+        position: absolute;
+        bottom: 49%;
+        background: url(../images/prilipaly/12.png) no-repeat center;
+        background-size: contain;
+        width: 160px;
+        height: 270px;
+        transform: rotateY(180deg);
+        z-index: 30
+    }
+    .blueSec{
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 80%;
+        transform: rotate(0deg);
+        top: 50px;
+    }
+    .welcomeWindow .linkToSocial{
+        max-width: 206px;
+    }
+    .welcomeWindow .linkToSocial img{
+        width: 230px;
+        position: relative;
+        display: block;
+    }
+    .welcomeWindow .linkToSocial:first-child img{
+        transform: rotate(-5deg)
+    }
+    .welcomeWindow .linkToSocial:first-child::after{
+        content: '';
+        left: 5px;
+        position: absolute;
+        top: -175px;
+        height: 250px;
+        width: 100px;
+        background: url(../images/prilipaly/1.png) no-repeat center;
+        background-size: contain;
+        transform: rotate(-5deg)
+    }
+    .welcomeWindow .linkToSocial:hover{
+        filter:none;
+        transform: none
+    }
+    .welcomeWindow .linkToSocial:last-child img{
+        transform: rotate(5deg)
+    }
+    .welcomeWindow .linkToSocial:last-child::after{
+        content: '';
+        right: -15px;
+        position: absolute;
+        top: -186px;
+        height: 250px;
+        width: 100px;
+        background: url(../images/prilipaly/3.png) no-repeat center;
+        background-size: contain;
+        transform: rotateY(180deg) rotate(-5deg);
+    }
+    .container {
+        width: 100%;
+        height: 60vh;
+    }
+    .sliderContainer {
+        min-height: 50vh;
+    }
+    .page{
+        max-width: 85%;
+        margin: auto;
+        padding: 110px;
+    }
+    .circle-carousel {
+        right: 22px;
+    }
+    .circle-carousel .pagination{
+        left:0;
+        right: 0;
+        margin: auto;
+        transform: none;
+        width: 0;
+        top: 55%;
+    }
+    .sliderRounded{
+        margin-top: 40px;
+    }
+    .slides h2{
+        bottom: 100px;
+    }
+    .dot span img {
+        max-width: 80px;
+        max-height: 160px;
+    }
+
+    .contentBlocks{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 32vw;
+    }
+    .videoWindow .infoBlock, .videoWindow .infoBlock span{
+        transform: rotateX(180deg) rotate(5deg);
+    }
+    .socialContainerData .socialBlock{
+        transform: rotate(0deg);
+        width: 60%;
+        margin: -5px auto;
+        justify-content: space-between;
+    }
+    .contentBlocks > div{
+        flex: 100%;
+        width: 100%;
+        max-width: 100%;
+    }
+    .socialContainerData .socialBlock .linkToSocial{
+        max-width: 154px;
+        margin: 0;
+    }
+    .infoBlock.back{
+        height: 137px;
+    }
+    .socialContainerData{
+        order: 1;
+        margin: auto;
+        max-width: 100%;
+    }
+    .toys-1{
+        order:2;
+    }
+    .toys-1-1{
+        left: 20%;
+        top: 0px;
+    }
+    .toys-1-2{
+        left: -50px;
+        top: -240px;
+    }
+    .toys-2{
+        order:3
+    }
+    .toys-1-2 img {
+        max-width: 60px;
+    }
+    .videoWindow .infoBlock span{
+        font-size: 22px;
+    }
+    .videoPhone{
+        margin-top: -270px;
+    }
+    .phoneContainer{
+        width: 100%;
+    }
+    .phoneContainer iframe{
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .toys-2-1{
+        bottom: -50vh;
+        left: 70%;
+        transform: rotateY(180deg);
+    }
+    .toys-2-1 img, .toys-3-4 img{
+        max-width: 250px;
+    }
+    .toysAndInfoBlock{
+        margin-top: -65%;
+    }
+    .toys-3-1{
+        left: 0;
+        width: 40%;
+    }
+    .toys-3-2{
+        top: -740px;
+        position: relative;
+    }
+    .toys-3-2 img{
+        width: 70px;
+    }
+    .toys-3-3 {
+        display: none;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        transform: rotate(0deg);
+        height: 100px;
+        width: 285px;
+        top: 380px;
+        position: relative;
+    }
+    .videoWindow .infoBlock.lastInfoB span{
+        font-size: 17px;
+    }
+    .toys-2-2{
+        position: relative;
+        bottom: -500px;
+        left: -20%;
+    }
+    .toys-3-4{
+        bottom: 570px;
+        right: 90px;
+    }
+    .goodsContainer{
+        flex-direction: column;
+        height: 55vh;
+    }
+    .spDescription{
+        margin: 100px 0 0;
+    }
+    .slick-list{
+        margin: 0;
+    }
+    .slick-slider{
+        position: static;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next{
+        right: 30%;
+        bottom: auto;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev{
+        left: 30%;
+        bottom: auto;
+        border-radius: 15px 0 0 15px;
+    }
+    .currentGoodPage{
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    .mapContainer .infoBlock{
+        top: 120px;
+    }
+    .searchingFormMap{
+        top: 250px;
+    }
+    .mapContainer .infoBlock.back{
+        height: 132px;
+        font-size: 15px;
+        padding-top: 0px;
+    }
+    .gamesWindowText, .gamesWindowBottomText{
+        height: 250px;
+        width: 70%;
+    }
+    .gamesWindowText h4.header.smaller, .gameName{
+        font-size: 25px;
+    }
+    .gamesWindowText .text-data{
+        padding:  30px
+    }
+    .gamesWindowText .text-data, .gameDescription, .gamesWindowBottomText .text-data{
+        font-size: 20px;
+    }
+    .gameLogo, .gameLogo:hover{
+        width: 40px;
+        margin: 0 5px;
+    }
+    .gamesWindowBottomText a.header{
+        margin: -10px auto;
+    }
+    .gameMechanic{
+        width: 75%;
+    }
+    .gameData .gameName{
+        margin-bottom: 44px;
+        overflow: hidden;
+    }
+    .playLink{
+        text-align: center;
+        right: 0;
+        left: 0;
+        margin: 30px auto 0;
+        width: 160px;
+        font-size: 25px;
+    }
+    h4.header.smaller{
+        font-size: 25px;
+    }
+    .gamesWindowBottomText .text-data {
+        padding: 20px 35px;
+    }
+    .footerData{
+        height: 90%;
+        padding-top: 130px;
+    }
+    .footerContainer {
+        height: 65vh;
+        min-height: 30vh;
+    }
+    .footerNavigationPanel ul li {
+        margin: 0 21px;
+        font-size: 13px;
+    }
+    .GamingCenter a {
+        max-width: 200px;
+    }
+    .sliderWindow .red{
+        transform: scale(.65) translate(33%, -50%) rotate(5deg);
+        margin-right: 100px;
+        transition: all .3s;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: translate(-30%, -100%) rotate(-5deg);
+        margin-left: 150px;
+    }
+    .sliderRounded {
+        margin-top: -210px;
+    }
+    .slick-arrow.slick-next, .slick-arrow.slick-prev{
+        bottom: auto;
+        z-index: 330;
+        top: 30%;
+
+    }
+    .slick-arrow.slick-next{
+        right: 0;
+    }
+    .slick-arrow.slick-prev{
+        left: 0;
+    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
+    .circle-carousel .prev{
+        top: 41%;
+    }
+    .prilipalyInfo{
+        top: 23%;
+    }
+    .spCarousel {
+        width: calc(100% - 40px);
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .circle-carousel {
+        transform: translateY(-7vw);
+    }
+}
+/* Mobile horizontal*/
+@media(max-width: 813px){
+    .welcomeWindow .yellow{
+        width:65%
+    }
+    .welcomeWindow .infoBlock.leftPos{
+        font-size: 25px
+    }
+    .logo-d.min {
+        width: 100px;
+        height: 105px;
+        top: 180px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 26px;
+        left: 28%;
+        top: 128px;
+    }
+    .cloudsContainer{
+        top: 0;
+    }
+    .logoContainerWelcome .logo-p{
+        top: 285px;
+        width: 360px;
+        height: 200px;
+    }
+    .welcomeWindow .main-logo{
+        width: 170px;
+        font-size: 21px;
+        max-height: 70px;
+        padding: 16px 0;
+        right: 28%;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -43px;
+        top: 45px;
+        height: 375px;
+    }
+    .welcomeWindow .grassContainer{
+        bottom: -70px;
+    }
+    .welcomeWindow .sand-2::after{
+        height: 130px;
+        z-index: 30;
+    }
+    .welcomeWindow .grass-2:before{
+        height: 150px;
+        top: -65%;
+
+    }
+    .piggy {
+        bottom: 3px;
+        height: 180px;
+        left: 12%;
+    }
+    .welcomeContent .sand-3 {
+        position: relative;
+        width: 180%;
+        height: 100%;
+        bottom: 0%;
+        transform: rotate(-3deg);
+        left: -10%;
+    }
+    .prilipalyContainer::after{
+        width: 110px;
+        height: 80px;
+        bottom: -10px;
+        right: 0;
+    }
+    .heart-box {
+        left: 78%;
+        width: 110px;
+        height: 510px;
+        bottom: 0;
+    }
+    .blueSec .socialBlock{
+        top: 140px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after{
+        top: -112px;
+        height: 170px;
+        width: 80px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after{
+        top: -127px;
+        height: 190px;
+        width: 80px;
+    }
+    .piggy img{
+        height: 85%;
+    }
+    .grass-3{
+        bottom: 0;
+    }
+    .grass-1-1 {
+        bottom: 40px;
+        width: 313px;
+        height: 440px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        margin-left: 30px;
+        font-size: 15px;
+        max-width: 255px;
+    }
+    .sliderRounded {
+        margin-top: -60px;
+    }
+    .page{
+        padding: 160px;
+    }
+    .dot span img {
+        max-width: 160px;
+        max-height: 160px;
+    }
+    .circle-carousel {
+        left: 80%;
+        transform: translateX(-80%);
+        min-width: 200px;
+    }
+    .prilipalyInfo {
+        transform: translate(-50%, 0%) scale(1);
+        bottom: 90%;
+        width: 460px;
+        left: 50%;
+    }
+    .sliderContainer {
+        height: 1130px;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next {
+        right: 5%;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        left: 5%;
+    }
+    .slides h2 {
+        bottom: 435px;
+    }
+    .prilipalyInfo p {
+        font-size: 13px;
+    }
+    .phoneContainer iframe {
+        bottom: 12%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .videoWindow .infoBlock{
+        animation: none;
+    }
+    .videoWindow .infoBlock.lastInfoB {
+        height: 80px;
+        width: 227px;
+        position: relative;
+        top: 210px;
+    }
+    .videoContainer {
+        min-height: 120vh;
+    }
+    .videoWindow .infoBlock.lastInfoB span {
+        font-size: 13px;
+    }
+    .toys-3-4 {
+        right: 7%;
+    }
+    .toys-2-2{
+        bottom: -390px;
+    }
+    .goodsContainer {
+        height: 77vh;
+    }
+    .circle-carousel .next, .slick-arrow.slick-next {
+        bottom: auto;
+        border-radius: 0 15px 15px 0;
+    }
+    .circle-carousel .prev, .slick-arrow.slick-prev {
+        bottom: auto;
+        border-radius: 15px 0 0 15px;
+    }
+    .gameDescription, .gamesWindowBottomText .text-data, .gamesWindowText .text-data{
+        font-size: 17px;
+    }
+    .gameButtons{
+        right: 125px;
+    }
+    .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 19px;
+    }
+    .gamesWindowText, .gamesWindowBottomText {
+        height: 260px;
+        width: 80%;
+    }
+    .footerData {
+        height: 85%;
+        padding-top: 100px;
+    }
+    .footerContainer {
+        height: 95vh;
+        min-height: 30vh;
+    }
+    .rules {
+        display: block;
+        max-width: 70%;
+    }
+    .footerNavigationPanel ul li {
+        margin: 0 10px;
+        font-size: 10px;
+    }
+    .footerNavigationPanel ul{
+        padding: 10px 5px;
+    }
+    .footerNavigationPanel::before {
+        height: 137px;
+        width: 80px;
+        left: 85%;
+        bottom: -14%;
+    }
+    .footerNavigationPanel ul::before{
+        left: 10%;
+    }
+    .heart{
+        height: 12px;
+        width: 12px;
+    }
+    .top-1{
+        animation: moveup 4.4s 2.6s infinite;
+    }
+    .circle-carousel .slide.active {
+        top: 20%;
+        transform: translate(-50%, 20%);
+        left: 50%;
+    }
+    .contentBlocks{
+        padding-top: 50vw;
+    }
+    .pagination .item{
+        opacity: 0;
+    }
+    .circle-carousel .slide.active,
+    .circle-carousel .next,
+    .circle-carousel .prev{
+        top: 20%;
+    }
+    .prilipalyInfo{
+        top: 10%;
+    }
+    .circle-carousel .pagination .item.active .dot{
+        top: -150px;
+    }
+}
+/* IPad width */
+@media(max-width: 769px){
+    .circle-carousel .pagination{
+        top: 50%
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: translate(15%, -100%) rotate(0deg);
+    }
+    .circle-carousel .next,
+    .circle-carousel .prev,
+    .circle-carousel
+    .slide.active {
+        top: 45%;
+    }
+    .currentGoodPage{
+        margin-bottom: 60px;
+    }
+    .videoWindow {
+        position: relative;
+        margin: -60vw 0 0;
+    }
+
+    .spCarousel{
+        width: 100%;
+    }
+}
+
+
+/* IPhone6/7/8 horizontal width */
+@media(max-width: 668px){
+    .contentBlocks {
+        padding-top: 40vw;
+        padding-bottom: 60vw;
+    }
+    .GamingCenter a {
+        max-width: 120px;
+    }
+}
+/* IPhone 6/7/8+ horizontal width */
+@media(max-width: 737px){
+
+}
+/* IPhone5c horizontal width */
+@media(max-width: 569px){
+    .gameDescription, .gamesWindowBottomText .text-data, .gamesWindowText .text-data{
+        font-size: 12px;
+        padding: 10px;
+    }
+    .gamesWindowBottomText a.header {
+        margin: -10px auto;
+    }
+}
+/* IPhone 6/7/8+ width */
+@media(max-width: 415px){
+    .circle-carousel .pagination .item{
+        opacity: 0
+    }
+    .circle-carousel .pagination .item.active{
+        opacity: 1;
+    }
+    p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet{
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    .logo-d.min {
+        width: 60px;
+        height: 65px;
+        top: 30px;
+    }
+    .welcomeContent .sand-3::after, .welcomeContent .sand-1::before, .welcomeContent .grass-4::after, .yellow img, .blueSec > img {
+        max-height: 85px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 15px;
+        left: 30%;
+        top: 69px;
+    }
+    .logoContainerWelcome .logo-p {
+        top: 130px;
+        width: 260px;
+    }
+    .welcomeWindow .main-logo {
+        width: 107px;
+        font-size: 13px;
+        max-height: 50px;
+        padding: 8px 0;
+        right: 37%;
+        border-radius: 4px;
+        top: 76%;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -29px;
+        top: 22px;
+        height: 275px;
+    }
+    .sand-1{
+        height: 220px;
+    }
+    .welcomeWindow .linkToSocial img {
+        max-width: 70%;
+        width: 170px;
+    }
+    .blueSec{
+        width: 100%;
+    }
+    .blueSec .socialBlock{
+        top: 80px;
+        left: 37px;
+        width: 80%;
+    }
+    .welcomeWindow .linkToSocial:last-child{
+        position: relative;
+        left: 40px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after {
+        top: -83px;
+        height: 90px;
+        width: 80px;
+        right: 15px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after {
+        top: -50px;
+        height: 91px;
+        width: 80px;
+        left: -20px;
+    }
+    .welcomeWindow .grassContainer {
+        bottom: 0;
+    }
+    .grass-1-1{
+        width: 150px;
+        height: 250px;
+        bottom: 40px;
+    }
+    .grass-1-2 {
+        bottom: 0;
+        width: 130px;
+        height: 130px;
+    }
+    .grass-2-1, .grass-2-2{
+        height: 80px;
+    }
+    .grass-3{
+        width: 128px;
+    }
+    .grass-3-1{
+        width: 97px;
+        bottom: 100px;
+    }
+    .grass-3-1, .grass-3-2{
+        max-height: 250px;
+    }
+    .grass-4 {
+        right: 0;
+        width: 200px;
+        height: 230px;
+        bottom: 0;
+    }
+    .welcomeWindow .sand-2 {
+        bottom: 0;
+        z-index: 30;
+    }
+    .welcomeWindow .sand-2::after{
+        bottom: 50px;
+        z-index: 30;
+        left: 65%;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 150px;
+        top: 0;
+        left: -20px;
+    }
+    .piggy{
+        bottom: -40px;
+    }
+    .piggy img{
+        max-width: 120px
+    }
+    .prilipalyContainer::after {
+        width: 80px;
+        height: 50px;
+        bottom: -13px;
+        right: 0;
+    }
+    p, span, .welcomeWindow .infoBlock.leftPos, .sliderWindow .infoBlock.shadowViolet {
+        font-size: 14px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .welcomeWindow .infoBlock.leftPos{
+        max-width: 300px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        transform: none;
+    }
+    .sliderWindow .infoBlockContainer{
+        padding-top: 0;
+        justify-content: center;
+    }
+    .dot span img {
+        max-width: 110px;
+        max-height: 105px;
+    }
+    .page {
+        max-width: 95%;
+    }
+    .prilipalyInfo {
+        top: 10%;
+        width: 360px;
+        padding: 20px 15px;
+        background-size: 356px 173px;
+    }
+    .prilipalyInfo p {
+        font-size: 11.5px;
+        padding-top: 5px;
+    }
+    .prilipalyInfo::before, .prilipalyInfo::after{
+        height: 60px;
+        top: -51px;
+        background-position: left 7px, 50px 11px;
+        transform: rotate(-1deg);
+    }
+    .circle-carousel .next, .circle-carousel .prev{
+        top: 22% !important;
+    }
+    .circle-carousel .slide.active{
+        top: 22% !important;
+        transform: translate(-50%, 30%) scale(1);
+    }
+    .slides h2 {
+        bottom: 545px;
+        left: 8px;
+    }
+    .sliderContainer{
+        clip-path: ellipse(153% 49% at 50% 36%);
+        height: 840px;
+    }
+    .videoWindow .infoBlock span {
+        font-size: 14px;
+    }
+    .socialContainerData{
+        width: 100%;
+    }
+    .videoWindow .infoBlock{
+        margin: auto;
+    }
+    .socialContainerData .socialBlock{
+        width: 70%;
+        margin-top: -25px;
+    }
+    .videoWindow  .linkToSocial img {
+        max-width: 90%;
+    }
+    .toys-1-1{
+        left: 5px;
+    }
+    .toys-1-1 img{
+        width: 62%;
+    }
+    .toys-3-4 img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+    .phoneContainer{
+        top: 110px;
+    }
+    .toys-3-4 {
+        bottom: 370px;
+        right: 1%;
+
+    }
+    .toys-3-1 img{
+        max-width: 100px;
+    }
+    .toys-3-1{
+        left: -21px;
+    }
+    .toys-1-2 {
+        left: -90px;
+        top: -90px;
+    }
+    .toys-2-2 {
+        bottom: -290px;
+        left: -33%;
+    }
+    .toys-2-2 img{
+        max-width: 140px
+    }
+    .videoContainer {
+        background-size: initial;
+        min-height: 800px;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        top: 224px;
+    }
+    .toys-2-1 img {
+        max-width: 120px;
+    }
+    .spInfo {
+        width: 400px;
+        padding: 20px 10px;
+    }
+    .spInfo h4.header.smaller.lined {
+        font-size: 16px;
+    }
+    .spInfo .text-data{
+        padding: 10px 10px 0;
+        font-size: 12px;
+    }
+    label{
+        padding: 2px
+    }
+    #region{
+        width: 60px;
+        margin: 0 7px;
+    }
+    .spClass {
+        width: 155px;
+    }
+    .formSearch form{
+        margin-top: -2px
+    }
+    .spCarousel{
+        padding: 0;
+        margin-top: -55px;
+    }
+    .goodsWindow::after{
+        width: 100px;
+        height: 70px;
+    }
+    .goodsWindow::before{
+        width: 70px;
+        height: 80px;
+        bottom: 0;
+    }
+    .goodsContainer {
+        height: 730px;
+    }
+    .spInfo::before{
+        height: 95px;
+        width: 100px;
+        top: -85px;
+    }
+    .slick-slide img {
+        display: block;
+        margin: auto;
+    }
+    .mapContainer .infoBlock.back{
+        width: 90%;
+        transform: rotate(3deg);
+        left: -70px;
+        right: 0;
+        margin: auto;
+        top: 64px;
+    }
+    .mapContainer {
+        height: 100vh;
+    }
+    .mapContainer .infoBlock::before{
+        left: 30px;
+        top: -57px;
+        height: 110px;
+        width: 50px;
+    }
+    .searchingFormMap{
+        width: 100%;
+        background-size: cover;
+        min-height: 150px;
+        border-radius: 30px;
+        top: 73%;
+    }
+    .searchingFormMap form{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .searchingFormMap select + label{
+        display: none;
+    }
+    .gamesWindowText{
+        width: 97%;
+        padding: 30px 23px;
+        height: 168px;
+    }
+    .gamesWindowText .text-data {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 14px;
+    }
+    .gameMechanic{
+        width: 92%;
+    }
+    .gameButtons{
+        position: static;
+        display: initial;
+    }
+    .gameData .gameName {
+        margin-bottom: 21px;
+        font-size: 20px;
+    }
+    .gameDescription{
+        font-size: 14px;
+    }
+    .playLink{
+        font-size: 15px;
+        right: 0;
+        left: 0;
+    }
+    .gameLogo{
+        margin:0 5px;
+    }
+    .gamesWindowBottomText{
+        width: 100%;
+        height: 145px;
+    }
+    .gamesWindow{
+        height: 130vh;
+    }
+    .gameDescription, .gamesWindowBottomText .text-data {
+        padding: 0;
+    }
+    .gamesWindowBottomText{
+        padding: 30px 24px;
+    }
+    .gamesWindowBottomText .text-data{
+        font-size: 12px;
+        margin: 15px 0;
+    }
+    .gamesWindowBottomText::after{
+        height: 80px;
+        width: 99px;
+        top: -69px;
+    }
+    .gamesWindowBottomText::before {
+        top: -78px;
+    }
+    .gamesWindowBottomText .gamesWindowText h4.header.smaller, .gameName, h4.header.smaller {
+        font-size: 12px;
+    }
+    .footerNavigationPanel ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footerNavigationPanel ul li {
+        margin: 10px 20px;
+        font-size: 12px;
+        flex: 35%;
+        text-align: left;
+    }
+    .socialLinks{
+        flex-wrap: wrap
+    }
+    .footerContainer {
+        height: 1345px;
+    }
+    .logoAll {
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .logoAll .logo-d{
+        margin-top: 80px;
+    }
+    .footerWindow::after, .footerWindow::before{
+        display: none;
+    }
+    .footerNavigationPanel::before{
+        left: 77%;
+        bottom: 86%;
+    }
+    .rules {
+        max-width: 80%;
+    }
+    .socialLinks > a{
+        flex: 40%;
+        font-size: 17px;
+        text-align: center;
+    }
+    .socialLinks > a:first-child{
+        flex:100%;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .smmLinks{
+        margin: 30px 0 0;
+        flex: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+    .smmLinks a{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .rulesAndLinks{
+        order: 3;
+    }
+    .GamingCenter{
+        order:2;
+        margin: 20px 40px 30px;
+    }
+    .goog-pl::after{
+        height: 40px;
+        bottom: -30px;
+    }
+    .footerData {
+        height: 85%;
+        padding-top: 290px;
+    }
+    .footerContainer .grass-4{
+        bottom: -30px;
+    }
+    .footerContainer .sandContainer {
+        height: 180px;
+        bottom: 0;
+        width: 190%;
+    }
+    .footerContainer  .sand-2{
+        bottom: 20px;
+    }
+    .footerContainer  .sand-3{
+        bottom: 2px;
+    }
+    .footerNavigationPanel {
+        margin: 30px 0;
+    }
+    .circle-carousel {
+        height: 350%;
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 200px;
+    }
+    .prilipalyInfo::before{
+        transform: rotate(-4deg);
+    }
+    .prilipalyInfo::after{
+        display: none;
+    }
+    .sliderWindow .red{
+        display: none;
+    }
+    .circle-carousel .pagination .item.active .dot{
+        top: -50px;
+    }
+}
+@media(max-width:412px) and(max-height: 732px){
+    .currentGoodPage {
+        margin-top: -13px;
+    }
+    .gamesWindowBottomText a.header {
+        margin: -10px auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+/* IPhone X */
+@media (max-width: 376px) and (max-height: 813px) {
+    .logo-d.min{
+        left: 30px;
+    }
+    .welcomeWindow .yellow {
+        width: 300px;
+        left: calc((100% - 300px) / 2);
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 13px;
+        left: 99px;
+        top: 53px;
+    }
+    .welcomeWindow .main-logo{
+        top: 142px;
+        right: 82px;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -52px;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 120px;
+        top: 35px;
+        left: -27px;
+    }
+    .piggy {
+        bottom: -68px;
+        left: 45px;
+    }
+    .piggy img {
+        max-width: 100px;
+        max-height: 106px;
+    }
+    .welcomeWindow .sand-2::after {
+        height: 100px;
+    }
+    .grass-1-1{
+        height: 220px;
+    }
+    .grass-1-2{
+        height: 110px;
+    }
+    .grass-3-1 {
+        width: 67px;
+        bottom: 80px;
+        max-height: 180px;
+    }
+    .grass-3-2 {
+        left: 60px;
+        bottom: 80px;
+        width: 130px;
+        height: 240px;
+    }
+    .dot span img {
+        max-width: 120px;
+        max-height: 110px;
+    }
+    .container {
+        width: 100%;
+        height: 370px;
+    }
+    .page {
+        padding: 160px 0;
+    }
+    .sliderRounded {
+        margin-top: -80px;
+    }
+    .sliderContainer{
+        height: 865px;
+    }
+    .circle-carousel .next {
+        right: 40px;
+    }
+    .circle-carousel .prev {
+        left: 40px !important;
+    }
+    .circle-carousel .pagination {
+        top: 52%;
+    }
+    .prilipalyInfo {
+        bottom: 68%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 35% !important;
+    }
+    .toys-1-2{
+        top: -190px;
+    }
+    .toys-2-1 {
+        bottom: -500px;
+    }
+    .gamesWindowText .text-data {
+        font-size: 13px;
+    }
+    .gameImg {
+        max-width: 103px;
+    }
+    .posterImg {
+        max-width: 26px;
+        max-height: 30px;
+    }
+    .prilipalyInfo {
+        top: 17%;
+    }
+}
+/* IPhone 6/7/8 width */
+@media(max-width: 376px) and (max-height: 667px){
+    .welcomeWindow .yellow {
+        width: 75%;
+        left: 15%;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 90px;
+    }
+    .circle-carousel .pagination {
+        top: 50%;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active {
+        top: 30% !important;
+    }
+    .circle-carousel .slide.active h2 {
+        bottom: 0;
+    }
+    .currentGoodPage {
+        margin-bottom: 50px;
+        margin-top: -18px;
+        font-size: 25px;
+    }
+    .logo-d.min{
+        left: 40px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 13px;
+        left: 28%;
+    }
+    .logoContainerWelcome .logo-p {
+        top: 120px;
+        width: 220px;
+    }
+    .welcomeWindow .main-logo{
+        right: 24%;
+        top: 69%;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -29px;
+        top: 24px;
+        height: 225px;
+    }
+    .blueSec .socialBlock {
+        top: 38px;
+    }
+    .heart-box {
+        left: 68%;
+        width: 60px;
+        height: 390px;
+        bottom: -10px;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 120px;
+        top: 40px;
+        left: -20px;
+    }
+    .welcomeWindow .sand-1{
+        z-index: -1;
+    }
+    .welcomeWindow .sand-2{
+        z-index: 30;
+    }
+    .welcomeWindow .sand-2::after {
+        height: 110px;
+        z-index: 30;
+    }
+    .piggy img {
+        height: 65%;
+    }
+    .piggy {
+        bottom: -62px;
+    }
+    .grass-3-1, .grass-3-2 {
+        max-height: 160px;
+        width: 59px;
+    }
+    .grass-1-1{
+        height: 200px;
+    }
+    .grass-1-2{
+        bottom: -30px;
+    }
+    .heart-box{
+        left: calc(100% - 140px);
+        width: 180px;
+        height: 170px;
+        bottom: 120px;
+        background: url(../images/hearts.png) no-repeat center;
+        background-size: contain;
+        animation:none;
+        opacity: 1;
+    }
+    .heart-box > div{
+        display: none;
+    }
+    .cloudsContainer{
+        height: 220px;
+        background-size: 1270px;
+        top: 70px !important;
+    }
+    .grass-3-2 {
+        left: 80px;
+    }
+    .prilipalyInfo {
+        bottom: 75%;
+        width: 356px;
+    }
+    .sliderContainer{
+        height: 810px;
+    }
+    .slides h2{
+        bottom: 425px;
+        left: 18px;
+    }
+    .videoWindow .infoBlock{
+        padding: 10px 0;
+    }
+    .videoContainer {
+        min-height: 135vh;
+        background: url(../images/backgroundMSK.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .videoWindow .infoBlock.lastInfoB span {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+    .prilipalyInfo::before, .prilipalyInfo::after{
+        transform: rotate(-4deg);
+    }
+    .gameLogo:hover{
+        width: 40px;
+        margin: 0 5px;
+    }
+    .spDescription {
+        margin: 65px 0 35px;
+    }
+    .toys-1-2 {
+        left: -110px;
+        top: -210px;
+    }
+    .toys-1-2 img {
+        max-width: 40px;
+    }
+    .toys-3-4 img {
+        max-width: 100px;
+        height: 100%;
+        width: 100%;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        width: 270px;
+        top: 205px;
+    }
+    .spInfo {
+        width: 363px;
+        height: 190px;
+    }
+    .spInfo::after{
+        height: 75px;
+        width: 60px;
+        top: -40px;
+    }
+    .formSearch p{
+        font-size: 14px;
+    }
+    .formSearch form {
+        margin-top: -18px;
+    }
+    .goodsWindow select{
+        font-size: 13px;
+    }
+    .goodsContainer {
+        height: 100vh;
+    }
+
+    h4.lined:after, h4.lined:before{
+        top: calc(50% - 5px);
+        width: 60px;
+    }
+    .mapContainer .infoBlock.back{
+        width: 80%;
+        top: 15px;
+        left: -70px;
+    }
+    .mapContainer .infoBlock span{
+        font-size: 12px;
+    }
+    .mapContainer .infoBlock span:first-child{
+        margin-top: -19px;
+    }
+    .searchingFormMap select, .searchingFormMap input{
+        flex: 40%;
+        width: 70px;
+        text-overflow: ellipsis;
+        margin: 10px;
+    }
+    .searchingFormMap {
+        top: 81%;
+        width: 130%;
+        background-size: cover;
+        min-height: 135px;
+        border-radius: 28%;
+        left: -15%;
+        background: linear-gradient(to right, rgba(255,221,0,1) 0%, rgba(255,161,19,1) 100%);
+    }
+    .searchingFormMap select{
+        background: #fff url(../images/select-bg.png) no-repeat 100% 50%;
+        background-size: 40px;
+        padding-right: 43px;
+        border-radius: 4px;
+    }
+    .gamesWindowText .text-data {
+        font-size: 13px;
+    }
+    .gamesWindowBg{
+        background-size: auto;
+        background-position: center bottom;
+    }
+    .gameImg{
+        max-width: 95px;
+    }
+    .posterImg {
+        left: 60px;
+        max-width: 22px;
+        max-height: 28px;
+    }
+    .gameMechanic{
+        padding: 30px 0px 30px 30px;
+    }
+    .gamesWindow {
+        height: 910px;
+    }
+    .gamesWindowBottomText {
+        padding: 30px 19px;
+        bottom: 10px;
+    }
+    .gamesWindowBottomText .text-data {
+        font-size: 11px;
+        margin: 12px 0;
+    }
+    .pril-bg{
+        display: none;
+    }
+    .logo-p {
+        width: 280px;
+        height: 130px;
+    }
+    .logoAll > div::before{
+        width: 70px;
+        left: 33px;
+    }
+    .footerContainer {
+        height: 1430px;
+    }
+    .footerContainer .grass-3{
+        bottom: -60px;
+    }
+    .footerNavigationPanel::after {
+        left: 75%;
+        bottom: 320px;
+        height: 50px;
+        width: 50px;
+    }
+    .footerNavigationPanel::before {
+        left: 300px;
+        bottom: 110px;
+        width: 60px;
+    }
+    .footerContainer .sand-3::before{
+        height: 50px;
+        width: 50px;
+        bottom: 54px;
+    }
+    .GamingCenter {
+        order: 2;
+        margin: 20px 40px 60px;
+    }
+    .smmLinks a {
+        width: 45px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .footerNavigationPanel ul::before {
+        left: 30px;
+        width: 50px;
+    }
+}
+@media(max-width:361px){
+
+}
+/* IPhone 5/SE */
+@media(max-width: 321px){
+    .welcomeWindow .infoBlock.leftPos{
+        font-size: 12px;
+    }
+    .welcomeWindow .yellow {
+        width: 85%;
+        left: 10%;
+    }
+    .logo-d.min {
+        left: 15px;
+        top: 15px;
+        width: 45px;
+        height: 47px;
+        animation: none;
+        opacity: 1
+    }
+    .logoContainerWelcome .logo-p{
+        width: 180px;
+        top: 140px;
+        animation: none;
+        opacity: 1;
+        height: 83px;
+    }
+    .yellow{
+        top: -100px;
+    }
+    .yellow img{
+        max-height: 78px;
+    }
+    .welcomeWindow .logoContainerWelcome p {
+        font-size: 13px;
+        left: 70px;
+        top: 40px;
+    }
+    .welcomeWindow .main-logo {
+        right: 25px;
+        top: 73px;
+    }
+    .blueSec .socialBlock {
+        top: -20px;
+    }
+    .welcomeWindow .grass-2:before {
+        height: 100px;
+        top: 67px;
+        left: -30px;
+    }
+    .grass-1-1{
+        bottom: 0;
+    }
+    .grass-3-1, .grass-3-2{
+        bottom: 40px;
+    }
+    .grass-2-1, .grass-2-2 {
+        height: 70px;
+    }
+    .welcomeWindow .linkToSocial:first-child::after {
+        top: -32px;
+        height: 75px;
+        width: 73px;
+        left: -20px;
+    }
+    .welcomeWindow .sand-2::after{
+        height: 88px;
+    }
+    .piggy img {
+        height: 90px;
+    }
+    .piggy{
+        height: 155px;
+    }
+    .grass-4{
+        width: 180px;
+        height: 124px;
+    }
+    .prilipalyContainer::after {
+        width: 80px;
+        height: 40px;
+        bottom: -10px;
+        right: 0;
+    }
+    .heart-box {
+        left: calc(100% - 90px);
+        width: 110px;
+        height: 140px;
+        bottom: 90px;
+    }
+    .welcomeWindow .main-logo::after {
+        left: -22px;
+        top: 24px;
+        height: 205px;
+    }
+    .welcomeWindow .linkToSocial:last-child::after {
+        top: -69px;
+        height: 75px;
+        width: 80px;
+        right: 8px;
+    }
+    .dot span img {
+        max-width: 100px;
+        max-height: 90px;
+    }
+    .prilipalyInfo {
+        width: 305px;
+        background-size: 304px 170px;
+        height: 190px
+    }
+    .page {
+        padding: 120px 0;
+    }
+    .circle-carousel .slide {
+        width: 100%;
+        left: 0;
+        right: auto;
+        margin: auto;
+    }
+    .slides h2 {
+        bottom: 300px;
+        left: 0;
+    }
+    .circle-carousel .next{
+        top: 27% !important;
+        right: 30px;
+    }
+    .circle-carousel .prev {
+        top: 27% !important;
+        left: 70px;
+    }
+    .circle-carousel .slide.active{
+        top: 27%;
+    }
+    .sliderWindow div, .welcomeWindow {
+        animation: none;
+        opacity: 1;
+    }
+    .sliderContainer {
+        height: 760px;
+    }
+    .sliderWindow .infoBlock.shadowViolet{
+        margin-top: 30px
+    }
+    .prilipalyInfo p {
+        font-size: 11px;
+        margin-top: 8px;
+    }
+    .phoneContainer::before{
+        height: 80px;
+        width: 78px;
+        top: -70px;
+    }
+    .phoneContainer {
+        top: 140px;
+    }
+    .toys-3-4 {
+        bottom: 360px;
+        right: -250px;
+        width: 60px;
+    }
+    .toys-2-1{
+        bottom: -360px;
+        left: 200px;
+    }
+    .toys-2-1 img {
+        max-width: 100px;
+    }
+    .toys-2-2 img {
+        max-width: 90px;
+    }
+    .videoContainer{
+        min-height: 890px;
+    }
+    .toys-3-1 img {
+        max-width: 60px;
+    }
+    .videoWindow .infoBlock.lastInfoB{
+        width: 250px;
+        top: 235px;
+    }
+    .spInfo{
+        width: 310px;
+        height: 149px;
+        background-size: 310px 140px;
+    }
+    .spInfo .text-data {
+        padding: 8px;
+        font-size: 11px;
+    }
+    .formSearch form {
+        margin-top: -6px;
+        padding: 0 0 10px;
+    }
+    .formSearch p, .goodsWindow select {
+        font-size: 11px;
+    }
+    #region {
+        width: 56px;
+        margin: 0 5px;
+    }
+    .spClass {
+        width: 130px;
+    }
+    .currentGoodPage {
+        margin-top: -15px;
+        margin-bottom: 25px;
+    }
+    .welcomeWindow {
+        height: 580px;
+    }
+    .cloudsContainer{
+        animation: none
+    }
+    .welcomeWindow div{
+        animation: none;
+        opacity: 1;
+    }
+    .goodsContainer {
+        height: 575px;
+    }
+    .gamesWindowText{
+        background-size: 310px 145px;
+        height: 148px;
+    }
+    .gamesWindowBottomText {
+        padding: 30px 15px;
+        bottom: 10px;
+        background-size: 310px 140px;
+    }
+    .gameMechanic {
+        padding: 20px 0 30px 15px;
+    }
+    .gameDescription {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+    .gameLogo, .gameLogo:hover{
+        width: 55px;
+        margin: 0 5px;
+    }
+    .gamesWindow {
+        height: 980px;
+    }
+    .gamesWindow i{
+        font-size: 23px;
+    }
+    h4.lined:after, h4.lined:before {
+        top: calc(50% - 3px);
+        width: 48px;
+    }
+    .footerData {
+        top: 0px;
+    }
+    .footerContainer {
+        height: 1500px;
+    }
+    .circle-carousel .next, .circle-carousel .prev, .circle-carousel .slide.active{
+        top: 32% !important;
+    }
+    .circle-carousel .pagination {
+        top: 54%;
+    }
+}

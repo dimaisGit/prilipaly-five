@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.root-child{
+    overflow-x: hidden;
+}
+.bg-bot{
+    background: linear-gradient(180deg, #1685C1, #efefef);
+    min-height: 100vh;
+    top: 0;
+    position: absolute;
+    width: 100%;
+}

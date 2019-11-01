@@ -1,0 +1,45 @@
+{
+  "name": "prilipaly-five",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://dimaisgit.github.io/prilipaly-five",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "cross-env PORT=10888 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "react-hot-loader": "^4.7.1",
+    "react-scripts": "^2.1.5"
+  },
+  "dependencies": {
+    "babel-eslint": "^9.0.0",
+    "chosen-js": "^1.8.7",
+    "core-js": "^2.6.5",
+    "deploy": "^1.0.3",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "jquery-ui": "^1.12.1",
+    "mdbreact": "^4.21.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-slick": "^0.25.2",
+    "react-transition-group": "^4.3.0",
+    "slick-carousel": "^1.8.1",
+    "vanilla-lazyload": "^12.1.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

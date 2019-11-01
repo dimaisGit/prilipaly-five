@@ -1,0 +1,108 @@
+.spCarousel{
+    margin: 0 20px;
+    padding: 20px 40px;
+    width: calc(100% - 600px);
+    position: relative;
+}
+.item, .item-info{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    outline: none;
+    border: none;
+}
+.itemFullName p, .itemPrice p{
+    color:#fff;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    display: block;
+    max-width:80%;
+    font-size: 1em;
+    margin: 10px auto;
+
+}
+.itemPrice p{
+    font-size: .7em;
+    max-width:100%;
+}
+.item-img{
+    height: 190px;
+    width: 150px;
+    margin: auto;
+    /* background: #fff; */
+}
+.item-info{
+    position: relative;
+    top: 6px;
+}
+.item-info-data{
+    position: absolute;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    bottom: 0;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+    display: none;
+
+}
+.item-info-data::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 92px;
+    height: 92px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index:100;
+
+}
+.item-info-data.active{
+    display: block;
+}
+.item-info-icon{
+    position: relative;
+    z-index: 1000;
+    cursor: help;
+}
+
+.block {
+    background: green;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.slick-list {
+    height: 278px;
+}
+.currentGoodPage {
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 29px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.slick-arrow.slick-prev{
+    bottom: -20px;
+    z-index: 330;
+    left: 0;
+}
+
+.slick-arrow.slick-next{
+    right: 0;
+    bottom: -20px;
+    z-index: 330;
+}
+.slick-slider{
+    position: static;
+    padding: 20px 0;
+}

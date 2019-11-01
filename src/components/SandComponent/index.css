@@ -1,0 +1,97 @@
+.sandContainer{
+    width: 100%;
+    bottom: -25px;
+    position: absolute;
+    height: 350px;
+}
+.sand{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.sand-1{
+    background: url(../../images/back-sand.png) no-repeat;
+    background-size: cover;
+    background-position: 0;
+    height: 370px;
+    opacity: 0;
+    animation: appearFromRight 1.8s ease-in-out .5s both, swell 13s infinite linear;
+    z-index: 10;
+}
+.sand-2{
+    background: url(../../images/sec-sand.png) no-repeat;
+    background-size: contain;
+    background-position: 20% bottom;
+    height: 270px;
+    opacity: 0;
+    animation: appearFromRight 1.3s ease-in 1s forwards, swell 4s infinite linear;
+    z-index: 20;
+    bottom: -50px;
+}
+.sand-3{
+    background: url(../../images/fr-sand.png) no-repeat;
+    background-size: contain;
+    background-position: 0 bottom;
+    height: 230px;
+    opacity: 0;
+    animation: appearFromLeft 1.2s ease-in 1.2s forwards, swell 7s infinite;
+    z-index: 30;
+    width: 77%;
+}
+.welcomeContent .sand-3{
+    position: relative;
+    bottom: -120px;
+}
+.welcomeContent .sand-3::after{
+    content:'';
+    position: absolute;
+    height: 205px;
+    width: 130px;
+    background: url(../../images/prilipaly/3.png) no-repeat center;
+    background-size: contain;
+    transform: rotateY(180deg);
+    right: 34%;
+    bottom: 31%;
+    z-index: 15;
+}
+.welcomeContent .sand-3::before{
+    content:'';
+    position: absolute;
+    height: 590px;
+    width: 336px;
+    background: url(../../images/girl.png) no-repeat center;
+    background-size: contain;
+    right: 45%;
+    bottom: 18%;
+}
+.welcomeContent .sand-1::before{
+    content:'';
+    position: absolute;
+    height: 185px;
+    width: 130px;
+    background: url(../../images/prilipaly/12.png) no-repeat center;
+    background-size: contain;
+    right: 30%;
+    bottom: 56%;
+}
+.footerContainer .sand-3::before{
+    content:'';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: url(../../images/raspberry1-noacod.png) no-repeat center;
+    background-size: contain;
+    left: 26%;
+    bottom: 34%;
+}
+.footerContainer .sand-3::after{
+    content:'';
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    background: url(../../images/melon.png) no-repeat center;
+    background-size: contain;
+    background-position: 0 75px;
+    left: 50%;
+    bottom: 0;
+}
