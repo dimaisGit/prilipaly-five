@@ -4,15 +4,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Info from '../../images/info-icon.svg'
 import InfoActive from '../../images/info-icon-active.svg'
-
+import $ from 'jquery'
 import { gooods } from "../../constants/goods";
 
 import './index.css'
 
 export default class ProdCarousel extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
-        this.state={
+        this.state = {
             active: true,
             goods: gooods,
             currentGood: 0,
@@ -26,7 +26,11 @@ export default class ProdCarousel extends React.Component {
             goods: goods
         })
     }
-
+    handleClickNew = (itemIndex) => {
+        $('.item-info-data').eq(itemIndex).toggleClass('active');
+        $('.item-info-icon').eq(itemIndex).toggleClass('active');
+        
+    }
     componentDidMount() {
         const { breakpoint } = this.slider.state
         const { slidesToShow } = this.slider.props.responsive.filter((item) => item.breakpoint === breakpoint)[0].settings
@@ -34,9 +38,10 @@ export default class ProdCarousel extends React.Component {
             goodsPerSlide: slidesToShow
         });
         document.getElementsByClassName('currentGoodPage')[0].style.opacity = 0;
-        setTimeout(function(){
-        document.getElementsByClassName('currentGoodPage')[0].style.opacity = 1;
-        }, 20000)        
+        setTimeout(function () {
+            document.getElementsByClassName('currentGoodPage')[0].style.opacity = 1;
+        }, 20000);
+       
     }
 
     render() {
@@ -46,7 +51,7 @@ export default class ProdCarousel extends React.Component {
             speed: 500,
             lazyLoad: 'progressive',
             onLazyLoad: () => {
-                
+
             },
             slidesToShow: 5,
             slidesToScroll: 5,
@@ -103,22 +108,28 @@ export default class ProdCarousel extends React.Component {
                 }
             ]
         };
-        const {active, goods} = this.state
+        const { active, goods } = this.state
         const filteredGoods = goods.filter(item => item.class === this.props.filter)
-        
+
         return (
             <>
                 <Slider {...settings} ref={ref => this.slider = ref}>
                     {filteredGoods.map((item, index) => (
                         <div className='item class-1' key={index}>
                             <div className='item-img'>
-                            <img src={process.env.PUBLIC_URL + '/products' + item.img} />
+                                <img src={process.env.PUBLIC_URL + '/products' + item.img} />
                             </div>
-                            <div className='item-info' onClick={() => this.handleClick(index)}>
-                                <div className='item-info-icon' >
+                            <div className='item-info' onClick={() => this.handleClickNew(index)}>
+                                {/* <div className='item-info-icon' >
                                     {item.isDescActive ? <img src={InfoActive} /> : <img src={Info} />}
                                 </div>
                                 <div className={item.isDescActive ? 'item-info-data active' : 'item-info-data'}>
+                                    <p>{item.description}</p>
+                                </div> */}
+                                <div className='item-info-icon' >
+                                    {/* <img src={Info} /> */}
+                                </div>
+                                <div className='item-info-data'>
                                     <p>{item.description}</p>
                                 </div>
                             </div>

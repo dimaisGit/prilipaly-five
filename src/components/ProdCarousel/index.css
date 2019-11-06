@@ -18,7 +18,7 @@
     text-align: center;
     display: block;
     max-width:80%;
-    font-size: 1em;
+    font-size: .81em;
     margin: 10px auto;
 
 }
@@ -45,21 +45,9 @@
     font-size: 13px;
     font-family: 'Ubuntu', sans-serif;
     display: none;
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
-.item-info-data::after{
-    content:'';
-    position: absolute;
-    bottom: 0;
-    width: 92px;
-    height: 92px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    transform: rotate(45deg);
-    z-index:100;
 
-}
 .item-info-data.active{
     display: block;
 }
@@ -67,8 +55,17 @@
     position: relative;
     z-index: 1000;
     cursor: help;
+    width:24px;
+    height: 24px;
+    background: url(../../images/info-icon.svg);
+    background-size: contain;
+    bottom: 5px;
+    transition: .2s all;
 }
-
+.item-info-icon.active{
+    background: url(../../images/info-icon-active.svg);
+    transition: .2s all;
+}
 .block {
     background: green;
     border-radius: 10px;
