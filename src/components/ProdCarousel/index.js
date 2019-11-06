@@ -19,6 +19,19 @@ export default class ProdCarousel extends React.Component {
             goodsPerSlide: 5
         }
     }
+    submit = (itemIndex) =>{
+        $('.slick-slide[data-index =' + itemIndex + ']').find('.item-info-data').toggleClass('active')
+        $('.slick-slide[data-index =' + itemIndex + ']').find('.item-info-icon').toggleClass('active')
+        $(document).mouseup(function (e){
+        let div = $('.slick-slide[data-index =' + itemIndex + ']');
+        if (!div.is(e.target)
+		    && div.has(e.target).length === 0) { 
+                $('.slick-slide[data-index =' + itemIndex + ']').find('.item-info-data').removeClass('active')
+                $('.slick-slide[data-index =' + itemIndex + ']').find('.item-info-icon').removeClass('active')
+        }
+    })
+
+    }
     handleClick = (itemIndex) => {
         let goods = this.state.goods
         goods[itemIndex].isDescActive = !goods[itemIndex].isDescActive
@@ -26,11 +39,7 @@ export default class ProdCarousel extends React.Component {
             goods: goods
         })
     }
-    handleClickNew = (itemIndex) => {
-        $('.item-info-data').eq(itemIndex).toggleClass('active');
-        $('.item-info-icon').eq(itemIndex).toggleClass('active');
-        
-    }
+    
     componentDidMount() {
         const { breakpoint } = this.slider.state
         const { slidesToShow } = this.slider.props.responsive.filter((item) => item.breakpoint === breakpoint)[0].settings
@@ -41,7 +50,6 @@ export default class ProdCarousel extends React.Component {
         setTimeout(function () {
             document.getElementsByClassName('currentGoodPage')[0].style.opacity = 1;
         }, 20000);
-       
     }
 
     render() {
@@ -119,15 +127,8 @@ export default class ProdCarousel extends React.Component {
                             <div className='item-img'>
                                 <img src={process.env.PUBLIC_URL + '/products' + item.img} />
                             </div>
-                            <div className='item-info' onClick={() => this.handleClickNew(index)}>
-                                {/* <div className='item-info-icon' >
-                                    {item.isDescActive ? <img src={InfoActive} /> : <img src={Info} />}
-                                </div>
-                                <div className={item.isDescActive ? 'item-info-data active' : 'item-info-data'}>
-                                    <p>{item.description}</p>
-                                </div> */}
+                            <div className='item-info' onClick={() => this.submit(index)}>
                                 <div className='item-info-icon' >
-                                    {/* <img src={Info} /> */}
                                 </div>
                                 <div className='item-info-data'>
                                     <p>{item.description}</p>
