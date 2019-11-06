@@ -35,7 +35,6 @@ export default class ProdCarousel extends React.Component {
         });
         document.getElementsByClassName('currentGoodPage')[0].style.opacity = 0;
         setTimeout(function(){
-            console.log('loaded')
         document.getElementsByClassName('currentGoodPage')[0].style.opacity = 1;
         }, 20000)        
     }
@@ -57,7 +56,6 @@ export default class ProdCarousel extends React.Component {
                 this.setState({
                     currentGood: index
                 })
-                // console.log(this.state.currentGood)
             },
             beforeChange: () => {
                 this.state.goodsPerSlide = 5
@@ -116,8 +114,8 @@ export default class ProdCarousel extends React.Component {
                             <div className='item-img'>
                             <img src={process.env.PUBLIC_URL + '/products' + item.img} />
                             </div>
-                            <div className='item-info'>
-                                <div className='item-info-icon' onClick={() => this.handleClick(index)}>
+                            <div className='item-info' onClick={() => this.handleClick(index)}>
+                                <div className='item-info-icon' >
                                     {item.isDescActive ? <img src={InfoActive} /> : <img src={Info} />}
                                 </div>
                                 <div className={item.isDescActive ? 'item-info-data active' : 'item-info-data'}>
@@ -131,7 +129,7 @@ export default class ProdCarousel extends React.Component {
                     ))}
                 </Slider>
                 <div className='currentGoodPage'>
-                    {(this.state.currentGood / this.state.goodsPerSlide) + 1} из {Math.ceil(filteredGoods.length / this.state.goodsPerSlide)}
+                    {Math.ceil((this.state.currentGood / this.state.goodsPerSlide) + 1)} из {Math.ceil(filteredGoods.length / this.state.goodsPerSlide)}
                 </div>
             </>
         );

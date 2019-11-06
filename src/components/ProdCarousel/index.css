@@ -45,7 +45,7 @@
     font-size: 13px;
     font-family: 'Ubuntu', sans-serif;
     display: none;
-
+    padding-bottom: 30px;
 }
 .item-info-data::after{
     content:'';
