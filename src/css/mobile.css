@@ -494,6 +494,12 @@
 
 /* ipad pro */
 @media(max-width: 1025px){
+    .footerWindow::after, .footerWindow::before, .footerNavigationPanel::before, .footerNavigationPanel::after, .footerNavigationPanel ul::before{
+        display: block;
+    }
+    .footerBgAnimated{
+        display:none;
+    }
     .logo-d.min{
         width: 150px;
         height: 155px;

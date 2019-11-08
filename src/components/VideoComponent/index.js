@@ -46,7 +46,7 @@ export default class VideoComponent extends React.Component {
                                 <div className="toys-2-1 parallax-3">
                                     <img alt="img" src={ufoN}></img>
                                 </div>
-                                <div className="toys-2-2">
+                                <div className="toys-2-2 parallax">
                                     <img alt="img" src={melon}></img>
                                 </div>
                             </div>

@@ -77,7 +77,13 @@ export default class FooterComponent extends React.Component {
                             </a>
                         </div>
                     </div>
-
+                    <div className="footerBgAnimated">
+                        <div className="arbuz parallax"></div>
+                        <div className="nlo parallax"></div>
+                        <div className="pomidor parallax-3"></div>
+                        <div className="malina parallax-4"></div>
+                        <div className="banan parallax-5"></div>
+                    </div>
                 </div>
             </div>
         )

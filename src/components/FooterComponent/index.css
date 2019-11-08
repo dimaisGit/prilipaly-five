@@ -277,3 +277,58 @@
     left: 210%;
     bottom: 50px;
 }
+.footerBgAnimated{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3000;
+}
+.arbuz{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    width: 9vh;
+    height: 9vh;
+    background: url(../../images/melon.png) no-repeat center;
+    background-size: 130%;
+}
+.nlo{
+    position: absolute;
+    top: 5%;
+    left: 87%;
+    width: 14vh;
+    height: 15vh;
+    background: url(../../images/ufo3_3.png) no-repeat center;
+    background-size: 100%;
+}
+.pomidor{
+    position: absolute;
+    top: 32%;
+    left: 20%;
+    width: 7vh;
+    height: 7vh;
+    background: url(../../images/toma2.png) no-repeat center;
+    background-size: contain;
+}
+.malina{
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    width: 8vh;
+    height: 9vh;
+    background: url(../../images/raspberry1-noacod.png) no-repeat center;
+    background-size: 100%;
+}
+.banan{
+    position: absolute;
+    top: 28%;
+    left: 86%;
+    width: 14vh;
+    height: 15vh;
+    background: url(../../images/banana.png) no-repeat center;
+    background-size: 100%;
+}
+.footerWindow::after, .footerWindow::before, .footerNavigationPanel::before, .footerNavigationPanel::after, .footerNavigationPanel ul::before{
+    display: none;
+}
