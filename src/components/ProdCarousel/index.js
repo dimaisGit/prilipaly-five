@@ -6,7 +6,7 @@ import Info from '../../images/info-icon.svg'
 import InfoActive from '../../images/info-icon-active.svg'
 import $ from 'jquery'
 import { gooods } from "../../constants/goods";
-import { gooodsNew } from "../../constants/goods2";
+import { goodsThirdWave } from "../../constants/goods3";
 
 
 import './index.css'
@@ -16,7 +16,7 @@ export default class ProdCarousel extends React.Component {
         super(props)
         this.state = {
             active: true,
-            goods: gooodsNew,
+            goods: goodsThirdWave,
             currentGood: 0,
             goodsPerSlide: 5
         }
